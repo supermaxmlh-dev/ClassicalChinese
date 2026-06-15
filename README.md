@@ -32,7 +32,7 @@ npm start
 
 ## 部署
 
-项目使用 GitHub Pages Actions 部署。推送到 `main` 后，workflow 会先运行：
+项目使用 Azure Static Web Apps 部署。推送到 `main` 后，workflow 会先运行：
 
 ```bash
 npm run build
