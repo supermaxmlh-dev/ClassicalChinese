@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>观止学堂 - 52周学习地图</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="观止学堂首页">
+        <span class="brand-mark">观</span>
+        <span>
+          <strong>观止学堂</strong>
+          <small>52周古文学习地图</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="pages/vocab.html">词汇宝库</a>
+        <a href="pages/progress.html">学习进度</a>
+        <a href="pages/about.html">关于本站</a>
+      </nav>
+    </header>
+
+    <main class="shell">
+      <section class="hero-panel" aria-labelledby="home-title">
+        <div>
+          <p class="eyebrow">小学四年级 · 从易到难</p>
+          <h1 id="home-title">沿着 52 周地图，读完《古文观止》经典篇章</h1>
+          <p>每周 3-4 篇，配合导读、注释、练习和词汇积累，把文言文拆成可以每天推进的小目标。</p>
+        </div>
+        <div class="ink-scene" aria-hidden="true">
+          <span class="mountain m1"></span>
+          <span class="mountain m2"></span>
+          <span class="sun"></span>
+          <span class="boat"></span>
+        </div>
+      </section>
+
+      <section class="progress-summary" aria-label="总体学习进度">
+        <div>
+          <span class="metric-label">已学文章</span>
+          <strong id="completed-count">0/222</strong>
+        </div>
+        <div class="progress-track" aria-hidden="true">
+          <span id="total-progress-bar" style="width: 0%"></span>
+        </div>
+        <div>
+          <span class="metric-label">当前周</span>
+          <strong id="current-week">第 1 周</strong>
+        </div>
+      </section>
+
+      <section id="learning-map" class="learning-map" aria-live="polite">
+        <div class="empty-state">正在加载学习地图...</div>
+      </section>
+    </main>
+
+    <script src="js/utils.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/map.js"></script>
+  </body>
+</html>

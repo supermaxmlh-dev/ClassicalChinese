@@ -1,0 +1,86 @@
+@media (max-width: 1023px) {
+  .hero-panel,
+  .article-header,
+  .article-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .article-aside {
+    position: static;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 1.03rem;
+  }
+
+  .site-header {
+    position: static;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .site-nav {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .shell,
+  .article-shell {
+    width: min(100% - 1rem, 1180px);
+    padding-top: var(--space-4);
+  }
+
+  .hero-panel,
+  .article-header,
+  .article-section,
+  .week-hero,
+  .content-card {
+    padding: var(--space-4);
+  }
+
+  .hero-panel h1,
+  .page-title h1,
+  .article-title h1 {
+    font-size: 2.25rem;
+  }
+
+  .progress-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .week-grid,
+  .article-card-grid,
+  .vocab-grid,
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .article-original {
+    padding: var(--space-4);
+    font-size: 1.42rem;
+    line-height: 2.2;
+  }
+
+  .article-bottom-nav,
+  .fill-row {
+    grid-template-columns: 1fr;
+  }
+
+  .article-bottom-nav .next {
+    justify-self: stretch;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .tooltip {
+    left: 0.5rem !important;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    top: auto !important;
+    max-width: none;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  },
+  "routes": [
+    { "route": "/pages/*", "allowedRoles": ["anonymous"] },
+    { "route": "/data/*", "allowedRoles": ["anonymous"] },
+    { "route": "/images/*", "allowedRoles": ["anonymous"] },
+    { "route": "/css/*", "allowedRoles": ["anonymous"] },
+    { "route": "/js/*", "allowedRoles": ["anonymous"] }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html"
+    }
+  },
+  "globalHeaders": {
+    "Cache-Control": "public, max-age=3600",
+    "X-Content-Type-Options": "nosniff"
+  },
+  "mimeTypes": {
+    ".json": "application/json; charset=utf-8"
+  }
+}

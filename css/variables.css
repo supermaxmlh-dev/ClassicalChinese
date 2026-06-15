@@ -1,0 +1,61 @@
+:root {
+  --primary: #8b4513;
+  --primary-light: #d2b48c;
+  --primary-soft: #f0dfc9;
+  --accent: #c41e3a;
+  --accent-soft: #f9dde3;
+  --bg-main: #fff8f0;
+  --bg-card: #ffffff;
+  --bg-text: #f5f0e8;
+  --text-primary: #2c1810;
+  --text-secondary: #5c4033;
+  --text-light: #8b7355;
+  --ink: #203b35;
+  --line: #ead8c0;
+  --shadow: 0 18px 45px rgba(44, 24, 16, 0.12);
+
+  --diff-1: #4caf50;
+  --diff-2: #8bc34a;
+  --diff-3: #ffc107;
+  --diff-4: #ff9800;
+  --diff-5: #f44336;
+
+  --completed: #4caf50;
+  --current: #2196f3;
+  --locked: #bdbdbd;
+  --correct: #e8f5e9;
+  --wrong: #ffebee;
+
+  --font-ui: "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-title: "STKaiti", "KaiTi", "Kaiti SC", serif;
+  --font-classic: "STSong", "SimSun", "Songti SC", serif;
+
+  --radius-sm: 6px;
+  --radius: 8px;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #d8a66a;
+    --primary-light: #7b5a36;
+    --primary-soft: #2e261f;
+    --accent: #ff778b;
+    --accent-soft: #3b2026;
+    --bg-main: #181411;
+    --bg-card: #211b17;
+    --bg-text: #2b241e;
+    --text-primary: #f7ead8;
+    --text-secondary: #d9c3aa;
+    --text-light: #b99c7b;
+    --ink: #9fceb9;
+    --line: #44372d;
+    --shadow: 0 18px 45px rgba(0, 0, 0, 0.32);
+  }
+}

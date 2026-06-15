@@ -1,0 +1,44 @@
+{
+  "week": 13,
+  "title": "第 13 周阶段测评",
+  "description": "当前为示例题库，后续可扩展到20-30题。",
+  "passScore": 60,
+  "questions": [
+    {
+      "id": 1,
+      "question": "“四时俱备”中的“四时”是什么意思？",
+      "options": [
+        "四个小时",
+        "四季",
+        "四点钟",
+        "四个时代"
+      ],
+      "answerIndex": 1,
+      "explanation": "“四时”在古文中常指春夏秋冬四季。"
+    },
+    {
+      "id": 2,
+      "question": "“月色入户”中的“户”是什么意思？",
+      "options": [
+        "窗户",
+        "门",
+        "人家",
+        "户口"
+      ],
+      "answerIndex": 1,
+      "explanation": "这里的“户”指门。"
+    },
+    {
+      "id": 3,
+      "question": "《爱莲说》中，作者把莲花比作什么？",
+      "options": [
+        "隐士",
+        "富贵者",
+        "君子",
+        "仙人"
+      ],
+      "answerIndex": 2,
+      "explanation": "作者说“莲，花之君子者也”。"
+    }
+  ]
+}
