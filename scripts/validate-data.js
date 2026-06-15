@@ -58,6 +58,12 @@ availableIds.forEach((id) => {
   if (!article.fullTranslation) errors.push(`${id}.json has no fullTranslation`);
   if (!article.quiz?.choices?.length) errors.push(`${id}.json has no choice questions`);
   if (!article.keyVocab?.length) errors.push(`${id}.json has no keyVocab`);
+  if (article.fullTextPlain.includes("<") || article.fullTextPlain.includes(">")) {
+    errors.push(`${id}.json fullTextPlain appears to contain unparsed HTML.`);
+  }
+  if ((article.fullText.match(/<ruby>/g) || []).length !== (article.fullText.match(/<\/ruby>/g) || []).length) {
+    errors.push(`${id}.json has unbalanced ruby tags.`);
+  }
 });
 
 const articleFiles = fs.readdirSync(path.join(dataDir, "articles")).filter((file) => /^\d{3}\.json$/.test(file));

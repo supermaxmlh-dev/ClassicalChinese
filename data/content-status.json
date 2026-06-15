@@ -1,14 +1,13 @@
 {
-  "generatedAt": "2026-06-15T09:02:22.502Z",
   "targetArticleCount": 222,
   "plannedArticleCount": 177,
-  "availableArticleCount": 8,
-  "missingPlannedCount": 169,
+  "availableArticleCount": 12,
+  "missingPlannedCount": 165,
   "unplannedArticleCount": 0,
   "targetUnplannedCount": 45,
   "duplicateIds": [],
-  "completionPercentOfPlanned": 5,
-  "completionPercentOfTarget": 4,
+  "completionPercentOfPlanned": 7,
+  "completionPercentOfTarget": 5,
   "articles": [
     {
       "id": "001",
@@ -113,10 +112,10 @@
       "difficulty": 2,
       "wordCount": 200,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week03-009-小石潭记.md",
+      "status": "complete"
     },
     {
       "id": "010",
@@ -125,10 +124,10 @@
       "difficulty": 2,
       "wordCount": 200,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week03-010-与朱元思书.md",
+      "status": "complete"
     },
     {
       "id": "011",
@@ -137,10 +136,10 @@
       "difficulty": 2,
       "wordCount": 350,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week03-011-烛之武退秦师.md",
+      "status": "complete"
     },
     {
       "id": "012",
@@ -149,10 +148,10 @@
       "difficulty": 1,
       "wordCount": 90,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week03-012-读孟尝君传.md",
+      "status": "complete"
     },
     {
       "id": "013",

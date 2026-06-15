@@ -413,7 +413,6 @@ function buildContentStatus(indexData, availableArticles) {
     }));
 
   return {
-    generatedAt: new Date().toISOString(),
     targetArticleCount: indexData.targetArticleCount,
     plannedArticleCount: indexData.plannedArticleCount,
     availableArticleCount: availableArticles.length,

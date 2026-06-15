@@ -29,3 +29,13 @@ npm start
 - `data/content-status.json`
 - `data/vocab-categories.json`
 - `data/reviews/review-13.json` 等阶段测评示例数据
+
+## 部署
+
+项目使用 GitHub Pages Actions 部署。推送到 `main` 后，workflow 会先运行：
+
+```bash
+npm run build
+```
+
+通过数据构建和校验后，再发布整个静态站点。
