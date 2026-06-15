@@ -265,6 +265,7 @@ function parseArticle(filePath) {
   const { plain, rubyAnnotations } = stripRubyToPlainAndAnnotations(originalHtml);
   return {
     id: String(meta.id).padStart(3, "0"),
+    sourceMarkdown: path.relative(root, filePath),
     title: meta.title,
     source: meta.source,
     author: meta.author,
@@ -375,6 +376,57 @@ function buildIndex(availableArticles) {
   };
 }
 
+function buildContentStatus(indexData, availableArticles) {
+  const availableById = new Map(availableArticles.map((article) => [article.id, article]));
+  const plannedIds = new Set(indexData.articles.map((article) => article.id));
+  const duplicateIds = availableArticles
+    .map((article) => article.id)
+    .filter((id, index, ids) => ids.indexOf(id) !== index);
+  const rows = indexData.articles.map((planned) => {
+    const article = availableById.get(planned.id);
+    return {
+      id: planned.id,
+      title: planned.title,
+      week: planned.week,
+      difficulty: planned.difficulty,
+      wordCount: planned.wordCount,
+      planned: true,
+      hasMarkdown: Boolean(article),
+      hasJson: Boolean(article),
+      sourceMarkdown: article?.sourceMarkdown || null,
+      status: article ? "complete" : "missing"
+    };
+  });
+  const unplanned = availableArticles
+    .filter((article) => !plannedIds.has(article.id))
+    .map((article) => ({
+      id: article.id,
+      title: article.title,
+      week: article.week,
+      difficulty: article.difficulty,
+      wordCount: article.wordCount,
+      planned: false,
+      hasMarkdown: true,
+      hasJson: true,
+      sourceMarkdown: article.sourceMarkdown,
+      status: "unplanned"
+    }));
+
+  return {
+    generatedAt: new Date().toISOString(),
+    targetArticleCount: indexData.targetArticleCount,
+    plannedArticleCount: indexData.plannedArticleCount,
+    availableArticleCount: availableArticles.length,
+    missingPlannedCount: rows.filter((row) => row.status === "missing").length,
+    unplannedArticleCount: unplanned.length,
+    targetUnplannedCount: Math.max(0, indexData.targetArticleCount - indexData.plannedArticleCount),
+    duplicateIds: [...new Set(duplicateIds)],
+    completionPercentOfPlanned: Math.round((availableArticles.filter((article) => plannedIds.has(article.id)).length / Math.max(1, indexData.plannedArticleCount)) * 100),
+    completionPercentOfTarget: Math.round((availableArticles.length / Math.max(1, indexData.targetArticleCount)) * 100),
+    articles: [...rows, ...unplanned]
+  };
+}
+
 function buildVocabCategories() {
   return {
     categories: [
@@ -432,8 +484,11 @@ articles.forEach((article) => {
   writeJSON(path.join(articlesDir, `${article.id}.json`), article);
 });
 
-writeJSON(path.join(dataDir, "index.json"), buildIndex(articles));
+const indexData = buildIndex(articles);
+
+writeJSON(path.join(dataDir, "index.json"), indexData);
+writeJSON(path.join(dataDir, "content-status.json"), buildContentStatus(indexData, articles));
 writeJSON(path.join(dataDir, "vocab-categories.json"), buildVocabCategories());
 buildReviews();
 
-console.log(`Generated ${articles.length} article JSON files and course index.`);
+console.log(`Generated ${articles.length} article JSON files, course index, and content status.`);

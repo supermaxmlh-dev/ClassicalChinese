@@ -8,7 +8,10 @@
     "002",
     "003",
     "004",
-    "005"
+    "005",
+    "006",
+    "007",
+    "008"
   ],
   "stages": [
     {
@@ -952,7 +955,7 @@
       "difficulty": 1,
       "wordCount": 150,
       "week": 2,
-      "available": false
+      "available": true
     },
     {
       "id": "007",
@@ -961,7 +964,7 @@
       "difficulty": 1,
       "wordCount": 150,
       "week": 2,
-      "available": false
+      "available": true
     },
     {
       "id": "008",
@@ -970,7 +973,7 @@
       "difficulty": 1,
       "wordCount": 350,
       "week": 2,
-      "available": false
+      "available": true
     },
     {
       "id": "009",

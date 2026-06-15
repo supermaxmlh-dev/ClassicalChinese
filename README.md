@@ -16,14 +16,16 @@ npm start
 ## 当前内容
 
 - 52 周学习地图来自 `docs/04-52周课程表.md`
-- 前 5 篇文章来自 `content/samples/`
+- 前 8 篇文章来自 `content/samples/`
 - 主要页面包括学习地图、周学习页、文章详情页、词汇宝库、学习进度、阶段测评和关于页面
+- 内容覆盖台账生成到 `data/content-status.json`
 
 ## 数据构建
 
 运行 `npm run build:data` 会重新生成：
 
 - `data/index.json`
-- `data/articles/001.json` 至 `data/articles/005.json`
+- `data/articles/001.json` 至当前已补充文章 JSON
+- `data/content-status.json`
 - `data/vocab-categories.json`
 - `data/reviews/review-13.json` 等阶段测评示例数据
