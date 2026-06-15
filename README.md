@@ -1,6 +1,8 @@
-# 观止学堂
+# ClassicalChinese
 
-面向小学四年级学生的《古文观止》文言文学习平台。项目使用纯静态 HTML、CSS 和原生 JavaScript 构建，内容从 `data/` 目录中的 JSON 文件加载，学习进度保存在浏览器 LocalStorage 中。
+小学生文言文学习和练习工具。当前站点名为“观止学堂”，面向小学四年级学生，用 52 周学习地图组织《古文观止》经典篇章。
+
+项目使用纯静态 HTML、CSS 和原生 JavaScript 构建，内容从 `data/` 目录中的 JSON 文件加载，学习进度保存在浏览器 LocalStorage 中。
 
 ## 本地运行
 
