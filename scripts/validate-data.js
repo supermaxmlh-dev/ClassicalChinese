@@ -13,6 +13,15 @@ function readJSON(filePath) {
 const index = readJSON(indexPath);
 const status = fs.existsSync(statusPath) ? readJSON(statusPath) : null;
 const errors = [];
+const GENERIC_EXPLANATION_FRAGMENTS = [
+  "符合原文语境",
+  "其他选项不符合本句含义",
+  "请结合原文语境和注释判断"
+];
+
+function hanCount(value = "") {
+  return (String(value).match(/[\u3400-\u9fff]/g) || []).length;
+}
 
 if (!Array.isArray(index.weeks) || index.weeks.length !== 52) {
   errors.push("data/index.json must contain 52 weeks.");
@@ -64,6 +73,64 @@ availableIds.forEach((id) => {
   if ((article.fullText.match(/<ruby>/g) || []).length !== (article.fullText.match(/<\/ruby>/g) || []).length) {
     errors.push(`${id}.json has unbalanced ruby tags.`);
   }
+  if ((article.rubyAnnotations || []).length !== hanCount(article.fullTextPlain)) {
+    errors.push(`${id}.json rubyAnnotations must cover every Han character for the full-pinyin toggle.`);
+  }
+  (article.rubyAnnotations || []).forEach((ruby, index) => {
+    const pos = Number(ruby.pos);
+    if (!Number.isInteger(pos) || pos < 0 || pos >= article.fullTextPlain.length) {
+      errors.push(`${id}.json rubyAnnotations[${index}].pos is out of range.`);
+      return;
+    }
+    if (article.fullTextPlain[pos] !== ruby.char) {
+      errors.push(`${id}.json rubyAnnotations[${index}] char mismatch: expected ${article.fullTextPlain[pos]}, got ${ruby.char}.`);
+    }
+  });
+  if (!Array.isArray(article.rhythmBreaks)) {
+    errors.push(`${id}.json missing rhythmBreaks array.`);
+  } else {
+    article.rhythmBreaks.forEach((pos, index) => {
+      if (!Number.isInteger(pos) || pos <= 0 || pos >= article.fullTextPlain.length) {
+        errors.push(`${id}.json rhythmBreaks[${index}] is out of range.`);
+      }
+    });
+  }
+  (article.quiz?.choices || []).forEach((choice, index) => {
+    if (!Array.isArray(choice.options) || choice.options.length < 2) {
+      errors.push(`${id}.json choices[${index}] has too few options.`);
+    }
+    if (!Number.isInteger(choice.answerIndex) || choice.answerIndex < 0 || choice.answerIndex >= (choice.options || []).length) {
+      errors.push(`${id}.json choices[${index}].answerIndex is out of range.`);
+    }
+    if (hanCount(choice.explanation) < 10) {
+      errors.push(`${id}.json choices[${index}].explanation is too thin.`);
+    }
+    if (GENERIC_EXPLANATION_FRAGMENTS.some((fragment) => String(choice.explanation || "").includes(fragment))) {
+      errors.push(`${id}.json choices[${index}].explanation is generic boilerplate.`);
+    }
+  });
+  (article.quiz?.fillBlanks || []).forEach((fill, index) => {
+    if (!fill.blank || fill.blank === "略") {
+      errors.push(`${id}.json fillBlanks[${index}] has an empty or placeholder answer.`);
+    }
+    if (!fill.stem || !fill.targetChar) {
+      errors.push(`${id}.json fillBlanks[${index}] missing stem or targetChar.`);
+      return;
+    }
+    if (!Number.isInteger(fill.targetIndex) || fill.targetIndex < 0 || fill.targetIndex + fill.targetChar.length > fill.stem.length) {
+      errors.push(`${id}.json fillBlanks[${index}].targetIndex is out of range.`);
+      return;
+    }
+    if (fill.stem.slice(fill.targetIndex, fill.targetIndex + fill.targetChar.length) !== fill.targetChar) {
+      errors.push(`${id}.json fillBlanks[${index}] targetChar does not match stem.`);
+    }
+    if (fill.stem.length <= fill.targetChar.length) {
+      errors.push(`${id}.json fillBlanks[${index}] must include the source sentence, not only the target word.`);
+    }
+    if (!article.fullTextPlain.includes(fill.stem.replace(/\s+/g, ""))) {
+      errors.push(`${id}.json fillBlanks[${index}].stem is not found in fullTextPlain.`);
+    }
+  });
 });
 
 const articleFiles = fs.readdirSync(path.join(dataDir, "articles")).filter((file) => /^\d{3}\.json$/.test(file));

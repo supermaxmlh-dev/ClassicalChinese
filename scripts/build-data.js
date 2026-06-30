@@ -1,10 +1,13 @@
 const fs = require("fs");
 const path = require("path");
+const { pinyin } = require("pinyin-pro");
 
 const root = path.resolve(__dirname, "..");
 const docsDir = path.join(root, "docs");
 const samplesDir = path.join(root, "content", "samples");
+const rawDir = path.join(root, "content", "raw");
 const dataDir = path.join(root, "data");
+const curriculumPath = path.join(dataDir, "curriculum.json");
 const articlesDir = path.join(dataDir, "articles");
 const reviewsDir = path.join(dataDir, "reviews");
 
@@ -32,6 +35,10 @@ function stripMarkdown(value = "") {
     .trim();
 }
 
+function hanCount(value = "") {
+  return (String(value).match(/[\u3400-\u9fff]/g) || []).length;
+}
+
 function stripRubyToPlainAndAnnotations(html = "") {
   const rubyAnnotations = [];
   let plain = "";
@@ -57,6 +64,71 @@ function stripRubyToPlainAndAnnotations(html = "") {
 
   plain += html.slice(lastIndex).replace(/<[^>]+>/g, "");
   return { plain: plain.trim(), rubyAnnotations };
+}
+
+function buildFullRubyAnnotations(plain = "", manualAnnotations = []) {
+  const manualByPos = new Map((manualAnnotations || []).map((item) => [Number(item.pos), item]));
+  const hanChars = [...plain].filter((char) => /[\u3400-\u9fff]/.test(char));
+  const pinyins = pinyin(hanChars.join(""), {
+    toneType: "symbol",
+    type: "array",
+    nonZh: "removed"
+  });
+  let hanIndex = 0;
+
+  return [...plain].flatMap((char, pos) => {
+    if (!/[\u3400-\u9fff]/.test(char)) return [];
+    const manual = manualByPos.get(pos);
+    const generated = pinyins[hanIndex] || "";
+    hanIndex += 1;
+    return [{
+      char,
+      pinyin: manual?.pinyin || generated,
+      pos
+    }];
+  });
+}
+
+function assertSameOriginal(samplePlain = "", rawPlain = "", title = "unknown") {
+  if (samplePlain === rawPlain) return;
+  const max = Math.max(samplePlain.length, rawPlain.length);
+  let pos = 0;
+  while (pos < max && samplePlain[pos] === rawPlain[pos]) pos += 1;
+  throw new Error(
+    `Original text mismatch in ${title} at char ${pos + 1}: sample="${samplePlain[pos] || "EOF"}", raw="${rawPlain[pos] || "EOF"}".`
+  );
+}
+
+function parseRhythmBreaks(markedText = "", plainText = "", title = "unknown") {
+  const breaks = [];
+  let cursor = 0;
+
+  [...markedText].forEach((char) => {
+    if (char === "/") {
+      if (cursor > 0 && cursor < plainText.length) breaks.push(cursor);
+      return;
+    }
+    if (plainText[cursor] === char) {
+      cursor += 1;
+      return;
+    }
+    if (/\s/.test(char)) {
+      while (/\s/.test(plainText[cursor] || "")) cursor += 1;
+      return;
+    }
+    while (/\s/.test(plainText[cursor] || "")) cursor += 1;
+    if (plainText[cursor] !== char) {
+      throw new Error(`Rhythm text mismatch in ${title}: expected "${plainText[cursor] || "EOF"}", got "${char}".`);
+    }
+    cursor += 1;
+  });
+
+  while (/\s/.test(plainText[cursor] || "")) cursor += 1;
+  if (cursor !== plainText.length) {
+    throw new Error(`Rhythm text in ${title} does not cover the full original text.`);
+  }
+
+  return [...new Set(breaks)].sort((a, b) => a - b);
 }
 
 function sectionBetween(markdown, start, end) {
@@ -185,17 +257,29 @@ function parseChoices(quizBlock, answers) {
       .filter(Boolean)
       .map((match) => stripMarkdown(match[2].replace(/\s*✓$/, "")));
     const answerLetter = (answers[questionNumber] || "").match(/^([A-E])/i)?.[1]?.toUpperCase();
+    if (!answerLetter || !"ABCDE".includes(answerLetter)) {
+      throw new Error(`Choice question ${questionNumber} is missing a valid answer letter.`);
+    }
+    const answerIndex = "ABCDE".indexOf(answerLetter);
+    if (answerIndex < 0 || answerIndex >= options.length) {
+      throw new Error(`Choice question ${questionNumber} answer ${answerLetter} is out of range.`);
+    }
+    const explanation = answers[questionNumber] || "";
+    const isBareAnswer = new RegExp(`^${answerLetter}[（(][^）)]+[）)]$`).test(stripMarkdown(explanation));
+    if (!explanation || isBareAnswer) {
+      throw new Error(`Choice question ${questionNumber} needs a concrete explanation in 参考答案, not only ${answerLetter}.`);
+    }
     return {
       id: questionNumber,
       question,
       options,
-      answerIndex: Math.max(0, "ABCDE".indexOf(answerLetter || "A")),
-      explanation: answers[questionNumber] || ""
+      answerIndex,
+      explanation
     };
   }).filter((item) => item.question && item.options.length);
 }
 
-function parseFillBlanks(quizBlock, answers) {
+function parseFillBlanks(quizBlock, answers, fullTextPlain, title) {
   const fillBlock = sectionBetween(quizBlock, "### 二、填空题", "### 三、简答题");
   const answerText = Object.entries(answers)
     .filter(([number]) => Number(number) >= 3)
@@ -213,12 +297,32 @@ function parseFillBlanks(quizBlock, answers) {
     .map((line, index) => {
       const clean = stripMarkdown(line);
       const word = (line.match(/\*\*(.*?)\*\*/) || [null, ""])[1];
-      const answer = answerMap[stripMarkdown(word)] || answerMap[clean.split("→")[0].trim()] || "";
+      const targetChar = stripMarkdown(word).trim();
+      if (!targetChar) {
+        throw new Error(`Fill blank "${clean}" must mark the target word with **bold**.`);
+      }
+      const stem = stripMarkdown(line.split("→")[0]).replace(/_+/g, "").trim();
+      if (stem.length <= targetChar.length) {
+        throw new Error(`Fill blank "${clean}" in ${title} must include the source sentence, not only the target word.`);
+      }
+      const targetIndex = stem.indexOf(targetChar);
+      if (targetIndex < 0) {
+        throw new Error(`Fill blank target "${targetChar}" was not found in stem "${stem}".`);
+      }
+      if (!fullTextPlain.includes(stem.replace(/\s+/g, ""))) {
+        throw new Error(`Fill blank stem "${stem}" in ${title} is not found in the original text.`);
+      }
+      const answer = answerMap[targetChar] || answerMap[stem] || "";
+      if (!answer || answer === "略") {
+        throw new Error(`Fill blank "${stem}" is missing an answer for "${targetChar}".`);
+      }
       return {
         id: 100 + index,
-        question: clean.replace(/（.*?）/g, ""),
-        blank: answer || "略",
-        hint: word ? `解释“${stripMarkdown(word)}”` : ""
+        stem,
+        targetChar,
+        targetIndex,
+        blank: answer,
+        hint: ""
       };
     });
 }
@@ -236,12 +340,12 @@ function parseShortAnswer(quizBlock, answers, heading, nextHeading) {
     }));
 }
 
-function parseQuiz(markdown) {
+function parseQuiz(markdown, fullTextPlain, title) {
   const quizBlock = sectionBetween(markdown, "## 小试牛刀", "## 词汇积累");
   const answers = parseAnswers(markdown);
   return {
     choices: parseChoices(quizBlock, answers),
-    fillBlanks: parseFillBlanks(quizBlock, answers),
+    fillBlanks: parseFillBlanks(quizBlock, answers, fullTextPlain, title),
     shortAnswer: parseShortAnswer(quizBlock, answers, "### 三、简答题", "### 四、挑战题"),
     challenge: parseShortAnswer(quizBlock, answers, "### 四、挑战题（选做）", null)
   };
@@ -261,11 +365,22 @@ function parseVocab(markdown) {
 function parseArticle(filePath) {
   const markdown = fs.readFileSync(filePath, "utf8");
   const meta = parseFrontmatter(markdown);
-  const originalHtml = sectionBetween(markdown, "## 原文", "## 朗读指导");
+  const id = String(meta.id).padStart(3, "0");
+  const rawPath = path.join(rawDir, `${id}-${meta.title}.txt`);
+  if (!fs.existsSync(rawPath)) {
+    throw new Error(`Missing raw original text: ${path.relative(root, rawPath)}`);
+  }
+  const sampleOriginalHtml = sectionBetween(markdown, "## 原文", "## 朗读指导");
+  const { plain: samplePlain } = stripRubyToPlainAndAnnotations(sampleOriginalHtml);
+  const originalHtml = fs.readFileSync(rawPath, "utf8").trim();
   const { plain, rubyAnnotations } = stripRubyToPlainAndAnnotations(originalHtml);
+  const fullRubyAnnotations = buildFullRubyAnnotations(plain, rubyAnnotations);
+  assertSameOriginal(samplePlain, plain, meta.title);
+  const rhythmText = stripMarkdown(sectionBetween(markdown, "## 朗读指导", "## 逐句精读"));
   return {
-    id: String(meta.id).padStart(3, "0"),
+    id,
     sourceMarkdown: path.relative(root, filePath),
+    sourceRaw: path.relative(root, rawPath),
     title: meta.title,
     source: meta.source,
     author: meta.author,
@@ -275,17 +390,17 @@ function parseArticle(filePath) {
     wordCount: meta.word_count,
     tags: meta.tags || [],
     relatedIdioms: meta.related_idioms || [],
-    mainImage: `${String(meta.id).padStart(3, "0")}-main.jpg`,
+    mainImage: `${id}-main.jpg`,
     storyIntro: stripMarkdown(sectionBetween(markdown, "## 故事导读", "## 原文")),
     fullText: originalHtml,
     fullTextPlain: plain,
-    rubyAnnotations,
-    rhythmMarked: stripMarkdown(sectionBetween(markdown, "## 朗读指导", "## 逐句精读")),
+    rubyAnnotations: fullRubyAnnotations,
+    rhythmBreaks: parseRhythmBreaks(rhythmText, plain, meta.title),
     sections: parseSections(markdown),
     fullTranslation: stripMarkdown(sectionBetween(markdown, "## 全文翻译", "## 延伸阅读")),
     extendedReading: parseExtended(markdown),
     thinkingQuestions: parseThinking(markdown),
-    quiz: parseQuiz(markdown),
+    quiz: parseQuiz(markdown, plain, meta.title),
     keyVocab: parseVocab(markdown)
   };
 }
@@ -298,64 +413,22 @@ function stageForWeek(week) {
 }
 
 function buildIndex(availableArticles) {
-  const markdown = fs.readFileSync(path.join(docsDir, "04-52周课程表.md"), "utf8");
-  const lines = markdown.split("\n");
-  const weeks = [];
-  const plannedArticles = [];
-  let current = null;
-  let nextId = 1;
-
-  lines.forEach((line) => {
-    const heading = line.match(/^### 第(\d+)周 — (.+)$/);
-    if (heading) {
-      current = {
-        week: Number(heading[1]),
-        title: heading[2].replace(/\s*🏆\s*/g, ""),
-        stageId: stageForWeek(Number(heading[1])),
-        isReview: /复习|测评/.test(heading[2]),
-        articleIds: [],
-        theme: "",
-        focus: "",
-        tip: "",
-        extension: "",
-        thinking: ""
-      };
-      weeks.push(current);
-      return;
-    }
-    if (!current) return;
-
-    const articleRow = line.match(/^\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|\s*(★+)\s*\|\s*(\d+)\s*\|$/);
-    if (articleRow) {
-      const id = padId(nextId);
-      const available = availableArticles.find((article) => article.id === id);
-      plannedArticles.push({
-        id,
-        title: articleRow[1].trim(),
-        source: articleRow[2].trim(),
-        difficulty: articleRow[3].length,
-        wordCount: Number(articleRow[4]),
-        week: current.week,
-        available: Boolean(available)
-      });
-      current.articleIds.push(id);
-      nextId += 1;
-      return;
-    }
-
-    const theme = line.match(/^\*\*本周主题\*\*：(.+)$/);
-    const focus = line.match(/^\*\*(重点词汇|重点虚词精讲)\*\*：(.+)$/);
-    const tip = line.match(/^\*\*学习提示\*\*：(.+)$/);
-    const extension = line.match(/^\*\*延伸主题\*\*：(.+)$/);
-    const standard = line.match(/^\*\*通过标准\*\*：(.+)$/);
-    const badge = line.match(/^\*\*达成称号\*\*：(.+)$/);
-    if (theme) current.theme = theme[1].trim();
-    if (focus) current.focus = focus[2].trim();
-    if (tip) current.tip = tip[1].trim();
-    if (extension) current.extension = extension[1].trim();
-    if (standard) current.reviewStandard = standard[1].trim();
-    if (badge) current.badge = badge[1].trim();
-  });
+  if (!fs.existsSync(curriculumPath)) {
+    throw new Error("Missing data/curriculum.json. Run node scripts/sync-curriculum.js first.");
+  }
+  const curriculum = JSON.parse(fs.readFileSync(curriculumPath, "utf8"));
+  const availableById = new Map(availableArticles.map((article) => [article.id, article]));
+  const weeks = curriculum.weeks.map((week) => ({
+    ...week,
+    stageId: stageForWeek(week.week),
+    articleIds: curriculum.articles
+      .filter((article) => article.week === week.week)
+      .map((article) => article.id)
+  }));
+  const plannedArticles = curriculum.articles.map((article) => ({
+    ...article,
+    available: availableById.has(article.id)
+  }));
 
   const stages = [
     { id: 1, name: "第一阶段：启蒙期", startWeek: 1, endWeek: 13, goal: "建立文言文阅读兴趣，掌握50+常见实词" },
@@ -367,7 +440,7 @@ function buildIndex(availableArticles) {
   return {
     project: "guanzhi-xuetang",
     title: "观止学堂",
-    targetArticleCount: 222,
+    targetArticleCount: curriculum.targetArticleCount,
     plannedArticleCount: plannedArticles.length,
     availableArticleIds: availableArticles.map((article) => article.id),
     stages,
@@ -453,14 +526,14 @@ function buildReviews() {
       question: "“月色入户”中的“户”是什么意思？",
       options: ["窗户", "门", "人家", "户口"],
       answerIndex: 1,
-      explanation: "这里的“户”指门。"
+      explanation: "“户”在这里不是窗户，而是门，写月光照进门内。"
     },
     {
       id: 3,
       question: "《爱莲说》中，作者把莲花比作什么？",
       options: ["隐士", "富贵者", "君子", "仙人"],
       answerIndex: 2,
-      explanation: "作者说“莲，花之君子者也”。"
+      explanation: "作者明说“莲，花之君子者也”，用莲象征品德高洁的人。"
     }
   ];
   [13, 26, 39, 52].forEach((week) => {

@@ -29,6 +29,21 @@
     document.body.prepend(banner);
   }
 
+  function renderCookieSizeNotice(progress) {
+    if (!G.Progress?.isProgressCookieLarge(progress)) return "";
+    return `
+      <section class="notice progress-cookie-notice" role="status">
+        进度数据较大，建议导出备份。
+      </section>
+    `;
+  }
+
+  function showCookieSizeNotice() {
+    const root = G.qs("#progress-page");
+    if (!root || G.qs(".progress-cookie-notice")) return;
+    root.insertAdjacentHTML("afterbegin", renderCookieSizeNotice(G.Progress.getProgress()));
+  }
+
   async function renderProgressPage() {
     const root = G.qs("#progress-page");
     if (!root) return;
@@ -39,7 +54,7 @@
       const stages = indexData.stages.map((stage) => {
         const stageWeeks = indexData.weeks.filter((week) => week.week >= stage.startWeek && week.week <= stage.endWeek);
         const articleIds = stageWeeks.flatMap((week) => week.articleIds);
-        const completed = articleIds.filter((id) => progress.completedArticles.includes(id)).length;
+        const completed = articleIds.filter((id) => G.Progress.isArticleLearned(progress, id)).length;
         const pct = G.percent(completed, articleIds.length || 1);
         return `
           <div class="stat-card">
@@ -51,10 +66,11 @@
       }).join("");
 
       root.innerHTML = `
+        ${renderCookieSizeNotice(progress)}
         <section class="stats-grid">
           <div class="stat-card">
             <h2>${stats.completed}/${stats.total}</h2>
-            <p>已学文章</p>
+            <p>已学文章（全书目标 ${stats.targetTotal} 篇）</p>
             <div class="mini-track"><span style="width:${stats.percent}%"></span></div>
           </div>
           <div class="stat-card">
@@ -145,4 +161,6 @@
     renderProgressPage();
     renderReviewPage();
   });
+
+  window.addEventListener("guanzhi:progress-too-large", showCookieSizeNotice);
 })();

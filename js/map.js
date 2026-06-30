@@ -1,13 +1,21 @@
 (() => {
   const G = window.Guanzhi;
 
-  function weekStatus(week, progress) {
+  function weekStatus(week, progress, currentWeek) {
+    const articleIds = week.articleIds || [];
+    const completedCount = articleIds.filter((id) => G.Progress.isArticleLearned(progress, id)).length;
+    if (articleIds.length && completedCount === articleIds.length) return "completed";
     if (progress.completedWeeks.includes(week.week)) return "completed";
-    if (week.week === progress.currentWeek) return "current";
+    if (completedCount > 0 && completedCount < articleIds.length) return "in-progress";
+    if (week.week === currentWeek) return "current";
     return "locked";
   }
 
-  function statusText(status) {
+  function statusText(status, week, progress) {
+    if (status === "in-progress") {
+      const completedCount = week.articleIds.filter((id) => G.Progress.isArticleLearned(progress, id)).length;
+      return `学习中 ${completedCount}/${(week.articleIds || []).length}`;
+    }
     return {
       completed: "已完成",
       current: "进行中",
@@ -19,11 +27,13 @@
     const root = G.qs("#learning-map");
     if (!root) return;
     const progress = G.Progress.getProgress();
+    const currentWeek = G.Progress.findCurrentWeek(progress, indexData);
     const stats = G.Progress.getStats(indexData);
 
     G.qs("#completed-count").textContent = `${stats.completed}/${stats.total}`;
+    G.qs("#completed-count").title = `全书目标 ${stats.targetTotal} 篇，当前课程已排 ${stats.total} 篇`;
     G.qs("#total-progress-bar").style.width = `${stats.percent}%`;
-    G.qs("#current-week").textContent = `第 ${stats.currentWeek} 周`;
+    G.qs("#current-week").textContent = `第 ${currentWeek} 周`;
 
     root.innerHTML = indexData.stages.map((stage) => {
       const weeks = indexData.weeks.filter((week) => week.week >= stage.startWeek && week.week <= stage.endWeek);
@@ -38,14 +48,14 @@
           </div>
           <div class="week-grid">
             ${weeks.map((week) => {
-              const status = weekStatus(week, progress);
+              const status = weekStatus(week, progress, currentWeek);
               const href = week.isReview ? `pages/review.html?week=${week.week}` : `pages/week.html?week=${week.week}`;
               return `
                 <a class="week-node ${status} ${week.isReview ? "review" : ""}" href="${href}">
                   <span class="week-number">第 ${week.week} 周 <span>${week.isReview ? "🏆" : ""}</span></span>
                   <span class="week-title">${G.escapeHTML(week.title)}</span>
                   <span class="week-meta">${week.articleIds.length ? `${week.articleIds.length} 篇 · ${G.escapeHTML(week.focus || "循序渐进")}` : G.escapeHTML(week.reviewStandard || "阶段复习")}</span>
-                  <span class="status-pill ${status}">${statusText(status)}</span>
+                  <span class="status-pill ${status}">${statusText(status, week, progress)}</span>
                 </a>
               `;
             }).join("")}
@@ -56,12 +66,13 @@
   }
 
   function renderArticleCard(article, progress) {
-    const done = progress.completedArticles.includes(article.id);
+    const done = G.Progress.isArticleLearned(progress, article.id);
+    const score = progress.quizScores?.[article.id];
     return `
       <a class="week-article-card" href="article.html?id=${article.id}">
         <div class="week-number">
           <span>${G.escapeHTML(article.id)}</span>
-          <span class="status-pill ${done ? "completed" : ""}">${done ? "已完成" : "开始学习"}</span>
+          <span class="status-pill ${done ? "completed" : ""}">${done ? (Number.isFinite(Number(score)) ? `已练习 ${score}%` : "已完成") : "开始学习"}</span>
         </div>
         <h2>${G.escapeHTML(article.title)}</h2>
         <div class="card-meta">
@@ -115,7 +126,7 @@
     const missing = week.articleIds
       .filter((id) => !articles.some((article) => article.id === id))
       .map((id) => indexData.articles.find((article) => article.id === id) || { id, title: `文章 ${id}` });
-    const completed = week.articleIds.filter((id) => progress.completedArticles.includes(id)).length;
+    const completed = week.articleIds.filter((id) => G.Progress.isArticleLearned(progress, id)).length;
 
     root.innerHTML = `
       <section class="week-hero">

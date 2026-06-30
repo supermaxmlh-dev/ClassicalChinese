@@ -18,12 +18,25 @@
     `).join("");
   }
 
+  function renderFillStem(item) {
+    const stem = item.stem || item.question || "";
+    const targetChar = item.targetChar || "";
+    const targetIndex = Number(item.targetIndex);
+    if (!targetChar || !Number.isInteger(targetIndex) || targetIndex < 0) {
+      return G.escapeHTML(stem);
+    }
+    const before = stem.slice(0, targetIndex);
+    const target = stem.slice(targetIndex, targetIndex + targetChar.length);
+    const after = stem.slice(targetIndex + targetChar.length);
+    return `${G.escapeHTML(before)}<span class="dot-emphasis">${G.escapeHTML(target)}</span>${G.escapeHTML(after)} → ______`;
+  }
+
   function renderFillBlanks(fillBlanks, offset) {
     return (fillBlanks || []).map((item, index) => `
       <div class="quiz-item" data-kind="fill" data-index="${index}">
-        <h3>${offset + index + 1}. ${G.escapeHTML(item.question)}</h3>
+        <h3>${offset + index + 1}. ${renderFillStem(item)}</h3>
         <div class="fill-row">
-          <input class="fill-input" placeholder="${G.escapeHTML(item.hint ? `提示：${item.hint}` : "请输入答案")}">
+          <input class="fill-input" placeholder="请输入答案">
           <button class="btn" type="button">提交</button>
         </div>
         <div class="feedback"></div>

@@ -8,6 +8,12 @@
   .article-aside {
     position: static;
   }
+
+  .article-reading-pane {
+    position: static;
+    max-height: none;
+    overflow: visible;
+  }
 }
 
 @media (max-width: 767px) {

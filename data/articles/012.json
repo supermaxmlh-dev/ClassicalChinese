@@ -1,325 +1,1167 @@
 {
   "id": "012",
-  "sourceMarkdown": "content/samples/week03-012-读孟尝君传.md",
-  "title": "读孟尝君传",
-  "source": "临川文集",
-  "author": "王安石",
-  "dynasty": "北宋",
-  "difficulty": 1,
+  "sourceMarkdown": "content/samples/week03-012-与朱元思书.md",
+  "sourceRaw": "content/raw/012-与朱元思书.txt",
+  "title": "与朱元思书",
+  "source": "吴均集",
+  "author": "吴均",
+  "dynasty": "南朝·梁",
+  "difficulty": 2,
   "week": 3,
-  "wordCount": 88,
+  "wordCount": 144,
   "tags": [
-    "宋代",
-    "史论",
-    "议论",
-    "人才"
+    "南朝",
+    "写景",
+    "书信",
+    "骈文"
   ],
   "relatedIdioms": [
-    "鸡鸣狗盗"
+    "鸢飞戾天"
   ],
   "mainImage": "012-main.jpg",
-  "storyIntro": "很多人都称赞孟尝君会招揽人才，因为他门下有许多门客，还靠\"鸡鸣狗盗\"之徒逃出了秦国。王安石却提出了不同看法：真正的人才应该能帮助国家成就大事，怎么会只靠模仿鸡叫、偷偷摸摸的小本领呢？这篇文章很短，却是一次漂亮的\"翻案\"议论。",
-  "fullText": "世皆称孟尝君能得士，士以故归之，而卒赖其力，以脱于虎<ruby>豹<rp>(</rp><rt>bào</rt><rp>)</rp></ruby>之秦。嗟乎！孟尝君特鸡鸣狗盗之雄耳，岂足以言得士？不然，<ruby>擅<rp>(</rp><rt>shàn</rt><rp>)</rp></ruby>齐之强，得一士焉，宜可以南面而制秦，尚何取鸡鸣狗盗之力哉？夫鸡鸣狗盗之出其门，此士之所以不至也。",
-  "fullTextPlain": "世皆称孟尝君能得士，士以故归之，而卒赖其力，以脱于虎豹之秦。嗟乎！孟尝君特鸡鸣狗盗之雄耳，岂足以言得士？不然，擅齐之强，得一士焉，宜可以南面而制秦，尚何取鸡鸣狗盗之力哉？夫鸡鸣狗盗之出其门，此士之所以不至也。",
+  "storyIntro": "吴均坐船从富阳到桐庐，一路看见富春江的山水：江水清得能看见鱼儿和细石，山峰争着向上，泉水、鸟声、蝉鸣、猿啼交织成一首自然乐曲。他把这段旅途写给朋友朱元思。文章虽然短，却像一幅清新的山水长卷，也写出作者远离名利、亲近自然的心情。",
+  "fullText": "风烟俱净，天山共色。从流<ruby>飘<rp>(</rp><rt>piāo</rt><rp>)</rp></ruby>荡，任意东西。自富阳至桐庐一百许里，奇山异水，天下独绝。\n\n水皆<ruby>缥<rp>(</rp><rt>piǎo</rt><rp>)</rp></ruby>碧，千丈见底。游鱼细石，直视无碍。急<ruby>湍<rp>(</rp><rt>tuān</rt><rp>)</rp></ruby>甚箭，猛浪若奔。\n\n夹岸高山，皆生寒树，负势竞上，互相轩<ruby>邈<rp>(</rp><rt>miǎo</rt><rp>)</rp></ruby>，争高直指，千百成峰。泉水激石，<ruby>泠<rp>(</rp><rt>líng</rt><rp>)</rp></ruby><ruby>泠<rp>(</rp><rt>líng</rt><rp>)</rp></ruby>作响；好鸟相鸣，<ruby>嘤<rp>(</rp><rt>yīng</rt><rp>)</rp></ruby><ruby>嘤<rp>(</rp><rt>yīng</rt><rp>)</rp></ruby>成韵。蝉则千转不穷，猿则百叫无绝。<ruby>鸢<rp>(</rp><rt>yuān</rt><rp>)</rp></ruby>飞<ruby>戾<rp>(</rp><rt>lì</rt><rp>)</rp></ruby>天者，望峰息心；经纶世务者，窥谷忘反。横<ruby>柯<rp>(</rp><rt>kē</rt><rp>)</rp></ruby>上蔽，在昼犹昏；疏条交映，有时见日。",
+  "fullTextPlain": "风烟俱净，天山共色。从流飘荡，任意东西。自富阳至桐庐一百许里，奇山异水，天下独绝。\n\n水皆缥碧，千丈见底。游鱼细石，直视无碍。急湍甚箭，猛浪若奔。\n\n夹岸高山，皆生寒树，负势竞上，互相轩邈，争高直指，千百成峰。泉水激石，泠泠作响；好鸟相鸣，嘤嘤成韵。蝉则千转不穷，猿则百叫无绝。鸢飞戾天者，望峰息心；经纶世务者，窥谷忘反。横柯上蔽，在昼犹昏；疏条交映，有时见日。",
   "rubyAnnotations": [
     {
-      "char": "豹",
-      "pinyin": "bào",
+      "char": "风",
+      "pinyin": "fēng",
+      "pos": 0
+    },
+    {
+      "char": "烟",
+      "pinyin": "yān",
+      "pos": 1
+    },
+    {
+      "char": "俱",
+      "pinyin": "jù",
+      "pos": 2
+    },
+    {
+      "char": "净",
+      "pinyin": "jìng",
+      "pos": 3
+    },
+    {
+      "char": "天",
+      "pinyin": "tiān",
+      "pos": 5
+    },
+    {
+      "char": "山",
+      "pinyin": "shān",
+      "pos": 6
+    },
+    {
+      "char": "共",
+      "pinyin": "gòng",
+      "pos": 7
+    },
+    {
+      "char": "色",
+      "pinyin": "sè",
+      "pos": 8
+    },
+    {
+      "char": "从",
+      "pinyin": "cóng",
+      "pos": 10
+    },
+    {
+      "char": "流",
+      "pinyin": "liú",
+      "pos": 11
+    },
+    {
+      "char": "飘",
+      "pinyin": "piāo",
+      "pos": 12
+    },
+    {
+      "char": "荡",
+      "pinyin": "dàng",
+      "pos": 13
+    },
+    {
+      "char": "任",
+      "pinyin": "rèn",
+      "pos": 15
+    },
+    {
+      "char": "意",
+      "pinyin": "yì",
+      "pos": 16
+    },
+    {
+      "char": "东",
+      "pinyin": "dōng",
+      "pos": 17
+    },
+    {
+      "char": "西",
+      "pinyin": "xī",
+      "pos": 18
+    },
+    {
+      "char": "自",
+      "pinyin": "zì",
+      "pos": 20
+    },
+    {
+      "char": "富",
+      "pinyin": "fù",
+      "pos": 21
+    },
+    {
+      "char": "阳",
+      "pinyin": "yáng",
+      "pos": 22
+    },
+    {
+      "char": "至",
+      "pinyin": "zhì",
+      "pos": 23
+    },
+    {
+      "char": "桐",
+      "pinyin": "tóng",
+      "pos": 24
+    },
+    {
+      "char": "庐",
+      "pinyin": "lú",
+      "pos": 25
+    },
+    {
+      "char": "一",
+      "pinyin": "yì",
       "pos": 26
     },
     {
-      "char": "擅",
-      "pinyin": "shàn",
+      "char": "百",
+      "pinyin": "bǎi",
+      "pos": 27
+    },
+    {
+      "char": "许",
+      "pinyin": "xǔ",
+      "pos": 28
+    },
+    {
+      "char": "里",
+      "pinyin": "lǐ",
+      "pos": 29
+    },
+    {
+      "char": "奇",
+      "pinyin": "qí",
+      "pos": 31
+    },
+    {
+      "char": "山",
+      "pinyin": "shān",
+      "pos": 32
+    },
+    {
+      "char": "异",
+      "pinyin": "yì",
+      "pos": 33
+    },
+    {
+      "char": "水",
+      "pinyin": "shuǐ",
+      "pos": 34
+    },
+    {
+      "char": "天",
+      "pinyin": "tiān",
+      "pos": 36
+    },
+    {
+      "char": "下",
+      "pinyin": "xià",
+      "pos": 37
+    },
+    {
+      "char": "独",
+      "pinyin": "dú",
+      "pos": 38
+    },
+    {
+      "char": "绝",
+      "pinyin": "jué",
+      "pos": 39
+    },
+    {
+      "char": "水",
+      "pinyin": "shuǐ",
+      "pos": 43
+    },
+    {
+      "char": "皆",
+      "pinyin": "jiē",
+      "pos": 44
+    },
+    {
+      "char": "缥",
+      "pinyin": "piǎo",
+      "pos": 45
+    },
+    {
+      "char": "碧",
+      "pinyin": "bì",
+      "pos": 46
+    },
+    {
+      "char": "千",
+      "pinyin": "qiān",
+      "pos": 48
+    },
+    {
+      "char": "丈",
+      "pinyin": "zhàng",
+      "pos": 49
+    },
+    {
+      "char": "见",
+      "pinyin": "jiàn",
+      "pos": 50
+    },
+    {
+      "char": "底",
+      "pinyin": "dǐ",
+      "pos": 51
+    },
+    {
+      "char": "游",
+      "pinyin": "yóu",
+      "pos": 53
+    },
+    {
+      "char": "鱼",
+      "pinyin": "yú",
+      "pos": 54
+    },
+    {
+      "char": "细",
+      "pinyin": "xì",
       "pos": 55
+    },
+    {
+      "char": "石",
+      "pinyin": "shí",
+      "pos": 56
+    },
+    {
+      "char": "直",
+      "pinyin": "zhí",
+      "pos": 58
+    },
+    {
+      "char": "视",
+      "pinyin": "shì",
+      "pos": 59
+    },
+    {
+      "char": "无",
+      "pinyin": "wú",
+      "pos": 60
+    },
+    {
+      "char": "碍",
+      "pinyin": "ài",
+      "pos": 61
+    },
+    {
+      "char": "急",
+      "pinyin": "jí",
+      "pos": 63
+    },
+    {
+      "char": "湍",
+      "pinyin": "tuān",
+      "pos": 64
+    },
+    {
+      "char": "甚",
+      "pinyin": "shèn",
+      "pos": 65
+    },
+    {
+      "char": "箭",
+      "pinyin": "jiàn",
+      "pos": 66
+    },
+    {
+      "char": "猛",
+      "pinyin": "měng",
+      "pos": 68
+    },
+    {
+      "char": "浪",
+      "pinyin": "làng",
+      "pos": 69
+    },
+    {
+      "char": "若",
+      "pinyin": "ruò",
+      "pos": 70
+    },
+    {
+      "char": "奔",
+      "pinyin": "bēn",
+      "pos": 71
+    },
+    {
+      "char": "夹",
+      "pinyin": "jiá",
+      "pos": 75
+    },
+    {
+      "char": "岸",
+      "pinyin": "àn",
+      "pos": 76
+    },
+    {
+      "char": "高",
+      "pinyin": "gāo",
+      "pos": 77
+    },
+    {
+      "char": "山",
+      "pinyin": "shān",
+      "pos": 78
+    },
+    {
+      "char": "皆",
+      "pinyin": "jiē",
+      "pos": 80
+    },
+    {
+      "char": "生",
+      "pinyin": "shēng",
+      "pos": 81
+    },
+    {
+      "char": "寒",
+      "pinyin": "hán",
+      "pos": 82
+    },
+    {
+      "char": "树",
+      "pinyin": "shù",
+      "pos": 83
+    },
+    {
+      "char": "负",
+      "pinyin": "fù",
+      "pos": 85
+    },
+    {
+      "char": "势",
+      "pinyin": "shì",
+      "pos": 86
+    },
+    {
+      "char": "竞",
+      "pinyin": "jìng",
+      "pos": 87
+    },
+    {
+      "char": "上",
+      "pinyin": "shàng",
+      "pos": 88
+    },
+    {
+      "char": "互",
+      "pinyin": "hù",
+      "pos": 90
+    },
+    {
+      "char": "相",
+      "pinyin": "xiāng",
+      "pos": 91
+    },
+    {
+      "char": "轩",
+      "pinyin": "xuān",
+      "pos": 92
+    },
+    {
+      "char": "邈",
+      "pinyin": "miǎo",
+      "pos": 93
+    },
+    {
+      "char": "争",
+      "pinyin": "zhēng",
+      "pos": 95
+    },
+    {
+      "char": "高",
+      "pinyin": "gāo",
+      "pos": 96
+    },
+    {
+      "char": "直",
+      "pinyin": "zhí",
+      "pos": 97
+    },
+    {
+      "char": "指",
+      "pinyin": "zhǐ",
+      "pos": 98
+    },
+    {
+      "char": "千",
+      "pinyin": "qiān",
+      "pos": 100
+    },
+    {
+      "char": "百",
+      "pinyin": "bǎi",
+      "pos": 101
+    },
+    {
+      "char": "成",
+      "pinyin": "chéng",
+      "pos": 102
+    },
+    {
+      "char": "峰",
+      "pinyin": "fēng",
+      "pos": 103
+    },
+    {
+      "char": "泉",
+      "pinyin": "quán",
+      "pos": 105
+    },
+    {
+      "char": "水",
+      "pinyin": "shuǐ",
+      "pos": 106
+    },
+    {
+      "char": "激",
+      "pinyin": "jī",
+      "pos": 107
+    },
+    {
+      "char": "石",
+      "pinyin": "shí",
+      "pos": 108
+    },
+    {
+      "char": "泠",
+      "pinyin": "líng",
+      "pos": 110
+    },
+    {
+      "char": "泠",
+      "pinyin": "líng",
+      "pos": 111
+    },
+    {
+      "char": "作",
+      "pinyin": "zuò",
+      "pos": 112
+    },
+    {
+      "char": "响",
+      "pinyin": "xiǎng",
+      "pos": 113
+    },
+    {
+      "char": "好",
+      "pinyin": "hǎo",
+      "pos": 115
+    },
+    {
+      "char": "鸟",
+      "pinyin": "niǎo",
+      "pos": 116
+    },
+    {
+      "char": "相",
+      "pinyin": "xiāng",
+      "pos": 117
+    },
+    {
+      "char": "鸣",
+      "pinyin": "míng",
+      "pos": 118
+    },
+    {
+      "char": "嘤",
+      "pinyin": "yīng",
+      "pos": 120
+    },
+    {
+      "char": "嘤",
+      "pinyin": "yīng",
+      "pos": 121
+    },
+    {
+      "char": "成",
+      "pinyin": "chéng",
+      "pos": 122
+    },
+    {
+      "char": "韵",
+      "pinyin": "yùn",
+      "pos": 123
+    },
+    {
+      "char": "蝉",
+      "pinyin": "chán",
+      "pos": 125
+    },
+    {
+      "char": "则",
+      "pinyin": "zé",
+      "pos": 126
+    },
+    {
+      "char": "千",
+      "pinyin": "qiān",
+      "pos": 127
+    },
+    {
+      "char": "转",
+      "pinyin": "zhuǎn",
+      "pos": 128
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 129
+    },
+    {
+      "char": "穷",
+      "pinyin": "qióng",
+      "pos": 130
+    },
+    {
+      "char": "猿",
+      "pinyin": "yuán",
+      "pos": 132
+    },
+    {
+      "char": "则",
+      "pinyin": "zé",
+      "pos": 133
+    },
+    {
+      "char": "百",
+      "pinyin": "bǎi",
+      "pos": 134
+    },
+    {
+      "char": "叫",
+      "pinyin": "jiào",
+      "pos": 135
+    },
+    {
+      "char": "无",
+      "pinyin": "wú",
+      "pos": 136
+    },
+    {
+      "char": "绝",
+      "pinyin": "jué",
+      "pos": 137
+    },
+    {
+      "char": "鸢",
+      "pinyin": "yuān",
+      "pos": 139
+    },
+    {
+      "char": "飞",
+      "pinyin": "fēi",
+      "pos": 140
+    },
+    {
+      "char": "戾",
+      "pinyin": "lì",
+      "pos": 141
+    },
+    {
+      "char": "天",
+      "pinyin": "tiān",
+      "pos": 142
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 143
+    },
+    {
+      "char": "望",
+      "pinyin": "wàng",
+      "pos": 145
+    },
+    {
+      "char": "峰",
+      "pinyin": "fēng",
+      "pos": 146
+    },
+    {
+      "char": "息",
+      "pinyin": "xī",
+      "pos": 147
+    },
+    {
+      "char": "心",
+      "pinyin": "xīn",
+      "pos": 148
+    },
+    {
+      "char": "经",
+      "pinyin": "jīng",
+      "pos": 150
+    },
+    {
+      "char": "纶",
+      "pinyin": "lún",
+      "pos": 151
+    },
+    {
+      "char": "世",
+      "pinyin": "shì",
+      "pos": 152
+    },
+    {
+      "char": "务",
+      "pinyin": "wù",
+      "pos": 153
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 154
+    },
+    {
+      "char": "窥",
+      "pinyin": "kuī",
+      "pos": 156
+    },
+    {
+      "char": "谷",
+      "pinyin": "gǔ",
+      "pos": 157
+    },
+    {
+      "char": "忘",
+      "pinyin": "wàng",
+      "pos": 158
+    },
+    {
+      "char": "反",
+      "pinyin": "fǎn",
+      "pos": 159
+    },
+    {
+      "char": "横",
+      "pinyin": "héng",
+      "pos": 161
+    },
+    {
+      "char": "柯",
+      "pinyin": "kē",
+      "pos": 162
+    },
+    {
+      "char": "上",
+      "pinyin": "shàng",
+      "pos": 163
+    },
+    {
+      "char": "蔽",
+      "pinyin": "bì",
+      "pos": 164
+    },
+    {
+      "char": "在",
+      "pinyin": "zài",
+      "pos": 166
+    },
+    {
+      "char": "昼",
+      "pinyin": "zhòu",
+      "pos": 167
+    },
+    {
+      "char": "犹",
+      "pinyin": "yóu",
+      "pos": 168
+    },
+    {
+      "char": "昏",
+      "pinyin": "hūn",
+      "pos": 169
+    },
+    {
+      "char": "疏",
+      "pinyin": "shū",
+      "pos": 171
+    },
+    {
+      "char": "条",
+      "pinyin": "tiáo",
+      "pos": 172
+    },
+    {
+      "char": "交",
+      "pinyin": "jiāo",
+      "pos": 173
+    },
+    {
+      "char": "映",
+      "pinyin": "yìng",
+      "pos": 174
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 176
+    },
+    {
+      "char": "时",
+      "pinyin": "shí",
+      "pos": 177
+    },
+    {
+      "char": "见",
+      "pinyin": "jiàn",
+      "pos": 178
+    },
+    {
+      "char": "日",
+      "pinyin": "rì",
+      "pos": 179
     }
   ],
-  "rhythmMarked": "世/皆称/孟尝君/能得士，士/以故/归之，而卒/赖其力，以脱于/虎豹之秦。嗟乎！孟尝君/特鸡鸣狗盗之雄耳，岂足以/言得士？不然，擅齐之强，得一士焉，宜可以/南面而制秦，尚何取/鸡鸣狗盗之力哉？夫/鸡鸣狗盗之出其门，此/士之所以/不至也。",
+  "rhythmBreaks": [
+    2,
+    7,
+    12,
+    17,
+    23,
+    26,
+    33,
+    38,
+    44,
+    50,
+    55,
+    60,
+    65,
+    70,
+    77,
+    82,
+    87,
+    92,
+    97,
+    102,
+    107,
+    112,
+    117,
+    122,
+    127,
+    134,
+    147,
+    158,
+    163,
+    168,
+    173,
+    178
+  ],
   "sections": [
     {
-      "title": "第一层：先摆出世俗看法",
-      "original": "世皆称孟尝君能得士，士以故归之，而卒赖其力，以脱于虎豹之秦。",
+      "title": "第一层：总写山水之奇",
+      "original": "风烟俱净，天山共色。从流飘荡，任意东西。",
       "annotations": [
         {
-          "word": "世",
-          "meaning": "世人",
+          "word": "风烟",
+          "meaning": "风和雾气",
           "pinyin": null
         },
         {
-          "word": "皆",
-          "meaning": "都",
+          "word": "俱净",
+          "meaning": "全都消散干净",
           "pinyin": null
         },
         {
-          "word": "称",
-          "meaning": "称赞",
+          "word": "共色",
+          "meaning": "同样的颜色",
           "pinyin": null
         },
         {
-          "word": "士",
-          "meaning": "有才能的人",
+          "word": "从流",
+          "meaning": "顺着江流",
           "pinyin": null
         },
         {
-          "word": "以故",
-          "meaning": "因此",
-          "pinyin": null
-        },
-        {
-          "word": "归之",
-          "meaning": "归附他",
-          "pinyin": null
-        },
-        {
-          "word": "卒",
-          "meaning": "最终",
-          "pinyin": null
-        },
-        {
-          "word": "虎豹之秦",
-          "meaning": "像虎豹一样凶狠的秦国",
+          "word": "东西",
+          "meaning": "向东或向西漂荡",
           "pinyin": null
         }
       ],
-      "translation": "世人都称赞孟尝君能够招揽人才，士人因此归附他，而他最终依靠他们的力量，从像虎豹一样凶狠的秦国逃脱。",
-      "modernLink": "\"虎豹之秦\"把秦国比作猛兽，写出秦国的强大和危险"
-    },
-    {
-      "title": "第二层：提出不同看法",
-      "original": "嗟乎！孟尝君特鸡鸣狗盗之雄耳，岂足以言得士？",
-      "annotations": [
-        {
-          "word": "嗟乎",
-          "meaning": "唉，表示感叹",
-          "pinyin": null
-        },
-        {
-          "word": "特",
-          "meaning": "只是",
-          "pinyin": null
-        },
-        {
-          "word": "鸡鸣狗盗",
-          "meaning": "学鸡叫、偷狗一类小本领，指低微的小技",
-          "pinyin": null
-        },
-        {
-          "word": "雄",
-          "meaning": "首领",
-          "pinyin": null
-        },
-        {
-          "word": "岂足以",
-          "meaning": "哪里足够",
-          "pinyin": null
-        }
-      ],
-      "translation": "唉！孟尝君只不过是鸡鸣狗盗之徒的首领罢了，哪里足以说他得到了真正的人才呢？",
+      "translation": "风和雾气都消散干净，天空和山峦呈现同样的颜色。我顺着江流漂荡，任凭小船向东向西。",
       "modernLink": ""
     },
     {
-      "title": "第三层：反面论证",
-      "original": "不然，擅齐之强，得一士焉，宜可以南面而制秦，尚何取鸡鸣狗盗之力哉？",
+      "title": "第二层：点明路程与特色",
+      "original": "自富阳至桐庐一百许里，奇山异水，天下独绝。",
       "annotations": [
         {
-          "word": "不然",
-          "meaning": "如果不是这样",
+          "word": "自……至……",
+          "meaning": "从……到……",
           "pinyin": null
         },
         {
-          "word": "擅",
-          "meaning": "拥有，据有",
+          "word": "许",
+          "meaning": "左右",
           "pinyin": null
         },
         {
-          "word": "齐之强",
-          "meaning": "齐国的强大力量",
+          "word": "异水",
+          "meaning": "奇异的水",
           "pinyin": null
         },
         {
-          "word": "一士",
-          "meaning": "一个真正的人才",
-          "pinyin": null
-        },
-        {
-          "word": "南面",
-          "meaning": "古代君主面南而坐，这里指称王称霸",
-          "pinyin": null
-        },
-        {
-          "word": "制秦",
-          "meaning": "制服秦国",
-          "pinyin": null
-        },
-        {
-          "word": "尚何取",
-          "meaning": "还用得着什么",
+          "word": "独绝",
+          "meaning": "独一无二",
           "pinyin": null
         }
       ],
-      "translation": "如果不是这样，凭借齐国的强大，只要得到一个真正的人才，就应该可以称王而制服秦国，还用得着什么鸡鸣狗盗的小本领呢？",
-      "modernLink": "王安石不是否认门客有用，而是区分\"小本领\"和\"真正能治国安邦的人才\""
+      "translation": "从富阳到桐庐大约一百里，奇山异水，是天下独一无二的美景。",
+      "modernLink": "\"许\"表示约数，和《小石潭记》\"可百许头\"中的\"许\"意思相近"
     },
     {
-      "title": "第四层：点明原因",
-      "original": "夫鸡鸣狗盗之出其门，此士之所以不至也。",
+      "title": "第三层：水清水急",
+      "original": "水皆缥碧，千丈见底。游鱼细石，直视无碍。",
       "annotations": [
         {
-          "word": "夫",
-          "meaning": "发语词",
+          "word": "缥碧",
+          "meaning": "浅青色",
           "pinyin": null
         },
         {
-          "word": "出其门",
-          "meaning": "出现在他的门下",
+          "word": "见底",
+          "meaning": "能看见水底",
           "pinyin": null
         },
         {
-          "word": "所以",
-          "meaning": "……的原因",
-          "pinyin": null
-        },
-        {
-          "word": "不至",
-          "meaning": "不来",
+          "word": "直视无碍",
+          "meaning": "一直看下去没有阻碍",
           "pinyin": null
         }
       ],
-      "translation": "鸡鸣狗盗之徒出现在他的门下，这正是真正的人才不到他那里去的原因啊。",
+      "translation": "江水都是浅青色的，深处也能看见水底。游动的鱼和细小的石子，一直看下去都毫无阻碍。",
+      "modernLink": ""
+    },
+    {
+      "title": "第四层：水势奔腾",
+      "original": "急湍甚箭，猛浪若奔。",
+      "annotations": [
+        {
+          "word": "急湍",
+          "meaning": "湍急的水流",
+          "pinyin": null
+        },
+        {
+          "word": "甚箭",
+          "meaning": "比箭还快",
+          "pinyin": null
+        },
+        {
+          "word": "奔",
+          "meaning": "飞奔的马",
+          "pinyin": null
+        }
+      ],
+      "translation": "湍急的水流比箭还快，凶猛的浪头像飞奔的马。",
+      "modernLink": "\"奔\"在这里是名词，指飞奔的马，不是现代常说的动词\"奔跑\""
+    },
+    {
+      "title": "第五层：山势争高",
+      "original": "夹岸高山，皆生寒树，负势竞上，互相轩邈，争高直指，千百成峰。",
+      "annotations": [
+        {
+          "word": "夹岸",
+          "meaning": "江两岸",
+          "pinyin": null
+        },
+        {
+          "word": "寒树",
+          "meaning": "使人看了有清寒之感的树",
+          "pinyin": null
+        },
+        {
+          "word": "负势",
+          "meaning": "凭借山势",
+          "pinyin": null
+        },
+        {
+          "word": "轩邈",
+          "meaning": "向高处和远处伸展",
+          "pinyin": null
+        },
+        {
+          "word": "直指",
+          "meaning": "笔直向上",
+          "pinyin": null
+        }
+      ],
+      "translation": "江两岸的高山上都长着让人感到清寒的树木，山峦凭借高峻的形势争着向上，互相往高处远处伸展，争着高高直指天空，形成千百座山峰。",
+      "modernLink": ""
+    },
+    {
+      "title": "第六层：山中声音",
+      "original": "泉水激石，泠泠作响；好鸟相鸣，嘤嘤成韵。蝉则千转不穷，猿则百叫无绝。",
+      "annotations": [
+        {
+          "word": "激",
+          "meaning": "冲击",
+          "pinyin": null
+        },
+        {
+          "word": "泠泠",
+          "meaning": "清越的水声",
+          "pinyin": null
+        },
+        {
+          "word": "好鸟",
+          "meaning": "美丽的鸟",
+          "pinyin": null
+        },
+        {
+          "word": "嘤嘤",
+          "meaning": "鸟鸣和谐的声音",
+          "pinyin": null
+        },
+        {
+          "word": "千转",
+          "meaning": "长久不断地鸣叫。转，通\"啭\"",
+          "pinyin": null
+        },
+        {
+          "word": "无绝",
+          "meaning": "不停止",
+          "pinyin": null
+        }
+      ],
+      "translation": "泉水冲击石头，发出清越的响声；美丽的鸟互相鸣叫，声音和谐成韵。蝉长久不断地叫着，猿也不停地啼叫。",
+      "modernLink": ""
+    },
+    {
+      "title": "第七层：山水使人忘俗",
+      "original": "鸢飞戾天者，望峰息心；经纶世务者，窥谷忘反。",
+      "annotations": [
+        {
+          "word": "鸢飞戾天者",
+          "meaning": "像鸢鸟飞到天上一样极力追求高位的人。戾，至",
+          "pinyin": null
+        },
+        {
+          "word": "息心",
+          "meaning": "平息追逐名利的心",
+          "pinyin": null
+        },
+        {
+          "word": "经纶世务者",
+          "meaning": "治理世俗事务的人",
+          "pinyin": null
+        },
+        {
+          "word": "窥谷",
+          "meaning": "看见山谷",
+          "pinyin": null
+        },
+        {
+          "word": "忘反",
+          "meaning": "忘记返回。反，通\"返\"",
+          "pinyin": null
+        }
+      ],
+      "translation": "那些极力追求高位的人，看见这些山峰就会平息名利之心；那些忙于治理世俗事务的人，看见这些山谷就会忘记返回。",
+      "modernLink": "\"反\"通\"返\"，是文言文中常见的通假现象"
+    },
+    {
+      "title": "第八层：林木幽深",
+      "original": "横柯上蔽，在昼犹昏；疏条交映，有时见日。",
+      "annotations": [
+        {
+          "word": "横柯",
+          "meaning": "横斜的树枝",
+          "pinyin": null
+        },
+        {
+          "word": "上蔽",
+          "meaning": "在上面遮蔽",
+          "pinyin": null
+        },
+        {
+          "word": "犹昏",
+          "meaning": "还像黄昏一样昏暗",
+          "pinyin": null
+        },
+        {
+          "word": "疏条",
+          "meaning": "稀疏的枝条",
+          "pinyin": null
+        },
+        {
+          "word": "交映",
+          "meaning": "互相掩映",
+          "pinyin": null
+        }
+      ],
+      "translation": "横斜的树枝在上面遮蔽着，即使白天也像黄昏一样昏暗；稀疏的枝条互相掩映，有时还能看见阳光。",
       "modernLink": ""
     }
   ],
-  "fullTranslation": "世人都称赞孟尝君能够招揽人才，士人因此归附他，而他最终依靠他们的力量，从像虎豹一样凶狠的秦国逃脱。\n\n唉！孟尝君只不过是鸡鸣狗盗之徒的首领罢了，哪里足以说他得到了真正的人才呢？如果不是这样，凭借齐国的强大，只要得到一个真正的人才，就应该可以称王而制服秦国，还用得着什么鸡鸣狗盗的小本领呢？鸡鸣狗盗之徒出现在他的门下，这正是真正的人才不到他那里去的原因啊。",
+  "fullTranslation": "风和雾气都消散干净，天空和山峦呈现同样的颜色。我顺着江流漂荡，任凭小船向东向西。从富阳到桐庐大约一百里，奇山异水，是天下独一无二的美景。\n\n江水都是浅青色的，深处也能看见水底。游动的鱼和细小的石子，一直看下去都毫无阻碍。湍急的水流比箭还快，凶猛的浪头像飞奔的马。\n\n江两岸的高山上都长着让人感到清寒的树木，山峦凭借高峻的形势争着向上，互相往高处远处伸展，争着高高直指天空，形成千百座山峰。泉水冲击石头，发出清越的响声；美丽的鸟互相鸣叫，声音和谐成韵。蝉长久不断地叫着，猿也不停地啼叫。那些极力追求高位的人，看见这些山峰就会平息名利之心；那些忙于治理世俗事务的人，看见这些山谷就会忘记返回。横斜的树枝在上面遮蔽着，即使白天也像黄昏一样昏暗；稀疏的枝条互相掩映，有时还能看见阳光。",
   "extendedReading": {
-    "author": "王安石（1021-1086年），北宋政治家、文学家，\"唐宋八大家\"之一。他不仅会写文章，还主持过著名的变法，希望改变国家积弱的局面。",
-    "background": "孟尝君是战国四公子之一，门下食客很多。《史记》记载他曾靠门客学鸡叫、偷狐白裘逃出秦国。王安石读到这段故事后，提出了和世人不同的评价。",
+    "author": "吴均（469-520年），南朝梁文学家、史学家。他的文章清新秀丽，善于写山水景色，后人常用\"吴均体\"来称赞他那种清拔的文风。",
+    "background": "魏晋南北朝时期社会动荡，很多文人把情感寄托在山水之中。《与朱元思书》写的是富春江一带的山水，也表达了作者厌倦名利、向往自然的心情。",
     "funFacts": [
-      "\"鸡鸣狗盗\"后来成为成语，多指微不足道的小技能或偷偷摸摸的行为。",
-      "这篇文章很短，却有完整的议论结构：先列观点，再反驳，最后点明原因。",
-      "王安石的观点很锋利：真正的人才应该能帮助国家解决大问题。"
+      "本文是写给朱元思的书信片段，但更像一篇精美的山水散文。",
+      "\"急湍甚箭，猛浪若奔\"用两个比喻写出水势迅疾。",
+      "\"鸢飞戾天者，望峰息心\"写的是山水能让人放下功名心。"
     ],
-    "relatedStory": "孟尝君被困秦国时，有门客偷来狐白裘献给秦王宠姬，又有人学鸡叫骗开城门，帮助他逃走。王安石认为，这些只是小技，不是真正的治国人才。"
+    "relatedStory": "富春江在今天的浙江一带，自古以山水清丽闻名。很多诗人、画家都喜欢描写这里的山光水色。"
   },
   "thinkingQuestions": [
-    "王安石为什么不赞同\"孟尝君能得士\"的说法？",
-    "你觉得\"会小技能的人\"和\"真正的人才\"有什么区别？",
-    "如果一个人敢提出和大家不同的看法，他需要什么能力？"
+    "文章从水写到山，又从景物写到人的心情。你觉得哪一句最能表现作者的心境？",
+    "\"急湍甚箭，猛浪若奔\"用了什么修辞？你能仿写一句写风或雨的话吗？",
+    "当你看到美丽的自然景色时，会不会暂时忘掉烦恼？"
   ],
   "quiz": {
     "choices": [
       {
         "id": 1,
-        "question": "\"世皆称孟尝君能得士\"中的\"皆\"是什么意思？",
+        "question": "\"自富阳至桐庐一百许里\"中的\"许\"是什么意思？",
         "options": [
-          "都",
-          "结束",
-          "台阶",
-          "皆大欢喜"
+          "答应",
+          "左右，大约",
+          "许多",
+          "允许"
         ],
-        "answerIndex": 0,
-        "explanation": "A（都）"
+        "answerIndex": 1,
+        "explanation": "B（左右，大约）。\"一百许里\"中的\"许\"表示约数，意思是一百里左右。"
       },
       {
         "id": 2,
-        "question": "王安石认为孟尝君得到的是哪类人？",
+        "question": "\"猛浪若奔\"中的\"奔\"指什么？",
         "options": [
-          "治国贤才",
-          "鸡鸣狗盗之徒",
-          "军事名将",
-          "大诗人"
+          "奔跑",
+          "飞奔的马",
+          "河流",
+          "箭"
         ],
         "answerIndex": 1,
-        "explanation": "B（鸡鸣狗盗之徒）"
+        "explanation": "B（飞奔的马）。\"猛浪若奔\"把浪比作飞奔的马，\"奔\"在这里作名词理解。"
       },
       {
         "id": 3,
-        "question": "\"岂足以言得士\"的语气是？",
+        "question": "\"窥谷忘反\"中的\"反\"是什么意思？",
         "options": [
-          "陈述",
-          "反问",
-          "感叹天气",
-          "命令"
+          "反对",
+          "返回",
+          "反面",
+          "反复"
         ],
         "answerIndex": 1,
-        "explanation": "B（反问）"
+        "explanation": "B（返回）。\"窥谷忘反\"中的\"反\"通\"返\"，写人看到山谷美景后忘记返回。"
       }
     ],
     "fillBlanks": [
       {
         "id": 100,
-        "question": "而卒赖其力 → ______",
-        "blank": "最终",
-        "hint": "解释“卒”"
+        "stem": "风烟俱净",
+        "targetChar": "俱",
+        "targetIndex": 2,
+        "blank": "都",
+        "hint": ""
       },
       {
         "id": 101,
-        "question": "孟尝君特鸡鸣狗盗之雄耳 → ______",
-        "blank": "只是",
-        "hint": "解释“特”"
+        "stem": "急湍甚箭",
+        "targetChar": "甚",
+        "targetIndex": 2,
+        "blank": "超过、比……还",
+        "hint": ""
       },
       {
         "id": 102,
-        "question": "此士之所以不至也 → ______",
-        "blank": "到来",
-        "hint": "解释“至”"
+        "stem": "猿则百叫无绝",
+        "targetChar": "绝",
+        "targetIndex": 5,
+        "blank": "停止",
+        "hint": ""
       }
     ],
     "shortAnswer": [
       {
         "id": 5,
-        "question": "王安石用什么理由说明孟尝君没有得到真正的人才？",
-        "sampleAnswer": "示例答案：如果孟尝君真的得到一个真正的人才，凭借齐国的强大，就应该能制服秦国，不必依靠鸡鸣狗盗的小技逃命。因此王安石认为他没有得到真正的人才。"
+        "question": "作者怎样写出富春江水的清和急？各举一句。",
+        "sampleAnswer": "示例：写清，\"水皆缥碧，千丈见底\"；写急，\"急湍甚箭，猛浪若奔\"。"
       }
     ],
     "challenge": [
       {
         "id": 6,
-        "question": "试着翻译：\"夫鸡鸣狗盗之出其门，此士之所以不至也。\"",
-        "sampleAnswer": "鸡鸣狗盗之徒出现在他的门下，这正是真正的人才不到他那里去的原因啊。"
+        "question": "试着翻译：\"鸢飞戾天者，望峰息心。\"",
+        "sampleAnswer": "那些像鸢鸟飞到天上一样极力追求高位的人，看见这些山峰就会平息名利之心。"
       }
     ]
   },
   "keyVocab": [
     {
-      "word": "皆",
+      "word": "俱",
       "ancient": "都",
-      "modern": "都",
-      "example": "世皆称",
-      "idiom": "皆大欢喜"
+      "modern": "俱全",
+      "example": "风烟俱净",
+      "idiom": "万事俱备"
     },
     {
-      "word": "士",
-      "ancient": "有才能的人",
-      "modern": "士兵",
-      "example": "能得士",
-      "idiom": "礼贤下士"
+      "word": "许",
+      "ancient": "左右",
+      "modern": "许可",
+      "example": "一百许里",
+      "idiom": "以身许国"
     },
     {
-      "word": "卒",
-      "ancient": "最终",
-      "modern": "士兵",
-      "example": "而卒赖其力",
-      "idiom": "有始有卒"
+      "word": "奔",
+      "ancient": "飞奔的马",
+      "modern": "奔跑",
+      "example": "猛浪若奔",
+      "idiom": "奔腾不息"
     },
     {
-      "word": "特",
-      "ancient": "只是",
-      "modern": "特别",
-      "example": "特鸡鸣狗盗之雄耳",
-      "idiom": "特立独行"
+      "word": "绝",
+      "ancient": "停止；极",
+      "modern": "断绝",
+      "example": "天下独绝",
+      "idiom": "络绎不绝"
     },
     {
-      "word": "擅",
-      "ancient": "拥有，据有",
-      "modern": "擅自",
-      "example": "擅齐之强",
-      "idiom": "擅长"
+      "word": "反",
+      "ancient": "同\"返\"，返回",
+      "modern": "反对",
+      "example": "窥谷忘反",
+      "idiom": "流连忘返"
     },
     {
-      "word": "至",
-      "ancient": "到来",
-      "modern": "到达",
-      "example": "士之所以不至",
-      "idiom": "至关重要"
+      "word": "柯",
+      "ancient": "树枝",
+      "modern": "较少单用",
+      "example": "横柯上蔽",
+      "idiom": "南柯一梦"
     }
   ]
 }

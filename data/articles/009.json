@@ -1,434 +1,1205 @@
 {
   "id": "009",
-  "sourceMarkdown": "content/samples/week03-009-小石潭记.md",
-  "title": "小石潭记",
-  "source": "柳河东集",
-  "author": "柳宗元",
-  "dynasty": "唐",
-  "difficulty": 2,
-  "week": 3,
-  "wordCount": 200,
+  "sourceMarkdown": "content/samples/week02-009-湖心亭看雪.md",
+  "sourceRaw": "content/raw/009-湖心亭看雪.txt",
+  "title": "湖心亭看雪",
+  "source": "陶庵梦忆",
+  "author": "张岱",
+  "dynasty": "明末清初",
+  "difficulty": 1,
+  "week": 2,
+  "wordCount": 159,
   "tags": [
-    "唐代",
-    "山水",
-    "游记",
-    "永州八记"
+    "明代",
+    "写景",
+    "小品文",
+    "西湖"
   ],
   "relatedIdioms": [
-    "凄神寒骨"
+    "天地一白"
   ],
   "mainImage": "009-main.jpg",
-  "storyIntro": "柳宗元被贬到永州后，心里很苦闷，就常常到山水之间散步。有一次，他穿过竹林，听见清脆的水声，发现了一个小小的石潭。潭水清澈，鱼儿自由游动，景色很美；可是四周太安静、太幽深，也让他感到孤独和凄清。这篇文章就是他记录这次游览的小品文。",
-  "fullText": "从小丘西行百二十步，隔<ruby>篁<rp>(</rp><rt>huáng</rt><rp>)</rp></ruby>竹，闻水声，如鸣佩环，心乐之。伐竹取道，下见小潭，水尤清<ruby>冽<rp>(</rp><rt>liè</rt><rp>)</rp></ruby>。全石以为底，近岸，卷石底以出，为<ruby>坻<rp>(</rp><rt>chí</rt><rp>)</rp></ruby>，为<ruby>屿<rp>(</rp><rt>yǔ</rt><rp>)</rp></ruby>，为<ruby>嵁<rp>(</rp><rt>kān</rt><rp>)</rp></ruby>，为岩。青树翠<ruby>蔓<rp>(</rp><rt>màn</rt><rp>)</rp></ruby>，蒙络摇缀，参差披拂。\n\n潭中鱼可百许头，皆若空游无所依。日光下澈，影布石上，<ruby>佁<rp>(</rp><rt>yǐ</rt><rp>)</rp></ruby>然不动；<ruby>俶<rp>(</rp><rt>chù</rt><rp>)</rp></ruby>尔远逝，往来<ruby>翕<rp>(</rp><rt>xī</rt><rp>)</rp></ruby>忽，似与游者相乐。\n\n潭西南而望，斗折蛇行，明灭可见。其岸势犬牙差互，不可知其源。\n\n坐潭上，四面竹树环合，寂寥无人，凄神寒骨，<ruby>悄<rp>(</rp><rt>qiǎo</rt><rp>)</rp></ruby>怆幽<ruby>邃<rp>(</rp><rt>suì</rt><rp>)</rp></ruby>。以其境过清，不可久居，乃记之而去。\n\n同游者：吴武陵，龚古，余弟宗玄。隶而从者，崔氏二小生：曰恕己，曰奉壹。",
-  "fullTextPlain": "从小丘西行百二十步，隔篁竹，闻水声，如鸣佩环，心乐之。伐竹取道，下见小潭，水尤清冽。全石以为底，近岸，卷石底以出，为坻，为屿，为嵁，为岩。青树翠蔓，蒙络摇缀，参差披拂。\n\n潭中鱼可百许头，皆若空游无所依。日光下澈，影布石上，佁然不动；俶尔远逝，往来翕忽，似与游者相乐。\n\n潭西南而望，斗折蛇行，明灭可见。其岸势犬牙差互，不可知其源。\n\n坐潭上，四面竹树环合，寂寥无人，凄神寒骨，悄怆幽邃。以其境过清，不可久居，乃记之而去。\n\n同游者：吴武陵，龚古，余弟宗玄。隶而从者，崔氏二小生：曰恕己，曰奉壹。",
+  "storyIntro": "大雪过后的西湖，天地之间一片洁白，安静得连鸟声都没有。张岱偏偏在这样的夜里，披着毛皮衣、抱着小火炉，独自划船去湖心亭看雪。没想到亭中竟然还有两个同样\"痴\"的人在赏雪饮酒。短短一篇文章，既写出了西湖雪景的清冷空灵，也写出了作者独特的雅趣。",
+  "fullText": "崇<ruby>祯<rp>(</rp><rt>zhēn</rt><rp>)</rp></ruby>五年十二月，余住西湖。大雪三日，湖中人鸟声俱绝。是日更定矣，余<ruby>拏<rp>(</rp><rt>ná</rt><rp>)</rp></ruby>一小舟，拥<ruby>毳<rp>(</rp><rt>cuì</rt><rp>)</rp></ruby>衣炉火，独往湖心亭看雪。\n\n雾<ruby>凇<rp>(</rp><rt>sōng</rt><rp>)</rp></ruby><ruby>沆<rp>(</rp><rt>hàng</rt><rp>)</rp></ruby><ruby>砀<rp>(</rp><rt>dàng</rt><rp>)</rp></ruby>，天与云与山与水，上下一白。湖上影子，惟长<ruby>堤<rp>(</rp><rt>dī</rt><rp>)</rp></ruby>一痕、湖心亭一点、与余舟一<ruby>芥<rp>(</rp><rt>jiè</rt><rp>)</rp></ruby>、舟中人两三粒而已。\n\n到亭上，有两人铺<ruby>毡<rp>(</rp><rt>zhān</rt><rp>)</rp></ruby>对坐，一童子烧酒炉正沸。见余，大喜曰：\"湖中焉得更有此人！\"拉余同饮。余<ruby>强<rp>(</rp><rt>qiǎng</rt><rp>)</rp></ruby>饮三大白而别。问其姓氏，是金陵人，客此。\n\n及下船，舟子喃喃曰：\"莫说相公痴，更有痴似相公者。\"",
+  "fullTextPlain": "崇祯五年十二月，余住西湖。大雪三日，湖中人鸟声俱绝。是日更定矣，余拏一小舟，拥毳衣炉火，独往湖心亭看雪。\n\n雾凇沆砀，天与云与山与水，上下一白。湖上影子，惟长堤一痕、湖心亭一点、与余舟一芥、舟中人两三粒而已。\n\n到亭上，有两人铺毡对坐，一童子烧酒炉正沸。见余，大喜曰：\"湖中焉得更有此人！\"拉余同饮。余强饮三大白而别。问其姓氏，是金陵人，客此。\n\n及下船，舟子喃喃曰：\"莫说相公痴，更有痴似相公者。\"",
   "rubyAnnotations": [
     {
-      "char": "篁",
-      "pinyin": "huáng",
+      "char": "崇",
+      "pinyin": "chóng",
+      "pos": 0
+    },
+    {
+      "char": "祯",
+      "pinyin": "zhēn",
+      "pos": 1
+    },
+    {
+      "char": "五",
+      "pinyin": "wǔ",
+      "pos": 2
+    },
+    {
+      "char": "年",
+      "pinyin": "nián",
+      "pos": 3
+    },
+    {
+      "char": "十",
+      "pinyin": "shí",
+      "pos": 4
+    },
+    {
+      "char": "二",
+      "pinyin": "èr",
+      "pos": 5
+    },
+    {
+      "char": "月",
+      "pinyin": "yuè",
+      "pos": 6
+    },
+    {
+      "char": "余",
+      "pinyin": "yú",
+      "pos": 8
+    },
+    {
+      "char": "住",
+      "pinyin": "zhù",
+      "pos": 9
+    },
+    {
+      "char": "西",
+      "pinyin": "xī",
+      "pos": 10
+    },
+    {
+      "char": "湖",
+      "pinyin": "hú",
       "pos": 11
     },
     {
-      "char": "冽",
-      "pinyin": "liè",
+      "char": "大",
+      "pinyin": "dà",
+      "pos": 13
+    },
+    {
+      "char": "雪",
+      "pinyin": "xuě",
+      "pos": 14
+    },
+    {
+      "char": "三",
+      "pinyin": "sān",
+      "pos": 15
+    },
+    {
+      "char": "日",
+      "pinyin": "rì",
+      "pos": 16
+    },
+    {
+      "char": "湖",
+      "pinyin": "hú",
+      "pos": 18
+    },
+    {
+      "char": "中",
+      "pinyin": "zhōng",
+      "pos": 19
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 20
+    },
+    {
+      "char": "鸟",
+      "pinyin": "niǎo",
+      "pos": 21
+    },
+    {
+      "char": "声",
+      "pinyin": "shēng",
+      "pos": 22
+    },
+    {
+      "char": "俱",
+      "pinyin": "jù",
+      "pos": 23
+    },
+    {
+      "char": "绝",
+      "pinyin": "jué",
+      "pos": 24
+    },
+    {
+      "char": "是",
+      "pinyin": "shì",
+      "pos": 26
+    },
+    {
+      "char": "日",
+      "pinyin": "rì",
+      "pos": 27
+    },
+    {
+      "char": "更",
+      "pinyin": "gèng",
+      "pos": 28
+    },
+    {
+      "char": "定",
+      "pinyin": "dìng",
+      "pos": 29
+    },
+    {
+      "char": "矣",
+      "pinyin": "yǐ",
+      "pos": 30
+    },
+    {
+      "char": "余",
+      "pinyin": "yú",
+      "pos": 32
+    },
+    {
+      "char": "拏",
+      "pinyin": "ná",
+      "pos": 33
+    },
+    {
+      "char": "一",
+      "pinyin": "yì",
+      "pos": 34
+    },
+    {
+      "char": "小",
+      "pinyin": "xiǎo",
+      "pos": 35
+    },
+    {
+      "char": "舟",
+      "pinyin": "zhōu",
+      "pos": 36
+    },
+    {
+      "char": "拥",
+      "pinyin": "yōng",
+      "pos": 38
+    },
+    {
+      "char": "毳",
+      "pinyin": "cuì",
+      "pos": 39
+    },
+    {
+      "char": "衣",
+      "pinyin": "yī",
       "pos": 40
     },
     {
-      "char": "坻",
-      "pinyin": "chí",
-      "pos": 58
+      "char": "炉",
+      "pinyin": "lú",
+      "pos": 41
     },
     {
-      "char": "屿",
+      "char": "火",
+      "pinyin": "huǒ",
+      "pos": 42
+    },
+    {
+      "char": "独",
+      "pinyin": "dú",
+      "pos": 44
+    },
+    {
+      "char": "往",
+      "pinyin": "wǎng",
+      "pos": 45
+    },
+    {
+      "char": "湖",
+      "pinyin": "hú",
+      "pos": 46
+    },
+    {
+      "char": "心",
+      "pinyin": "xīn",
+      "pos": 47
+    },
+    {
+      "char": "亭",
+      "pinyin": "tíng",
+      "pos": 48
+    },
+    {
+      "char": "看",
+      "pinyin": "kàn",
+      "pos": 49
+    },
+    {
+      "char": "雪",
+      "pinyin": "xuě",
+      "pos": 50
+    },
+    {
+      "char": "雾",
+      "pinyin": "wù",
+      "pos": 54
+    },
+    {
+      "char": "凇",
+      "pinyin": "sōng",
+      "pos": 55
+    },
+    {
+      "char": "沆",
+      "pinyin": "hàng",
+      "pos": 56
+    },
+    {
+      "char": "砀",
+      "pinyin": "dàng",
+      "pos": 57
+    },
+    {
+      "char": "天",
+      "pinyin": "tiān",
+      "pos": 59
+    },
+    {
+      "char": "与",
       "pinyin": "yǔ",
+      "pos": 60
+    },
+    {
+      "char": "云",
+      "pinyin": "yún",
       "pos": 61
     },
     {
-      "char": "嵁",
-      "pinyin": "kān",
+      "char": "与",
+      "pinyin": "yǔ",
+      "pos": 62
+    },
+    {
+      "char": "山",
+      "pinyin": "shān",
+      "pos": 63
+    },
+    {
+      "char": "与",
+      "pinyin": "yǔ",
       "pos": 64
     },
     {
-      "char": "蔓",
-      "pinyin": "màn",
+      "char": "水",
+      "pinyin": "shuǐ",
+      "pos": 65
+    },
+    {
+      "char": "上",
+      "pinyin": "shàng",
+      "pos": 67
+    },
+    {
+      "char": "下",
+      "pinyin": "xià",
+      "pos": 68
+    },
+    {
+      "char": "一",
+      "pinyin": "yì",
+      "pos": 69
+    },
+    {
+      "char": "白",
+      "pinyin": "bái",
+      "pos": 70
+    },
+    {
+      "char": "湖",
+      "pinyin": "hú",
       "pos": 72
     },
     {
-      "char": "佁",
+      "char": "上",
+      "pinyin": "shàng",
+      "pos": 73
+    },
+    {
+      "char": "影",
+      "pinyin": "yǐng",
+      "pos": 74
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 75
+    },
+    {
+      "char": "惟",
+      "pinyin": "wéi",
+      "pos": 77
+    },
+    {
+      "char": "长",
+      "pinyin": "cháng",
+      "pos": 78
+    },
+    {
+      "char": "堤",
+      "pinyin": "dī",
+      "pos": 79
+    },
+    {
+      "char": "一",
+      "pinyin": "yì",
+      "pos": 80
+    },
+    {
+      "char": "痕",
+      "pinyin": "hén",
+      "pos": 81
+    },
+    {
+      "char": "湖",
+      "pinyin": "hú",
+      "pos": 83
+    },
+    {
+      "char": "心",
+      "pinyin": "xīn",
+      "pos": 84
+    },
+    {
+      "char": "亭",
+      "pinyin": "tíng",
+      "pos": 85
+    },
+    {
+      "char": "一",
+      "pinyin": "yì",
+      "pos": 86
+    },
+    {
+      "char": "点",
+      "pinyin": "diǎn",
+      "pos": 87
+    },
+    {
+      "char": "与",
+      "pinyin": "yǔ",
+      "pos": 89
+    },
+    {
+      "char": "余",
+      "pinyin": "yú",
+      "pos": 90
+    },
+    {
+      "char": "舟",
+      "pinyin": "zhōu",
+      "pos": 91
+    },
+    {
+      "char": "一",
+      "pinyin": "yí",
+      "pos": 92
+    },
+    {
+      "char": "芥",
+      "pinyin": "jiè",
+      "pos": 93
+    },
+    {
+      "char": "舟",
+      "pinyin": "zhōu",
+      "pos": 95
+    },
+    {
+      "char": "中",
+      "pinyin": "zhōng",
+      "pos": 96
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 97
+    },
+    {
+      "char": "两",
+      "pinyin": "liǎng",
+      "pos": 98
+    },
+    {
+      "char": "三",
+      "pinyin": "sān",
+      "pos": 99
+    },
+    {
+      "char": "粒",
+      "pinyin": "lì",
+      "pos": 100
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 101
+    },
+    {
+      "char": "已",
       "pinyin": "yǐ",
+      "pos": 102
+    },
+    {
+      "char": "到",
+      "pinyin": "dào",
+      "pos": 106
+    },
+    {
+      "char": "亭",
+      "pinyin": "tíng",
+      "pos": 107
+    },
+    {
+      "char": "上",
+      "pinyin": "shàng",
+      "pos": 108
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 110
+    },
+    {
+      "char": "两",
+      "pinyin": "liǎng",
+      "pos": 111
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
       "pos": 112
     },
     {
-      "char": "俶",
-      "pinyin": "chù",
-      "pos": 117
+      "char": "铺",
+      "pinyin": "pù",
+      "pos": 113
     },
     {
-      "char": "翕",
-      "pinyin": "xī",
+      "char": "毡",
+      "pinyin": "zhān",
+      "pos": 114
+    },
+    {
+      "char": "对",
+      "pinyin": "duì",
+      "pos": 115
+    },
+    {
+      "char": "坐",
+      "pinyin": "zuò",
+      "pos": 116
+    },
+    {
+      "char": "一",
+      "pinyin": "yì",
+      "pos": 118
+    },
+    {
+      "char": "童",
+      "pinyin": "tóng",
+      "pos": 119
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 120
+    },
+    {
+      "char": "烧",
+      "pinyin": "shāo",
+      "pos": 121
+    },
+    {
+      "char": "酒",
+      "pinyin": "jiǔ",
+      "pos": 122
+    },
+    {
+      "char": "炉",
+      "pinyin": "lú",
+      "pos": 123
+    },
+    {
+      "char": "正",
+      "pinyin": "zhèng",
       "pos": 124
     },
     {
-      "char": "悄",
-      "pinyin": "qiǎo",
+      "char": "沸",
+      "pinyin": "fèi",
+      "pos": 125
+    },
+    {
+      "char": "见",
+      "pinyin": "jiàn",
+      "pos": 127
+    },
+    {
+      "char": "余",
+      "pinyin": "yú",
+      "pos": 128
+    },
+    {
+      "char": "大",
+      "pinyin": "dà",
+      "pos": 130
+    },
+    {
+      "char": "喜",
+      "pinyin": "xǐ",
+      "pos": 131
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 132
+    },
+    {
+      "char": "湖",
+      "pinyin": "hú",
+      "pos": 135
+    },
+    {
+      "char": "中",
+      "pinyin": "zhōng",
+      "pos": 136
+    },
+    {
+      "char": "焉",
+      "pinyin": "yān",
+      "pos": 137
+    },
+    {
+      "char": "得",
+      "pinyin": "dé",
+      "pos": 138
+    },
+    {
+      "char": "更",
+      "pinyin": "gèng",
+      "pos": 139
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 140
+    },
+    {
+      "char": "此",
+      "pinyin": "cǐ",
+      "pos": 141
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 142
+    },
+    {
+      "char": "拉",
+      "pinyin": "lā",
+      "pos": 145
+    },
+    {
+      "char": "余",
+      "pinyin": "yú",
+      "pos": 146
+    },
+    {
+      "char": "同",
+      "pinyin": "tóng",
+      "pos": 147
+    },
+    {
+      "char": "饮",
+      "pinyin": "yǐn",
+      "pos": 148
+    },
+    {
+      "char": "余",
+      "pinyin": "yú",
+      "pos": 150
+    },
+    {
+      "char": "强",
+      "pinyin": "qiǎng",
+      "pos": 151
+    },
+    {
+      "char": "饮",
+      "pinyin": "yǐn",
+      "pos": 152
+    },
+    {
+      "char": "三",
+      "pinyin": "sān",
+      "pos": 153
+    },
+    {
+      "char": "大",
+      "pinyin": "dà",
+      "pos": 154
+    },
+    {
+      "char": "白",
+      "pinyin": "bái",
+      "pos": 155
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 156
+    },
+    {
+      "char": "别",
+      "pinyin": "bié",
+      "pos": 157
+    },
+    {
+      "char": "问",
+      "pinyin": "wèn",
+      "pos": 159
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 160
+    },
+    {
+      "char": "姓",
+      "pinyin": "xìng",
+      "pos": 161
+    },
+    {
+      "char": "氏",
+      "pinyin": "shì",
+      "pos": 162
+    },
+    {
+      "char": "是",
+      "pinyin": "shì",
+      "pos": 164
+    },
+    {
+      "char": "金",
+      "pinyin": "jīn",
+      "pos": 165
+    },
+    {
+      "char": "陵",
+      "pinyin": "líng",
+      "pos": 166
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 167
+    },
+    {
+      "char": "客",
+      "pinyin": "kè",
+      "pos": 169
+    },
+    {
+      "char": "此",
+      "pinyin": "cǐ",
+      "pos": 170
+    },
+    {
+      "char": "及",
+      "pinyin": "jí",
+      "pos": 174
+    },
+    {
+      "char": "下",
+      "pinyin": "xià",
+      "pos": 175
+    },
+    {
+      "char": "船",
+      "pinyin": "chuán",
+      "pos": 176
+    },
+    {
+      "char": "舟",
+      "pinyin": "zhōu",
+      "pos": 178
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 179
+    },
+    {
+      "char": "喃",
+      "pinyin": "nán",
+      "pos": 180
+    },
+    {
+      "char": "喃",
+      "pinyin": "nán",
+      "pos": 181
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 182
+    },
+    {
+      "char": "莫",
+      "pinyin": "mò",
+      "pos": 185
+    },
+    {
+      "char": "说",
+      "pinyin": "shuō",
+      "pos": 186
+    },
+    {
+      "char": "相",
+      "pinyin": "xiàng",
+      "pos": 187
+    },
+    {
+      "char": "公",
+      "pinyin": "gong",
+      "pos": 188
+    },
+    {
+      "char": "痴",
+      "pinyin": "chī",
       "pos": 189
     },
     {
-      "char": "邃",
-      "pinyin": "suì",
+      "char": "更",
+      "pinyin": "gèng",
+      "pos": 191
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
       "pos": 192
+    },
+    {
+      "char": "痴",
+      "pinyin": "chī",
+      "pos": 193
+    },
+    {
+      "char": "似",
+      "pinyin": "sì",
+      "pos": 194
+    },
+    {
+      "char": "相",
+      "pinyin": "xiàng",
+      "pos": 195
+    },
+    {
+      "char": "公",
+      "pinyin": "gong",
+      "pos": 196
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 197
     }
   ],
-  "rhythmMarked": "从小丘/西行百二十步，隔/篁竹，闻/水声，如鸣/佩环，心/乐之。伐竹/取道，下见/小潭，水/尤清冽。全石/以为底，近岸，卷石底/以出，为坻，为屿，为嵁，为岩。青树/翠蔓，蒙络/摇缀，参差/披拂。\n\n潭中鱼/可百许头，皆若/空游/无所依。日光/下澈，影布/石上，佁然/不动；俶尔/远逝，往来/翕忽，似与/游者/相乐。\n\n潭/西南而望，斗折/蛇行，明灭/可见。其岸势/犬牙差互，不可知/其源。\n\n坐/潭上，四面/竹树环合，寂寥/无人，凄神/寒骨，悄怆/幽邃。以其境/过清，不可/久居，乃/记之而去。\n\n同游者：吴武陵，龚古，余弟/宗玄。隶而从者，崔氏/二小生：曰/恕己，曰/奉壹。",
+  "rhythmBreaks": [
+    4,
+    9,
+    15,
+    20,
+    23,
+    28,
+    33,
+    39,
+    46,
+    49,
+    56,
+    62,
+    64,
+    69,
+    74,
+    78,
+    98,
+    113,
+    121,
+    124,
+    137,
+    139,
+    147,
+    151,
+    153,
+    156,
+    165,
+    175,
+    180,
+    187,
+    193
+  ],
   "sections": [
     {
-      "title": "第一层：发现小潭",
-      "original": "从小丘西行百二十步，隔篁竹，闻水声，如鸣佩环，心乐之。",
+      "title": "第一层：雪夜独往",
+      "original": "崇祯五年十二月，余住西湖。大雪三日，湖中人鸟声俱绝。",
       "annotations": [
         {
-          "word": "西行",
-          "meaning": "向西走",
+          "word": "崇祯五年",
+          "meaning": "公元1632年，明思宗年号",
           "pinyin": null
         },
         {
-          "word": "篁竹",
-          "meaning": "竹林",
+          "word": "余",
+          "meaning": "我",
           "pinyin": null
         },
         {
-          "word": "如鸣佩环",
-          "meaning": "好像佩玉相碰发出的声音",
+          "word": "俱",
+          "meaning": "都",
           "pinyin": null
         },
         {
-          "word": "乐之",
-          "meaning": "以它为乐，感到高兴",
+          "word": "绝",
+          "meaning": "消失，停止",
           "pinyin": null
         }
       ],
-      "translation": "从小丘向西走一百二十步，隔着竹林，听见水声，好像佩玉相碰发出的清脆声音，我心里很喜欢。",
-      "modernLink": "\"乐\"在这里不是名词\"音乐\"，而是形容词意动用法，表示\"以……为乐\""
+      "translation": "崇祯五年十二月，我住在西湖。大雪连下三天，湖中行人和鸟雀的声音都消失了。",
+      "modernLink": "\"俱\"是\"都\"的意思，成语\"万事俱备\"中也有这个字"
     },
     {
-      "title": "第二层：描写潭石与树木",
-      "original": "伐竹取道，下见小潭，水尤清冽。全石以为底，近岸，卷石底以出，为坻，为屿，为嵁，为岩。",
+      "title": "第二层：带舟看雪",
+      "original": "是日更定矣，余拏一小舟，拥毳衣炉火，独往湖心亭看雪。",
       "annotations": [
         {
-          "word": "伐",
-          "meaning": "砍伐",
+          "word": "是日",
+          "meaning": "这一天",
           "pinyin": null
         },
         {
-          "word": "尤",
-          "meaning": "格外",
+          "word": "更定",
+          "meaning": "晚上八点左右，指夜深人静的时候",
           "pinyin": null
         },
         {
-          "word": "清冽",
-          "meaning": "清澈而凉",
+          "word": "拏",
+          "meaning": "撑船，划船",
           "pinyin": null
         },
         {
-          "word": "全石以为底",
-          "meaning": "以整块石头作为潭底",
+          "word": "拥",
+          "meaning": "裹着，围着",
           "pinyin": null
         },
         {
-          "word": "坻、屿、嵁、岩",
-          "meaning": "水中高地、小岛、不平的岩石、岩壁",
+          "word": "毳衣",
+          "meaning": "细毛皮衣",
+          "pinyin": null
+        },
+        {
+          "word": "独往",
+          "meaning": "独自前往",
           "pinyin": null
         }
       ],
-      "translation": "砍开竹子，开出道路，往下看见一个小潭，潭水格外清澈。小潭以整块石头为底，靠近岸边的地方，石底翻卷露出水面，形成各种石头形状。",
+      "translation": "这一天晚上更鼓已停，我划着一只小船，裹着毛皮衣、带着火炉，独自前往湖心亭看雪。",
       "modernLink": ""
     },
     {
-      "title": "第三层：鱼与水",
-      "original": "潭中鱼可百许头，皆若空游无所依。",
+      "title": "第三层：天地一白",
+      "original": "雾凇沆砀，天与云与山与水，上下一白。",
       "annotations": [
         {
-          "word": "可",
-          "meaning": "大约",
+          "word": "雾凇",
+          "meaning": "水汽凝成的冰花",
           "pinyin": null
         },
         {
-          "word": "许",
-          "meaning": "表示约数，左右",
+          "word": "沆砀",
+          "meaning": "白气弥漫的样子",
           "pinyin": null
         },
         {
-          "word": "空游",
-          "meaning": "像在空中游动",
-          "pinyin": null
-        },
-        {
-          "word": "无所依",
-          "meaning": "没有依靠的东西",
+          "word": "一白",
+          "meaning": "全都白了",
           "pinyin": null
         }
       ],
-      "translation": "潭中的鱼大约有一百来条，都好像在空中游动，没有什么依靠。",
-      "modernLink": "这句话不直接说水清，却通过\"鱼像在空中游\"表现水清，是很高明的侧面描写"
+      "translation": "湖上冰花弥漫，天、云、山、水，上上下下全是一片白色。",
+      "modernLink": "这句反复使用\"与\"，像把天地万物连在一起，写出了雪后世界浑然一体的感觉"
     },
     {
-      "title": "第四层：鱼儿动态",
-      "original": "日光下澈，影布石上，佁然不动；俶尔远逝，往来翕忽，似与游者相乐。",
+      "title": "第四层：小小影子",
+      "original": "湖上影子，惟长堤一痕、湖心亭一点、与余舟一芥、舟中人两三粒而已。",
       "annotations": [
         {
-          "word": "下澈",
-          "meaning": "向下直照到水底",
+          "word": "惟",
+          "meaning": "只",
           "pinyin": null
         },
         {
-          "word": "影布石上",
-          "meaning": "鱼的影子映在石头上",
+          "word": "长堤一痕",
+          "meaning": "长堤像一道淡淡的痕迹",
           "pinyin": null
         },
         {
-          "word": "佁然",
-          "meaning": "静止不动的样子",
+          "word": "一芥",
+          "meaning": "一棵小草，这里形容船极小",
           "pinyin": null
         },
         {
-          "word": "俶尔",
-          "meaning": "忽然",
+          "word": "两三粒",
+          "meaning": "像两三粒米一样小",
           "pinyin": null
         },
         {
-          "word": "翕忽",
-          "meaning": "轻快敏捷的样子",
+          "word": "而已",
+          "meaning": "罢了",
           "pinyin": null
         }
       ],
-      "translation": "阳光向下直照到水底，鱼的影子映在石头上，一动不动；忽然又向远处游去，来来往往轻快敏捷，好像在和游人一起快乐。",
+      "translation": "湖上的影子，只有长堤像一道淡痕，湖心亭像一点，我的小船像一棵小草，船中的人像两三粒米罢了。",
       "modernLink": ""
     },
     {
-      "title": "第五层：溪流源头",
-      "original": "潭西南而望，斗折蛇行，明灭可见。其岸势犬牙差互，不可知其源。",
+      "title": "第五层：亭中遇知音",
+      "original": "到亭上，有两人铺毡对坐，一童子烧酒炉正沸。见余，大喜曰：\"湖中焉得更有此人！\"",
       "annotations": [
         {
-          "word": "斗折",
-          "meaning": "像北斗星那样曲折",
+          "word": "毡",
+          "meaning": "毛毡",
           "pinyin": null
         },
         {
-          "word": "蛇行",
-          "meaning": "像蛇那样蜿蜒前行",
+          "word": "对坐",
+          "meaning": "面对面坐着",
           "pinyin": null
         },
         {
-          "word": "明灭可见",
-          "meaning": "一段看得见，一段看不见",
+          "word": "沸",
+          "meaning": "沸腾",
           "pinyin": null
         },
         {
-          "word": "犬牙差互",
-          "meaning": "像狗牙那样交错不齐",
+          "word": "焉得",
+          "meaning": "哪里能",
+          "pinyin": null
+        },
+        {
+          "word": "更",
+          "meaning": "还",
           "pinyin": null
         }
       ],
-      "translation": "向小潭西南望去，溪水像北斗星那样曲折，像蛇那样蜿蜒，时隐时现。溪岸像狗牙一样交错不齐，不能知道它的源头在哪里。",
+      "translation": "到了亭上，看见有两个人铺着毛毡相对而坐，一个童子正在烧酒，酒炉里的酒正沸腾。他们看见我，非常高兴地说：\"湖中怎么还会有这样的人！\"",
       "modernLink": ""
     },
     {
-      "title": "第六层：幽深凄清",
-      "original": "坐潭上，四面竹树环合，寂寥无人，凄神寒骨，悄怆幽邃。",
+      "title": "第六层：以痴作结",
+      "original": "余强饮三大白而别。问其姓氏，是金陵人，客此。及下船，舟子喃喃曰：\"莫说相公痴，更有痴似相公者。\"",
       "annotations": [
         {
-          "word": "环合",
-          "meaning": "环绕合抱",
+          "word": "强饮",
+          "meaning": "勉强喝",
           "pinyin": null
         },
         {
-          "word": "寂寥",
-          "meaning": "寂静空旷",
+          "word": "大白",
+          "meaning": "大酒杯",
           "pinyin": null
         },
         {
-          "word": "凄神寒骨",
-          "meaning": "使人心神凄凉、寒气透骨",
+          "word": "金陵",
+          "meaning": "今南京",
           "pinyin": null
         },
         {
-          "word": "悄怆",
-          "meaning": "忧伤的样子",
+          "word": "客此",
+          "meaning": "客居在这里",
           "pinyin": null
         },
         {
-          "word": "幽邃",
-          "meaning": "幽深",
+          "word": "及",
+          "meaning": "等到",
+          "pinyin": null
+        },
+        {
+          "word": "舟子",
+          "meaning": "船夫",
+          "pinyin": null
+        },
+        {
+          "word": "喃喃",
+          "meaning": "小声嘟囔",
+          "pinyin": null
+        },
+        {
+          "word": "相公",
+          "meaning": "旧时对读书人的尊称",
+          "pinyin": null
+        },
+        {
+          "word": "痴",
+          "meaning": "痴迷，这里含有可爱、执着的意味",
           "pinyin": null
         }
       ],
-      "translation": "坐在潭边，四周竹子和树木环绕合抱，寂静无人，使人心神凄凉、寒气透骨，感到忧伤而幽深。",
-      "modernLink": ""
-    },
-    {
-      "title": "第七层：记游离开",
-      "original": "以其境过清，不可久居，乃记之而去。",
-      "annotations": [
-        {
-          "word": "以",
-          "meaning": "因为",
-          "pinyin": null
-        },
-        {
-          "word": "过清",
-          "meaning": "过于凄清",
-          "pinyin": null
-        },
-        {
-          "word": "居",
-          "meaning": "停留",
-          "pinyin": null
-        },
-        {
-          "word": "乃",
-          "meaning": "于是",
-          "pinyin": null
-        },
-        {
-          "word": "去",
-          "meaning": "离开",
-          "pinyin": null
-        }
-      ],
-      "translation": "因为这里的环境过于凄清，不能久留，于是记下这次游览就离开了。",
-      "modernLink": "\"清\"既写水清，也写环境清冷，景物和心情联系在了一起"
+      "translation": "我勉强喝了三大杯酒后告别。问他们的姓氏，得知他们是金陵人，客居在这里。等到下船时，船夫小声嘟囔说：\"别说相公您痴，还有像您一样痴的人呢。\"",
+      "modernLink": "这里的\"痴\"不是傻，而是对美景和雅趣的痴迷"
     }
   ],
-  "fullTranslation": "从小丘向西走一百二十步，隔着竹林，听见水声，好像佩玉相碰发出的清脆声音，我心里很喜欢。砍开竹子，开出道路，往下看见一个小潭，潭水格外清澈。小潭以整块石头为底，靠近岸边的地方，石底翻卷露出水面，形成水中高地、小岛、不平的岩石和岩壁。青翠的树木和藤蔓，覆盖、缠绕、摇动、连结，参差不齐，随风飘拂。\n\n潭中的鱼大约有一百来条，都好像在空中游动，没有什么依靠。阳光向下直照到水底，鱼的影子映在石头上，一动不动；忽然又向远处游去，来来往往轻快敏捷，好像在和游人一起快乐。\n\n向小潭西南望去，溪水像北斗星那样曲折，像蛇那样蜿蜒，时隐时现。溪岸像狗牙一样交错不齐，不能知道它的源头在哪里。\n\n坐在潭边，四周竹子和树木环绕合抱，寂静无人，使人心神凄凉、寒气透骨，感到忧伤而幽深。因为这里的环境过于凄清，不能久留，于是记下这次游览就离开了。\n\n同游的人有吴武陵、龚古和我的弟弟宗玄。跟随我们的人，是崔家的两个年轻人，一个叫恕己，一个叫奉壹。",
+  "fullTranslation": "崇祯五年十二月，我住在西湖。大雪连下三天，湖中行人和鸟雀的声音都消失了。这一天晚上更鼓已停，我划着一只小船，裹着毛皮衣、带着火炉，独自前往湖心亭看雪。\n\n湖上冰花弥漫，天、云、山、水，上上下下全是一片白色。湖上的影子，只有长堤像一道淡痕，湖心亭像一点，我的小船像一棵小草，船中的人像两三粒米罢了。\n\n到了亭上，看见有两个人铺着毛毡相对而坐，一个童子正在烧酒，酒炉里的酒正沸腾。他们看见我，非常高兴地说：\"湖中怎么还会有这样的人！\"我勉强喝了三大杯酒后告别。问他们的姓氏，得知他们是金陵人，客居在这里。\n\n等到下船时，船夫小声嘟囔说：\"别说相公您痴，还有像您一样痴的人呢。\"",
   "extendedReading": {
-    "author": "柳宗元（773-819年），唐代文学家，\"唐宋八大家\"之一。他因参与政治改革失败，被贬到永州，后来又贬到柳州，所以人们也称他\"柳柳州\"。",
-    "background": "柳宗元在永州期间写了八篇著名山水游记，合称\"永州八记\"。《小石潭记》就是其中最有名的一篇。文章写景很美，但美景背后有作者被贬后的孤独。",
+    "author": "张岱（1597-1689年），明末清初文学家，号陶庵。他出身富贵，爱好广泛，喜欢山水、戏曲、美食和器物。明朝灭亡后，他回忆旧时生活，写成《陶庵梦忆》。",
+    "background": "这篇文章写的是明朝崇祯年间的西湖雪夜，但张岱后来经历明亡，再回忆这些景象时，文字里也有一点淡淡的孤独和怀旧。",
     "funFacts": [
-      "\"潭中鱼可百许头，皆若空游无所依\"是写水清的名句。",
-      "文章前半写\"乐\"，后半写\"凄\"，情绪有明显变化。",
-      "柳宗元很会用比喻：\"斗折蛇行\"\"犬牙差互\"让溪流和岸势一下子有了画面。"
+      "\"长堤一痕、湖心亭一点、与余舟一芥、舟中人两三粒\"从大到小，把雪中景物写得像一幅淡墨画。",
+      "湖心亭在杭州西湖中，是赏景的名胜。",
+      "\"痴\"字是全文的眼睛，写出了作者对雪景的迷恋。"
     ],
-    "relatedStory": "被贬永州后，柳宗元不能参与朝政，却在山水和写作中留下了很多名篇。对他来说，山水既是安慰，也是映照内心的一面镜子。"
+    "relatedStory": "古人喜欢在特别的时刻赏景：雨中看山、月下赏花、雪夜泛舟。这不是为了热闹，而是为了在安静中发现平时看不到的美。"
   },
   "thinkingQuestions": [
-    "作者一开始\"心乐之\"，后来又觉得\"不可久居\"，他的心情为什么会变化？",
-    "文中没有直接说\"水很透明\"，却让你感觉潭水很清。作者用了什么方法？",
-    "如果你去一个很安静的地方，会觉得舒服还是有点害怕？为什么？"
+    "船夫说张岱和亭中两人都\"痴\"，你觉得这个\"痴\"是批评还是赞赏？",
+    "如果让你给\"天地一白\"配一幅画，你会画哪些景物？",
+    "你有没有在雨后、雪后或夜晚看到过和平时不一样的风景？请说一说。"
   ],
   "quiz": {
     "choices": [
       {
         "id": 1,
-        "question": "\"水尤清冽\"中的\"尤\"是什么意思？",
+        "question": "\"湖中人鸟声俱绝\"中的\"俱\"是什么意思？",
         "options": [
-          "尤其，格外",
-          "忧愁",
-          "朋友",
-          "原因"
+          "全都",
+          "俱乐部",
+          "害怕",
+          "一起玩"
         ],
         "answerIndex": 0,
-        "explanation": "A（尤其，格外）"
+        "explanation": "A（全都）。\"俱绝\"里的\"俱\"表示全都，写大雪后三天人声鸟声都消失了。"
       },
       {
         "id": 2,
-        "question": "\"潭中鱼可百许头\"中的\"可\"是什么意思？",
+        "question": "\"上下一白\"描写的是什么景象？",
         "options": [
-          "可以",
-          "大约",
-          "可爱",
-          "应该"
+          "天黑了",
+          "天地山水全被雪色笼罩",
+          "湖水很清",
+          "酒杯很白"
         ],
         "answerIndex": 1,
-        "explanation": "B（大约）"
+        "explanation": "B（天地山水全被雪色笼罩）。\"上下一白\"写天、云、山、水都成一片白色，突出雪景空阔。"
       },
       {
         "id": 3,
-        "question": "作者最后离开小石潭的原因是？",
+        "question": "舟子说\"更有痴似相公者\"，指的是谁？",
         "options": [
-          "天黑了",
-          "没有鱼",
-          "环境过于凄清",
-          "朋友催他"
+          "童子",
+          "金陵来的两个人",
+          "张岱的朋友",
+          "伯乐"
         ],
-        "answerIndex": 2,
-        "explanation": "C（环境过于凄清）"
+        "answerIndex": 1,
+        "explanation": "B（金陵来的两个人）。舟子说还有像相公一样痴的人，指亭上遇到的两个同样冒雪赏景的人。"
       }
     ],
     "fillBlanks": [
       {
         "id": 100,
-        "question": "心乐之 → ______",
-        "blank": "以……为乐",
-        "hint": "解释“乐”"
+        "stem": "人鸟声俱绝",
+        "targetChar": "绝",
+        "targetIndex": 4,
+        "blank": "消失，停止",
+        "hint": ""
       },
       {
         "id": 101,
-        "question": "乃记之而去 → ______",
-        "blank": "离开",
-        "hint": "解释“去”"
+        "stem": "湖中焉得更有此人",
+        "targetChar": "更",
+        "targetIndex": 4,
+        "blank": "还",
+        "hint": ""
       },
       {
         "id": 102,
-        "question": "不可久居 → ______",
-        "blank": "停留",
-        "hint": "解释“居”"
+        "stem": "是金陵人，客此",
+        "targetChar": "客",
+        "targetIndex": 5,
+        "blank": "客居",
+        "hint": ""
       }
     ],
     "shortAnswer": [
       {
         "id": 5,
-        "question": "请举一处文中写水清的句子，并说说它好在哪里。",
-        "sampleAnswer": "示例：潭中鱼可百许头，皆若空游无所依。作者通过写鱼像在空中游，侧面写出水非常清澈。"
+        "question": "\"长堤一痕、湖心亭一点、与余舟一芥、舟中人两三粒\"好在哪里？",
+        "sampleAnswer": "示例答案：这句话用\"一痕、一点、一芥、两三粒\"把大雪中的景物写得很小，突出天地一片空阔，人和船显得非常渺小，像一幅淡淡的水墨画。"
       }
     ],
     "challenge": [
       {
         "id": 6,
-        "question": "试着翻译：\"斗折蛇行，明灭可见。\"",
-        "sampleAnswer": "像北斗星那样曲折，像蛇那样蜿蜒，时隐时现。"
+        "question": "试着翻译：\"莫说相公痴，更有痴似相公者。\"",
+        "sampleAnswer": "不要说相公您痴，还有像您一样痴迷的人呢。"
       }
     ]
   },
   "keyVocab": [
     {
-      "word": "西",
-      "ancient": "向西",
-      "modern": "方位名词",
-      "example": "西行百二十步",
-      "idiom": "东奔西走"
+      "word": "余",
+      "ancient": "我",
+      "modern": "剩余",
+      "example": "余住西湖",
+      "idiom": "余音绕梁"
     },
     {
-      "word": "尤",
-      "ancient": "格外",
-      "modern": "尤其",
-      "example": "水尤清冽",
-      "idiom": "怨天尤人"
+      "word": "俱",
+      "ancient": "都",
+      "modern": "俱全",
+      "example": "人鸟声俱绝",
+      "idiom": "万事俱备"
     },
     {
-      "word": "可",
-      "ancient": "大约",
-      "modern": "可以",
-      "example": "可百许头",
-      "idiom": "可见一斑"
+      "word": "绝",
+      "ancient": "消失，停止",
+      "modern": "断绝",
+      "example": "人鸟声俱绝",
+      "idiom": "络绎不绝"
     },
     {
-      "word": "许",
-      "ancient": "左右",
-      "modern": "许可",
-      "example": "百许头",
-      "idiom": "以身许国"
+      "word": "惟",
+      "ancient": "只",
+      "modern": "思考",
+      "example": "惟长堤一痕",
+      "idiom": "惟妙惟肖"
     },
     {
-      "word": "居",
-      "ancient": "停留",
-      "modern": "居住",
-      "example": "不可久居",
-      "idiom": "居安思危"
+      "word": "更",
+      "ancient": "还",
+      "modern": "更加",
+      "example": "更有此人",
+      "idiom": "少不更事"
     },
     {
-      "word": "去",
-      "ancient": "离开",
-      "modern": "前往",
-      "example": "乃记之而去",
-      "idiom": "扬长而去"
+      "word": "客",
+      "ancient": "客居",
+      "modern": "客人",
+      "example": "客此",
+      "idiom": "客居他乡"
     }
   ]
 }

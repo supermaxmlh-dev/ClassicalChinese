@@ -15,6 +15,13 @@
   font-size: 1.1rem;
 }
 
+.dot-emphasis {
+  text-emphasis: dot;
+  text-emphasis-position: under;
+  -webkit-text-emphasis: dot;
+  -webkit-text-emphasis-position: under;
+}
+
 .option-list {
   display: grid;
   gap: var(--space-2);

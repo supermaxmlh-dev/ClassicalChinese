@@ -1,0 +1,851 @@
+{
+  "id": "017",
+  "sourceMarkdown": "content/samples/week04-017-春夜宴桃李园序.md",
+  "sourceRaw": "content/raw/017-春夜宴桃李园序.txt",
+  "title": "春夜宴桃李园序",
+  "source": "李太白集",
+  "author": "李白",
+  "dynasty": "唐",
+  "difficulty": 2,
+  "week": 4,
+  "wordCount": 120,
+  "tags": [
+    "唐代",
+    "序",
+    "宴饮",
+    "抒情"
+  ],
+  "relatedIdioms": [
+    "浮生若梦",
+    "秉烛夜游"
+  ],
+  "mainImage": "017-main.jpg",
+  "storyIntro": "春天的夜晚，李白和堂弟们在桃李盛开的园子里宴饮赋诗。他先感叹天地像旅馆、光阴像过客，人生短暂，应当珍惜美好时光；接着写春景、亲情、诗酒和雅兴。全文很短，却有李白特有的洒脱与浪漫。",
+  "fullText": "夫天地者，万物之逆旅也；光阴者，百代之过客也。而浮生若梦，为欢几何？古人秉烛夜游，良有以也。况阳春召我以烟景，大块假我以文章。会桃花之芳园，序天伦之乐事。群季俊秀，皆为惠连；吾人咏歌，独惭康乐。幽赏未已，高谈转清。开琼筵以坐花，飞羽觞而醉月。不有佳咏，何伸雅怀？如诗不成，罚依金谷酒数。",
+  "fullTextPlain": "夫天地者，万物之逆旅也；光阴者，百代之过客也。而浮生若梦，为欢几何？古人秉烛夜游，良有以也。况阳春召我以烟景，大块假我以文章。会桃花之芳园，序天伦之乐事。群季俊秀，皆为惠连；吾人咏歌，独惭康乐。幽赏未已，高谈转清。开琼筵以坐花，飞羽觞而醉月。不有佳咏，何伸雅怀？如诗不成，罚依金谷酒数。",
+  "rubyAnnotations": [
+    {
+      "char": "夫",
+      "pinyin": "fū",
+      "pos": 0
+    },
+    {
+      "char": "天",
+      "pinyin": "tiān",
+      "pos": 1
+    },
+    {
+      "char": "地",
+      "pinyin": "dì",
+      "pos": 2
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 3
+    },
+    {
+      "char": "万",
+      "pinyin": "wàn",
+      "pos": 5
+    },
+    {
+      "char": "物",
+      "pinyin": "wù",
+      "pos": 6
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 7
+    },
+    {
+      "char": "逆",
+      "pinyin": "nì",
+      "pos": 8
+    },
+    {
+      "char": "旅",
+      "pinyin": "lǚ",
+      "pos": 9
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 10
+    },
+    {
+      "char": "光",
+      "pinyin": "guāng",
+      "pos": 12
+    },
+    {
+      "char": "阴",
+      "pinyin": "yīn",
+      "pos": 13
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 14
+    },
+    {
+      "char": "百",
+      "pinyin": "bǎi",
+      "pos": 16
+    },
+    {
+      "char": "代",
+      "pinyin": "dài",
+      "pos": 17
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 18
+    },
+    {
+      "char": "过",
+      "pinyin": "guò",
+      "pos": 19
+    },
+    {
+      "char": "客",
+      "pinyin": "kè",
+      "pos": 20
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 21
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 23
+    },
+    {
+      "char": "浮",
+      "pinyin": "fú",
+      "pos": 24
+    },
+    {
+      "char": "生",
+      "pinyin": "shēng",
+      "pos": 25
+    },
+    {
+      "char": "若",
+      "pinyin": "ruò",
+      "pos": 26
+    },
+    {
+      "char": "梦",
+      "pinyin": "mèng",
+      "pos": 27
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 29
+    },
+    {
+      "char": "欢",
+      "pinyin": "huān",
+      "pos": 30
+    },
+    {
+      "char": "几",
+      "pinyin": "jǐ",
+      "pos": 31
+    },
+    {
+      "char": "何",
+      "pinyin": "hé",
+      "pos": 32
+    },
+    {
+      "char": "古",
+      "pinyin": "gǔ",
+      "pos": 34
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 35
+    },
+    {
+      "char": "秉",
+      "pinyin": "bǐng",
+      "pos": 36
+    },
+    {
+      "char": "烛",
+      "pinyin": "zhú",
+      "pos": 37
+    },
+    {
+      "char": "夜",
+      "pinyin": "yè",
+      "pos": 38
+    },
+    {
+      "char": "游",
+      "pinyin": "yóu",
+      "pos": 39
+    },
+    {
+      "char": "良",
+      "pinyin": "liáng",
+      "pos": 41
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 42
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 43
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 44
+    },
+    {
+      "char": "况",
+      "pinyin": "kuàng",
+      "pos": 46
+    },
+    {
+      "char": "阳",
+      "pinyin": "yáng",
+      "pos": 47
+    },
+    {
+      "char": "春",
+      "pinyin": "chūn",
+      "pos": 48
+    },
+    {
+      "char": "召",
+      "pinyin": "zhào",
+      "pos": 49
+    },
+    {
+      "char": "我",
+      "pinyin": "wǒ",
+      "pos": 50
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 51
+    },
+    {
+      "char": "烟",
+      "pinyin": "yān",
+      "pos": 52
+    },
+    {
+      "char": "景",
+      "pinyin": "jǐng",
+      "pos": 53
+    },
+    {
+      "char": "大",
+      "pinyin": "dà",
+      "pos": 55
+    },
+    {
+      "char": "块",
+      "pinyin": "kuài",
+      "pos": 56
+    },
+    {
+      "char": "假",
+      "pinyin": "jiǎ",
+      "pos": 57
+    },
+    {
+      "char": "我",
+      "pinyin": "wǒ",
+      "pos": 58
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 59
+    },
+    {
+      "char": "文",
+      "pinyin": "wén",
+      "pos": 60
+    },
+    {
+      "char": "章",
+      "pinyin": "zhāng",
+      "pos": 61
+    },
+    {
+      "char": "会",
+      "pinyin": "huì",
+      "pos": 63
+    },
+    {
+      "char": "桃",
+      "pinyin": "táo",
+      "pos": 64
+    },
+    {
+      "char": "花",
+      "pinyin": "huā",
+      "pos": 65
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 66
+    },
+    {
+      "char": "芳",
+      "pinyin": "fāng",
+      "pos": 67
+    },
+    {
+      "char": "园",
+      "pinyin": "yuán",
+      "pos": 68
+    },
+    {
+      "char": "序",
+      "pinyin": "xù",
+      "pos": 70
+    },
+    {
+      "char": "天",
+      "pinyin": "tiān",
+      "pos": 71
+    },
+    {
+      "char": "伦",
+      "pinyin": "lún",
+      "pos": 72
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 73
+    },
+    {
+      "char": "乐",
+      "pinyin": "lè",
+      "pos": 74
+    },
+    {
+      "char": "事",
+      "pinyin": "shì",
+      "pos": 75
+    },
+    {
+      "char": "群",
+      "pinyin": "qún",
+      "pos": 77
+    },
+    {
+      "char": "季",
+      "pinyin": "jì",
+      "pos": 78
+    },
+    {
+      "char": "俊",
+      "pinyin": "jùn",
+      "pos": 79
+    },
+    {
+      "char": "秀",
+      "pinyin": "xiù",
+      "pos": 80
+    },
+    {
+      "char": "皆",
+      "pinyin": "jiē",
+      "pos": 82
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 83
+    },
+    {
+      "char": "惠",
+      "pinyin": "huì",
+      "pos": 84
+    },
+    {
+      "char": "连",
+      "pinyin": "lián",
+      "pos": 85
+    },
+    {
+      "char": "吾",
+      "pinyin": "wú",
+      "pos": 87
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 88
+    },
+    {
+      "char": "咏",
+      "pinyin": "yǒng",
+      "pos": 89
+    },
+    {
+      "char": "歌",
+      "pinyin": "gē",
+      "pos": 90
+    },
+    {
+      "char": "独",
+      "pinyin": "dú",
+      "pos": 92
+    },
+    {
+      "char": "惭",
+      "pinyin": "cán",
+      "pos": 93
+    },
+    {
+      "char": "康",
+      "pinyin": "kāng",
+      "pos": 94
+    },
+    {
+      "char": "乐",
+      "pinyin": "lè",
+      "pos": 95
+    },
+    {
+      "char": "幽",
+      "pinyin": "yōu",
+      "pos": 97
+    },
+    {
+      "char": "赏",
+      "pinyin": "shǎng",
+      "pos": 98
+    },
+    {
+      "char": "未",
+      "pinyin": "wèi",
+      "pos": 99
+    },
+    {
+      "char": "已",
+      "pinyin": "yǐ",
+      "pos": 100
+    },
+    {
+      "char": "高",
+      "pinyin": "gāo",
+      "pos": 102
+    },
+    {
+      "char": "谈",
+      "pinyin": "tán",
+      "pos": 103
+    },
+    {
+      "char": "转",
+      "pinyin": "zhuǎn",
+      "pos": 104
+    },
+    {
+      "char": "清",
+      "pinyin": "qīng",
+      "pos": 105
+    },
+    {
+      "char": "开",
+      "pinyin": "kāi",
+      "pos": 107
+    },
+    {
+      "char": "琼",
+      "pinyin": "qióng",
+      "pos": 108
+    },
+    {
+      "char": "筵",
+      "pinyin": "yán",
+      "pos": 109
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 110
+    },
+    {
+      "char": "坐",
+      "pinyin": "zuò",
+      "pos": 111
+    },
+    {
+      "char": "花",
+      "pinyin": "huā",
+      "pos": 112
+    },
+    {
+      "char": "飞",
+      "pinyin": "fēi",
+      "pos": 114
+    },
+    {
+      "char": "羽",
+      "pinyin": "yǔ",
+      "pos": 115
+    },
+    {
+      "char": "觞",
+      "pinyin": "shāng",
+      "pos": 116
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 117
+    },
+    {
+      "char": "醉",
+      "pinyin": "zuì",
+      "pos": 118
+    },
+    {
+      "char": "月",
+      "pinyin": "yuè",
+      "pos": 119
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 121
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 122
+    },
+    {
+      "char": "佳",
+      "pinyin": "jiā",
+      "pos": 123
+    },
+    {
+      "char": "咏",
+      "pinyin": "yǒng",
+      "pos": 124
+    },
+    {
+      "char": "何",
+      "pinyin": "hé",
+      "pos": 126
+    },
+    {
+      "char": "伸",
+      "pinyin": "shēn",
+      "pos": 127
+    },
+    {
+      "char": "雅",
+      "pinyin": "yǎ",
+      "pos": 128
+    },
+    {
+      "char": "怀",
+      "pinyin": "huái",
+      "pos": 129
+    },
+    {
+      "char": "如",
+      "pinyin": "rú",
+      "pos": 131
+    },
+    {
+      "char": "诗",
+      "pinyin": "shī",
+      "pos": 132
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 133
+    },
+    {
+      "char": "成",
+      "pinyin": "chéng",
+      "pos": 134
+    },
+    {
+      "char": "罚",
+      "pinyin": "fá",
+      "pos": 136
+    },
+    {
+      "char": "依",
+      "pinyin": "yī",
+      "pos": 137
+    },
+    {
+      "char": "金",
+      "pinyin": "jīn",
+      "pos": 138
+    },
+    {
+      "char": "谷",
+      "pinyin": "gǔ",
+      "pos": 139
+    },
+    {
+      "char": "酒",
+      "pinyin": "jiǔ",
+      "pos": 140
+    },
+    {
+      "char": "数",
+      "pinyin": "shù",
+      "pos": 141
+    }
+  ],
+  "rhythmBreaks": [
+    8,
+    19,
+    26,
+    31,
+    36,
+    49,
+    57,
+    79,
+    84,
+    89,
+    94,
+    99,
+    104,
+    110,
+    117,
+    123,
+    128,
+    133,
+    138
+  ],
+  "sections": [
+    {
+      "title": "第一层：人生短暂",
+      "original": "夫天地者，万物之逆旅也；光阴者，百代之过客也。",
+      "annotations": [
+        {
+          "word": "逆旅",
+          "meaning": "旅店，客舍",
+          "pinyin": null
+        },
+        {
+          "word": "过客",
+          "meaning": "过路的客人",
+          "pinyin": null
+        },
+        {
+          "word": "浮生",
+          "meaning": "短暂不定的人生",
+          "pinyin": null
+        }
+      ],
+      "translation": "天地是万物暂住的旅店，光阴是百代匆匆来去的过客。",
+      "modernLink": "\"浮生若梦\"至今常用来感叹人生短暂"
+    },
+    {
+      "title": "第二层：春夜雅集",
+      "original": "况阳春召我以烟景，大块假我以文章。",
+      "annotations": [
+        {
+          "word": "阳春",
+          "meaning": "温暖的春天",
+          "pinyin": null
+        },
+        {
+          "word": "烟景",
+          "meaning": "春天朦胧美好的景色",
+          "pinyin": null
+        },
+        {
+          "word": "大块",
+          "meaning": "大自然",
+          "pinyin": null
+        },
+        {
+          "word": "假",
+          "meaning": "借给，给予",
+          "pinyin": null
+        }
+      ],
+      "translation": "更何况温暖春天用美景召唤我们，大自然把锦绣文章赐给我们。",
+      "modernLink": ""
+    },
+    {
+      "title": "第三层：诗酒情怀",
+      "original": "开琼筵以坐花，飞羽觞而醉月。",
+      "annotations": [
+        {
+          "word": "琼筵",
+          "meaning": "华美的宴席",
+          "pinyin": null
+        },
+        {
+          "word": "羽觞",
+          "meaning": "古代酒杯",
+          "pinyin": null
+        },
+        {
+          "word": "醉月",
+          "meaning": "对月饮酒而醉",
+          "pinyin": null
+        }
+      ],
+      "translation": "摆开华美宴席坐在花间，传递酒杯在月下饮醉。",
+      "modernLink": ""
+    }
+  ],
+  "fullTranslation": "天地是万物的旅店，光阴是百代的过客。短暂的人生像梦一样，欢乐又能有多少呢？古人夜里拿着蜡烛游乐，确实是有原因的。何况温暖的春天用美景召唤我们，大自然把锦绣文章赐给我们。我们聚会在桃花芳园，叙说兄弟亲情的乐事。各位弟弟俊秀，都像谢惠连；我吟诗歌咏，却独自惭愧不如谢灵运。幽美的赏玩还没结束，高雅的谈论更加清新。摆开美席坐在花间，传递酒杯对月而醉。没有好诗，怎么抒发高雅情怀？如果写不成诗，就按金谷园的酒数罚酒。",
+  "extendedReading": {
+    "author": "李白是唐代著名诗人，风格豪放飘逸，被后人称为\"诗仙\"。",
+    "background": "这类\"序\"常写在聚会、诗集或宴游之前，用来说明缘起并抒发情怀。",
+    "funFacts": [
+      "\"惠连\"和\"康乐\"都指谢氏文学名家，李白用他们来夸赞堂弟并自谦。",
+      "\"金谷酒数\"来自石崇金谷园宴集罚酒的故事。"
+    ],
+    "relatedStory": "古代文人雅集常常饮酒、赏景、赋诗，诗写不成便罚酒，形成有趣的文化习俗。"
+  },
+  "thinkingQuestions": [
+    "李白为什么说\"浮生若梦\"？",
+    "你觉得这篇文章中哪一句最有画面感？"
+  ],
+  "quiz": {
+    "choices": [
+      {
+        "id": 1,
+        "question": "\"万物之逆旅也\"中的\"逆旅\"是什么意思？",
+        "options": [
+          "反方向旅行",
+          "旅店",
+          "战争",
+          "逆境"
+        ],
+        "answerIndex": 1,
+        "explanation": "B（旅店）。李白把天地比作万物暂住的旅店，突出人生和万物都只是暂时停留。"
+      },
+      {
+        "id": 2,
+        "question": "文章主要表达了怎样的情感？",
+        "options": [
+          "悲伤怨恨",
+          "珍惜春夜美景和亲友相聚",
+          "批评兄弟",
+          "讨论政事"
+        ],
+        "answerIndex": 1,
+        "explanation": "B（珍惜春夜美景和亲友相聚）。文章虽感叹人生短暂，但重点是及时享受春景、亲情和诗酒之乐。"
+      },
+      {
+        "id": 3,
+        "question": "\"罚依金谷酒数\"说明这次聚会有什么活动？",
+        "options": [
+          "作诗饮酒",
+          "打仗",
+          "种桃树",
+          "修房子"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（作诗饮酒）。末句说诗不成就按金谷酒数罚酒，说明宴会上有赋诗饮酒的雅兴。"
+      }
+    ],
+    "fillBlanks": [
+      {
+        "id": 100,
+        "stem": "万物之逆旅也",
+        "targetChar": "逆旅",
+        "targetIndex": 3,
+        "blank": "旅店",
+        "hint": ""
+      },
+      {
+        "id": 101,
+        "stem": "大块假我以文章",
+        "targetChar": "假",
+        "targetIndex": 2,
+        "blank": "借给，给予",
+        "hint": ""
+      },
+      {
+        "id": 102,
+        "stem": "幽赏未已",
+        "targetChar": "已",
+        "targetIndex": 3,
+        "blank": "停止",
+        "hint": ""
+      }
+    ],
+    "shortAnswer": [
+      {
+        "id": 5,
+        "question": "\"开琼筵以坐花，飞羽觞而醉月\"写出了怎样的画面？",
+        "sampleAnswer": "示例答案：众人坐在花间的华美宴席上，传杯饮酒，对着月色沉醉，画面优雅又浪漫。"
+      }
+    ],
+    "challenge": [
+      {
+        "id": 6,
+        "question": "试着用自己的话解释\"浮生若梦\"。",
+        "sampleAnswer": "示例答案：人生短暂而变化不定，好像一场梦，所以要珍惜眼前美好时光。"
+      }
+    ]
+  },
+  "keyVocab": [
+    {
+      "word": "逆旅",
+      "ancient": "旅店",
+      "modern": "逆向旅行",
+      "example": "万物之逆旅也",
+      "idiom": "人生如逆旅"
+    },
+    {
+      "word": "过客",
+      "ancient": "过路客人",
+      "modern": "临时经过的人",
+      "example": "百代之过客也",
+      "idiom": "匆匆过客"
+    },
+    {
+      "word": "假",
+      "ancient": "借给，给予",
+      "modern": "不真",
+      "example": "大块假我以文章",
+      "idiom": "假公济私"
+    },
+    {
+      "word": "已",
+      "ancient": "停止",
+      "modern": "已经",
+      "example": "幽赏未已",
+      "idiom": "赞叹不已"
+    },
+    {
+      "word": "雅怀",
+      "ancient": "高雅情怀",
+      "modern": "雅致心情",
+      "example": "何伸雅怀",
+      "idiom": "风雅"
+    }
+  ]
+}

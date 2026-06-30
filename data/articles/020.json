@@ -1,0 +1,1286 @@
+{
+  "id": "020",
+  "sourceMarkdown": "content/samples/week05-020-公子重耳对秦客.md",
+  "sourceRaw": "content/raw/020-公子重耳对秦客.txt",
+  "title": "公子重耳对秦客",
+  "source": "礼记",
+  "author": "戴圣编",
+  "dynasty": "西汉",
+  "difficulty": 2,
+  "week": 5,
+  "wordCount": 150,
+  "tags": [
+    "礼记",
+    "晋文公",
+    "外交",
+    "守礼"
+  ],
+  "relatedIdioms": [
+    "远利",
+    "忧服"
+  ],
+  "mainImage": "020-main.jpg",
+  "storyIntro": "晋献公去世后，秦穆公派人去吊唁流亡中的公子重耳，还暗示他可以抓住机会回国夺位。重耳先请教舅犯，再用守丧之礼委婉拒绝，既表达哀痛，也避免被人说成趁父丧谋利。秦穆公因此称赞他仁德。",
+  "fullText": "晋献公之丧，秦穆公使人吊公子重耳，且曰：“寡人闻之，亡国恒于斯，得国恒于斯。虽吾子俨然在忧服之中，丧亦不可久也，时亦不可失也，孺子其图之！”\n\n以告舅犯。舅犯曰：“孺子其辞焉。丧人无宝，仁亲以为宝。父死之谓何？又因以为利，而天下其孰能说之？孺子其辞焉！”\n\n公子重耳对客曰：“君惠吊亡臣重耳。身丧父死，不得与于哭泣之哀，以为君忧。父死之谓何？或敢有他志，以辱君义。”稽颡而不拜，哭而起，起而不私。\n\n子显以致命于穆公。穆公曰：“仁夫公子重耳！夫稽颡而不拜，则未为后也，故不成拜。哭而起，则爱父也。起而不私，则远利也。”",
+  "fullTextPlain": "晋献公之丧，秦穆公使人吊公子重耳，且曰：“寡人闻之，亡国恒于斯，得国恒于斯。虽吾子俨然在忧服之中，丧亦不可久也，时亦不可失也，孺子其图之！”\n\n以告舅犯。舅犯曰：“孺子其辞焉。丧人无宝，仁亲以为宝。父死之谓何？又因以为利，而天下其孰能说之？孺子其辞焉！”\n\n公子重耳对客曰：“君惠吊亡臣重耳。身丧父死，不得与于哭泣之哀，以为君忧。父死之谓何？或敢有他志，以辱君义。”稽颡而不拜，哭而起，起而不私。\n\n子显以致命于穆公。穆公曰：“仁夫公子重耳！夫稽颡而不拜，则未为后也，故不成拜。哭而起，则爱父也。起而不私，则远利也。”",
+  "rubyAnnotations": [
+    {
+      "char": "晋",
+      "pinyin": "jìn",
+      "pos": 0
+    },
+    {
+      "char": "献",
+      "pinyin": "xiàn",
+      "pos": 1
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 2
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 3
+    },
+    {
+      "char": "丧",
+      "pinyin": "sàng",
+      "pos": 4
+    },
+    {
+      "char": "秦",
+      "pinyin": "qín",
+      "pos": 6
+    },
+    {
+      "char": "穆",
+      "pinyin": "mù",
+      "pos": 7
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 8
+    },
+    {
+      "char": "使",
+      "pinyin": "shǐ",
+      "pos": 9
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 10
+    },
+    {
+      "char": "吊",
+      "pinyin": "diào",
+      "pos": 11
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 12
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 13
+    },
+    {
+      "char": "重",
+      "pinyin": "zhòng",
+      "pos": 14
+    },
+    {
+      "char": "耳",
+      "pinyin": "ěr",
+      "pos": 15
+    },
+    {
+      "char": "且",
+      "pinyin": "qiě",
+      "pos": 17
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 18
+    },
+    {
+      "char": "寡",
+      "pinyin": "guǎ",
+      "pos": 21
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 22
+    },
+    {
+      "char": "闻",
+      "pinyin": "wén",
+      "pos": 23
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 24
+    },
+    {
+      "char": "亡",
+      "pinyin": "wáng",
+      "pos": 26
+    },
+    {
+      "char": "国",
+      "pinyin": "guó",
+      "pos": 27
+    },
+    {
+      "char": "恒",
+      "pinyin": "héng",
+      "pos": 28
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 29
+    },
+    {
+      "char": "斯",
+      "pinyin": "sī",
+      "pos": 30
+    },
+    {
+      "char": "得",
+      "pinyin": "dé",
+      "pos": 32
+    },
+    {
+      "char": "国",
+      "pinyin": "guó",
+      "pos": 33
+    },
+    {
+      "char": "恒",
+      "pinyin": "héng",
+      "pos": 34
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 35
+    },
+    {
+      "char": "斯",
+      "pinyin": "sī",
+      "pos": 36
+    },
+    {
+      "char": "虽",
+      "pinyin": "suī",
+      "pos": 38
+    },
+    {
+      "char": "吾",
+      "pinyin": "wú",
+      "pos": 39
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 40
+    },
+    {
+      "char": "俨",
+      "pinyin": "yǎn",
+      "pos": 41
+    },
+    {
+      "char": "然",
+      "pinyin": "rán",
+      "pos": 42
+    },
+    {
+      "char": "在",
+      "pinyin": "zài",
+      "pos": 43
+    },
+    {
+      "char": "忧",
+      "pinyin": "yōu",
+      "pos": 44
+    },
+    {
+      "char": "服",
+      "pinyin": "fú",
+      "pos": 45
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 46
+    },
+    {
+      "char": "中",
+      "pinyin": "zhōng",
+      "pos": 47
+    },
+    {
+      "char": "丧",
+      "pinyin": "sàng",
+      "pos": 49
+    },
+    {
+      "char": "亦",
+      "pinyin": "yì",
+      "pos": 50
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 51
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 52
+    },
+    {
+      "char": "久",
+      "pinyin": "jiǔ",
+      "pos": 53
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 54
+    },
+    {
+      "char": "时",
+      "pinyin": "shí",
+      "pos": 56
+    },
+    {
+      "char": "亦",
+      "pinyin": "yì",
+      "pos": 57
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 58
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 59
+    },
+    {
+      "char": "失",
+      "pinyin": "shī",
+      "pos": 60
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 61
+    },
+    {
+      "char": "孺",
+      "pinyin": "rú",
+      "pos": 63
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 64
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 65
+    },
+    {
+      "char": "图",
+      "pinyin": "tú",
+      "pos": 66
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 67
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 72
+    },
+    {
+      "char": "告",
+      "pinyin": "gào",
+      "pos": 73
+    },
+    {
+      "char": "舅",
+      "pinyin": "jiù",
+      "pos": 74
+    },
+    {
+      "char": "犯",
+      "pinyin": "fàn",
+      "pos": 75
+    },
+    {
+      "char": "舅",
+      "pinyin": "jiù",
+      "pos": 77
+    },
+    {
+      "char": "犯",
+      "pinyin": "fàn",
+      "pos": 78
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 79
+    },
+    {
+      "char": "孺",
+      "pinyin": "rú",
+      "pos": 82
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 83
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 84
+    },
+    {
+      "char": "辞",
+      "pinyin": "cí",
+      "pos": 85
+    },
+    {
+      "char": "焉",
+      "pinyin": "yān",
+      "pos": 86
+    },
+    {
+      "char": "丧",
+      "pinyin": "sàng",
+      "pos": 88
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 89
+    },
+    {
+      "char": "无",
+      "pinyin": "wú",
+      "pos": 90
+    },
+    {
+      "char": "宝",
+      "pinyin": "bǎo",
+      "pos": 91
+    },
+    {
+      "char": "仁",
+      "pinyin": "rén",
+      "pos": 93
+    },
+    {
+      "char": "亲",
+      "pinyin": "qīn",
+      "pos": 94
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 95
+    },
+    {
+      "char": "为",
+      "pinyin": "wéi",
+      "pos": 96
+    },
+    {
+      "char": "宝",
+      "pinyin": "bǎo",
+      "pos": 97
+    },
+    {
+      "char": "父",
+      "pinyin": "fù",
+      "pos": 99
+    },
+    {
+      "char": "死",
+      "pinyin": "sǐ",
+      "pos": 100
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 101
+    },
+    {
+      "char": "谓",
+      "pinyin": "wèi",
+      "pos": 102
+    },
+    {
+      "char": "何",
+      "pinyin": "hé",
+      "pos": 103
+    },
+    {
+      "char": "又",
+      "pinyin": "yòu",
+      "pos": 105
+    },
+    {
+      "char": "因",
+      "pinyin": "yīn",
+      "pos": 106
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 107
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 108
+    },
+    {
+      "char": "利",
+      "pinyin": "lì",
+      "pos": 109
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 111
+    },
+    {
+      "char": "天",
+      "pinyin": "tiān",
+      "pos": 112
+    },
+    {
+      "char": "下",
+      "pinyin": "xià",
+      "pos": 113
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 114
+    },
+    {
+      "char": "孰",
+      "pinyin": "shú",
+      "pos": 115
+    },
+    {
+      "char": "能",
+      "pinyin": "néng",
+      "pos": 116
+    },
+    {
+      "char": "说",
+      "pinyin": "shuō",
+      "pos": 117
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 118
+    },
+    {
+      "char": "孺",
+      "pinyin": "rú",
+      "pos": 120
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 121
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 122
+    },
+    {
+      "char": "辞",
+      "pinyin": "cí",
+      "pos": 123
+    },
+    {
+      "char": "焉",
+      "pinyin": "yān",
+      "pos": 124
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 129
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 130
+    },
+    {
+      "char": "重",
+      "pinyin": "zhòng",
+      "pos": 131
+    },
+    {
+      "char": "耳",
+      "pinyin": "ěr",
+      "pos": 132
+    },
+    {
+      "char": "对",
+      "pinyin": "duì",
+      "pos": 133
+    },
+    {
+      "char": "客",
+      "pinyin": "kè",
+      "pos": 134
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 135
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 138
+    },
+    {
+      "char": "惠",
+      "pinyin": "huì",
+      "pos": 139
+    },
+    {
+      "char": "吊",
+      "pinyin": "diào",
+      "pos": 140
+    },
+    {
+      "char": "亡",
+      "pinyin": "wáng",
+      "pos": 141
+    },
+    {
+      "char": "臣",
+      "pinyin": "chén",
+      "pos": 142
+    },
+    {
+      "char": "重",
+      "pinyin": "zhòng",
+      "pos": 143
+    },
+    {
+      "char": "耳",
+      "pinyin": "ěr",
+      "pos": 144
+    },
+    {
+      "char": "身",
+      "pinyin": "shēn",
+      "pos": 146
+    },
+    {
+      "char": "丧",
+      "pinyin": "sàng",
+      "pos": 147
+    },
+    {
+      "char": "父",
+      "pinyin": "fù",
+      "pos": 148
+    },
+    {
+      "char": "死",
+      "pinyin": "sǐ",
+      "pos": 149
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 151
+    },
+    {
+      "char": "得",
+      "pinyin": "dé",
+      "pos": 152
+    },
+    {
+      "char": "与",
+      "pinyin": "yǔ",
+      "pos": 153
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 154
+    },
+    {
+      "char": "哭",
+      "pinyin": "kū",
+      "pos": 155
+    },
+    {
+      "char": "泣",
+      "pinyin": "qì",
+      "pos": 156
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 157
+    },
+    {
+      "char": "哀",
+      "pinyin": "āi",
+      "pos": 158
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 160
+    },
+    {
+      "char": "为",
+      "pinyin": "wéi",
+      "pos": 161
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 162
+    },
+    {
+      "char": "忧",
+      "pinyin": "yōu",
+      "pos": 163
+    },
+    {
+      "char": "父",
+      "pinyin": "fù",
+      "pos": 165
+    },
+    {
+      "char": "死",
+      "pinyin": "sǐ",
+      "pos": 166
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 167
+    },
+    {
+      "char": "谓",
+      "pinyin": "wèi",
+      "pos": 168
+    },
+    {
+      "char": "何",
+      "pinyin": "hé",
+      "pos": 169
+    },
+    {
+      "char": "或",
+      "pinyin": "huò",
+      "pos": 171
+    },
+    {
+      "char": "敢",
+      "pinyin": "gǎn",
+      "pos": 172
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 173
+    },
+    {
+      "char": "他",
+      "pinyin": "tā",
+      "pos": 174
+    },
+    {
+      "char": "志",
+      "pinyin": "zhì",
+      "pos": 175
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 177
+    },
+    {
+      "char": "辱",
+      "pinyin": "rǔ",
+      "pos": 178
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 179
+    },
+    {
+      "char": "义",
+      "pinyin": "yì",
+      "pos": 180
+    },
+    {
+      "char": "稽",
+      "pinyin": "jī",
+      "pos": 183
+    },
+    {
+      "char": "颡",
+      "pinyin": "sǎng",
+      "pos": 184
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 185
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 186
+    },
+    {
+      "char": "拜",
+      "pinyin": "bài",
+      "pos": 187
+    },
+    {
+      "char": "哭",
+      "pinyin": "kū",
+      "pos": 189
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 190
+    },
+    {
+      "char": "起",
+      "pinyin": "qǐ",
+      "pos": 191
+    },
+    {
+      "char": "起",
+      "pinyin": "qǐ",
+      "pos": 193
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 194
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 195
+    },
+    {
+      "char": "私",
+      "pinyin": "sī",
+      "pos": 196
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 200
+    },
+    {
+      "char": "显",
+      "pinyin": "xiǎn",
+      "pos": 201
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 202
+    },
+    {
+      "char": "致",
+      "pinyin": "zhì",
+      "pos": 203
+    },
+    {
+      "char": "命",
+      "pinyin": "mìng",
+      "pos": 204
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 205
+    },
+    {
+      "char": "穆",
+      "pinyin": "mù",
+      "pos": 206
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 207
+    },
+    {
+      "char": "穆",
+      "pinyin": "mù",
+      "pos": 209
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 210
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 211
+    },
+    {
+      "char": "仁",
+      "pinyin": "rén",
+      "pos": 214
+    },
+    {
+      "char": "夫",
+      "pinyin": "fū",
+      "pos": 215
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 216
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 217
+    },
+    {
+      "char": "重",
+      "pinyin": "zhòng",
+      "pos": 218
+    },
+    {
+      "char": "耳",
+      "pinyin": "ěr",
+      "pos": 219
+    },
+    {
+      "char": "夫",
+      "pinyin": "fū",
+      "pos": 221
+    },
+    {
+      "char": "稽",
+      "pinyin": "jī",
+      "pos": 222
+    },
+    {
+      "char": "颡",
+      "pinyin": "sǎng",
+      "pos": 223
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 224
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 225
+    },
+    {
+      "char": "拜",
+      "pinyin": "bài",
+      "pos": 226
+    },
+    {
+      "char": "则",
+      "pinyin": "zé",
+      "pos": 228
+    },
+    {
+      "char": "未",
+      "pinyin": "wèi",
+      "pos": 229
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 230
+    },
+    {
+      "char": "后",
+      "pinyin": "hòu",
+      "pos": 231
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 232
+    },
+    {
+      "char": "故",
+      "pinyin": "gù",
+      "pos": 234
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 235
+    },
+    {
+      "char": "成",
+      "pinyin": "chéng",
+      "pos": 236
+    },
+    {
+      "char": "拜",
+      "pinyin": "bài",
+      "pos": 237
+    },
+    {
+      "char": "哭",
+      "pinyin": "kū",
+      "pos": 239
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 240
+    },
+    {
+      "char": "起",
+      "pinyin": "qǐ",
+      "pos": 241
+    },
+    {
+      "char": "则",
+      "pinyin": "zé",
+      "pos": 243
+    },
+    {
+      "char": "爱",
+      "pinyin": "ài",
+      "pos": 244
+    },
+    {
+      "char": "父",
+      "pinyin": "fù",
+      "pos": 245
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 246
+    },
+    {
+      "char": "起",
+      "pinyin": "qǐ",
+      "pos": 248
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 249
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 250
+    },
+    {
+      "char": "私",
+      "pinyin": "sī",
+      "pos": 251
+    },
+    {
+      "char": "则",
+      "pinyin": "zé",
+      "pos": 253
+    },
+    {
+      "char": "远",
+      "pinyin": "yuǎn",
+      "pos": 254
+    },
+    {
+      "char": "利",
+      "pinyin": "lì",
+      "pos": 255
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 256
+    }
+  ],
+  "rhythmBreaks": [
+    9,
+    28,
+    34,
+    41,
+    51,
+    58,
+    65,
+    74,
+    84,
+    90,
+    95,
+    107,
+    114,
+    122,
+    133,
+    140,
+    155,
+    162,
+    173,
+    179,
+    185,
+    190,
+    194,
+    202,
+    216,
+    224,
+    235,
+    244,
+    254
+  ],
+  "sections": [
+    {
+      "title": "第一层：秦客试探",
+      "original": "丧亦不可久也，时亦不可失也，孺子其图之！",
+      "annotations": [
+        {
+          "word": "忧服",
+          "meaning": "居丧穿的衣服，也指守丧",
+          "pinyin": null
+        },
+        {
+          "word": "图之",
+          "meaning": "谋划这件事",
+          "pinyin": null
+        },
+        {
+          "word": "时",
+          "meaning": "时机",
+          "pinyin": null
+        }
+      ],
+      "translation": "丧期也不能拖太久，时机也不能失去，你要好好谋划啊！",
+      "modernLink": ""
+    },
+    {
+      "title": "第二层：舅犯劝辞",
+      "original": "丧人无宝，仁亲以为宝。",
+      "annotations": [
+        {
+          "word": "丧人",
+          "meaning": "居丧的人",
+          "pinyin": null
+        },
+        {
+          "word": "仁亲",
+          "meaning": "爱亲人、尽孝",
+          "pinyin": null
+        },
+        {
+          "word": "宝",
+          "meaning": "最重要的东西",
+          "pinyin": null
+        }
+      ],
+      "translation": "居丧的人没有别的宝物，把爱亲尽孝当作宝物。",
+      "modernLink": ""
+    },
+    {
+      "title": "第三层：重耳守礼",
+      "original": "稽颡而不拜，哭而起，起而不私。",
+      "annotations": [
+        {
+          "word": "稽颡",
+          "meaning": "叩头至地，丧礼中的礼节",
+          "pinyin": null
+        },
+        {
+          "word": "不私",
+          "meaning": "不私下谈个人利益",
+          "pinyin": null
+        },
+        {
+          "word": "远利",
+          "meaning": "远离利益诱惑",
+          "pinyin": null
+        }
+      ],
+      "translation": "他叩头却不行拜礼，哭完就起身，起身后不私下谈利益。",
+      "modernLink": ""
+    }
+  ],
+  "fullTranslation": "晋献公去世，秦穆公派人吊唁公子重耳，并暗示他可以趁机谋取君位。重耳把话告诉舅犯，舅犯劝他推辞：居丧的人最重要的是爱亲尽孝，父亲刚死就谋利，天下人谁能认可呢？重耳于是对秦客说，自己父亲去世，不能充分尽哭泣之哀，已经让秦君担忧；父亲刚死，怎敢有别的想法来羞辱秦君的好意。重耳按丧礼叩头不拜，哭完起身，不谈私利。秦穆公听后称赞他仁德。",
+  "extendedReading": {
+    "author": "《礼记》常通过具体事件说明礼的分寸：什么时候该说，什么时候不该说，都有讲究。",
+    "background": "重耳后来成为晋文公，是春秋五霸之一。流亡时期的谨慎和守礼，为他赢得了声望。",
+    "funFacts": [
+      "\"稽颡\"是丧礼中的叩头动作，和普通拜礼不同。",
+      "秦穆公并没有直接说\"夺位\"，而是用话试探重耳。"
+    ],
+    "relatedStory": "重耳流亡十九年，后来回到晋国即位，成为著名的晋文公。"
+  },
+  "thinkingQuestions": [
+    "重耳为什么不趁机谈回国夺位？",
+    "有时候拒绝诱惑是不是也是一种智慧？"
+  ],
+  "quiz": {
+    "choices": [
+      {
+        "id": 1,
+        "question": "秦穆公派人吊唁重耳时，还暗示了什么？",
+        "options": [
+          "请他作诗",
+          "可以抓住时机谋取君位",
+          "让他去打猎",
+          "让他修房子"
+        ],
+        "answerIndex": 1,
+        "explanation": "B（可以抓住时机谋取君位）。秦穆公说\"时亦不可失\"，是在试探重耳是否想趁机得国。"
+      },
+      {
+        "id": 2,
+        "question": "舅犯认为居丧之人最重要的是什么？",
+        "options": [
+          "钱财",
+          "兵力",
+          "仁亲尽孝",
+          "华美衣服"
+        ],
+        "answerIndex": 2,
+        "explanation": "C（仁亲尽孝）。舅犯说\"丧人无宝，仁亲以为宝\"，强调居丧时应以孝亲为重。"
+      },
+      {
+        "id": 3,
+        "question": "秦穆公为什么称赞重耳？",
+        "options": [
+          "他远离私利，守住礼义",
+          "他马上答应夺位",
+          "他送了礼物",
+          "他没有哭"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（他远离私利，守住礼义）。秦穆公解释重耳哭而起是不忘父亲，起而不私是远离利益。"
+      }
+    ],
+    "fillBlanks": [
+      {
+        "id": 100,
+        "stem": "秦穆公使人吊公子重耳",
+        "targetChar": "吊",
+        "targetIndex": 5,
+        "blank": "慰问丧事",
+        "hint": ""
+      },
+      {
+        "id": 101,
+        "stem": "孺子其图之",
+        "targetChar": "图",
+        "targetIndex": 3,
+        "blank": "谋划",
+        "hint": ""
+      },
+      {
+        "id": 102,
+        "stem": "起而不私",
+        "targetChar": "私",
+        "targetIndex": 3,
+        "blank": "私下谋利",
+        "hint": ""
+      }
+    ],
+    "shortAnswer": [
+      {
+        "id": 5,
+        "question": "重耳的回答为什么既守礼又有智慧？",
+        "sampleAnswer": "示例答案：他以父丧为理由拒绝谈夺位，既符合礼，又避免被人说成趁丧谋利。"
+      }
+    ],
+    "challenge": [
+      {
+        "id": 6,
+        "question": "用自己的话说说\"远利\"在这篇文章中的意思。",
+        "sampleAnswer": "示例答案：面对诱惑时不急着谋取个人好处，保持分寸和名节。"
+      }
+    ]
+  },
+  "keyVocab": [
+    {
+      "word": "吊",
+      "ancient": "慰问丧事",
+      "modern": "悬挂",
+      "example": "吊公子重耳",
+      "idiom": "吊唁"
+    },
+    {
+      "word": "图",
+      "ancient": "谋划",
+      "modern": "图画",
+      "example": "其图之",
+      "idiom": "图谋"
+    },
+    {
+      "word": "辞",
+      "ancient": "推辞",
+      "modern": "言辞",
+      "example": "其辞焉",
+      "idiom": "辞让"
+    },
+    {
+      "word": "私",
+      "ancient": "私下谋利",
+      "modern": "私人",
+      "example": "起而不私",
+      "idiom": "大公无私"
+    },
+    {
+      "word": "远",
+      "ancient": "远离",
+      "modern": "距离远",
+      "example": "远利也",
+      "idiom": "敬而远之"
+    }
+  ]
+}

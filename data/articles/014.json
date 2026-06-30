@@ -1,0 +1,787 @@
+{
+  "id": "014",
+  "sourceMarkdown": "content/samples/week03-014-读孟尝君传.md",
+  "sourceRaw": "content/raw/014-读孟尝君传.txt",
+  "title": "读孟尝君传",
+  "source": "临川文集",
+  "author": "王安石",
+  "dynasty": "北宋",
+  "difficulty": 1,
+  "week": 3,
+  "wordCount": 88,
+  "tags": [
+    "宋代",
+    "史论",
+    "议论",
+    "人才"
+  ],
+  "relatedIdioms": [
+    "鸡鸣狗盗"
+  ],
+  "mainImage": "014-main.jpg",
+  "storyIntro": "很多人都称赞孟尝君会招揽人才，因为他门下有许多门客，还靠\"鸡鸣狗盗\"之徒逃出了秦国。王安石却提出了不同看法：真正的人才应该能帮助国家成就大事，怎么会只靠模仿鸡叫、偷偷摸摸的小本领呢？这篇文章很短，却是一次漂亮的\"翻案\"议论。",
+  "fullText": "世皆称孟尝君能得士，士以故归之，而卒赖其力，以脱于虎<ruby>豹<rp>(</rp><rt>bào</rt><rp>)</rp></ruby>之秦。嗟乎！孟尝君特鸡鸣狗盗之雄耳，岂足以言得士？不然，<ruby>擅<rp>(</rp><rt>shàn</rt><rp>)</rp></ruby>齐之强，得一士焉，宜可以南面而制秦，尚何取鸡鸣狗盗之力哉？夫鸡鸣狗盗之出其门，此士之所以不至也。",
+  "fullTextPlain": "世皆称孟尝君能得士，士以故归之，而卒赖其力，以脱于虎豹之秦。嗟乎！孟尝君特鸡鸣狗盗之雄耳，岂足以言得士？不然，擅齐之强，得一士焉，宜可以南面而制秦，尚何取鸡鸣狗盗之力哉？夫鸡鸣狗盗之出其门，此士之所以不至也。",
+  "rubyAnnotations": [
+    {
+      "char": "世",
+      "pinyin": "shì",
+      "pos": 0
+    },
+    {
+      "char": "皆",
+      "pinyin": "jiē",
+      "pos": 1
+    },
+    {
+      "char": "称",
+      "pinyin": "chēng",
+      "pos": 2
+    },
+    {
+      "char": "孟",
+      "pinyin": "mèng",
+      "pos": 3
+    },
+    {
+      "char": "尝",
+      "pinyin": "cháng",
+      "pos": 4
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 5
+    },
+    {
+      "char": "能",
+      "pinyin": "néng",
+      "pos": 6
+    },
+    {
+      "char": "得",
+      "pinyin": "dé",
+      "pos": 7
+    },
+    {
+      "char": "士",
+      "pinyin": "shì",
+      "pos": 8
+    },
+    {
+      "char": "士",
+      "pinyin": "shì",
+      "pos": 10
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 11
+    },
+    {
+      "char": "故",
+      "pinyin": "gù",
+      "pos": 12
+    },
+    {
+      "char": "归",
+      "pinyin": "guī",
+      "pos": 13
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 14
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 16
+    },
+    {
+      "char": "卒",
+      "pinyin": "zú",
+      "pos": 17
+    },
+    {
+      "char": "赖",
+      "pinyin": "lài",
+      "pos": 18
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 19
+    },
+    {
+      "char": "力",
+      "pinyin": "lì",
+      "pos": 20
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 22
+    },
+    {
+      "char": "脱",
+      "pinyin": "tuō",
+      "pos": 23
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 24
+    },
+    {
+      "char": "虎",
+      "pinyin": "hǔ",
+      "pos": 25
+    },
+    {
+      "char": "豹",
+      "pinyin": "bào",
+      "pos": 26
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 27
+    },
+    {
+      "char": "秦",
+      "pinyin": "qín",
+      "pos": 28
+    },
+    {
+      "char": "嗟",
+      "pinyin": "jiē",
+      "pos": 30
+    },
+    {
+      "char": "乎",
+      "pinyin": "hū",
+      "pos": 31
+    },
+    {
+      "char": "孟",
+      "pinyin": "mèng",
+      "pos": 33
+    },
+    {
+      "char": "尝",
+      "pinyin": "cháng",
+      "pos": 34
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 35
+    },
+    {
+      "char": "特",
+      "pinyin": "tè",
+      "pos": 36
+    },
+    {
+      "char": "鸡",
+      "pinyin": "jī",
+      "pos": 37
+    },
+    {
+      "char": "鸣",
+      "pinyin": "míng",
+      "pos": 38
+    },
+    {
+      "char": "狗",
+      "pinyin": "gǒu",
+      "pos": 39
+    },
+    {
+      "char": "盗",
+      "pinyin": "dào",
+      "pos": 40
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 41
+    },
+    {
+      "char": "雄",
+      "pinyin": "xióng",
+      "pos": 42
+    },
+    {
+      "char": "耳",
+      "pinyin": "ěr",
+      "pos": 43
+    },
+    {
+      "char": "岂",
+      "pinyin": "qǐ",
+      "pos": 45
+    },
+    {
+      "char": "足",
+      "pinyin": "zú",
+      "pos": 46
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 47
+    },
+    {
+      "char": "言",
+      "pinyin": "yán",
+      "pos": 48
+    },
+    {
+      "char": "得",
+      "pinyin": "dé",
+      "pos": 49
+    },
+    {
+      "char": "士",
+      "pinyin": "shì",
+      "pos": 50
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 52
+    },
+    {
+      "char": "然",
+      "pinyin": "rán",
+      "pos": 53
+    },
+    {
+      "char": "擅",
+      "pinyin": "shàn",
+      "pos": 55
+    },
+    {
+      "char": "齐",
+      "pinyin": "qí",
+      "pos": 56
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 57
+    },
+    {
+      "char": "强",
+      "pinyin": "qiáng",
+      "pos": 58
+    },
+    {
+      "char": "得",
+      "pinyin": "dé",
+      "pos": 60
+    },
+    {
+      "char": "一",
+      "pinyin": "yí",
+      "pos": 61
+    },
+    {
+      "char": "士",
+      "pinyin": "shì",
+      "pos": 62
+    },
+    {
+      "char": "焉",
+      "pinyin": "yān",
+      "pos": 63
+    },
+    {
+      "char": "宜",
+      "pinyin": "yí",
+      "pos": 65
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 66
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 67
+    },
+    {
+      "char": "南",
+      "pinyin": "nán",
+      "pos": 68
+    },
+    {
+      "char": "面",
+      "pinyin": "miàn",
+      "pos": 69
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 70
+    },
+    {
+      "char": "制",
+      "pinyin": "zhì",
+      "pos": 71
+    },
+    {
+      "char": "秦",
+      "pinyin": "qín",
+      "pos": 72
+    },
+    {
+      "char": "尚",
+      "pinyin": "shàng",
+      "pos": 74
+    },
+    {
+      "char": "何",
+      "pinyin": "hé",
+      "pos": 75
+    },
+    {
+      "char": "取",
+      "pinyin": "qǔ",
+      "pos": 76
+    },
+    {
+      "char": "鸡",
+      "pinyin": "jī",
+      "pos": 77
+    },
+    {
+      "char": "鸣",
+      "pinyin": "míng",
+      "pos": 78
+    },
+    {
+      "char": "狗",
+      "pinyin": "gǒu",
+      "pos": 79
+    },
+    {
+      "char": "盗",
+      "pinyin": "dào",
+      "pos": 80
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 81
+    },
+    {
+      "char": "力",
+      "pinyin": "lì",
+      "pos": 82
+    },
+    {
+      "char": "哉",
+      "pinyin": "zāi",
+      "pos": 83
+    },
+    {
+      "char": "夫",
+      "pinyin": "fū",
+      "pos": 85
+    },
+    {
+      "char": "鸡",
+      "pinyin": "jī",
+      "pos": 86
+    },
+    {
+      "char": "鸣",
+      "pinyin": "míng",
+      "pos": 87
+    },
+    {
+      "char": "狗",
+      "pinyin": "gǒu",
+      "pos": 88
+    },
+    {
+      "char": "盗",
+      "pinyin": "dào",
+      "pos": 89
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 90
+    },
+    {
+      "char": "出",
+      "pinyin": "chū",
+      "pos": 91
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 92
+    },
+    {
+      "char": "门",
+      "pinyin": "mén",
+      "pos": 93
+    },
+    {
+      "char": "此",
+      "pinyin": "cǐ",
+      "pos": 95
+    },
+    {
+      "char": "士",
+      "pinyin": "shì",
+      "pos": 96
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 97
+    },
+    {
+      "char": "所",
+      "pinyin": "suǒ",
+      "pos": 98
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 99
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 100
+    },
+    {
+      "char": "至",
+      "pinyin": "zhì",
+      "pos": 101
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 102
+    }
+  ],
+  "rhythmBreaks": [
+    1,
+    3,
+    6,
+    11,
+    13,
+    18,
+    25,
+    36,
+    48,
+    68,
+    77,
+    86,
+    96,
+    100
+  ],
+  "sections": [
+    {
+      "title": "第一层：先摆出世俗看法",
+      "original": "世皆称孟尝君能得士，士以故归之，而卒赖其力，以脱于虎豹之秦。",
+      "annotations": [
+        {
+          "word": "世",
+          "meaning": "世人",
+          "pinyin": null
+        },
+        {
+          "word": "皆",
+          "meaning": "都",
+          "pinyin": null
+        },
+        {
+          "word": "称",
+          "meaning": "称赞",
+          "pinyin": null
+        },
+        {
+          "word": "士",
+          "meaning": "有才能的人",
+          "pinyin": null
+        },
+        {
+          "word": "以故",
+          "meaning": "因此",
+          "pinyin": null
+        },
+        {
+          "word": "归之",
+          "meaning": "归附他",
+          "pinyin": null
+        },
+        {
+          "word": "卒",
+          "meaning": "最终",
+          "pinyin": null
+        },
+        {
+          "word": "虎豹之秦",
+          "meaning": "像虎豹一样凶狠的秦国",
+          "pinyin": null
+        }
+      ],
+      "translation": "世人都称赞孟尝君能够招揽人才，士人因此归附他，而他最终依靠他们的力量，从像虎豹一样凶狠的秦国逃脱。",
+      "modernLink": "\"虎豹之秦\"把秦国比作猛兽，写出秦国的强大和危险"
+    },
+    {
+      "title": "第二层：提出不同看法",
+      "original": "嗟乎！孟尝君特鸡鸣狗盗之雄耳，岂足以言得士？",
+      "annotations": [
+        {
+          "word": "嗟乎",
+          "meaning": "唉，表示感叹",
+          "pinyin": null
+        },
+        {
+          "word": "特",
+          "meaning": "只是",
+          "pinyin": null
+        },
+        {
+          "word": "鸡鸣狗盗",
+          "meaning": "学鸡叫、偷狗一类小本领，指低微的小技",
+          "pinyin": null
+        },
+        {
+          "word": "雄",
+          "meaning": "首领",
+          "pinyin": null
+        },
+        {
+          "word": "岂足以",
+          "meaning": "哪里足够",
+          "pinyin": null
+        }
+      ],
+      "translation": "唉！孟尝君只不过是鸡鸣狗盗之徒的首领罢了，哪里足以说他得到了真正的人才呢？",
+      "modernLink": ""
+    },
+    {
+      "title": "第三层：反面论证",
+      "original": "不然，擅齐之强，得一士焉，宜可以南面而制秦，尚何取鸡鸣狗盗之力哉？",
+      "annotations": [
+        {
+          "word": "不然",
+          "meaning": "如果不是这样",
+          "pinyin": null
+        },
+        {
+          "word": "擅",
+          "meaning": "拥有，据有",
+          "pinyin": null
+        },
+        {
+          "word": "齐之强",
+          "meaning": "齐国的强大力量",
+          "pinyin": null
+        },
+        {
+          "word": "一士",
+          "meaning": "一个真正的人才",
+          "pinyin": null
+        },
+        {
+          "word": "南面",
+          "meaning": "古代君主面南而坐，这里指称王称霸",
+          "pinyin": null
+        },
+        {
+          "word": "制秦",
+          "meaning": "制服秦国",
+          "pinyin": null
+        },
+        {
+          "word": "尚何取",
+          "meaning": "还用得着什么",
+          "pinyin": null
+        }
+      ],
+      "translation": "如果不是这样，凭借齐国的强大，只要得到一个真正的人才，就应该可以称王而制服秦国，还用得着什么鸡鸣狗盗的小本领呢？",
+      "modernLink": "王安石不是否认门客有用，而是区分\"小本领\"和\"真正能治国安邦的人才\""
+    },
+    {
+      "title": "第四层：点明原因",
+      "original": "夫鸡鸣狗盗之出其门，此士之所以不至也。",
+      "annotations": [
+        {
+          "word": "夫",
+          "meaning": "发语词",
+          "pinyin": null
+        },
+        {
+          "word": "出其门",
+          "meaning": "出现在他的门下",
+          "pinyin": null
+        },
+        {
+          "word": "所以",
+          "meaning": "……的原因",
+          "pinyin": null
+        },
+        {
+          "word": "不至",
+          "meaning": "不来",
+          "pinyin": null
+        }
+      ],
+      "translation": "鸡鸣狗盗之徒出现在他的门下，这正是真正的人才不到他那里去的原因啊。",
+      "modernLink": ""
+    }
+  ],
+  "fullTranslation": "世人都称赞孟尝君能够招揽人才，士人因此归附他，而他最终依靠他们的力量，从像虎豹一样凶狠的秦国逃脱。\n\n唉！孟尝君只不过是鸡鸣狗盗之徒的首领罢了，哪里足以说他得到了真正的人才呢？如果不是这样，凭借齐国的强大，只要得到一个真正的人才，就应该可以称王而制服秦国，还用得着什么鸡鸣狗盗的小本领呢？鸡鸣狗盗之徒出现在他的门下，这正是真正的人才不到他那里去的原因啊。",
+  "extendedReading": {
+    "author": "王安石（1021-1086年），北宋政治家、文学家，\"唐宋八大家\"之一。他不仅会写文章，还主持过著名的变法，希望改变国家积弱的局面。",
+    "background": "孟尝君是战国四公子之一，门下食客很多。《史记》记载他曾靠门客学鸡叫、偷狐白裘逃出秦国。王安石读到这段故事后，提出了和世人不同的评价。",
+    "funFacts": [
+      "\"鸡鸣狗盗\"后来成为成语，多指微不足道的小技能或偷偷摸摸的行为。",
+      "这篇文章很短，却有完整的议论结构：先列观点，再反驳，最后点明原因。",
+      "王安石的观点很锋利：真正的人才应该能帮助国家解决大问题。"
+    ],
+    "relatedStory": "孟尝君被困秦国时，有门客偷来狐白裘献给秦王宠姬，又有人学鸡叫骗开城门，帮助他逃走。王安石认为，这些只是小技，不是真正的治国人才。"
+  },
+  "thinkingQuestions": [
+    "王安石为什么不赞同\"孟尝君能得士\"的说法？",
+    "你觉得\"会小技能的人\"和\"真正的人才\"有什么区别？",
+    "如果一个人敢提出和大家不同的看法，他需要什么能力？"
+  ],
+  "quiz": {
+    "choices": [
+      {
+        "id": 1,
+        "question": "\"世皆称孟尝君能得士\"中的\"皆\"是什么意思？",
+        "options": [
+          "都",
+          "结束",
+          "台阶",
+          "皆大欢喜"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（都）。\"世皆称\"是说世人都称赞孟尝君能得士，\"皆\"表示全都。"
+      },
+      {
+        "id": 2,
+        "question": "王安石认为孟尝君得到的是哪类人？",
+        "options": [
+          "治国贤才",
+          "鸡鸣狗盗之徒",
+          "军事名将",
+          "大诗人"
+        ],
+        "answerIndex": 1,
+        "explanation": "B（鸡鸣狗盗之徒）。王安石说\"特鸡鸣狗盗之雄耳\"，认为孟尝君得到的只是小技之徒。"
+      },
+      {
+        "id": 3,
+        "question": "\"岂足以言得士\"的语气是？",
+        "options": [
+          "陈述",
+          "反问",
+          "感叹天气",
+          "命令"
+        ],
+        "answerIndex": 1,
+        "explanation": "B（反问）。\"岂足以言得士\"用\"岂\"加强反问，意思是不足以称为得到真正的人才。"
+      }
+    ],
+    "fillBlanks": [
+      {
+        "id": 100,
+        "stem": "而卒赖其力",
+        "targetChar": "卒",
+        "targetIndex": 1,
+        "blank": "最终",
+        "hint": ""
+      },
+      {
+        "id": 101,
+        "stem": "孟尝君特鸡鸣狗盗之雄耳",
+        "targetChar": "特",
+        "targetIndex": 3,
+        "blank": "只是",
+        "hint": ""
+      },
+      {
+        "id": 102,
+        "stem": "此士之所以不至也",
+        "targetChar": "至",
+        "targetIndex": 6,
+        "blank": "到来",
+        "hint": ""
+      }
+    ],
+    "shortAnswer": [
+      {
+        "id": 5,
+        "question": "王安石用什么理由说明孟尝君没有得到真正的人才？",
+        "sampleAnswer": "示例答案：如果孟尝君真的得到一个真正的人才，凭借齐国的强大，就应该能制服秦国，不必依靠鸡鸣狗盗的小技逃命。因此王安石认为他没有得到真正的人才。"
+      }
+    ],
+    "challenge": [
+      {
+        "id": 6,
+        "question": "试着翻译：\"夫鸡鸣狗盗之出其门，此士之所以不至也。\"",
+        "sampleAnswer": "鸡鸣狗盗之徒出现在他的门下，这正是真正的人才不到他那里去的原因啊。"
+      }
+    ]
+  },
+  "keyVocab": [
+    {
+      "word": "皆",
+      "ancient": "都",
+      "modern": "都",
+      "example": "世皆称",
+      "idiom": "皆大欢喜"
+    },
+    {
+      "word": "士",
+      "ancient": "有才能的人",
+      "modern": "士兵",
+      "example": "能得士",
+      "idiom": "礼贤下士"
+    },
+    {
+      "word": "卒",
+      "ancient": "最终",
+      "modern": "士兵",
+      "example": "而卒赖其力",
+      "idiom": "有始有卒"
+    },
+    {
+      "word": "特",
+      "ancient": "只是",
+      "modern": "特别",
+      "example": "特鸡鸣狗盗之雄耳",
+      "idiom": "特立独行"
+    },
+    {
+      "word": "擅",
+      "ancient": "拥有，据有",
+      "modern": "擅自",
+      "example": "擅齐之强",
+      "idiom": "擅长"
+    },
+    {
+      "word": "至",
+      "ancient": "到来",
+      "modern": "到达",
+      "example": "士之所以不至",
+      "idiom": "至关重要"
+    }
+  ]
+}

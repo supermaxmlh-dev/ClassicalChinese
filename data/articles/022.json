@@ -1,0 +1,628 @@
+{
+  "id": "022",
+  "sourceMarkdown": "content/samples/week05-022-晋献文子成室.md",
+  "sourceRaw": "content/raw/022-晋献文子成室.txt",
+  "title": "晋献文子成室",
+  "source": "礼记",
+  "author": "戴圣编",
+  "dynasty": "西汉",
+  "difficulty": 1,
+  "week": 5,
+  "wordCount": 100,
+  "tags": [
+    "礼记",
+    "祝辞",
+    "礼仪",
+    "晋国"
+  ],
+  "relatedIdioms": [
+    "善颂善祷"
+  ],
+  "mainImage": "022-main.jpg",
+  "storyIntro": "晋国的献文子建成新屋，大夫们前来祝贺。张老的祝辞既夸房屋华美，又祝愿主人能在这里歌、哭、聚集宗族，也就是经历完整的人生礼仪。献文子听后再拜，文章最后称赞张老\"善颂善祷\"。",
+  "fullText": "晋献文子成室，晋大夫发焉。张老曰：“美哉，轮焉！美哉，奂焉！歌于斯，哭于斯，聚国族于斯！”文子曰：“武也，得歌于斯，哭于斯，聚国族于斯，是全要领以从先大夫于九京也！”北面再拜稽首。君子谓之善颂善祷。",
+  "fullTextPlain": "晋献文子成室，晋大夫发焉。张老曰：“美哉，轮焉！美哉，奂焉！歌于斯，哭于斯，聚国族于斯！”文子曰：“武也，得歌于斯，哭于斯，聚国族于斯，是全要领以从先大夫于九京也！”北面再拜稽首。君子谓之善颂善祷。",
+  "rubyAnnotations": [
+    {
+      "char": "晋",
+      "pinyin": "jìn",
+      "pos": 0
+    },
+    {
+      "char": "献",
+      "pinyin": "xiàn",
+      "pos": 1
+    },
+    {
+      "char": "文",
+      "pinyin": "wén",
+      "pos": 2
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 3
+    },
+    {
+      "char": "成",
+      "pinyin": "chéng",
+      "pos": 4
+    },
+    {
+      "char": "室",
+      "pinyin": "shì",
+      "pos": 5
+    },
+    {
+      "char": "晋",
+      "pinyin": "jìn",
+      "pos": 7
+    },
+    {
+      "char": "大",
+      "pinyin": "dài",
+      "pos": 8
+    },
+    {
+      "char": "夫",
+      "pinyin": "fu",
+      "pos": 9
+    },
+    {
+      "char": "发",
+      "pinyin": "fā",
+      "pos": 10
+    },
+    {
+      "char": "焉",
+      "pinyin": "yān",
+      "pos": 11
+    },
+    {
+      "char": "张",
+      "pinyin": "zhāng",
+      "pos": 13
+    },
+    {
+      "char": "老",
+      "pinyin": "lǎo",
+      "pos": 14
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 15
+    },
+    {
+      "char": "美",
+      "pinyin": "měi",
+      "pos": 18
+    },
+    {
+      "char": "哉",
+      "pinyin": "zāi",
+      "pos": 19
+    },
+    {
+      "char": "轮",
+      "pinyin": "lún",
+      "pos": 21
+    },
+    {
+      "char": "焉",
+      "pinyin": "yān",
+      "pos": 22
+    },
+    {
+      "char": "美",
+      "pinyin": "měi",
+      "pos": 24
+    },
+    {
+      "char": "哉",
+      "pinyin": "zāi",
+      "pos": 25
+    },
+    {
+      "char": "奂",
+      "pinyin": "huàn",
+      "pos": 27
+    },
+    {
+      "char": "焉",
+      "pinyin": "yān",
+      "pos": 28
+    },
+    {
+      "char": "歌",
+      "pinyin": "gē",
+      "pos": 30
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 31
+    },
+    {
+      "char": "斯",
+      "pinyin": "sī",
+      "pos": 32
+    },
+    {
+      "char": "哭",
+      "pinyin": "kū",
+      "pos": 34
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 35
+    },
+    {
+      "char": "斯",
+      "pinyin": "sī",
+      "pos": 36
+    },
+    {
+      "char": "聚",
+      "pinyin": "jù",
+      "pos": 38
+    },
+    {
+      "char": "国",
+      "pinyin": "guó",
+      "pos": 39
+    },
+    {
+      "char": "族",
+      "pinyin": "zú",
+      "pos": 40
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 41
+    },
+    {
+      "char": "斯",
+      "pinyin": "sī",
+      "pos": 42
+    },
+    {
+      "char": "文",
+      "pinyin": "wén",
+      "pos": 45
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 46
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 47
+    },
+    {
+      "char": "武",
+      "pinyin": "wǔ",
+      "pos": 50
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 51
+    },
+    {
+      "char": "得",
+      "pinyin": "dé",
+      "pos": 53
+    },
+    {
+      "char": "歌",
+      "pinyin": "gē",
+      "pos": 54
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 55
+    },
+    {
+      "char": "斯",
+      "pinyin": "sī",
+      "pos": 56
+    },
+    {
+      "char": "哭",
+      "pinyin": "kū",
+      "pos": 58
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 59
+    },
+    {
+      "char": "斯",
+      "pinyin": "sī",
+      "pos": 60
+    },
+    {
+      "char": "聚",
+      "pinyin": "jù",
+      "pos": 62
+    },
+    {
+      "char": "国",
+      "pinyin": "guó",
+      "pos": 63
+    },
+    {
+      "char": "族",
+      "pinyin": "zú",
+      "pos": 64
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 65
+    },
+    {
+      "char": "斯",
+      "pinyin": "sī",
+      "pos": 66
+    },
+    {
+      "char": "是",
+      "pinyin": "shì",
+      "pos": 68
+    },
+    {
+      "char": "全",
+      "pinyin": "quán",
+      "pos": 69
+    },
+    {
+      "char": "要",
+      "pinyin": "yào",
+      "pos": 70
+    },
+    {
+      "char": "领",
+      "pinyin": "lǐng",
+      "pos": 71
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 72
+    },
+    {
+      "char": "从",
+      "pinyin": "cóng",
+      "pos": 73
+    },
+    {
+      "char": "先",
+      "pinyin": "xiān",
+      "pos": 74
+    },
+    {
+      "char": "大",
+      "pinyin": "dài",
+      "pos": 75
+    },
+    {
+      "char": "夫",
+      "pinyin": "fu",
+      "pos": 76
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 77
+    },
+    {
+      "char": "九",
+      "pinyin": "jiǔ",
+      "pos": 78
+    },
+    {
+      "char": "京",
+      "pinyin": "jīng",
+      "pos": 79
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 80
+    },
+    {
+      "char": "北",
+      "pinyin": "běi",
+      "pos": 83
+    },
+    {
+      "char": "面",
+      "pinyin": "miàn",
+      "pos": 84
+    },
+    {
+      "char": "再",
+      "pinyin": "zài",
+      "pos": 85
+    },
+    {
+      "char": "拜",
+      "pinyin": "bài",
+      "pos": 86
+    },
+    {
+      "char": "稽",
+      "pinyin": "qǐ",
+      "pos": 87
+    },
+    {
+      "char": "首",
+      "pinyin": "shǒu",
+      "pos": 88
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 90
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 91
+    },
+    {
+      "char": "谓",
+      "pinyin": "wèi",
+      "pos": 92
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 93
+    },
+    {
+      "char": "善",
+      "pinyin": "shàn",
+      "pos": 94
+    },
+    {
+      "char": "颂",
+      "pinyin": "sòng",
+      "pos": 95
+    },
+    {
+      "char": "善",
+      "pinyin": "shàn",
+      "pos": 96
+    },
+    {
+      "char": "祷",
+      "pinyin": "dǎo",
+      "pos": 97
+    }
+  ],
+  "rhythmBreaks": [
+    4,
+    10,
+    31,
+    35,
+    41,
+    55,
+    59,
+    65,
+    72,
+    77,
+    85,
+    94
+  ],
+  "sections": [
+    {
+      "title": "第一层：新屋落成",
+      "original": "晋献文子成室，晋大夫发焉。",
+      "annotations": [
+        {
+          "word": "成室",
+          "meaning": "建成房屋",
+          "pinyin": null
+        },
+        {
+          "word": "发",
+          "meaning": "送礼祝贺",
+          "pinyin": null
+        },
+        {
+          "word": "焉",
+          "meaning": "于此，在这里",
+          "pinyin": null
+        }
+      ],
+      "translation": "晋国的献文子建成新屋，晋国大夫们前来祝贺。",
+      "modernLink": ""
+    },
+    {
+      "title": "第二层：张老祝辞",
+      "original": "美哉，轮焉！美哉，奂焉！",
+      "annotations": [
+        {
+          "word": "轮",
+          "meaning": "高大",
+          "pinyin": null
+        },
+        {
+          "word": "奂",
+          "meaning": "众多盛大，文采鲜明",
+          "pinyin": null
+        },
+        {
+          "word": "斯",
+          "meaning": "这里",
+          "pinyin": null
+        }
+      ],
+      "translation": "多么美啊，如此高大！多么美啊，如此华丽！",
+      "modernLink": ""
+    },
+    {
+      "title": "第三层：善颂善祷",
+      "original": "君子谓之善颂善祷。",
+      "annotations": [
+        {
+          "word": "颂",
+          "meaning": "赞美",
+          "pinyin": null
+        },
+        {
+          "word": "祷",
+          "meaning": "祝愿",
+          "pinyin": null
+        },
+        {
+          "word": "善",
+          "meaning": "善于",
+          "pinyin": null
+        }
+      ],
+      "translation": "君子说张老善于赞美，也善于祝愿。",
+      "modernLink": ""
+    }
+  ],
+  "fullTranslation": "晋国献文子建成房屋，晋国大夫们前去祝贺。张老说：\"多么美啊，这么高大！多么美啊，这么华丽！愿您在这里歌唱，在这里哭泣，在这里聚集宗族。\"献文子说：\"我能在这里歌唱、哭泣、聚集宗族，完整保全身体去追随祖先到九泉之下，就很好了。\"于是面朝北再拜叩头。君子说张老善于赞颂，也善于祝祷。",
+  "extendedReading": {
+    "author": "《礼记》中常记录礼仪场景，通过简短对话表现古人如何说话得体。",
+    "background": "古人建成新屋，亲友前来祝贺，不只是夸房子漂亮，还要祝愿家族平安长久。",
+    "funFacts": [
+      "\"歌于斯，哭于斯\"说的是人生喜事和丧事都能在家族空间中完成。",
+      "\"九京\"指墓地，也可理解为祖先所在的地下世界。"
+    ],
+    "relatedStory": "得体的祝辞要既赞美眼前事物，又表达长远祝愿。"
+  },
+  "thinkingQuestions": [
+    "张老的祝辞为什么不只说房子漂亮？",
+    "你给别人祝贺时，会怎样说得更真诚？"
+  ],
+  "quiz": {
+    "choices": [
+      {
+        "id": 1,
+        "question": "\"晋献文子成室\"中的\"成室\"是什么意思？",
+        "options": [
+          "建成房屋",
+          "成为老师",
+          "完成作业",
+          "进入室内"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（建成房屋）。\"室\"指房屋，\"成室\"就是新屋建成。"
+      },
+      {
+        "id": 2,
+        "question": "张老祝辞中\"歌于斯，哭于斯\"主要祝愿什么？",
+        "options": [
+          "房子能经历家族完整生活",
+          "每天唱歌",
+          "只在这里哭",
+          "房子很便宜"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（房子能经历家族完整生活）。张老祝愿主人在这里经历喜事、丧事并聚集宗族。"
+      },
+      {
+        "id": 3,
+        "question": "文章称张老\"善颂善祷\"，说明他的祝辞怎样？",
+        "options": [
+          "既会赞美又会祝愿",
+          "很长很难懂",
+          "完全没有礼貌",
+          "只会批评"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（既会赞美又会祝愿）。他先赞美房屋高大华美，又祝愿家族长久安定。"
+      }
+    ],
+    "fillBlanks": [
+      {
+        "id": 100,
+        "stem": "晋献文子成室",
+        "targetChar": "成室",
+        "targetIndex": 4,
+        "blank": "建成房屋",
+        "hint": ""
+      },
+      {
+        "id": 101,
+        "stem": "聚国族于斯",
+        "targetChar": "斯",
+        "targetIndex": 4,
+        "blank": "这里",
+        "hint": ""
+      },
+      {
+        "id": 102,
+        "stem": "北面再拜稽首",
+        "targetChar": "稽首",
+        "targetIndex": 4,
+        "blank": "叩头至地",
+        "hint": ""
+      }
+    ],
+    "shortAnswer": [
+      {
+        "id": 5,
+        "question": "张老的祝辞为什么被称为\"善颂善祷\"？",
+        "sampleAnswer": "示例答案：他的话既赞美新屋，又祝愿主人和家族能在这里安居、团聚、善终，含义周全。"
+      }
+    ],
+    "challenge": [
+      {
+        "id": 6,
+        "question": "如果同学搬新家，你会怎样写一句祝福语？",
+        "sampleAnswer": "开放题，言之有物即可。"
+      }
+    ]
+  },
+  "keyVocab": [
+    {
+      "word": "室",
+      "ancient": "房屋",
+      "modern": "房间",
+      "example": "成室",
+      "idiom": "登堂入室"
+    },
+    {
+      "word": "斯",
+      "ancient": "这里",
+      "modern": "这",
+      "example": "于斯",
+      "idiom": "斯文"
+    },
+    {
+      "word": "颂",
+      "ancient": "赞美",
+      "modern": "歌颂",
+      "example": "善颂",
+      "idiom": "歌功颂德"
+    },
+    {
+      "word": "祷",
+      "ancient": "祝愿",
+      "modern": "祈祷",
+      "example": "善祷",
+      "idiom": "祈祷"
+    },
+    {
+      "word": "稽首",
+      "ancient": "叩头至地",
+      "modern": "古礼",
+      "example": "再拜稽首",
+      "idiom": "稽首再拜"
+    }
+  ]
+}

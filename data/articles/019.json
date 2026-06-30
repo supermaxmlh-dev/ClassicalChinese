@@ -1,0 +1,1012 @@
+{
+  "id": "019",
+  "sourceMarkdown": "content/samples/week05-019-曾子易箦.md",
+  "sourceRaw": "content/raw/019-曾子易箦.txt",
+  "title": "曾子易箦",
+  "source": "礼记",
+  "author": "戴圣编",
+  "dynasty": "西汉",
+  "difficulty": 2,
+  "week": 5,
+  "wordCount": 200,
+  "tags": [
+    "礼记",
+    "曾子",
+    "礼制",
+    "修身"
+  ],
+  "relatedIdioms": [
+    "君子爱人以德"
+  ],
+  "mainImage": "019-main.jpg",
+  "storyIntro": "曾子病重时，童子发现他躺着的竹席是大夫才能使用的华美席子。曾子听到后，坚持让儿子立刻更换，即使病情危急也不愿违背礼制。他认为真正爱一个人，应当用道德成全他，而不是只图一时安逸。",
+  "fullText": "曾子寝疾，病。乐正子春坐于床下，曾元、曾申坐于足，童子隅坐而执烛。童子曰：“华而睆，大夫之箦与？”子春曰：“止！”曾子闻之，瞿然曰：“呼！”曰：“华而睆，大夫之箦与？”曾子曰：“然。斯季孙之赐也，我未之能易也。元，起易箦。”曾元曰：“夫子之病革矣，不可以变，幸而至于旦，请敬易之。”曾子曰：“尔之爱我也，不如彼。君子之爱人也以德，细人之爱人也以姑息。吾何求哉？吾得正而毙焉，斯已矣。”举扶而易之。反席未安而没。",
+  "fullTextPlain": "曾子寝疾，病。乐正子春坐于床下，曾元、曾申坐于足，童子隅坐而执烛。童子曰：“华而睆，大夫之箦与？”子春曰：“止！”曾子闻之，瞿然曰：“呼！”曰：“华而睆，大夫之箦与？”曾子曰：“然。斯季孙之赐也，我未之能易也。元，起易箦。”曾元曰：“夫子之病革矣，不可以变，幸而至于旦，请敬易之。”曾子曰：“尔之爱我也，不如彼。君子之爱人也以德，细人之爱人也以姑息。吾何求哉？吾得正而毙焉，斯已矣。”举扶而易之。反席未安而没。",
+  "rubyAnnotations": [
+    {
+      "char": "曾",
+      "pinyin": "céng",
+      "pos": 0
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 1
+    },
+    {
+      "char": "寝",
+      "pinyin": "qǐn",
+      "pos": 2
+    },
+    {
+      "char": "疾",
+      "pinyin": "jí",
+      "pos": 3
+    },
+    {
+      "char": "病",
+      "pinyin": "bìng",
+      "pos": 5
+    },
+    {
+      "char": "乐",
+      "pinyin": "lè",
+      "pos": 7
+    },
+    {
+      "char": "正",
+      "pinyin": "zhèng",
+      "pos": 8
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 9
+    },
+    {
+      "char": "春",
+      "pinyin": "chūn",
+      "pos": 10
+    },
+    {
+      "char": "坐",
+      "pinyin": "zuò",
+      "pos": 11
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 12
+    },
+    {
+      "char": "床",
+      "pinyin": "chuáng",
+      "pos": 13
+    },
+    {
+      "char": "下",
+      "pinyin": "xià",
+      "pos": 14
+    },
+    {
+      "char": "曾",
+      "pinyin": "céng",
+      "pos": 16
+    },
+    {
+      "char": "元",
+      "pinyin": "yuán",
+      "pos": 17
+    },
+    {
+      "char": "曾",
+      "pinyin": "céng",
+      "pos": 19
+    },
+    {
+      "char": "申",
+      "pinyin": "shēn",
+      "pos": 20
+    },
+    {
+      "char": "坐",
+      "pinyin": "zuò",
+      "pos": 21
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 22
+    },
+    {
+      "char": "足",
+      "pinyin": "zú",
+      "pos": 23
+    },
+    {
+      "char": "童",
+      "pinyin": "tóng",
+      "pos": 25
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 26
+    },
+    {
+      "char": "隅",
+      "pinyin": "yú",
+      "pos": 27
+    },
+    {
+      "char": "坐",
+      "pinyin": "zuò",
+      "pos": 28
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 29
+    },
+    {
+      "char": "执",
+      "pinyin": "zhí",
+      "pos": 30
+    },
+    {
+      "char": "烛",
+      "pinyin": "zhú",
+      "pos": 31
+    },
+    {
+      "char": "童",
+      "pinyin": "tóng",
+      "pos": 33
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 34
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 35
+    },
+    {
+      "char": "华",
+      "pinyin": "huá",
+      "pos": 38
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 39
+    },
+    {
+      "char": "睆",
+      "pinyin": "huàn",
+      "pos": 40
+    },
+    {
+      "char": "大",
+      "pinyin": "dài",
+      "pos": 42
+    },
+    {
+      "char": "夫",
+      "pinyin": "fu",
+      "pos": 43
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 44
+    },
+    {
+      "char": "箦",
+      "pinyin": "zé",
+      "pos": 45
+    },
+    {
+      "char": "与",
+      "pinyin": "yǔ",
+      "pos": 46
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 49
+    },
+    {
+      "char": "春",
+      "pinyin": "chūn",
+      "pos": 50
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 51
+    },
+    {
+      "char": "止",
+      "pinyin": "zhǐ",
+      "pos": 54
+    },
+    {
+      "char": "曾",
+      "pinyin": "céng",
+      "pos": 57
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 58
+    },
+    {
+      "char": "闻",
+      "pinyin": "wén",
+      "pos": 59
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 60
+    },
+    {
+      "char": "瞿",
+      "pinyin": "qú",
+      "pos": 62
+    },
+    {
+      "char": "然",
+      "pinyin": "rán",
+      "pos": 63
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 64
+    },
+    {
+      "char": "呼",
+      "pinyin": "hū",
+      "pos": 67
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 70
+    },
+    {
+      "char": "华",
+      "pinyin": "huá",
+      "pos": 73
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 74
+    },
+    {
+      "char": "睆",
+      "pinyin": "huàn",
+      "pos": 75
+    },
+    {
+      "char": "大",
+      "pinyin": "dài",
+      "pos": 77
+    },
+    {
+      "char": "夫",
+      "pinyin": "fu",
+      "pos": 78
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 79
+    },
+    {
+      "char": "箦",
+      "pinyin": "zé",
+      "pos": 80
+    },
+    {
+      "char": "与",
+      "pinyin": "yǔ",
+      "pos": 81
+    },
+    {
+      "char": "曾",
+      "pinyin": "céng",
+      "pos": 84
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 85
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 86
+    },
+    {
+      "char": "然",
+      "pinyin": "rán",
+      "pos": 89
+    },
+    {
+      "char": "斯",
+      "pinyin": "sī",
+      "pos": 91
+    },
+    {
+      "char": "季",
+      "pinyin": "jì",
+      "pos": 92
+    },
+    {
+      "char": "孙",
+      "pinyin": "sūn",
+      "pos": 93
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 94
+    },
+    {
+      "char": "赐",
+      "pinyin": "cì",
+      "pos": 95
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 96
+    },
+    {
+      "char": "我",
+      "pinyin": "wǒ",
+      "pos": 98
+    },
+    {
+      "char": "未",
+      "pinyin": "wèi",
+      "pos": 99
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 100
+    },
+    {
+      "char": "能",
+      "pinyin": "néng",
+      "pos": 101
+    },
+    {
+      "char": "易",
+      "pinyin": "yì",
+      "pos": 102
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 103
+    },
+    {
+      "char": "元",
+      "pinyin": "yuán",
+      "pos": 105
+    },
+    {
+      "char": "起",
+      "pinyin": "qǐ",
+      "pos": 107
+    },
+    {
+      "char": "易",
+      "pinyin": "yì",
+      "pos": 108
+    },
+    {
+      "char": "箦",
+      "pinyin": "zé",
+      "pos": 109
+    },
+    {
+      "char": "曾",
+      "pinyin": "céng",
+      "pos": 112
+    },
+    {
+      "char": "元",
+      "pinyin": "yuán",
+      "pos": 113
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 114
+    },
+    {
+      "char": "夫",
+      "pinyin": "fū",
+      "pos": 117
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 118
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 119
+    },
+    {
+      "char": "病",
+      "pinyin": "bìng",
+      "pos": 120
+    },
+    {
+      "char": "革",
+      "pinyin": "gé",
+      "pos": 121
+    },
+    {
+      "char": "矣",
+      "pinyin": "yǐ",
+      "pos": 122
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 124
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 125
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 126
+    },
+    {
+      "char": "变",
+      "pinyin": "biàn",
+      "pos": 127
+    },
+    {
+      "char": "幸",
+      "pinyin": "xìng",
+      "pos": 129
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 130
+    },
+    {
+      "char": "至",
+      "pinyin": "zhì",
+      "pos": 131
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 132
+    },
+    {
+      "char": "旦",
+      "pinyin": "dàn",
+      "pos": 133
+    },
+    {
+      "char": "请",
+      "pinyin": "qǐng",
+      "pos": 135
+    },
+    {
+      "char": "敬",
+      "pinyin": "jìng",
+      "pos": 136
+    },
+    {
+      "char": "易",
+      "pinyin": "yì",
+      "pos": 137
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 138
+    },
+    {
+      "char": "曾",
+      "pinyin": "céng",
+      "pos": 141
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 142
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 143
+    },
+    {
+      "char": "尔",
+      "pinyin": "ěr",
+      "pos": 146
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 147
+    },
+    {
+      "char": "爱",
+      "pinyin": "ài",
+      "pos": 148
+    },
+    {
+      "char": "我",
+      "pinyin": "wǒ",
+      "pos": 149
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 150
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 152
+    },
+    {
+      "char": "如",
+      "pinyin": "rú",
+      "pos": 153
+    },
+    {
+      "char": "彼",
+      "pinyin": "bǐ",
+      "pos": 154
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 156
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 157
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 158
+    },
+    {
+      "char": "爱",
+      "pinyin": "ài",
+      "pos": 159
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 160
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 161
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 162
+    },
+    {
+      "char": "德",
+      "pinyin": "dé",
+      "pos": 163
+    },
+    {
+      "char": "细",
+      "pinyin": "xì",
+      "pos": 165
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 166
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 167
+    },
+    {
+      "char": "爱",
+      "pinyin": "ài",
+      "pos": 168
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 169
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 170
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 171
+    },
+    {
+      "char": "姑",
+      "pinyin": "gū",
+      "pos": 172
+    },
+    {
+      "char": "息",
+      "pinyin": "xī",
+      "pos": 173
+    },
+    {
+      "char": "吾",
+      "pinyin": "wú",
+      "pos": 175
+    },
+    {
+      "char": "何",
+      "pinyin": "hé",
+      "pos": 176
+    },
+    {
+      "char": "求",
+      "pinyin": "qiú",
+      "pos": 177
+    },
+    {
+      "char": "哉",
+      "pinyin": "zāi",
+      "pos": 178
+    },
+    {
+      "char": "吾",
+      "pinyin": "wú",
+      "pos": 180
+    },
+    {
+      "char": "得",
+      "pinyin": "dé",
+      "pos": 181
+    },
+    {
+      "char": "正",
+      "pinyin": "zhèng",
+      "pos": 182
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 183
+    },
+    {
+      "char": "毙",
+      "pinyin": "bì",
+      "pos": 184
+    },
+    {
+      "char": "焉",
+      "pinyin": "yān",
+      "pos": 185
+    },
+    {
+      "char": "斯",
+      "pinyin": "sī",
+      "pos": 187
+    },
+    {
+      "char": "已",
+      "pinyin": "yǐ",
+      "pos": 188
+    },
+    {
+      "char": "矣",
+      "pinyin": "yǐ",
+      "pos": 189
+    },
+    {
+      "char": "举",
+      "pinyin": "jǔ",
+      "pos": 192
+    },
+    {
+      "char": "扶",
+      "pinyin": "fú",
+      "pos": 193
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 194
+    },
+    {
+      "char": "易",
+      "pinyin": "yì",
+      "pos": 195
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 196
+    },
+    {
+      "char": "反",
+      "pinyin": "fǎn",
+      "pos": 198
+    },
+    {
+      "char": "席",
+      "pinyin": "xí",
+      "pos": 199
+    },
+    {
+      "char": "未",
+      "pinyin": "wèi",
+      "pos": 200
+    },
+    {
+      "char": "安",
+      "pinyin": "ān",
+      "pos": 201
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 202
+    },
+    {
+      "char": "没",
+      "pinyin": "méi",
+      "pos": 203
+    }
+  ],
+  "rhythmBreaks": [
+    2,
+    11,
+    21,
+    27,
+    59,
+    92,
+    99,
+    108,
+    121,
+    131,
+    137,
+    162,
+    171,
+    183,
+    194,
+    200
+  ],
+  "sections": [
+    {
+      "title": "第一层：病中发现不合礼",
+      "original": "华而睆，大夫之箦与？",
+      "annotations": [
+        {
+          "word": "华而睆",
+          "meaning": "华美而光洁",
+          "pinyin": null
+        },
+        {
+          "word": "箦",
+          "meaning": "竹席",
+          "pinyin": null
+        },
+        {
+          "word": "与",
+          "meaning": "语气词，表示疑问",
+          "pinyin": null
+        }
+      ],
+      "translation": "这竹席华美又光洁，是大夫才能用的竹席吧？",
+      "modernLink": ""
+    },
+    {
+      "title": "第二层：坚持更换",
+      "original": "元，起易箦。",
+      "annotations": [
+        {
+          "word": "易",
+          "meaning": "更换",
+          "pinyin": null
+        },
+        {
+          "word": "箦",
+          "meaning": "竹席",
+          "pinyin": null
+        },
+        {
+          "word": "病革",
+          "meaning": "病重",
+          "pinyin": null
+        }
+      ],
+      "translation": "曾元，起来把竹席换掉。",
+      "modernLink": "\"易\"在古文中常有\"更换\"的意思，如\"移风易俗\""
+    },
+    {
+      "title": "第三层：爱人以德",
+      "original": "君子之爱人也以德，细人之爱人也以姑息。",
+      "annotations": [
+        {
+          "word": "以德",
+          "meaning": "用道德来成全",
+          "pinyin": null
+        },
+        {
+          "word": "细人",
+          "meaning": "见识浅小的人",
+          "pinyin": null
+        },
+        {
+          "word": "姑息",
+          "meaning": "无原则地迁就",
+          "pinyin": null
+        }
+      ],
+      "translation": "君子爱人是用道德成全他，见识浅小的人爱人只是无原则地迁就他。",
+      "modernLink": ""
+    }
+  ],
+  "fullTranslation": "曾子病得很重。乐正子春坐在床下，曾元、曾申坐在脚边，一个童子坐在角落拿着蜡烛。童子说：\"这竹席华美光洁，是大夫的竹席吧？\"曾子听见后惊醒，确认这是季孙赠送的席子，自己还没能换掉，于是让曾元起来换席。曾元说父亲病得很重，不能移动，希望等到早晨再换。曾子说，曾元爱他不如童子，君子爱人用道德，普通人爱人只是姑息。他只求死得合乎正道。众人扶起他换席，刚换好还没安稳，他就去世了。",
+  "extendedReading": {
+    "author": "《礼记》是儒家经典之一，记录礼制、修身和社会秩序等内容。",
+    "background": "古代不同身份的人使用器物有严格等级，曾子重视礼，是因为礼代表一个人的身份和原则。",
+    "funFacts": [
+      "曾子是孔子的学生，以孝道和修身闻名。",
+      "\"君子爱人以德\"强调真正的关心不是纵容，而是帮助对方守住原则。"
+    ],
+    "relatedStory": "曾子还以\"吾日三省吾身\"闻名，体现出严于自省的品格。"
+  },
+  "thinkingQuestions": [
+    "曾子为什么病重时还坚持换席？",
+    "你怎样理解\"爱人以德\"？"
+  ],
+  "quiz": {
+    "choices": [
+      {
+        "id": 1,
+        "question": "童子指出了什么问题？",
+        "options": [
+          "蜡烛太暗",
+          "曾子使用了不合身份的竹席",
+          "房间太冷",
+          "曾子没有吃饭"
+        ],
+        "answerIndex": 1,
+        "explanation": "B（曾子使用了不合身份的竹席）。童子问\"大夫之箦与\"，指出这席子不是曾子身份应当使用的。"
+      },
+      {
+        "id": 2,
+        "question": "曾元为什么不想马上换席？",
+        "options": [
+          "他不懂礼",
+          "竹席太重",
+          "曾子病重，不宜移动",
+          "他想睡觉"
+        ],
+        "answerIndex": 2,
+        "explanation": "C（曾子病重，不宜移动）。曾元说\"夫子之病革矣，不可以变\"，担心换席伤害父亲。"
+      },
+      {
+        "id": 3,
+        "question": "曾子认为真正爱人应该怎样？",
+        "options": [
+          "一味迁就",
+          "用道德成全他",
+          "送华美竹席",
+          "什么都不管"
+        ],
+        "answerIndex": 1,
+        "explanation": "B（用道德成全他）。曾子明说君子爱人以德，批评只顾一时舒服的姑息。"
+      }
+    ],
+    "fillBlanks": [
+      {
+        "id": 100,
+        "stem": "华而睆，大夫之箦与",
+        "targetChar": "箦",
+        "targetIndex": 7,
+        "blank": "竹席",
+        "hint": ""
+      },
+      {
+        "id": 101,
+        "stem": "元，起易箦",
+        "targetChar": "易",
+        "targetIndex": 3,
+        "blank": "更换",
+        "hint": ""
+      },
+      {
+        "id": 102,
+        "stem": "细人之爱人也以姑息",
+        "targetChar": "姑息",
+        "targetIndex": 7,
+        "blank": "无原则迁就",
+        "hint": ""
+      }
+    ],
+    "shortAnswer": [
+      {
+        "id": 5,
+        "question": "曾子为什么说曾元爱他不如童子？",
+        "sampleAnswer": "示例答案：童子指出了不合礼的问题，帮助曾子守住原则；曾元只是怕父亲受苦，想暂时迁就。"
+      }
+    ],
+    "challenge": [
+      {
+        "id": 6,
+        "question": "生活中有没有\"姑息\"和\"以德相爱\"的区别？举一个例子。",
+        "sampleAnswer": "示例答案：朋友犯错时，装作没看见是姑息；温和提醒他改正，是以德相爱。"
+      }
+    ]
+  },
+  "keyVocab": [
+    {
+      "word": "箦",
+      "ancient": "竹席",
+      "modern": "少用",
+      "example": "大夫之箦与",
+      "idiom": "—"
+    },
+    {
+      "word": "易",
+      "ancient": "更换",
+      "modern": "容易",
+      "example": "起易箦",
+      "idiom": "移风易俗"
+    },
+    {
+      "word": "革",
+      "ancient": "危急，病重",
+      "modern": "皮革",
+      "example": "病革矣",
+      "idiom": "革故鼎新"
+    },
+    {
+      "word": "姑息",
+      "ancient": "无原则迁就",
+      "modern": "迁就",
+      "example": "以姑息",
+      "idiom": "姑息养奸"
+    },
+    {
+      "word": "没",
+      "ancient": "去世",
+      "modern": "没有",
+      "example": "未安而没",
+      "idiom": "没世不忘"
+    }
+  ]
+}

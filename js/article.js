@@ -22,8 +22,9 @@
     return ranges.sort((a, b) => a.start - b.start);
   }
 
-  function renderText(text, rubyAnnotations = [], annotations = []) {
+  function renderText(text, rubyAnnotations = [], annotations = [], rhythmBreaks = []) {
     const rubyByPos = new Map((rubyAnnotations || []).map((item) => [Number(item.pos), item]));
+    const breakByPos = new Set((rhythmBreaks || []).map(Number));
     const ranges = buildAnnotationRanges(text, annotations);
     let html = "";
     let cursor = 0;
@@ -31,8 +32,9 @@
     function charHTML(char, pos) {
       const ruby = rubyByPos.get(pos);
       const safeChar = G.escapeHTML(char);
-      if (!ruby) return safeChar;
-      return `<ruby>${safeChar}<rp>(</rp><rt>${G.escapeHTML(ruby.pinyin)}</rt><rp>)</rp></ruby>`;
+      const pause = breakByPos.has(pos) ? `<span class="pause" aria-hidden="true">/</span>` : "";
+      if (!ruby) return `${pause}${safeChar}`;
+      return `${pause}<ruby>${safeChar}<rp>(</rp><rt>${G.escapeHTML(ruby.pinyin)}</rt><rp>)</rp></ruby>`;
     }
 
     while (cursor < text.length) {
@@ -132,9 +134,13 @@
     const annotations = collectAnnotations(article);
 
     function updateOriginal() {
-      const text = rhythmToggle.checked ? article.rhythmMarked || article.fullTextPlain : article.fullTextPlain;
-      original.classList.toggle("hide-ruby", !rubyToggle.checked || rhythmToggle.checked);
-      original.innerHTML = renderText(text, rhythmToggle.checked ? [] : article.rubyAnnotations, annotations);
+      original.classList.toggle("hide-ruby", !rubyToggle.checked);
+      original.innerHTML = renderText(
+        article.fullTextPlain,
+        rubyToggle.checked ? article.rubyAnnotations : [],
+        annotations,
+        rhythmToggle.checked ? article.rhythmBreaks : []
+      );
     }
 
     rubyToggle.addEventListener("change", updateOriginal);
@@ -181,7 +187,7 @@
         G.fetchJSON("data/index.json")
       ]);
       const progress = G.Progress.getProgress();
-      const done = progress.completedArticles.includes(article.id);
+      const done = G.Progress.isArticleLearned(progress, article.id);
       const nav = getPrevNext(indexData, article.id);
       G.setDocumentTitle(article.title);
 
@@ -199,14 +205,12 @@
             </div>
             <div class="article-tags">${(article.tags || []).map((tag) => `<span class="tag">${G.escapeHTML(tag)}</span>`).join("")}</div>
           </div>
-          <div class="article-visual" role="img" aria-label="${G.escapeHTML(article.title)}意境图"></div>
+          <figure class="article-visual">
+            <img src="${G.asset(`images/articles/${article.mainImage}`)}" alt="${G.escapeHTML(article.title)}意境图" loading="lazy" onerror="this.hidden=true">
+          </figure>
         </section>
         <div class="article-layout" style="margin-top: var(--space-5);">
-          <div class="article-main">
-            <section class="article-section story-intro">
-              <h2>故事导读</h2>
-              <p>${G.escapeHTML(article.storyIntro || "")}</p>
-            </section>
+          <aside class="article-reading-pane">
             <section class="article-section">
               <div class="reading-toolbar">
                 <label class="toggle"><input id="toggle-ruby" type="checkbox">显示全部拼音</label>
@@ -214,7 +218,24 @@
               </div>
               <h2>原文</h2>
               <div id="article-original" class="article-original hide-ruby"></div>
-              <button id="toggle-translation" class="btn" type="button" style="margin-top: var(--space-4);">点击查看翻译 ▼</button>
+            </section>
+            <div class="content-card">
+              <h2>学习提示</h2>
+              <p>先通读原文，再打开拼音和节奏。遇到带虚线的词，点一下查看注释。</p>
+            </div>
+            <div class="content-card">
+              <h2>练习记录</h2>
+              <p>当前得分：${G.Progress.getQuizScore(article.id) || "未完成"}</p>
+            </div>
+          </aside>
+          <div class="article-main">
+            <section class="article-section story-intro">
+              <h2>故事导读</h2>
+              <p>${G.escapeHTML(article.storyIntro || "")}</p>
+            </section>
+            <section class="article-section">
+              <h2>全文翻译</h2>
+              <button id="toggle-translation" class="btn" type="button">点击查看翻译 ▼</button>
               <div id="full-translation" class="translation-box">${G.escapeHTML(article.fullTranslation || "")}</div>
             </section>
             <section class="article-section">
@@ -243,16 +264,6 @@
               ${nav.next ? `<a class="btn next" href="article.html?id=${nav.next}">下一篇 →</a>` : `<span></span>`}
             </nav>
           </div>
-          <aside class="article-aside">
-            <div class="content-card">
-              <h2>学习提示</h2>
-              <p>先通读原文，再打开拼音和节奏。遇到带虚线的词，点一下查看注释。</p>
-            </div>
-            <div class="content-card">
-              <h2>练习记录</h2>
-              <p>当前得分：${G.Progress.getQuizScore(article.id) || "未完成"}</p>
-            </div>
-          </aside>
         </div>
       `;
 

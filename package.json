@@ -4,9 +4,13 @@
   "description": "观止学堂 - 小学生古文观止学习平台",
   "private": true,
   "scripts": {
-    "start": "python3 -m http.server 8080",
+    "start": "python3 -m http.server 8080 --bind 127.0.0.1",
+    "start:8081": "python3 -m http.server 8081 --bind 127.0.0.1",
     "build": "npm run build:data && npm run validate",
     "build:data": "node scripts/build-data.js",
-    "validate": "node scripts/validate-data.js"
+    "validate": "node scripts/validate-data.js && node scripts/validate-curriculum.js"
+  },
+  "dependencies": {
+    "pinyin-pro": "^3.28.1"
   }
 }

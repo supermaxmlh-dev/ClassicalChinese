@@ -1,304 +1,1398 @@
 {
   "id": "001",
-  "sourceMarkdown": "content/samples/week01-001-答谢中书书.md",
-  "title": "答谢中书书",
-  "source": "陶弘景集",
-  "author": "陶弘景",
-  "dynasty": "南朝·梁",
+  "sourceMarkdown": "content/samples/week01-001-曹刿论战.md",
+  "sourceRaw": "content/raw/001-曹刿论战.txt",
+  "title": "曹刿论战",
+  "source": "左传",
+  "author": "左丘明",
+  "dynasty": "春秋",
   "difficulty": 1,
   "week": 1,
-  "wordCount": 68,
+  "wordCount": 250,
   "tags": [
-    "南朝",
-    "写景",
-    "书信",
-    "山水"
+    "春秋",
+    "战争",
+    "谋略",
+    "课内"
   ],
   "relatedIdioms": [
-    "山高水长"
+    "一鼓作气",
+    "再衰三竭",
+    "辙乱旗靡"
   ],
   "mainImage": "001-main.jpg",
-  "storyIntro": "南朝时期有一位叫陶弘景的隐士，人称\"山中宰相\"。他住在山里，却经常有朝廷大臣来请教他。有一天，他的朋友谢中书（谢征）问他山中有什么好玩的，陶弘景就写了这封短信，用寥寥几十个字，描绘了一幅令人心醉的山水画卷。这封信虽然只有68个字，却被后人称为写景的千古绝唱！",
-  "fullText": "山川之美，古来共谈。高峰入云，清流见底。两岸石壁，五色交<ruby>辉<rp>(</rp><rt>huī</rt><rp>)</rp></ruby>。青林翠竹，四时<ruby>俱<rp>(</rp><rt>jù</rt><rp>)</rp></ruby>备。晓雾将<ruby>歇<rp>(</rp><rt>xiē</rt><rp>)</rp></ruby>，猿鸟乱鸣；夕日欲<ruby>颓<rp>(</rp><rt>tuí</rt><rp>)</rp></ruby>，沉<ruby>鳞<rp>(</rp><rt>lín</rt><rp>)</rp></ruby>竞跃。实是欲界之仙都。自康乐以来，未复有能与其奇者。",
-  "fullTextPlain": "山川之美，古来共谈。高峰入云，清流见底。两岸石壁，五色交辉。青林翠竹，四时俱备。晓雾将歇，猿鸟乱鸣；夕日欲颓，沉鳞竞跃。实是欲界之仙都。自康乐以来，未复有能与其奇者。",
+  "storyIntro": "齐国攻打鲁国，鲁庄公准备迎战。普通人曹刿主动求见，认为掌权者目光短浅，必须先弄清楚凭什么作战。战场上，他不急着进攻，而是等齐军三次击鼓后士气衰竭才出击，最终帮助鲁国取胜。这篇文章告诉我们：真正的勇气不是鲁莽冲动，而是看准时机、冷静判断。",
+  "fullText": "十年春，齐师伐我。公将战，曹刿请见。其乡人曰：\"肉食者谋之，又何间焉？\"刿曰：\"肉食者鄙，未能远谋。\"乃入见。问：\"何以战？\"公曰：\"衣食所安，弗敢专也，必以分人。\"对曰：\"小惠未遍，民弗从也。\"公曰：\"牺牲玉帛，弗敢加也，必以信。\"对曰：\"小信未孚，神弗福也。\"公曰：\"小大之狱，虽不能察，必以情。\"对曰：\"忠之属也。可以一战。战则请从。\"\n\n公与之乘，战于长勺。公将鼓之。刿曰：\"未可。\"齐人三鼓。刿曰：\"可矣。\"齐师败绩。公将驰之。刿曰：\"未可。\"下视其辙，登轼而望之，曰：\"可矣。\"遂逐齐师。\n\n既克，公问其故。对曰：\"夫战，勇气也。一鼓作气，再而衰，三而竭。彼竭我盈，故克之。夫大国，难测也，惧有伏焉。吾视其辙乱，望其旗靡，故逐之。\"",
+  "fullTextPlain": "十年春，齐师伐我。公将战，曹刿请见。其乡人曰：\"肉食者谋之，又何间焉？\"刿曰：\"肉食者鄙，未能远谋。\"乃入见。问：\"何以战？\"公曰：\"衣食所安，弗敢专也，必以分人。\"对曰：\"小惠未遍，民弗从也。\"公曰：\"牺牲玉帛，弗敢加也，必以信。\"对曰：\"小信未孚，神弗福也。\"公曰：\"小大之狱，虽不能察，必以情。\"对曰：\"忠之属也。可以一战。战则请从。\"\n\n公与之乘，战于长勺。公将鼓之。刿曰：\"未可。\"齐人三鼓。刿曰：\"可矣。\"齐师败绩。公将驰之。刿曰：\"未可。\"下视其辙，登轼而望之，曰：\"可矣。\"遂逐齐师。\n\n既克，公问其故。对曰：\"夫战，勇气也。一鼓作气，再而衰，三而竭。彼竭我盈，故克之。夫大国，难测也，惧有伏焉。吾视其辙乱，望其旗靡，故逐之。\"",
   "rubyAnnotations": [
     {
-      "char": "辉",
-      "pinyin": "huī",
+      "char": "十",
+      "pinyin": "shí",
+      "pos": 0
+    },
+    {
+      "char": "年",
+      "pinyin": "nián",
+      "pos": 1
+    },
+    {
+      "char": "春",
+      "pinyin": "chūn",
+      "pos": 2
+    },
+    {
+      "char": "齐",
+      "pinyin": "qí",
+      "pos": 4
+    },
+    {
+      "char": "师",
+      "pinyin": "shī",
+      "pos": 5
+    },
+    {
+      "char": "伐",
+      "pinyin": "fá",
+      "pos": 6
+    },
+    {
+      "char": "我",
+      "pinyin": "wǒ",
+      "pos": 7
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 9
+    },
+    {
+      "char": "将",
+      "pinyin": "jiāng",
+      "pos": 10
+    },
+    {
+      "char": "战",
+      "pinyin": "zhàn",
+      "pos": 11
+    },
+    {
+      "char": "曹",
+      "pinyin": "cáo",
+      "pos": 13
+    },
+    {
+      "char": "刿",
+      "pinyin": "guì",
+      "pos": 14
+    },
+    {
+      "char": "请",
+      "pinyin": "qǐng",
+      "pos": 15
+    },
+    {
+      "char": "见",
+      "pinyin": "jiàn",
+      "pos": 16
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 18
+    },
+    {
+      "char": "乡",
+      "pinyin": "xiāng",
+      "pos": 19
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 20
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 21
+    },
+    {
+      "char": "肉",
+      "pinyin": "ròu",
+      "pos": 24
+    },
+    {
+      "char": "食",
+      "pinyin": "shí",
+      "pos": 25
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 26
+    },
+    {
+      "char": "谋",
+      "pinyin": "móu",
+      "pos": 27
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
       "pos": 28
     },
     {
-      "char": "俱",
-      "pinyin": "jù",
+      "char": "又",
+      "pinyin": "yòu",
+      "pos": 30
+    },
+    {
+      "char": "何",
+      "pinyin": "hé",
+      "pos": 31
+    },
+    {
+      "char": "间",
+      "pinyin": "jiān",
+      "pos": 32
+    },
+    {
+      "char": "焉",
+      "pinyin": "yān",
+      "pos": 33
+    },
+    {
+      "char": "刿",
+      "pinyin": "guì",
+      "pos": 36
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
       "pos": 37
     },
     {
-      "char": "歇",
-      "pinyin": "xiē",
+      "char": "肉",
+      "pinyin": "ròu",
+      "pos": 40
+    },
+    {
+      "char": "食",
+      "pinyin": "shí",
+      "pos": 41
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 42
+    },
+    {
+      "char": "鄙",
+      "pinyin": "bǐ",
       "pos": 43
     },
     {
-      "char": "颓",
-      "pinyin": "tuí",
+      "char": "未",
+      "pinyin": "wèi",
+      "pos": 45
+    },
+    {
+      "char": "能",
+      "pinyin": "néng",
+      "pos": 46
+    },
+    {
+      "char": "远",
+      "pinyin": "yuǎn",
+      "pos": 47
+    },
+    {
+      "char": "谋",
+      "pinyin": "móu",
+      "pos": 48
+    },
+    {
+      "char": "乃",
+      "pinyin": "nǎi",
+      "pos": 51
+    },
+    {
+      "char": "入",
+      "pinyin": "rù",
+      "pos": 52
+    },
+    {
+      "char": "见",
+      "pinyin": "jiàn",
       "pos": 53
     },
     {
-      "char": "鳞",
-      "pinyin": "lín",
-      "pos": 56
+      "char": "问",
+      "pinyin": "wèn",
+      "pos": 55
+    },
+    {
+      "char": "何",
+      "pinyin": "hé",
+      "pos": 58
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 59
+    },
+    {
+      "char": "战",
+      "pinyin": "zhàn",
+      "pos": 60
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 63
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 64
+    },
+    {
+      "char": "衣",
+      "pinyin": "yī",
+      "pos": 67
+    },
+    {
+      "char": "食",
+      "pinyin": "shí",
+      "pos": 68
+    },
+    {
+      "char": "所",
+      "pinyin": "suǒ",
+      "pos": 69
+    },
+    {
+      "char": "安",
+      "pinyin": "ān",
+      "pos": 70
+    },
+    {
+      "char": "弗",
+      "pinyin": "fú",
+      "pos": 72
+    },
+    {
+      "char": "敢",
+      "pinyin": "gǎn",
+      "pos": 73
+    },
+    {
+      "char": "专",
+      "pinyin": "zhuān",
+      "pos": 74
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 75
+    },
+    {
+      "char": "必",
+      "pinyin": "bì",
+      "pos": 77
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 78
+    },
+    {
+      "char": "分",
+      "pinyin": "fēn",
+      "pos": 79
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 80
+    },
+    {
+      "char": "对",
+      "pinyin": "duì",
+      "pos": 83
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 84
+    },
+    {
+      "char": "小",
+      "pinyin": "xiǎo",
+      "pos": 87
+    },
+    {
+      "char": "惠",
+      "pinyin": "huì",
+      "pos": 88
+    },
+    {
+      "char": "未",
+      "pinyin": "wèi",
+      "pos": 89
+    },
+    {
+      "char": "遍",
+      "pinyin": "biàn",
+      "pos": 90
+    },
+    {
+      "char": "民",
+      "pinyin": "mín",
+      "pos": 92
+    },
+    {
+      "char": "弗",
+      "pinyin": "fú",
+      "pos": 93
+    },
+    {
+      "char": "从",
+      "pinyin": "cóng",
+      "pos": 94
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 95
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 98
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 99
+    },
+    {
+      "char": "牺",
+      "pinyin": "xī",
+      "pos": 102
+    },
+    {
+      "char": "牲",
+      "pinyin": "shēng",
+      "pos": 103
+    },
+    {
+      "char": "玉",
+      "pinyin": "yù",
+      "pos": 104
+    },
+    {
+      "char": "帛",
+      "pinyin": "bó",
+      "pos": 105
+    },
+    {
+      "char": "弗",
+      "pinyin": "fú",
+      "pos": 107
+    },
+    {
+      "char": "敢",
+      "pinyin": "gǎn",
+      "pos": 108
+    },
+    {
+      "char": "加",
+      "pinyin": "jiā",
+      "pos": 109
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 110
+    },
+    {
+      "char": "必",
+      "pinyin": "bì",
+      "pos": 112
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 113
+    },
+    {
+      "char": "信",
+      "pinyin": "xìn",
+      "pos": 114
+    },
+    {
+      "char": "对",
+      "pinyin": "duì",
+      "pos": 117
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 118
+    },
+    {
+      "char": "小",
+      "pinyin": "xiǎo",
+      "pos": 121
+    },
+    {
+      "char": "信",
+      "pinyin": "xìn",
+      "pos": 122
+    },
+    {
+      "char": "未",
+      "pinyin": "wèi",
+      "pos": 123
+    },
+    {
+      "char": "孚",
+      "pinyin": "fú",
+      "pos": 124
+    },
+    {
+      "char": "神",
+      "pinyin": "shén",
+      "pos": 126
+    },
+    {
+      "char": "弗",
+      "pinyin": "fú",
+      "pos": 127
+    },
+    {
+      "char": "福",
+      "pinyin": "fú",
+      "pos": 128
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 129
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 132
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 133
+    },
+    {
+      "char": "小",
+      "pinyin": "xiǎo",
+      "pos": 136
+    },
+    {
+      "char": "大",
+      "pinyin": "dà",
+      "pos": 137
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 138
+    },
+    {
+      "char": "狱",
+      "pinyin": "yù",
+      "pos": 139
+    },
+    {
+      "char": "虽",
+      "pinyin": "suī",
+      "pos": 141
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 142
+    },
+    {
+      "char": "能",
+      "pinyin": "néng",
+      "pos": 143
+    },
+    {
+      "char": "察",
+      "pinyin": "chá",
+      "pos": 144
+    },
+    {
+      "char": "必",
+      "pinyin": "bì",
+      "pos": 146
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 147
+    },
+    {
+      "char": "情",
+      "pinyin": "qíng",
+      "pos": 148
+    },
+    {
+      "char": "对",
+      "pinyin": "duì",
+      "pos": 151
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 152
+    },
+    {
+      "char": "忠",
+      "pinyin": "zhōng",
+      "pos": 155
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 156
+    },
+    {
+      "char": "属",
+      "pinyin": "shǔ",
+      "pos": 157
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 158
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 160
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 161
+    },
+    {
+      "char": "一",
+      "pinyin": "yí",
+      "pos": 162
+    },
+    {
+      "char": "战",
+      "pinyin": "zhàn",
+      "pos": 163
+    },
+    {
+      "char": "战",
+      "pinyin": "zhàn",
+      "pos": 165
+    },
+    {
+      "char": "则",
+      "pinyin": "zé",
+      "pos": 166
+    },
+    {
+      "char": "请",
+      "pinyin": "qǐng",
+      "pos": 167
+    },
+    {
+      "char": "从",
+      "pinyin": "cóng",
+      "pos": 168
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 173
+    },
+    {
+      "char": "与",
+      "pinyin": "yǔ",
+      "pos": 174
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 175
+    },
+    {
+      "char": "乘",
+      "pinyin": "chéng",
+      "pos": 176
+    },
+    {
+      "char": "战",
+      "pinyin": "zhàn",
+      "pos": 178
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 179
+    },
+    {
+      "char": "长",
+      "pinyin": "cháng",
+      "pos": 180
+    },
+    {
+      "char": "勺",
+      "pinyin": "sháo",
+      "pos": 181
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 183
+    },
+    {
+      "char": "将",
+      "pinyin": "jiāng",
+      "pos": 184
+    },
+    {
+      "char": "鼓",
+      "pinyin": "gǔ",
+      "pos": 185
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 186
+    },
+    {
+      "char": "刿",
+      "pinyin": "guì",
+      "pos": 188
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 189
+    },
+    {
+      "char": "未",
+      "pinyin": "wèi",
+      "pos": 192
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 193
+    },
+    {
+      "char": "齐",
+      "pinyin": "qí",
+      "pos": 196
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 197
+    },
+    {
+      "char": "三",
+      "pinyin": "sān",
+      "pos": 198
+    },
+    {
+      "char": "鼓",
+      "pinyin": "gǔ",
+      "pos": 199
+    },
+    {
+      "char": "刿",
+      "pinyin": "guì",
+      "pos": 201
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 202
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 205
+    },
+    {
+      "char": "矣",
+      "pinyin": "yǐ",
+      "pos": 206
+    },
+    {
+      "char": "齐",
+      "pinyin": "qí",
+      "pos": 209
+    },
+    {
+      "char": "师",
+      "pinyin": "shī",
+      "pos": 210
+    },
+    {
+      "char": "败",
+      "pinyin": "bài",
+      "pos": 211
+    },
+    {
+      "char": "绩",
+      "pinyin": "jì",
+      "pos": 212
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 214
+    },
+    {
+      "char": "将",
+      "pinyin": "jiāng",
+      "pos": 215
+    },
+    {
+      "char": "驰",
+      "pinyin": "chí",
+      "pos": 216
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 217
+    },
+    {
+      "char": "刿",
+      "pinyin": "guì",
+      "pos": 219
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 220
+    },
+    {
+      "char": "未",
+      "pinyin": "wèi",
+      "pos": 223
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 224
+    },
+    {
+      "char": "下",
+      "pinyin": "xià",
+      "pos": 227
+    },
+    {
+      "char": "视",
+      "pinyin": "shì",
+      "pos": 228
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 229
+    },
+    {
+      "char": "辙",
+      "pinyin": "zhé",
+      "pos": 230
+    },
+    {
+      "char": "登",
+      "pinyin": "dēng",
+      "pos": 232
+    },
+    {
+      "char": "轼",
+      "pinyin": "shì",
+      "pos": 233
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 234
+    },
+    {
+      "char": "望",
+      "pinyin": "wàng",
+      "pos": 235
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 236
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 238
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 241
+    },
+    {
+      "char": "矣",
+      "pinyin": "yǐ",
+      "pos": 242
+    },
+    {
+      "char": "遂",
+      "pinyin": "suì",
+      "pos": 245
+    },
+    {
+      "char": "逐",
+      "pinyin": "zhú",
+      "pos": 246
+    },
+    {
+      "char": "齐",
+      "pinyin": "qí",
+      "pos": 247
+    },
+    {
+      "char": "师",
+      "pinyin": "shī",
+      "pos": 248
+    },
+    {
+      "char": "既",
+      "pinyin": "jì",
+      "pos": 252
+    },
+    {
+      "char": "克",
+      "pinyin": "kè",
+      "pos": 253
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 255
+    },
+    {
+      "char": "问",
+      "pinyin": "wèn",
+      "pos": 256
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 257
+    },
+    {
+      "char": "故",
+      "pinyin": "gù",
+      "pos": 258
+    },
+    {
+      "char": "对",
+      "pinyin": "duì",
+      "pos": 260
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 261
+    },
+    {
+      "char": "夫",
+      "pinyin": "fū",
+      "pos": 264
+    },
+    {
+      "char": "战",
+      "pinyin": "zhàn",
+      "pos": 265
+    },
+    {
+      "char": "勇",
+      "pinyin": "yǒng",
+      "pos": 267
+    },
+    {
+      "char": "气",
+      "pinyin": "qì",
+      "pos": 268
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 269
+    },
+    {
+      "char": "一",
+      "pinyin": "yì",
+      "pos": 271
+    },
+    {
+      "char": "鼓",
+      "pinyin": "gǔ",
+      "pos": 272
+    },
+    {
+      "char": "作",
+      "pinyin": "zuò",
+      "pos": 273
+    },
+    {
+      "char": "气",
+      "pinyin": "qì",
+      "pos": 274
+    },
+    {
+      "char": "再",
+      "pinyin": "zài",
+      "pos": 276
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 277
+    },
+    {
+      "char": "衰",
+      "pinyin": "shuāi",
+      "pos": 278
+    },
+    {
+      "char": "三",
+      "pinyin": "sān",
+      "pos": 280
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 281
+    },
+    {
+      "char": "竭",
+      "pinyin": "jié",
+      "pos": 282
+    },
+    {
+      "char": "彼",
+      "pinyin": "bǐ",
+      "pos": 284
+    },
+    {
+      "char": "竭",
+      "pinyin": "jié",
+      "pos": 285
+    },
+    {
+      "char": "我",
+      "pinyin": "wǒ",
+      "pos": 286
+    },
+    {
+      "char": "盈",
+      "pinyin": "yíng",
+      "pos": 287
+    },
+    {
+      "char": "故",
+      "pinyin": "gù",
+      "pos": 289
+    },
+    {
+      "char": "克",
+      "pinyin": "kè",
+      "pos": 290
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 291
+    },
+    {
+      "char": "夫",
+      "pinyin": "fū",
+      "pos": 293
+    },
+    {
+      "char": "大",
+      "pinyin": "dà",
+      "pos": 294
+    },
+    {
+      "char": "国",
+      "pinyin": "guó",
+      "pos": 295
+    },
+    {
+      "char": "难",
+      "pinyin": "nán",
+      "pos": 297
+    },
+    {
+      "char": "测",
+      "pinyin": "cè",
+      "pos": 298
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 299
+    },
+    {
+      "char": "惧",
+      "pinyin": "jù",
+      "pos": 301
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 302
+    },
+    {
+      "char": "伏",
+      "pinyin": "fú",
+      "pos": 303
+    },
+    {
+      "char": "焉",
+      "pinyin": "yān",
+      "pos": 304
+    },
+    {
+      "char": "吾",
+      "pinyin": "wú",
+      "pos": 306
+    },
+    {
+      "char": "视",
+      "pinyin": "shì",
+      "pos": 307
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 308
+    },
+    {
+      "char": "辙",
+      "pinyin": "zhé",
+      "pos": 309
+    },
+    {
+      "char": "乱",
+      "pinyin": "luàn",
+      "pos": 310
+    },
+    {
+      "char": "望",
+      "pinyin": "wàng",
+      "pos": 312
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 313
+    },
+    {
+      "char": "旗",
+      "pinyin": "qí",
+      "pos": 314
+    },
+    {
+      "char": "靡",
+      "pinyin": "mí",
+      "pos": 315
+    },
+    {
+      "char": "故",
+      "pinyin": "gù",
+      "pos": 317
+    },
+    {
+      "char": "逐",
+      "pinyin": "zhú",
+      "pos": 318
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 319
     }
   ],
-  "rhythmMarked": "山川/之美，古来/共谈。高峰/入云，清流/见底。两岸/石壁，五色/交辉。青林/翠竹，四时/俱备。晓雾/将歇，猿鸟/乱鸣；夕日/欲颓，沉鳞/竞跃。实是/欲界之仙都。自/康乐以来，未复有/能与其奇者。",
+  "rhythmBreaks": [
+    6,
+    10,
+    15,
+    27,
+    32,
+    43,
+    47,
+    52,
+    60,
+    74,
+    79,
+    89,
+    93,
+    109,
+    114,
+    123,
+    127,
+    144,
+    148,
+    162,
+    167,
+    174,
+    180,
+    184,
+    198,
+    211,
+    215,
+    229,
+    234,
+    246,
+    257,
+    273,
+    277,
+    281,
+    286,
+    290,
+    303,
+    308,
+    313,
+    318
+  ],
   "sections": [
     {
-      "title": "第一层：总写山川之美",
-      "original": "山川之美，古来共谈。",
+      "title": "第一层：请见论战",
+      "original": "十年春，齐师伐我。公将战，曹刿请见。",
       "annotations": [
         {
-          "word": "山川",
-          "meaning": "山和河流，泛指自然风景",
+          "word": "师",
+          "meaning": "军队",
           "pinyin": null
         },
         {
-          "word": "之",
-          "meaning": "的",
+          "word": "伐",
+          "meaning": "攻打",
           "pinyin": null
         },
         {
-          "word": "共谈",
-          "meaning": "共同赞叹、谈论",
+          "word": "将",
+          "meaning": "将要",
+          "pinyin": null
+        },
+        {
+          "word": "请见",
+          "meaning": "请求拜见",
           "pinyin": null
         }
       ],
-      "translation": "山川的秀美，自古以来就是人们共同赞叹的话题。",
+      "translation": "鲁庄公十年的春天，齐国军队攻打鲁国。鲁庄公准备迎战，曹刿请求拜见。",
       "modernLink": ""
     },
     {
-      "title": "第二层：具体描绘景色",
-      "original": "高峰入云，清流见底。两岸石壁，五色交辉。青林翠竹，四时俱备。",
+      "title": "第二层：取信于民",
+      "original": "小大之狱，虽不能察，必以情。",
       "annotations": [
         {
-          "word": "入云",
-          "meaning": "直插云端",
+          "word": "狱",
+          "meaning": "案件",
           "pinyin": null
         },
         {
-          "word": "见底",
-          "meaning": "能看到河底（说明水清澈）",
+          "word": "察",
+          "meaning": "明察，弄清楚",
           "pinyin": null
         },
         {
-          "word": "五色交辉",
-          "meaning": "各种颜色交相辉映",
+          "word": "情",
+          "meaning": "实情",
           "pinyin": null
         },
         {
-          "word": "四时",
-          "meaning": "四季",
-          "pinyin": null
-        },
-        {
-          "word": "俱备",
-          "meaning": "都具备（一年四季都是青翠的）",
+          "word": "忠之属也",
+          "meaning": "这是尽职尽责的一类事情",
           "pinyin": null
         }
       ],
-      "translation": "高高的山峰直插云端，清澈的河流能看见水底。两岸的石壁色彩斑斓、交相辉映。青翠的树林和竹子，一年四季都有。",
-      "modernLink": "\"四时\"即四季，现代汉语中\"时\"仍有\"季节\"的含义，如\"时令蔬菜\"；\"俱\"意为\"都\"，成语\"万事俱备\"中的\"俱\"就是这个意思"
+      "translation": "大大小小的案件，即使不能一一明察，也一定按实情处理。",
+      "modernLink": "\"取信于民\"是治国和做事的重要基础，曹刿认为战争胜负先取决于民心"
     },
     {
-      "title": "第三层：动态美景",
-      "original": "晓雾将歇，猿鸟乱鸣；夕日欲颓，沉鳞竞跃。",
+      "title": "第三层：长勺之战",
+      "original": "一鼓作气，再而衰，三而竭。",
       "annotations": [
         {
-          "word": "晓",
-          "meaning": "早晨",
+          "word": "鼓",
+          "meaning": "击鼓进军",
           "pinyin": null
         },
         {
-          "word": "将歇",
-          "meaning": "将要消散。歇，停止",
+          "word": "再",
+          "meaning": "第二次",
           "pinyin": null
         },
         {
-          "word": "乱鸣",
-          "meaning": "此处不是\"杂乱\"，而是\"此起彼伏地鸣叫\"",
+          "word": "衰",
+          "meaning": "衰减",
           "pinyin": null
         },
         {
-          "word": "夕日",
-          "meaning": "夕阳",
-          "pinyin": null
-        },
-        {
-          "word": "欲颓",
-          "meaning": "将要落山。颓，坠落",
-          "pinyin": null
-        },
-        {
-          "word": "沉鳞",
-          "meaning": "水中的鱼。鳞是鱼的代称",
-          "pinyin": null
-        },
-        {
-          "word": "竞跃",
-          "meaning": "争相跳出水面",
+          "word": "竭",
+          "meaning": "枯竭",
           "pinyin": null
         }
       ],
-      "translation": "清晨的薄雾将要消散时，猿猴和鸟儿此起彼伏地鸣叫；傍晚夕阳将要落山时，水中的鱼儿争相跳出水面。",
-      "modernLink": "\"晓\"现在还用于\"拂晓\"\"春晓\"等词中；\"鳞\"代指鱼，这是一种修辞手法叫\"借代\"，用事物的一部分代指整体"
-    },
-    {
-      "title": "第四层：感叹总结",
-      "original": "实是欲界之仙都。自康乐以来，未复有能与其奇者。",
-      "annotations": [
-        {
-          "word": "实",
-          "meaning": "确实，实在",
-          "pinyin": null
-        },
-        {
-          "word": "欲界",
-          "meaning": "佛教用语，指人间",
-          "pinyin": null
-        },
-        {
-          "word": "仙都",
-          "meaning": "神仙居住的地方",
-          "pinyin": null
-        },
-        {
-          "word": "康乐",
-          "meaning": "指谢灵运，南朝著名山水诗人，曾封康乐公",
-          "pinyin": null
-        },
-        {
-          "word": "与",
-          "meaning": "参与，这里指欣赏",
-          "pinyin": "yù"
-        },
-        {
-          "word": "奇",
-          "meaning": "指山川的奇妙美景",
-          "pinyin": null
-        }
-      ],
-      "translation": "这里确实是人间的仙境啊。自从谢灵运以来，再也没有人能够欣赏到这般奇妙的美景了。",
-      "modernLink": ""
+      "translation": "第一次击鼓能振作士气，第二次士气就衰减，第三次就枯竭了。",
+      "modernLink": "\"一鼓作气\"现在用来形容趁劲头足时把事情做完"
     }
   ],
-  "fullTranslation": "山川的秀美，自古以来就是人们共同赞叹的话题。高高的山峰直插云端，清澈的河流能看见水底。两岸的石壁色彩斑斓、交相辉映。青翠的树林和竹子，一年四季都有。清晨的薄雾将要消散时，猿猴和鸟儿此起彼伏地鸣叫；傍晚夕阳将要落山时，水中的鱼儿争相跳出水面。这里确实是人间的仙境啊。自从谢灵运以来，再也没有人能够欣赏到这般奇妙的美景了。",
+  "fullTranslation": "鲁庄公十年的春天，齐国军队攻打鲁国。鲁庄公准备迎战，曹刿请求拜见。乡里人说：\"掌权的人会谋划这件事，你又何必参与呢？\"曹刿说：\"掌权的人目光短浅，不能深谋远虑。\"于是入朝拜见。鲁庄公说了分衣食、祭祀守信等理由，曹刿都认为不足以作战；当鲁庄公说大大小小的案件都按实情处理时，曹刿认为这才是尽职尽责、可以凭借来打一仗。到了长勺作战，曹刿等齐军三次击鼓后才让鲁军进攻，齐军大败。追击前，他又观察车辙和旗帜，确认齐军真的败乱，才让鲁军追赶。战后他解释说，作战靠勇气，齐军三鼓后士气已竭，而鲁军士气正盛，所以能取胜。",
   "extendedReading": {
-    "author": "陶弘景（456-536年）是南朝著名的道士、医药家和文学家。他隐居在茅山修道，但梁武帝遇到国家大事总是写信问他，所以人们叫他\"山中宰相\"。他不当官，却比很多官员还有影响力！",
-    "background": "\"谢中书\"是谢征，在朝廷担任\"中书鸿胪\"这个官职。这封信是陶弘景回复谢征的，全文只有68个字，是中国古代最短的书信名篇之一。",
+    "author": "《左传》相传为左丘明所作，是记录春秋历史的重要典籍，擅长用简洁语言写出人物对话和事件转折。",
+    "background": "长勺之战发生在春秋时期，鲁国实力弱于齐国。曹刿通过判断民心和士气，帮助鲁国以弱胜强。",
     "funFacts": [
-      "这封信的写景方法非常巧妙：先写\"高\"（高峰入云），再写\"低\"（清流见底）；先写\"静\"（石壁、林竹），再写\"动\"（猿鸟、沉鳞）；先写\"早\"（晓雾），再写\"晚\"（夕日）——对比手法用得出神入化！",
-      "\"康乐\"指的是谢灵运，他是中国山水诗的鼻祖。陶弘景说\"自康乐以来\"没人能欣赏这些美景，既是在夸大自然之美，也在暗暗自夸——只有我陶弘景有这个眼光！"
+      "古代战场上击鼓常用来指挥进攻，击鼓次数也会影响士兵士气。",
+      "\"肉食者\"原指吃肉的人，这里借指居高位、掌权的人。"
     ],
-    "relatedStory": ""
+    "relatedStory": "\"一鼓作气\"后来成为常用成语，提醒人们趁精神最旺盛时完成重要事情。"
   },
   "thinkingQuestions": [
-    "陶弘景住在深山里，却被称为\"山中宰相\"。你觉得一个人一定要当大官才能有影响力吗？",
-    "只用68个字就写出了山川的各种美景，你能试着用几十个字描写一下你最喜欢的一处风景吗？"
+    "曹刿为什么不急着让鲁军进攻？",
+    "你做事情时有没有\"一鼓作气\"完成的经历？"
   ],
   "quiz": {
     "choices": [
       {
         "id": 1,
-        "question": "\"四时俱备\"中的\"四时\"是什么意思？",
+        "question": "曹刿认为鲁庄公可以一战的关键理由是什么？",
         "options": [
-          "四个小时",
-          "四季",
-          "四点钟",
-          "四个时代"
+          "祭品很多",
+          "能按实情处理案件",
+          "分给别人衣食",
+          "战车很多"
         ],
         "answerIndex": 1,
-        "explanation": "B（四季）"
+        "explanation": "B（能按实情处理案件）。曹刿否定了小恩小信，只有\"必以情\"体现尽职和取信于民，所以可作为作战基础。"
       },
       {
         "id": 2,
-        "question": "\"沉鳞竞跃\"描写的是什么？",
+        "question": "\"一鼓作气，再而衰，三而竭\"主要说明什么？",
         "options": [
-          "龙在水中翻腾",
-          "鱼儿争相跳出水面",
-          "石头沉入水底",
-          "船在水上行驶"
+          "士气会变化",
+          "鼓声越多越好",
+          "齐军兵器很多",
+          "鲁军人数更多"
         ],
-        "answerIndex": 1,
-        "explanation": "B（鱼儿争相跳出水面）"
+        "answerIndex": 0,
+        "explanation": "A（士气会变化）。曹刿解释战争靠勇气，齐军三次击鼓后士气由盛转衰，鲁军因此抓住时机。"
+      },
+      {
+        "id": 3,
+        "question": "曹刿追击前先看车辙和旗帜，说明他是怎样的人？",
+        "options": [
+          "胆小怕事",
+          "冲动鲁莽",
+          "谨慎善断",
+          "喜欢观景"
+        ],
+        "answerIndex": 2,
+        "explanation": "C（谨慎善断）。曹刿没有马上追击，而是观察车辙乱、旗帜倒，确认齐军败退后才追。"
       }
     ],
     "fillBlanks": [
       {
         "id": 100,
-        "question": "晓雾将歇 → ______",
-        "blank": "消散",
-        "hint": "解释“歇”"
+        "stem": "齐师伐我",
+        "targetChar": "伐",
+        "targetIndex": 2,
+        "blank": "攻打",
+        "hint": ""
       },
       {
         "id": 101,
-        "question": "夕日欲颓 → ______",
-        "blank": "坠落",
-        "hint": "解释“颓”"
+        "stem": "肉食者鄙",
+        "targetChar": "鄙",
+        "targetIndex": 3,
+        "blank": "目光短浅",
+        "hint": ""
       },
       {
         "id": 102,
-        "question": "实是欲界之仙都 → ______",
-        "blank": "确实",
-        "hint": "解释“实”"
+        "stem": "望其旗靡",
+        "targetChar": "靡",
+        "targetIndex": 3,
+        "blank": "倒下",
+        "hint": ""
       }
     ],
     "shortAnswer": [
       {
-        "id": 4,
-        "question": "文中描写山川之美用了哪些对比手法？请举出两组。",
-        "sampleAnswer": "示例：高与低的对比（高峰入云/清流见底），早与晚的对比（晓雾将歇/夕日欲颓），动与静的对比（青林翠竹/猿鸟乱鸣）。任意答出两组即可。"
+        "id": 5,
+        "question": "曹刿为什么说\"小大之狱，虽不能察，必以情\"可以作为作战基础？",
+        "sampleAnswer": "示例答案：因为处理案件关乎百姓是否信服国君。国君能按实情办事，百姓才愿意跟随作战，这就是取信于民。"
       }
     ],
     "challenge": [
       {
-        "id": 5,
-        "question": "请你模仿\"高峰入云，清流见底\"的句式，写两句描写自然景色的话。",
-        "sampleAnswer": "开放题，言之有物即可。示例：\"大漠连天，碧草如茵。\""
+        "id": 6,
+        "question": "试着用自己的话解释\"一鼓作气\"这个成语。",
+        "sampleAnswer": "示例答案：趁着刚开始精神最足、劲头最旺的时候，一口气把事情做好。"
       }
     ]
   },
   "keyVocab": [
     {
-      "word": "歇",
-      "ancient": "消散",
-      "modern": "休息",
-      "example": "晓雾将歇",
-      "idiom": "歇斯底里"
+      "word": "伐",
+      "ancient": "攻打",
+      "modern": "砍伐",
+      "example": "齐师伐我",
+      "idiom": "口诛笔伐"
     },
     {
-      "word": "颓",
-      "ancient": "坠落",
-      "modern": "颓废",
-      "example": "夕日欲颓",
-      "idiom": "颓垣断壁"
+      "word": "鄙",
+      "ancient": "目光短浅",
+      "modern": "粗俗",
+      "example": "肉食者鄙",
+      "idiom": "鄙陋无知"
     },
     {
-      "word": "鳞",
-      "ancient": "鱼（借代）",
-      "modern": "鱼鳞",
-      "example": "沉鳞竞跃",
-      "idiom": "遍体鳞伤"
+      "word": "狱",
+      "ancient": "案件",
+      "modern": "监狱",
+      "example": "小大之狱",
+      "idiom": "片言折狱"
     },
     {
-      "word": "俱",
-      "ancient": "都",
-      "modern": "俱乐部",
-      "example": "四时俱备",
-      "idiom": "万事俱备"
+      "word": "鼓",
+      "ancient": "击鼓",
+      "modern": "乐器",
+      "example": "公将鼓之",
+      "idiom": "一鼓作气"
     },
     {
-      "word": "竞",
-      "ancient": "争相",
-      "modern": "竞赛",
-      "example": "沉鳞竞跃",
-      "idiom": "百花竞放"
+      "word": "靡",
+      "ancient": "倒下",
+      "modern": "奢靡",
+      "example": "望其旗靡",
+      "idiom": "望风披靡"
     }
   ]
 }

@@ -315,6 +315,11 @@ h3 {
   background: color-mix(in srgb, var(--current) 8%, var(--bg-card));
 }
 
+.week-node.in-progress {
+  border-color: color-mix(in srgb, var(--completed), var(--current) 35%);
+  background: color-mix(in srgb, var(--completed) 8%, var(--bg-card));
+}
+
 .week-node.locked {
   color: var(--text-light);
 }
@@ -366,6 +371,11 @@ h3 {
 .status-pill.current {
   background: color-mix(in srgb, var(--current) 15%, var(--bg-card));
   color: var(--current);
+}
+
+.status-pill.in-progress {
+  background: color-mix(in srgb, var(--completed) 15%, var(--bg-card));
+  color: var(--completed);
 }
 
 .status-pill.locked {
