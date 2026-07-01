@@ -20,7 +20,7 @@
   ],
   "mainImage": "002-main.jpg",
   "storyIntro": "南朝时期有一位叫陶弘景的隐士，人称\"山中宰相\"。他住在山里，却经常有朝廷大臣来请教他。有一天，他的朋友谢中书（谢征）问他山中有什么好玩的，陶弘景就写了这封短信，用寥寥几十个字，描绘了一幅令人心醉的山水画卷。这封信虽然只有68个字，却被后人称为写景的千古绝唱！",
-  "fullText": "山川之美，古来共谈。高峰入云，清流见底。两岸石壁，五色交<ruby>辉<rp>(</rp><rt>huī</rt><rp>)</rp></ruby>。青林翠竹，四时<ruby>俱<rp>(</rp><rt>jù</rt><rp>)</rp></ruby>备。晓雾将<ruby>歇<rp>(</rp><rt>xiē</rt><rp>)</rp></ruby>，猿鸟乱鸣；夕日欲<ruby>颓<rp>(</rp><rt>tuí</rt><rp>)</rp></ruby>，沉<ruby>鳞<rp>(</rp><rt>lín</rt><rp>)</rp></ruby>竞跃。实是欲界之仙都。自康乐以来，未复有能与其奇者。",
+  "fullText": "山川之美，古来共谈。高峰入云，清流见底。两岸石壁，五色交<ruby>辉<rp>(</rp><rt>huī</rt><rp>)</rp></ruby>。青林翠竹，四时<ruby>俱<rp>(</rp><rt>jù</rt><rp>)</rp></ruby>备。晓雾将<ruby>歇<rp>(</rp><rt>xiē</rt><rp>)</rp></ruby>，猿鸟乱鸣；夕日欲<ruby>颓<rp>(</rp><rt>tuí</rt><rp>)</rp></ruby>，沉<ruby>鳞<rp>(</rp><rt>lín</rt><rp>)</rp></ruby>竞跃。实是欲界之仙都。自康乐以来，未复有能<ruby>与<rp>(</rp><rt>yù</rt><rp>)</rp></ruby>其奇者。",
   "fullTextPlain": "山川之美，古来共谈。高峰入云，清流见底。两岸石壁，五色交辉。青林翠竹，四时俱备。晓雾将歇，猿鸟乱鸣；夕日欲颓，沉鳞竞跃。实是欲界之仙都。自康乐以来，未复有能与其奇者。",
   "rubyAnnotations": [
     {
@@ -345,7 +345,7 @@
     },
     {
       "char": "与",
-      "pinyin": "yǔ",
+      "pinyin": "yù",
       "pos": 78
     },
     {

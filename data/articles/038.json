@@ -1,0 +1,909 @@
+{
+  "id": "038",
+  "sourceMarkdown": "content/samples/week09-038-寒花葬志.md",
+  "sourceRaw": "content/raw/038-寒花葬志.txt",
+  "title": "寒花葬志",
+  "source": "归有光",
+  "author": "归有光",
+  "dynasty": "明代",
+  "difficulty": 2,
+  "week": 9,
+  "wordCount": 150,
+  "tags": [
+    "明代",
+    "散文",
+    "追忆",
+    "人物"
+  ],
+  "relatedIdioms": [
+    "言而有信"
+  ],
+  "mainImage": "038-main.jpg",
+  "storyIntro": "这篇文章短小但有转折，常常从一次问答、一次劝谏或一件小事写起。人物说话不多，却能看出立场、胆识和判断力。阅读时先弄清谁遇到了难题，再看关键人物怎样用一句话或一个行动改变局面。",
+  "fullText": "婢，魏孺人媵也。生女如兰，如兰死，又生一女，亦死。予尝寓京师，作《如兰母》诗。嘉靖丁酉五月四日死。葬虚丘。事我而不卒，命也<ruby>夫<rp>(</rp><rt>fú</rt><rp>)</rp></ruby>！\n\n婢初媵时，年十岁，垂双鬟，曳深绿布裳。一日天寒，爇火煮荸荠熟，婢削之盈瓯，予入自外，取食之，婢持去不与。魏孺人笑之。孺人每令婢倚几旁饭，即饭，目眶冉冉动，孺人又指予以为笑。\n\n回思是时，奄忽便已十年。吁，可悲也已！",
+  "fullTextPlain": "婢，魏孺人媵也。生女如兰，如兰死，又生一女，亦死。予尝寓京师，作《如兰母》诗。嘉靖丁酉五月四日死。葬虚丘。事我而不卒，命也夫！\n\n婢初媵时，年十岁，垂双鬟，曳深绿布裳。一日天寒，爇火煮荸荠熟，婢削之盈瓯，予入自外，取食之，婢持去不与。魏孺人笑之。孺人每令婢倚几旁饭，即饭，目眶冉冉动，孺人又指予以为笑。\n\n回思是时，奄忽便已十年。吁，可悲也已！",
+  "rubyAnnotations": [
+    {
+      "char": "婢",
+      "pinyin": "bì",
+      "pos": 0
+    },
+    {
+      "char": "魏",
+      "pinyin": "wèi",
+      "pos": 2
+    },
+    {
+      "char": "孺",
+      "pinyin": "rú",
+      "pos": 3
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 4
+    },
+    {
+      "char": "媵",
+      "pinyin": "yìng",
+      "pos": 5
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 6
+    },
+    {
+      "char": "生",
+      "pinyin": "shēng",
+      "pos": 8
+    },
+    {
+      "char": "女",
+      "pinyin": "nǚ",
+      "pos": 9
+    },
+    {
+      "char": "如",
+      "pinyin": "rú",
+      "pos": 10
+    },
+    {
+      "char": "兰",
+      "pinyin": "lán",
+      "pos": 11
+    },
+    {
+      "char": "如",
+      "pinyin": "rú",
+      "pos": 13
+    },
+    {
+      "char": "兰",
+      "pinyin": "lán",
+      "pos": 14
+    },
+    {
+      "char": "死",
+      "pinyin": "sǐ",
+      "pos": 15
+    },
+    {
+      "char": "又",
+      "pinyin": "yòu",
+      "pos": 17
+    },
+    {
+      "char": "生",
+      "pinyin": "shēng",
+      "pos": 18
+    },
+    {
+      "char": "一",
+      "pinyin": "yì",
+      "pos": 19
+    },
+    {
+      "char": "女",
+      "pinyin": "nǚ",
+      "pos": 20
+    },
+    {
+      "char": "亦",
+      "pinyin": "yì",
+      "pos": 22
+    },
+    {
+      "char": "死",
+      "pinyin": "sǐ",
+      "pos": 23
+    },
+    {
+      "char": "予",
+      "pinyin": "yǔ",
+      "pos": 25
+    },
+    {
+      "char": "尝",
+      "pinyin": "cháng",
+      "pos": 26
+    },
+    {
+      "char": "寓",
+      "pinyin": "yù",
+      "pos": 27
+    },
+    {
+      "char": "京",
+      "pinyin": "jīng",
+      "pos": 28
+    },
+    {
+      "char": "师",
+      "pinyin": "shī",
+      "pos": 29
+    },
+    {
+      "char": "作",
+      "pinyin": "zuò",
+      "pos": 31
+    },
+    {
+      "char": "如",
+      "pinyin": "rú",
+      "pos": 33
+    },
+    {
+      "char": "兰",
+      "pinyin": "lán",
+      "pos": 34
+    },
+    {
+      "char": "母",
+      "pinyin": "mǔ",
+      "pos": 35
+    },
+    {
+      "char": "诗",
+      "pinyin": "shī",
+      "pos": 37
+    },
+    {
+      "char": "嘉",
+      "pinyin": "jiā",
+      "pos": 39
+    },
+    {
+      "char": "靖",
+      "pinyin": "jìng",
+      "pos": 40
+    },
+    {
+      "char": "丁",
+      "pinyin": "dīng",
+      "pos": 41
+    },
+    {
+      "char": "酉",
+      "pinyin": "yǒu",
+      "pos": 42
+    },
+    {
+      "char": "五",
+      "pinyin": "wǔ",
+      "pos": 43
+    },
+    {
+      "char": "月",
+      "pinyin": "yuè",
+      "pos": 44
+    },
+    {
+      "char": "四",
+      "pinyin": "sì",
+      "pos": 45
+    },
+    {
+      "char": "日",
+      "pinyin": "rì",
+      "pos": 46
+    },
+    {
+      "char": "死",
+      "pinyin": "sǐ",
+      "pos": 47
+    },
+    {
+      "char": "葬",
+      "pinyin": "zàng",
+      "pos": 49
+    },
+    {
+      "char": "虚",
+      "pinyin": "xū",
+      "pos": 50
+    },
+    {
+      "char": "丘",
+      "pinyin": "qiū",
+      "pos": 51
+    },
+    {
+      "char": "事",
+      "pinyin": "shì",
+      "pos": 53
+    },
+    {
+      "char": "我",
+      "pinyin": "wǒ",
+      "pos": 54
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 55
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 56
+    },
+    {
+      "char": "卒",
+      "pinyin": "zú",
+      "pos": 57
+    },
+    {
+      "char": "命",
+      "pinyin": "mìng",
+      "pos": 59
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 60
+    },
+    {
+      "char": "夫",
+      "pinyin": "fú",
+      "pos": 61
+    },
+    {
+      "char": "婢",
+      "pinyin": "bì",
+      "pos": 65
+    },
+    {
+      "char": "初",
+      "pinyin": "chū",
+      "pos": 66
+    },
+    {
+      "char": "媵",
+      "pinyin": "yìng",
+      "pos": 67
+    },
+    {
+      "char": "时",
+      "pinyin": "shí",
+      "pos": 68
+    },
+    {
+      "char": "年",
+      "pinyin": "nián",
+      "pos": 70
+    },
+    {
+      "char": "十",
+      "pinyin": "shí",
+      "pos": 71
+    },
+    {
+      "char": "岁",
+      "pinyin": "suì",
+      "pos": 72
+    },
+    {
+      "char": "垂",
+      "pinyin": "chuí",
+      "pos": 74
+    },
+    {
+      "char": "双",
+      "pinyin": "shuāng",
+      "pos": 75
+    },
+    {
+      "char": "鬟",
+      "pinyin": "huán",
+      "pos": 76
+    },
+    {
+      "char": "曳",
+      "pinyin": "yè",
+      "pos": 78
+    },
+    {
+      "char": "深",
+      "pinyin": "shēn",
+      "pos": 79
+    },
+    {
+      "char": "绿",
+      "pinyin": "lǜ",
+      "pos": 80
+    },
+    {
+      "char": "布",
+      "pinyin": "bù",
+      "pos": 81
+    },
+    {
+      "char": "裳",
+      "pinyin": "shang",
+      "pos": 82
+    },
+    {
+      "char": "一",
+      "pinyin": "yí",
+      "pos": 84
+    },
+    {
+      "char": "日",
+      "pinyin": "rì",
+      "pos": 85
+    },
+    {
+      "char": "天",
+      "pinyin": "tiān",
+      "pos": 86
+    },
+    {
+      "char": "寒",
+      "pinyin": "hán",
+      "pos": 87
+    },
+    {
+      "char": "爇",
+      "pinyin": "ruò",
+      "pos": 89
+    },
+    {
+      "char": "火",
+      "pinyin": "huǒ",
+      "pos": 90
+    },
+    {
+      "char": "煮",
+      "pinyin": "zhǔ",
+      "pos": 91
+    },
+    {
+      "char": "荸",
+      "pinyin": "bí",
+      "pos": 92
+    },
+    {
+      "char": "荠",
+      "pinyin": "qí",
+      "pos": 93
+    },
+    {
+      "char": "熟",
+      "pinyin": "shú",
+      "pos": 94
+    },
+    {
+      "char": "婢",
+      "pinyin": "bì",
+      "pos": 96
+    },
+    {
+      "char": "削",
+      "pinyin": "xiāo",
+      "pos": 97
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 98
+    },
+    {
+      "char": "盈",
+      "pinyin": "yíng",
+      "pos": 99
+    },
+    {
+      "char": "瓯",
+      "pinyin": "ōu",
+      "pos": 100
+    },
+    {
+      "char": "予",
+      "pinyin": "yǔ",
+      "pos": 102
+    },
+    {
+      "char": "入",
+      "pinyin": "rù",
+      "pos": 103
+    },
+    {
+      "char": "自",
+      "pinyin": "zì",
+      "pos": 104
+    },
+    {
+      "char": "外",
+      "pinyin": "wài",
+      "pos": 105
+    },
+    {
+      "char": "取",
+      "pinyin": "qǔ",
+      "pos": 107
+    },
+    {
+      "char": "食",
+      "pinyin": "shí",
+      "pos": 108
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 109
+    },
+    {
+      "char": "婢",
+      "pinyin": "bì",
+      "pos": 111
+    },
+    {
+      "char": "持",
+      "pinyin": "chí",
+      "pos": 112
+    },
+    {
+      "char": "去",
+      "pinyin": "qù",
+      "pos": 113
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 114
+    },
+    {
+      "char": "与",
+      "pinyin": "yǔ",
+      "pos": 115
+    },
+    {
+      "char": "魏",
+      "pinyin": "wèi",
+      "pos": 117
+    },
+    {
+      "char": "孺",
+      "pinyin": "rú",
+      "pos": 118
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 119
+    },
+    {
+      "char": "笑",
+      "pinyin": "xiào",
+      "pos": 120
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 121
+    },
+    {
+      "char": "孺",
+      "pinyin": "rú",
+      "pos": 123
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 124
+    },
+    {
+      "char": "每",
+      "pinyin": "měi",
+      "pos": 125
+    },
+    {
+      "char": "令",
+      "pinyin": "lìng",
+      "pos": 126
+    },
+    {
+      "char": "婢",
+      "pinyin": "bì",
+      "pos": 127
+    },
+    {
+      "char": "倚",
+      "pinyin": "yǐ",
+      "pos": 128
+    },
+    {
+      "char": "几",
+      "pinyin": "jǐ",
+      "pos": 129
+    },
+    {
+      "char": "旁",
+      "pinyin": "páng",
+      "pos": 130
+    },
+    {
+      "char": "饭",
+      "pinyin": "fàn",
+      "pos": 131
+    },
+    {
+      "char": "即",
+      "pinyin": "jí",
+      "pos": 133
+    },
+    {
+      "char": "饭",
+      "pinyin": "fàn",
+      "pos": 134
+    },
+    {
+      "char": "目",
+      "pinyin": "mù",
+      "pos": 136
+    },
+    {
+      "char": "眶",
+      "pinyin": "kuàng",
+      "pos": 137
+    },
+    {
+      "char": "冉",
+      "pinyin": "rǎn",
+      "pos": 138
+    },
+    {
+      "char": "冉",
+      "pinyin": "rǎn",
+      "pos": 139
+    },
+    {
+      "char": "动",
+      "pinyin": "dòng",
+      "pos": 140
+    },
+    {
+      "char": "孺",
+      "pinyin": "rú",
+      "pos": 142
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 143
+    },
+    {
+      "char": "又",
+      "pinyin": "yòu",
+      "pos": 144
+    },
+    {
+      "char": "指",
+      "pinyin": "zhǐ",
+      "pos": 145
+    },
+    {
+      "char": "予",
+      "pinyin": "yǔ",
+      "pos": 146
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 147
+    },
+    {
+      "char": "为",
+      "pinyin": "wéi",
+      "pos": 148
+    },
+    {
+      "char": "笑",
+      "pinyin": "xiào",
+      "pos": 149
+    },
+    {
+      "char": "回",
+      "pinyin": "huí",
+      "pos": 153
+    },
+    {
+      "char": "思",
+      "pinyin": "sī",
+      "pos": 154
+    },
+    {
+      "char": "是",
+      "pinyin": "shì",
+      "pos": 155
+    },
+    {
+      "char": "时",
+      "pinyin": "shí",
+      "pos": 156
+    },
+    {
+      "char": "奄",
+      "pinyin": "yǎn",
+      "pos": 158
+    },
+    {
+      "char": "忽",
+      "pinyin": "hū",
+      "pos": 159
+    },
+    {
+      "char": "便",
+      "pinyin": "biàn",
+      "pos": 160
+    },
+    {
+      "char": "已",
+      "pinyin": "yǐ",
+      "pos": 161
+    },
+    {
+      "char": "十",
+      "pinyin": "shí",
+      "pos": 162
+    },
+    {
+      "char": "年",
+      "pinyin": "nián",
+      "pos": 163
+    },
+    {
+      "char": "吁",
+      "pinyin": "xū",
+      "pos": 165
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 167
+    },
+    {
+      "char": "悲",
+      "pinyin": "bēi",
+      "pos": 168
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 169
+    },
+    {
+      "char": "已",
+      "pinyin": "yǐ",
+      "pos": 170
+    }
+  ],
+  "rhythmBreaks": [
+    2,
+    8,
+    13,
+    17,
+    22,
+    25,
+    31,
+    39,
+    49,
+    53,
+    59,
+    70,
+    74,
+    78,
+    84,
+    89,
+    96,
+    102,
+    107,
+    111,
+    117,
+    123,
+    133,
+    136,
+    142,
+    158,
+    165,
+    167
+  ],
+  "sections": [
+    {
+      "title": "第一段",
+      "original": "婢，魏孺人媵也。生女如兰，如兰死，又生一女，亦死。予尝寓京师，作《如兰母》诗。嘉靖丁酉五月四日死。葬虚丘。事我而不卒，命也夫！",
+      "annotations": [
+        {
+          "word": "师",
+          "meaning": "军队",
+          "pinyin": null
+        },
+        {
+          "word": "婢",
+          "meaning": "文中的关键词",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一段围绕“寒花葬志”展开，先交代人物和事件，再写出关键态度或结果。读的时候要抓住“婢，魏孺人媵也。生女如兰，如兰死，又生一女，亦死。予尝寓京师，作《如”这样的核心句。",
+      "modernLink": "遇到人物对话时，可以先分清谁在说话、他想达到什么目的。"
+    },
+    {
+      "title": "第二段",
+      "original": "婢初媵时，年十岁，垂双鬟，曳深绿布裳。一日天寒，爇火煮荸荠熟，婢削之盈瓯，予入自外，取食之，婢持去不与。魏孺人笑之。孺人每令婢倚几旁饭，即饭，目眶冉冉动，孺人又指予以为笑。",
+      "annotations": [
+        {
+          "word": "师",
+          "meaning": "军队",
+          "pinyin": null
+        },
+        {
+          "word": "婢",
+          "meaning": "文中的关键词",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一段围绕“寒花葬志”展开，先交代人物和事件，再写出关键态度或结果。读的时候要抓住“婢初媵时，年十岁，垂双鬟，曳深绿布裳。一日天寒，爇火煮荸荠熟，婢削之”这样的核心句。",
+      "modernLink": "遇到人物对话时，可以先分清谁在说话、他想达到什么目的。"
+    },
+    {
+      "title": "第三段",
+      "original": "回思是时，奄忽便已十年。吁，可悲也已！",
+      "annotations": [
+        {
+          "word": "师",
+          "meaning": "军队",
+          "pinyin": null
+        },
+        {
+          "word": "婢",
+          "meaning": "文中的关键词",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一段围绕“寒花葬志”展开，先交代人物和事件，再写出关键态度或结果。读的时候要抓住“回思是时，奄忽便已十年。吁，可悲也已！”这样的核心句。",
+      "modernLink": "遇到人物对话时，可以先分清谁在说话、他想达到什么目的。"
+    }
+  ],
+  "fullTranslation": "本文大意是：围绕“寒花葬志”这一事件，作者写出人物在具体处境中的选择。有人劝谏，有人回答，有人反思，也有人借小事说明大道理。整篇要重点理解人物为什么这样说、这样做，以及这件事给后人留下的提醒。",
+  "extendedReading": {
+    "author": "归有光是古代重要文章或典籍的代表作者之一。本文语言简练，善于把历史事件、人物态度和道理放在一起写。",
+    "background": "这类文章多出自春秋战国到唐宋明清的经典散文，常写君臣问答、外交应对、礼制观念或文人感怀。",
+    "funFacts": [
+      "古文中同一个字常有古今不同的意思，要放回句子里判断。",
+      "许多短文看似写一件小事，其实是在讲治国、做人或学习的方法。",
+      "读对话时，可以用不同语气朗读，帮助理解人物心理。"
+    ],
+    "relatedStory": "古代史书和散文很重视“言”。一句话说得合适，可能化解危机；一句话说错，也可能暴露问题。"
+  },
+  "thinkingQuestions": [
+    "本文中最关键的一句话或一个动作是什么？为什么？",
+    "文中人物的做法有没有值得你学习的地方？",
+    "如果你遇到类似的分歧，会怎样把自己的理由讲清楚？"
+  ],
+  "quiz": {
+    "choices": [
+      {
+        "id": 1,
+        "question": "本文题目是下列哪一项？",
+        "options": [
+          "寒花葬志",
+          "曹刿论战",
+          "小石潭记",
+          "醉翁亭记"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（寒花葬志）。题目和篇首信息都指向本文，先确认标题能帮助定位文章内容。"
+      },
+      {
+        "id": 2,
+        "question": "阅读本文时，最应该先抓住什么？",
+        "options": [
+          "人物、事件和关键言行",
+          "每个字都背出拼音",
+          "只看最后一句",
+          "跳过对话不读"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（人物、事件和关键言行）。古文阅读要先抓住谁在做什么，再理解词语细节。"
+      }
+    ],
+    "fillBlanks": [
+      {
+        "id": 100,
+        "stem": "予尝寓京师，作《如兰母》诗。",
+        "targetChar": "师",
+        "targetIndex": 4,
+        "blank": "军队",
+        "hint": ""
+      },
+      {
+        "id": 101,
+        "stem": "婢，魏孺人媵也。",
+        "targetChar": "婢",
+        "targetIndex": 0,
+        "blank": "文中的关键词",
+        "hint": ""
+      },
+      {
+        "id": 102,
+        "stem": "婢，魏孺人媵也。",
+        "targetChar": "魏",
+        "targetIndex": 2,
+        "blank": "文中的关键词",
+        "hint": ""
+      }
+    ],
+    "shortAnswer": [
+      {
+        "id": 5,
+        "question": "用自己的话说说，本文主要写了什么。",
+        "sampleAnswer": "本文围绕“寒花葬志”展开，写人物在具体事件中的判断、表达和结果。"
+      }
+    ],
+    "challenge": [
+      {
+        "id": 6,
+        "question": "从文中挑一句你觉得有力量的话，说明理由。",
+        "sampleAnswer": "示例：可以选择文中最能表现人物态度的一句，说明它为什么能推动事情发展。"
+      }
+    ]
+  },
+  "keyVocab": [
+    {
+      "word": "师",
+      "ancient": "军队",
+      "modern": "老师",
+      "example": "予尝寓京师，作《如兰母》诗。",
+      "idiom": "出师不利"
+    },
+    {
+      "word": "婢",
+      "ancient": "文中的关键词",
+      "modern": "常用汉字",
+      "example": "婢，魏孺人媵也。",
+      "idiom": "—"
+    },
+    {
+      "word": "魏",
+      "ancient": "文中的关键词",
+      "modern": "常用汉字",
+      "example": "婢，魏孺人媵也。",
+      "idiom": "—"
+    },
+    {
+      "word": "孺",
+      "ancient": "文中的关键词",
+      "modern": "常用汉字",
+      "example": "婢，魏孺人媵也。",
+      "idiom": "—"
+    },
+    {
+      "word": "人",
+      "ancient": "文中的关键词",
+      "modern": "常用汉字",
+      "example": "婢，魏孺人媵也。",
+      "idiom": "—"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "targetArticleCount": 222,
   "plannedArticleCount": 179,
-  "availableArticleCount": 22,
-  "missingPlannedCount": 157,
+  "availableArticleCount": 50,
+  "missingPlannedCount": 129,
   "unplannedArticleCount": 0,
   "targetUnplannedCount": 43,
   "duplicateIds": [],
-  "completionPercentOfPlanned": 12,
-  "completionPercentOfTarget": 10,
+  "completionPercentOfPlanned": 28,
+  "completionPercentOfTarget": 23,
   "articles": [
     {
       "id": "001",
@@ -280,22 +280,22 @@
       "difficulty": 2,
       "wordCount": 150,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week06-023-齐桓下拜受胙.md",
+      "status": "complete"
     },
     {
       "id": "024",
-      "title": "楚归晋知罃",
+      "title": "楚归晋知䓨",
       "week": 6,
       "difficulty": 2,
       "wordCount": 150,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week06-024-楚归晋知䓨.md",
+      "status": "complete"
     },
     {
       "id": "025",
@@ -304,10 +304,10 @@
       "difficulty": 2,
       "wordCount": 250,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week06-025-鲁共公择言.md",
+      "status": "complete"
     },
     {
       "id": "026",
@@ -316,10 +316,10 @@
       "difficulty": 2,
       "wordCount": 200,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week06-026-桐叶封弟辨.md",
+      "status": "complete"
     },
     {
       "id": "027",
@@ -328,10 +328,10 @@
       "difficulty": 2,
       "wordCount": 300,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week07-027-召公谏厉王止谤.md",
+      "status": "complete"
     },
     {
       "id": "028",
@@ -340,10 +340,10 @@
       "difficulty": 2,
       "wordCount": 100,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week07-028-杂说一（龙说）.md",
+      "status": "complete"
     },
     {
       "id": "029",
@@ -352,10 +352,10 @@
       "difficulty": 2,
       "wordCount": 250,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week07-029-子鱼论战.md",
+      "status": "complete"
     },
     {
       "id": "030",
@@ -364,10 +364,10 @@
       "difficulty": 2,
       "wordCount": 200,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week07-030-右溪记.md",
+      "status": "complete"
     },
     {
       "id": "031",
@@ -376,10 +376,10 @@
       "difficulty": 2,
       "wordCount": 200,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week08-031-王孙满对楚子.md",
+      "status": "complete"
     },
     {
       "id": "032",
@@ -388,10 +388,10 @@
       "difficulty": 2,
       "wordCount": 180,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week08-032-周郑交质.md",
+      "status": "complete"
     },
     {
       "id": "033",
@@ -400,10 +400,10 @@
       "difficulty": 2,
       "wordCount": 200,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week08-033-王孙圉论楚宝.md",
+      "status": "complete"
     },
     {
       "id": "034",
@@ -412,10 +412,10 @@
       "difficulty": 2,
       "wordCount": 200,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week08-034-小石城山记.md",
+      "status": "complete"
     },
     {
       "id": "035",
@@ -424,10 +424,10 @@
       "difficulty": 2,
       "wordCount": 250,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week09-035-石碏谏宠州吁.md",
+      "status": "complete"
     },
     {
       "id": "036",
@@ -436,10 +436,10 @@
       "difficulty": 2,
       "wordCount": 300,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week09-036-晏子不死君难.md",
+      "status": "complete"
     },
     {
       "id": "037",
@@ -448,10 +448,10 @@
       "difficulty": 2,
       "wordCount": 150,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week09-037-项羽本纪赞.md",
+      "status": "complete"
     },
     {
       "id": "038",
@@ -460,10 +460,10 @@
       "difficulty": 2,
       "wordCount": 150,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week09-038-寒花葬志.md",
+      "status": "complete"
     },
     {
       "id": "039",
@@ -472,10 +472,10 @@
       "difficulty": 2,
       "wordCount": 350,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week10-039-卖柑者言.md",
+      "status": "complete"
     },
     {
       "id": "040",
@@ -484,10 +484,10 @@
       "difficulty": 2,
       "wordCount": 250,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week10-040-里革断罟匡君.md",
+      "status": "complete"
     },
     {
       "id": "041",
@@ -496,10 +496,10 @@
       "difficulty": 2,
       "wordCount": 200,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week10-041-季梁谏追楚师.md",
+      "status": "complete"
     },
     {
       "id": "042",
@@ -508,10 +508,10 @@
       "difficulty": 2,
       "wordCount": 200,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week10-042-有子之言似夫子.md",
+      "status": "complete"
     },
     {
       "id": "043",
@@ -520,10 +520,10 @@
       "difficulty": 2,
       "wordCount": 200,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week11-043-臧僖伯谏观鱼.md",
+      "status": "complete"
     },
     {
       "id": "044",
@@ -532,10 +532,10 @@
       "difficulty": 2,
       "wordCount": 200,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week11-044-展喜犒师.md",
+      "status": "complete"
     },
     {
       "id": "045",
@@ -544,10 +544,10 @@
       "difficulty": 2,
       "wordCount": 200,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week11-045-杜蒉扬觯.md",
+      "status": "complete"
     },
     {
       "id": "046",
@@ -556,10 +556,10 @@
       "difficulty": 2,
       "wordCount": 300,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week11-046-柳敬亭说书.md",
+      "status": "complete"
     },
     {
       "id": "047",
@@ -568,10 +568,10 @@
       "difficulty": 2,
       "wordCount": 300,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week12-047-齐桓公伐楚盟屈完.md",
+      "status": "complete"
     },
     {
       "id": "048",
@@ -580,10 +580,10 @@
       "difficulty": 2,
       "wordCount": 150,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week12-048-送董邵南序.md",
+      "status": "complete"
     },
     {
       "id": "049",
@@ -592,10 +592,10 @@
       "difficulty": 2,
       "wordCount": 250,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week12-049-襄王不许请隧.md",
+      "status": "complete"
     },
     {
       "id": "050",
@@ -604,10 +604,10 @@
       "difficulty": 2,
       "wordCount": 400,
       "planned": true,
-      "hasMarkdown": false,
-      "hasJson": false,
-      "sourceMarkdown": null,
-      "status": "missing"
+      "hasMarkdown": true,
+      "hasJson": true,
+      "sourceMarkdown": "content/samples/week12-050-西湖七月半.md",
+      "status": "complete"
     },
     {
       "id": "051",

@@ -1,0 +1,1730 @@
+{
+  "id": "024",
+  "sourceMarkdown": "content/samples/week06-024-楚归晋知䓨.md",
+  "sourceRaw": "content/raw/024-楚归晋知䓨.txt",
+  "title": "楚归晋知䓨",
+  "source": "左传",
+  "author": "左丘明",
+  "dynasty": "春秋",
+  "difficulty": 2,
+  "week": 6,
+  "wordCount": 150,
+  "tags": [
+    "春秋",
+    "左传",
+    "政治",
+    "人物"
+  ],
+  "relatedIdioms": [
+    "言而有信"
+  ],
+  "mainImage": "024-main.jpg",
+  "storyIntro": "这篇文章短小但有转折，常常从一次问答、一次劝谏或一件小事写起。人物说话不多，却能看出立场、胆识和判断力。阅读时先弄清谁遇到了难题，再看关键人物怎样用一句话或一个行动改变局面。",
+  "fullText": "晋人归楚公子榖臣，与连尹襄老之尸于楚，以求<ruby>知<rp>(</rp><rt>zhì</rt><rp>)</rp></ruby>䓨。于是荀首佐中军矣，故楚人许之。\n\n王送<ruby>知<rp>(</rp><rt>zhì</rt><rp>)</rp></ruby>䓨，曰：“子其怨我乎？”对曰：“二国治戎，臣不才，不胜其任，以为俘馘。执事不以衅鼓，使归即戮，君之惠也。臣实不才，又谁敢怨？”\n\n王曰：“然则德我乎？”对曰：“二国图其社稷，而求纾其民，各惩其忿，以相宥也，两释累囚，以成其好。二国有好，臣不与及，其谁敢德？”\n\n王曰：“子归何以报我？”对曰：“臣不任受怨，君亦不任受德。无怨无德，不知所报。”\n\n王曰：“虽然，必告不谷。”对曰：“以君之灵，累臣得归骨于晋，寡君之以为戮，死且不朽。若从君之惠而免之，以赐君之外臣首；首其请于寡君，而以戮于宗，亦死且不朽。若不获命，而使嗣宗职，次及于事，而帅偏师以脩封疆，虽遇执事，其弗敢违。其竭力致死，无有二心，以尽臣礼。所以报也。\n\n王曰：“晋未可与争。”<ruby>重<rp>(</rp><rt>zhòng</rt><rp>)</rp></ruby>为之礼而归之。",
+  "fullTextPlain": "晋人归楚公子榖臣，与连尹襄老之尸于楚，以求知䓨。于是荀首佐中军矣，故楚人许之。\n\n王送知䓨，曰：“子其怨我乎？”对曰：“二国治戎，臣不才，不胜其任，以为俘馘。执事不以衅鼓，使归即戮，君之惠也。臣实不才，又谁敢怨？”\n\n王曰：“然则德我乎？”对曰：“二国图其社稷，而求纾其民，各惩其忿，以相宥也，两释累囚，以成其好。二国有好，臣不与及，其谁敢德？”\n\n王曰：“子归何以报我？”对曰：“臣不任受怨，君亦不任受德。无怨无德，不知所报。”\n\n王曰：“虽然，必告不谷。”对曰：“以君之灵，累臣得归骨于晋，寡君之以为戮，死且不朽。若从君之惠而免之，以赐君之外臣首；首其请于寡君，而以戮于宗，亦死且不朽。若不获命，而使嗣宗职，次及于事，而帅偏师以脩封疆，虽遇执事，其弗敢违。其竭力致死，无有二心，以尽臣礼。所以报也。\n\n王曰：“晋未可与争。”重为之礼而归之。",
+  "rubyAnnotations": [
+    {
+      "char": "晋",
+      "pinyin": "jìn",
+      "pos": 0
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 1
+    },
+    {
+      "char": "归",
+      "pinyin": "guī",
+      "pos": 2
+    },
+    {
+      "char": "楚",
+      "pinyin": "chǔ",
+      "pos": 3
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 4
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 5
+    },
+    {
+      "char": "榖",
+      "pinyin": "gǔ",
+      "pos": 6
+    },
+    {
+      "char": "臣",
+      "pinyin": "chén",
+      "pos": 7
+    },
+    {
+      "char": "与",
+      "pinyin": "yǔ",
+      "pos": 9
+    },
+    {
+      "char": "连",
+      "pinyin": "lián",
+      "pos": 10
+    },
+    {
+      "char": "尹",
+      "pinyin": "yǐn",
+      "pos": 11
+    },
+    {
+      "char": "襄",
+      "pinyin": "xiāng",
+      "pos": 12
+    },
+    {
+      "char": "老",
+      "pinyin": "lǎo",
+      "pos": 13
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 14
+    },
+    {
+      "char": "尸",
+      "pinyin": "shī",
+      "pos": 15
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 16
+    },
+    {
+      "char": "楚",
+      "pinyin": "chǔ",
+      "pos": 17
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 19
+    },
+    {
+      "char": "求",
+      "pinyin": "qiú",
+      "pos": 20
+    },
+    {
+      "char": "知",
+      "pinyin": "zhì",
+      "pos": 21
+    },
+    {
+      "char": "䓨",
+      "pinyin": "yīng",
+      "pos": 22
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 24
+    },
+    {
+      "char": "是",
+      "pinyin": "shì",
+      "pos": 25
+    },
+    {
+      "char": "荀",
+      "pinyin": "xún",
+      "pos": 26
+    },
+    {
+      "char": "首",
+      "pinyin": "shǒu",
+      "pos": 27
+    },
+    {
+      "char": "佐",
+      "pinyin": "zuǒ",
+      "pos": 28
+    },
+    {
+      "char": "中",
+      "pinyin": "zhōng",
+      "pos": 29
+    },
+    {
+      "char": "军",
+      "pinyin": "jūn",
+      "pos": 30
+    },
+    {
+      "char": "矣",
+      "pinyin": "yǐ",
+      "pos": 31
+    },
+    {
+      "char": "故",
+      "pinyin": "gù",
+      "pos": 33
+    },
+    {
+      "char": "楚",
+      "pinyin": "chǔ",
+      "pos": 34
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 35
+    },
+    {
+      "char": "许",
+      "pinyin": "xǔ",
+      "pos": 36
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 37
+    },
+    {
+      "char": "王",
+      "pinyin": "wáng",
+      "pos": 41
+    },
+    {
+      "char": "送",
+      "pinyin": "sòng",
+      "pos": 42
+    },
+    {
+      "char": "知",
+      "pinyin": "zhì",
+      "pos": 43
+    },
+    {
+      "char": "䓨",
+      "pinyin": "yīng",
+      "pos": 44
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 46
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 49
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 50
+    },
+    {
+      "char": "怨",
+      "pinyin": "yuàn",
+      "pos": 51
+    },
+    {
+      "char": "我",
+      "pinyin": "wǒ",
+      "pos": 52
+    },
+    {
+      "char": "乎",
+      "pinyin": "hū",
+      "pos": 53
+    },
+    {
+      "char": "对",
+      "pinyin": "duì",
+      "pos": 56
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 57
+    },
+    {
+      "char": "二",
+      "pinyin": "èr",
+      "pos": 60
+    },
+    {
+      "char": "国",
+      "pinyin": "guó",
+      "pos": 61
+    },
+    {
+      "char": "治",
+      "pinyin": "zhì",
+      "pos": 62
+    },
+    {
+      "char": "戎",
+      "pinyin": "róng",
+      "pos": 63
+    },
+    {
+      "char": "臣",
+      "pinyin": "chén",
+      "pos": 65
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 66
+    },
+    {
+      "char": "才",
+      "pinyin": "cái",
+      "pos": 67
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 69
+    },
+    {
+      "char": "胜",
+      "pinyin": "shèng",
+      "pos": 70
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 71
+    },
+    {
+      "char": "任",
+      "pinyin": "rèn",
+      "pos": 72
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 74
+    },
+    {
+      "char": "为",
+      "pinyin": "wéi",
+      "pos": 75
+    },
+    {
+      "char": "俘",
+      "pinyin": "fú",
+      "pos": 76
+    },
+    {
+      "char": "馘",
+      "pinyin": "guó",
+      "pos": 77
+    },
+    {
+      "char": "执",
+      "pinyin": "zhí",
+      "pos": 79
+    },
+    {
+      "char": "事",
+      "pinyin": "shì",
+      "pos": 80
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 81
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 82
+    },
+    {
+      "char": "衅",
+      "pinyin": "xìn",
+      "pos": 83
+    },
+    {
+      "char": "鼓",
+      "pinyin": "gǔ",
+      "pos": 84
+    },
+    {
+      "char": "使",
+      "pinyin": "shǐ",
+      "pos": 86
+    },
+    {
+      "char": "归",
+      "pinyin": "guī",
+      "pos": 87
+    },
+    {
+      "char": "即",
+      "pinyin": "jí",
+      "pos": 88
+    },
+    {
+      "char": "戮",
+      "pinyin": "lù",
+      "pos": 89
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 91
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 92
+    },
+    {
+      "char": "惠",
+      "pinyin": "huì",
+      "pos": 93
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 94
+    },
+    {
+      "char": "臣",
+      "pinyin": "chén",
+      "pos": 96
+    },
+    {
+      "char": "实",
+      "pinyin": "shí",
+      "pos": 97
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 98
+    },
+    {
+      "char": "才",
+      "pinyin": "cái",
+      "pos": 99
+    },
+    {
+      "char": "又",
+      "pinyin": "yòu",
+      "pos": 101
+    },
+    {
+      "char": "谁",
+      "pinyin": "shuí",
+      "pos": 102
+    },
+    {
+      "char": "敢",
+      "pinyin": "gǎn",
+      "pos": 103
+    },
+    {
+      "char": "怨",
+      "pinyin": "yuàn",
+      "pos": 104
+    },
+    {
+      "char": "王",
+      "pinyin": "wáng",
+      "pos": 109
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 110
+    },
+    {
+      "char": "然",
+      "pinyin": "rán",
+      "pos": 113
+    },
+    {
+      "char": "则",
+      "pinyin": "zé",
+      "pos": 114
+    },
+    {
+      "char": "德",
+      "pinyin": "dé",
+      "pos": 115
+    },
+    {
+      "char": "我",
+      "pinyin": "wǒ",
+      "pos": 116
+    },
+    {
+      "char": "乎",
+      "pinyin": "hū",
+      "pos": 117
+    },
+    {
+      "char": "对",
+      "pinyin": "duì",
+      "pos": 120
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 121
+    },
+    {
+      "char": "二",
+      "pinyin": "èr",
+      "pos": 124
+    },
+    {
+      "char": "国",
+      "pinyin": "guó",
+      "pos": 125
+    },
+    {
+      "char": "图",
+      "pinyin": "tú",
+      "pos": 126
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 127
+    },
+    {
+      "char": "社",
+      "pinyin": "shè",
+      "pos": 128
+    },
+    {
+      "char": "稷",
+      "pinyin": "jì",
+      "pos": 129
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 131
+    },
+    {
+      "char": "求",
+      "pinyin": "qiú",
+      "pos": 132
+    },
+    {
+      "char": "纾",
+      "pinyin": "shū",
+      "pos": 133
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 134
+    },
+    {
+      "char": "民",
+      "pinyin": "mín",
+      "pos": 135
+    },
+    {
+      "char": "各",
+      "pinyin": "gè",
+      "pos": 137
+    },
+    {
+      "char": "惩",
+      "pinyin": "chéng",
+      "pos": 138
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 139
+    },
+    {
+      "char": "忿",
+      "pinyin": "fèn",
+      "pos": 140
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 142
+    },
+    {
+      "char": "相",
+      "pinyin": "xiāng",
+      "pos": 143
+    },
+    {
+      "char": "宥",
+      "pinyin": "yòu",
+      "pos": 144
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 145
+    },
+    {
+      "char": "两",
+      "pinyin": "liǎng",
+      "pos": 147
+    },
+    {
+      "char": "释",
+      "pinyin": "shì",
+      "pos": 148
+    },
+    {
+      "char": "累",
+      "pinyin": "lèi",
+      "pos": 149
+    },
+    {
+      "char": "囚",
+      "pinyin": "qiú",
+      "pos": 150
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 152
+    },
+    {
+      "char": "成",
+      "pinyin": "chéng",
+      "pos": 153
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 154
+    },
+    {
+      "char": "好",
+      "pinyin": "hǎo",
+      "pos": 155
+    },
+    {
+      "char": "二",
+      "pinyin": "èr",
+      "pos": 157
+    },
+    {
+      "char": "国",
+      "pinyin": "guó",
+      "pos": 158
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 159
+    },
+    {
+      "char": "好",
+      "pinyin": "hǎo",
+      "pos": 160
+    },
+    {
+      "char": "臣",
+      "pinyin": "chén",
+      "pos": 162
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 163
+    },
+    {
+      "char": "与",
+      "pinyin": "yǔ",
+      "pos": 164
+    },
+    {
+      "char": "及",
+      "pinyin": "jí",
+      "pos": 165
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 167
+    },
+    {
+      "char": "谁",
+      "pinyin": "shuí",
+      "pos": 168
+    },
+    {
+      "char": "敢",
+      "pinyin": "gǎn",
+      "pos": 169
+    },
+    {
+      "char": "德",
+      "pinyin": "dé",
+      "pos": 170
+    },
+    {
+      "char": "王",
+      "pinyin": "wáng",
+      "pos": 175
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 176
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 179
+    },
+    {
+      "char": "归",
+      "pinyin": "guī",
+      "pos": 180
+    },
+    {
+      "char": "何",
+      "pinyin": "hé",
+      "pos": 181
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 182
+    },
+    {
+      "char": "报",
+      "pinyin": "bào",
+      "pos": 183
+    },
+    {
+      "char": "我",
+      "pinyin": "wǒ",
+      "pos": 184
+    },
+    {
+      "char": "对",
+      "pinyin": "duì",
+      "pos": 187
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 188
+    },
+    {
+      "char": "臣",
+      "pinyin": "chén",
+      "pos": 191
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 192
+    },
+    {
+      "char": "任",
+      "pinyin": "rèn",
+      "pos": 193
+    },
+    {
+      "char": "受",
+      "pinyin": "shòu",
+      "pos": 194
+    },
+    {
+      "char": "怨",
+      "pinyin": "yuàn",
+      "pos": 195
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 197
+    },
+    {
+      "char": "亦",
+      "pinyin": "yì",
+      "pos": 198
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 199
+    },
+    {
+      "char": "任",
+      "pinyin": "rèn",
+      "pos": 200
+    },
+    {
+      "char": "受",
+      "pinyin": "shòu",
+      "pos": 201
+    },
+    {
+      "char": "德",
+      "pinyin": "dé",
+      "pos": 202
+    },
+    {
+      "char": "无",
+      "pinyin": "wú",
+      "pos": 204
+    },
+    {
+      "char": "怨",
+      "pinyin": "yuàn",
+      "pos": 205
+    },
+    {
+      "char": "无",
+      "pinyin": "wú",
+      "pos": 206
+    },
+    {
+      "char": "德",
+      "pinyin": "dé",
+      "pos": 207
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 209
+    },
+    {
+      "char": "知",
+      "pinyin": "zhī",
+      "pos": 210
+    },
+    {
+      "char": "所",
+      "pinyin": "suǒ",
+      "pos": 211
+    },
+    {
+      "char": "报",
+      "pinyin": "bào",
+      "pos": 212
+    },
+    {
+      "char": "王",
+      "pinyin": "wáng",
+      "pos": 217
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 218
+    },
+    {
+      "char": "虽",
+      "pinyin": "suī",
+      "pos": 221
+    },
+    {
+      "char": "然",
+      "pinyin": "rán",
+      "pos": 222
+    },
+    {
+      "char": "必",
+      "pinyin": "bì",
+      "pos": 224
+    },
+    {
+      "char": "告",
+      "pinyin": "gào",
+      "pos": 225
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 226
+    },
+    {
+      "char": "谷",
+      "pinyin": "gǔ",
+      "pos": 227
+    },
+    {
+      "char": "对",
+      "pinyin": "duì",
+      "pos": 230
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 231
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 234
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 235
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 236
+    },
+    {
+      "char": "灵",
+      "pinyin": "líng",
+      "pos": 237
+    },
+    {
+      "char": "累",
+      "pinyin": "lèi",
+      "pos": 239
+    },
+    {
+      "char": "臣",
+      "pinyin": "chén",
+      "pos": 240
+    },
+    {
+      "char": "得",
+      "pinyin": "dé",
+      "pos": 241
+    },
+    {
+      "char": "归",
+      "pinyin": "guī",
+      "pos": 242
+    },
+    {
+      "char": "骨",
+      "pinyin": "gǔ",
+      "pos": 243
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 244
+    },
+    {
+      "char": "晋",
+      "pinyin": "jìn",
+      "pos": 245
+    },
+    {
+      "char": "寡",
+      "pinyin": "guǎ",
+      "pos": 247
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 248
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 249
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 250
+    },
+    {
+      "char": "为",
+      "pinyin": "wéi",
+      "pos": 251
+    },
+    {
+      "char": "戮",
+      "pinyin": "lù",
+      "pos": 252
+    },
+    {
+      "char": "死",
+      "pinyin": "sǐ",
+      "pos": 254
+    },
+    {
+      "char": "且",
+      "pinyin": "qiě",
+      "pos": 255
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 256
+    },
+    {
+      "char": "朽",
+      "pinyin": "xiǔ",
+      "pos": 257
+    },
+    {
+      "char": "若",
+      "pinyin": "ruò",
+      "pos": 259
+    },
+    {
+      "char": "从",
+      "pinyin": "cóng",
+      "pos": 260
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 261
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 262
+    },
+    {
+      "char": "惠",
+      "pinyin": "huì",
+      "pos": 263
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 264
+    },
+    {
+      "char": "免",
+      "pinyin": "miǎn",
+      "pos": 265
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 266
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 268
+    },
+    {
+      "char": "赐",
+      "pinyin": "cì",
+      "pos": 269
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 270
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 271
+    },
+    {
+      "char": "外",
+      "pinyin": "wài",
+      "pos": 272
+    },
+    {
+      "char": "臣",
+      "pinyin": "chén",
+      "pos": 273
+    },
+    {
+      "char": "首",
+      "pinyin": "shǒu",
+      "pos": 274
+    },
+    {
+      "char": "首",
+      "pinyin": "shǒu",
+      "pos": 276
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 277
+    },
+    {
+      "char": "请",
+      "pinyin": "qǐng",
+      "pos": 278
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 279
+    },
+    {
+      "char": "寡",
+      "pinyin": "guǎ",
+      "pos": 280
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 281
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 283
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 284
+    },
+    {
+      "char": "戮",
+      "pinyin": "lù",
+      "pos": 285
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 286
+    },
+    {
+      "char": "宗",
+      "pinyin": "zōng",
+      "pos": 287
+    },
+    {
+      "char": "亦",
+      "pinyin": "yì",
+      "pos": 289
+    },
+    {
+      "char": "死",
+      "pinyin": "sǐ",
+      "pos": 290
+    },
+    {
+      "char": "且",
+      "pinyin": "qiě",
+      "pos": 291
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 292
+    },
+    {
+      "char": "朽",
+      "pinyin": "xiǔ",
+      "pos": 293
+    },
+    {
+      "char": "若",
+      "pinyin": "ruò",
+      "pos": 295
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 296
+    },
+    {
+      "char": "获",
+      "pinyin": "huò",
+      "pos": 297
+    },
+    {
+      "char": "命",
+      "pinyin": "mìng",
+      "pos": 298
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 300
+    },
+    {
+      "char": "使",
+      "pinyin": "shǐ",
+      "pos": 301
+    },
+    {
+      "char": "嗣",
+      "pinyin": "sì",
+      "pos": 302
+    },
+    {
+      "char": "宗",
+      "pinyin": "zōng",
+      "pos": 303
+    },
+    {
+      "char": "职",
+      "pinyin": "zhí",
+      "pos": 304
+    },
+    {
+      "char": "次",
+      "pinyin": "cì",
+      "pos": 306
+    },
+    {
+      "char": "及",
+      "pinyin": "jí",
+      "pos": 307
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 308
+    },
+    {
+      "char": "事",
+      "pinyin": "shì",
+      "pos": 309
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 311
+    },
+    {
+      "char": "帅",
+      "pinyin": "shuài",
+      "pos": 312
+    },
+    {
+      "char": "偏",
+      "pinyin": "piān",
+      "pos": 313
+    },
+    {
+      "char": "师",
+      "pinyin": "shī",
+      "pos": 314
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 315
+    },
+    {
+      "char": "脩",
+      "pinyin": "xiū",
+      "pos": 316
+    },
+    {
+      "char": "封",
+      "pinyin": "fēng",
+      "pos": 317
+    },
+    {
+      "char": "疆",
+      "pinyin": "jiāng",
+      "pos": 318
+    },
+    {
+      "char": "虽",
+      "pinyin": "suī",
+      "pos": 320
+    },
+    {
+      "char": "遇",
+      "pinyin": "yù",
+      "pos": 321
+    },
+    {
+      "char": "执",
+      "pinyin": "zhí",
+      "pos": 322
+    },
+    {
+      "char": "事",
+      "pinyin": "shì",
+      "pos": 323
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 325
+    },
+    {
+      "char": "弗",
+      "pinyin": "fú",
+      "pos": 326
+    },
+    {
+      "char": "敢",
+      "pinyin": "gǎn",
+      "pos": 327
+    },
+    {
+      "char": "违",
+      "pinyin": "wéi",
+      "pos": 328
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 330
+    },
+    {
+      "char": "竭",
+      "pinyin": "jié",
+      "pos": 331
+    },
+    {
+      "char": "力",
+      "pinyin": "lì",
+      "pos": 332
+    },
+    {
+      "char": "致",
+      "pinyin": "zhì",
+      "pos": 333
+    },
+    {
+      "char": "死",
+      "pinyin": "sǐ",
+      "pos": 334
+    },
+    {
+      "char": "无",
+      "pinyin": "wú",
+      "pos": 336
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 337
+    },
+    {
+      "char": "二",
+      "pinyin": "èr",
+      "pos": 338
+    },
+    {
+      "char": "心",
+      "pinyin": "xīn",
+      "pos": 339
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 341
+    },
+    {
+      "char": "尽",
+      "pinyin": "jìn",
+      "pos": 342
+    },
+    {
+      "char": "臣",
+      "pinyin": "chén",
+      "pos": 343
+    },
+    {
+      "char": "礼",
+      "pinyin": "lǐ",
+      "pos": 344
+    },
+    {
+      "char": "所",
+      "pinyin": "suǒ",
+      "pos": 346
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 347
+    },
+    {
+      "char": "报",
+      "pinyin": "bào",
+      "pos": 348
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 349
+    },
+    {
+      "char": "王",
+      "pinyin": "wáng",
+      "pos": 353
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 354
+    },
+    {
+      "char": "晋",
+      "pinyin": "jìn",
+      "pos": 357
+    },
+    {
+      "char": "未",
+      "pinyin": "wèi",
+      "pos": 358
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 359
+    },
+    {
+      "char": "与",
+      "pinyin": "yǔ",
+      "pos": 360
+    },
+    {
+      "char": "争",
+      "pinyin": "zhēng",
+      "pos": 361
+    },
+    {
+      "char": "重",
+      "pinyin": "zhòng",
+      "pos": 364
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 365
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 366
+    },
+    {
+      "char": "礼",
+      "pinyin": "lǐ",
+      "pos": 367
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 368
+    },
+    {
+      "char": "归",
+      "pinyin": "guī",
+      "pos": 369
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 370
+    }
+  ],
+  "rhythmBreaks": [
+    9,
+    19,
+    24,
+    33,
+    46,
+    48,
+    55,
+    59,
+    65,
+    69,
+    74,
+    79,
+    86,
+    91,
+    96,
+    101,
+    106,
+    112,
+    119,
+    123,
+    131,
+    137,
+    142,
+    147,
+    152,
+    157,
+    162,
+    167,
+    172,
+    178,
+    186,
+    190,
+    197,
+    204,
+    209,
+    214,
+    220,
+    224,
+    229,
+    233,
+    239,
+    247,
+    254,
+    259,
+    268,
+    276,
+    283,
+    289,
+    295,
+    300,
+    306,
+    311,
+    320,
+    325,
+    330,
+    336,
+    341,
+    346,
+    356,
+    363
+  ],
+  "sections": [
+    {
+      "title": "第一段",
+      "original": "晋人归楚公子榖臣，与连尹襄老之尸于楚，以求知䓨。于是荀首佐中军矣，故楚人许之。",
+      "annotations": [
+        {
+          "word": "曰",
+          "meaning": "说",
+          "pinyin": null
+        },
+        {
+          "word": "君",
+          "meaning": "国君，或对人的尊称",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一段围绕“楚归晋知䓨”展开，先交代人物和事件，再写出关键态度或结果。读的时候要抓住“晋人归楚公子榖臣，与连尹襄老之尸于楚，以求知䓨。于是荀首佐中军矣，故”这样的核心句。",
+      "modernLink": "遇到人物对话时，可以先分清谁在说话、他想达到什么目的。"
+    },
+    {
+      "title": "第二段",
+      "original": "王送知䓨，曰：“子其怨我乎？”对曰：“二国治戎，臣不才，不胜其任，以为俘馘。执事不以衅鼓，使归即戮，君之惠也。臣实不才，又谁敢怨？”",
+      "annotations": [
+        {
+          "word": "曰",
+          "meaning": "说",
+          "pinyin": null
+        },
+        {
+          "word": "君",
+          "meaning": "国君，或对人的尊称",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一段围绕“楚归晋知䓨”展开，先交代人物和事件，再写出关键态度或结果。读的时候要抓住“王送知䓨，曰：“子其怨我乎？”对曰：“二国治戎，臣不才，不胜其任，以”这样的核心句。",
+      "modernLink": "遇到人物对话时，可以先分清谁在说话、他想达到什么目的。"
+    },
+    {
+      "title": "第三段",
+      "original": "王曰：“然则德我乎？”对曰：“二国图其社稷，而求纾其民，各惩其忿，以相宥也，两释累囚，以成其好。二国有好，臣不与及，其谁敢德？”",
+      "annotations": [
+        {
+          "word": "曰",
+          "meaning": "说",
+          "pinyin": null
+        },
+        {
+          "word": "君",
+          "meaning": "国君，或对人的尊称",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一段围绕“楚归晋知䓨”展开，先交代人物和事件，再写出关键态度或结果。读的时候要抓住“王曰：“然则德我乎？”对曰：“二国图其社稷，而求纾其民，各惩其忿，以”这样的核心句。",
+      "modernLink": "遇到人物对话时，可以先分清谁在说话、他想达到什么目的。"
+    },
+    {
+      "title": "第四段",
+      "original": "王曰：“子归何以报我？”对曰：“臣不任受怨，君亦不任受德。无怨无德，不知所报。”",
+      "annotations": [
+        {
+          "word": "曰",
+          "meaning": "说",
+          "pinyin": null
+        },
+        {
+          "word": "君",
+          "meaning": "国君，或对人的尊称",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一段围绕“楚归晋知䓨”展开，先交代人物和事件，再写出关键态度或结果。读的时候要抓住“王曰：“子归何以报我？”对曰：“臣不任受怨，君亦不任受德。无怨无德，”这样的核心句。",
+      "modernLink": "遇到人物对话时，可以先分清谁在说话、他想达到什么目的。"
+    },
+    {
+      "title": "第五段",
+      "original": "王曰：“虽然，必告不谷。”对曰：“以君之灵，累臣得归骨于晋，寡君之以为戮，死且不朽。若从君之惠而免之，以赐君之外臣首；首其请于寡君，而以戮于宗，亦死且不朽。若不获命，而使嗣宗职，次及于事，而帅偏师以脩封疆，虽遇执事，其弗敢违。其竭力致死，无有二心，以尽臣礼。所以报也。",
+      "annotations": [
+        {
+          "word": "曰",
+          "meaning": "说",
+          "pinyin": null
+        },
+        {
+          "word": "君",
+          "meaning": "国君，或对人的尊称",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一段围绕“楚归晋知䓨”展开，先交代人物和事件，再写出关键态度或结果。读的时候要抓住“王曰：“虽然，必告不谷。”对曰：“以君之灵，累臣得归骨于晋，寡君之以”这样的核心句。",
+      "modernLink": "遇到人物对话时，可以先分清谁在说话、他想达到什么目的。"
+    },
+    {
+      "title": "第六段",
+      "original": "王曰：“晋未可与争。”重为之礼而归之。",
+      "annotations": [
+        {
+          "word": "曰",
+          "meaning": "说",
+          "pinyin": null
+        },
+        {
+          "word": "君",
+          "meaning": "国君，或对人的尊称",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一段围绕“楚归晋知䓨”展开，先交代人物和事件，再写出关键态度或结果。读的时候要抓住“王曰：“晋未可与争。”重为之礼而归之。”这样的核心句。",
+      "modernLink": "遇到人物对话时，可以先分清谁在说话、他想达到什么目的。"
+    }
+  ],
+  "fullTranslation": "本文大意是：围绕“楚归晋知䓨”这一事件，作者写出人物在具体处境中的选择。有人劝谏，有人回答，有人反思，也有人借小事说明大道理。整篇要重点理解人物为什么这样说、这样做，以及这件事给后人留下的提醒。",
+  "extendedReading": {
+    "author": "左丘明是古代重要文章或典籍的代表作者之一。本文语言简练，善于把历史事件、人物态度和道理放在一起写。",
+    "background": "这类文章多出自春秋战国到唐宋明清的经典散文，常写君臣问答、外交应对、礼制观念或文人感怀。",
+    "funFacts": [
+      "古文中同一个字常有古今不同的意思，要放回句子里判断。",
+      "许多短文看似写一件小事，其实是在讲治国、做人或学习的方法。",
+      "读对话时，可以用不同语气朗读，帮助理解人物心理。"
+    ],
+    "relatedStory": "古代史书和散文很重视“言”。一句话说得合适，可能化解危机；一句话说错，也可能暴露问题。"
+  },
+  "thinkingQuestions": [
+    "本文中最关键的一句话或一个动作是什么？为什么？",
+    "文中人物的做法有没有值得你学习的地方？",
+    "如果你遇到类似的分歧，会怎样把自己的理由讲清楚？"
+  ],
+  "quiz": {
+    "choices": [
+      {
+        "id": 1,
+        "question": "本文题目是下列哪一项？",
+        "options": [
+          "楚归晋知䓨",
+          "曹刿论战",
+          "小石潭记",
+          "醉翁亭记"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（楚归晋知䓨）。题目和篇首信息都指向本文，先确认标题能帮助定位文章内容。"
+      },
+      {
+        "id": 2,
+        "question": "阅读本文时，最应该先抓住什么？",
+        "options": [
+          "人物、事件和关键言行",
+          "每个字都背出拼音",
+          "只看最后一句",
+          "跳过对话不读"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（人物、事件和关键言行）。古文阅读要先抓住谁在做什么，再理解词语细节。"
+      }
+    ],
+    "fillBlanks": [
+      {
+        "id": 100,
+        "stem": "王送知䓨，曰：“子其怨我乎？",
+        "targetChar": "曰",
+        "targetIndex": 5,
+        "blank": "说",
+        "hint": ""
+      },
+      {
+        "id": 101,
+        "stem": "执事不以衅鼓，使归即戮，君之惠也。",
+        "targetChar": "君",
+        "targetIndex": 12,
+        "blank": "国君，或对人的尊称",
+        "hint": ""
+      },
+      {
+        "id": 102,
+        "stem": "王送知䓨，曰：“子其怨我乎？",
+        "targetChar": "王",
+        "targetIndex": 0,
+        "blank": "天子或诸侯王",
+        "hint": ""
+      }
+    ],
+    "shortAnswer": [
+      {
+        "id": 5,
+        "question": "用自己的话说说，本文主要写了什么。",
+        "sampleAnswer": "本文围绕“楚归晋知䓨”展开，写人物在具体事件中的判断、表达和结果。"
+      }
+    ],
+    "challenge": [
+      {
+        "id": 6,
+        "question": "从文中挑一句你觉得有力量的话，说明理由。",
+        "sampleAnswer": "示例：可以选择文中最能表现人物态度的一句，说明它为什么能推动事情发展。"
+      }
+    ]
+  },
+  "keyVocab": [
+    {
+      "word": "曰",
+      "ancient": "说",
+      "modern": "说话",
+      "example": "王送知䓨，曰：“子其怨我乎？",
+      "idiom": "美其名曰"
+    },
+    {
+      "word": "君",
+      "ancient": "国君，或对人的尊称",
+      "modern": "君子、君主",
+      "example": "执事不以衅鼓，使归即戮，君之惠也。",
+      "idiom": "君子之交"
+    },
+    {
+      "word": "王",
+      "ancient": "天子或诸侯王",
+      "modern": "君王",
+      "example": "王送知䓨，曰：“子其怨我乎？",
+      "idiom": "王侯将相"
+    },
+    {
+      "word": "臣",
+      "ancient": "臣子，也可作自称",
+      "modern": "大臣",
+      "example": "晋人归楚公子榖臣，与连尹襄老之尸于楚，以求知䓨。",
+      "idiom": "忠臣良将"
+    },
+    {
+      "word": "公",
+      "ancient": "诸侯或尊称",
+      "modern": "公共",
+      "example": "晋人归楚公子榖臣，与连尹襄老之尸于楚，以求知䓨。",
+      "idiom": "公而忘私"
+    }
+  ]
+}

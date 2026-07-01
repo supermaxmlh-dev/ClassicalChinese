@@ -1,0 +1,1216 @@
+{
+  "id": "040",
+  "sourceMarkdown": "content/samples/week10-040-里革断罟匡君.md",
+  "sourceRaw": "content/raw/040-里革断罟匡君.txt",
+  "title": "里革断罟匡君",
+  "source": "国语",
+  "author": "左丘明",
+  "dynasty": "春秋",
+  "difficulty": 2,
+  "week": 10,
+  "wordCount": 250,
+  "tags": [
+    "春秋",
+    "国语",
+    "劝谏",
+    "政治"
+  ],
+  "relatedIdioms": [
+    "言而有信"
+  ],
+  "mainImage": "040-main.jpg",
+  "storyIntro": "这篇文章短小但有转折，常常从一次问答、一次劝谏或一件小事写起。人物说话不多，却能看出立场、胆识和判断力。阅读时先弄清谁遇到了难题，再看关键人物怎样用一句话或一个行动改变局面。",
+  "fullText": "宣公夏滥于泗渊，里革断其罟而弃之，曰：“古者大寒降，土蛰发，水虞于是乎讲罛罶，取名鱼，登川禽，而尝之寝庙，行诸国，助宣气也。鸟兽孕，水虫成，兽虞于是乎禁罝罗，矠鱼鳖，以为夏槁，助生阜也。鸟兽成，水虫孕，水虞于是乎禁罜，设阱鄂，以实庙庖，畜功用也。且<ruby>夫<rp>(</rp><rt>fú</rt><rp>)</rp></ruby>山不槎蘖，泽不伐夭，鱼禁鲲鲕，兽长麑麋，鸟翼鷇卵，虫舍蚔蝝，蕃庶物也，古之训也。今鱼方别孕，不教鱼长，又行网罟，贪无艺也。”\n公闻之，曰：“吾过而里革匡我，不亦善乎！是良罟也！为我得法。使有司藏之，使吾无忘谂。”师存侍，曰：“藏罟不如置里革于侧之不忘也。”",
+  "fullTextPlain": "宣公夏滥于泗渊，里革断其罟而弃之，曰：“古者大寒降，土蛰发，水虞于是乎讲罛罶，取名鱼，登川禽，而尝之寝庙，行诸国，助宣气也。鸟兽孕，水虫成，兽虞于是乎禁罝罗，矠鱼鳖，以为夏槁，助生阜也。鸟兽成，水虫孕，水虞于是乎禁罜，设阱鄂，以实庙庖，畜功用也。且夫山不槎蘖，泽不伐夭，鱼禁鲲鲕，兽长麑麋，鸟翼鷇卵，虫舍蚔蝝，蕃庶物也，古之训也。今鱼方别孕，不教鱼长，又行网罟，贪无艺也。”\n公闻之，曰：“吾过而里革匡我，不亦善乎！是良罟也！为我得法。使有司藏之，使吾无忘谂。”师存侍，曰：“藏罟不如置里革于侧之不忘也。”",
+  "rubyAnnotations": [
+    {
+      "char": "宣",
+      "pinyin": "xuān",
+      "pos": 0
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 1
+    },
+    {
+      "char": "夏",
+      "pinyin": "xià",
+      "pos": 2
+    },
+    {
+      "char": "滥",
+      "pinyin": "làn",
+      "pos": 3
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 4
+    },
+    {
+      "char": "泗",
+      "pinyin": "sì",
+      "pos": 5
+    },
+    {
+      "char": "渊",
+      "pinyin": "yuān",
+      "pos": 6
+    },
+    {
+      "char": "里",
+      "pinyin": "lǐ",
+      "pos": 8
+    },
+    {
+      "char": "革",
+      "pinyin": "gé",
+      "pos": 9
+    },
+    {
+      "char": "断",
+      "pinyin": "duàn",
+      "pos": 10
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 11
+    },
+    {
+      "char": "罟",
+      "pinyin": "gǔ",
+      "pos": 12
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 13
+    },
+    {
+      "char": "弃",
+      "pinyin": "qì",
+      "pos": 14
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 15
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 17
+    },
+    {
+      "char": "古",
+      "pinyin": "gǔ",
+      "pos": 20
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 21
+    },
+    {
+      "char": "大",
+      "pinyin": "dà",
+      "pos": 22
+    },
+    {
+      "char": "寒",
+      "pinyin": "hán",
+      "pos": 23
+    },
+    {
+      "char": "降",
+      "pinyin": "jiàng",
+      "pos": 24
+    },
+    {
+      "char": "土",
+      "pinyin": "tǔ",
+      "pos": 26
+    },
+    {
+      "char": "蛰",
+      "pinyin": "zhé",
+      "pos": 27
+    },
+    {
+      "char": "发",
+      "pinyin": "fā",
+      "pos": 28
+    },
+    {
+      "char": "水",
+      "pinyin": "shuǐ",
+      "pos": 30
+    },
+    {
+      "char": "虞",
+      "pinyin": "yú",
+      "pos": 31
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 32
+    },
+    {
+      "char": "是",
+      "pinyin": "shì",
+      "pos": 33
+    },
+    {
+      "char": "乎",
+      "pinyin": "hū",
+      "pos": 34
+    },
+    {
+      "char": "讲",
+      "pinyin": "jiǎng",
+      "pos": 35
+    },
+    {
+      "char": "罛",
+      "pinyin": "gū",
+      "pos": 36
+    },
+    {
+      "char": "罶",
+      "pinyin": "liǔ",
+      "pos": 37
+    },
+    {
+      "char": "取",
+      "pinyin": "qǔ",
+      "pos": 39
+    },
+    {
+      "char": "名",
+      "pinyin": "míng",
+      "pos": 40
+    },
+    {
+      "char": "鱼",
+      "pinyin": "yú",
+      "pos": 41
+    },
+    {
+      "char": "登",
+      "pinyin": "dēng",
+      "pos": 43
+    },
+    {
+      "char": "川",
+      "pinyin": "chuān",
+      "pos": 44
+    },
+    {
+      "char": "禽",
+      "pinyin": "qín",
+      "pos": 45
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 47
+    },
+    {
+      "char": "尝",
+      "pinyin": "cháng",
+      "pos": 48
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 49
+    },
+    {
+      "char": "寝",
+      "pinyin": "qǐn",
+      "pos": 50
+    },
+    {
+      "char": "庙",
+      "pinyin": "miào",
+      "pos": 51
+    },
+    {
+      "char": "行",
+      "pinyin": "xíng",
+      "pos": 53
+    },
+    {
+      "char": "诸",
+      "pinyin": "zhū",
+      "pos": 54
+    },
+    {
+      "char": "国",
+      "pinyin": "guó",
+      "pos": 55
+    },
+    {
+      "char": "助",
+      "pinyin": "zhù",
+      "pos": 57
+    },
+    {
+      "char": "宣",
+      "pinyin": "xuān",
+      "pos": 58
+    },
+    {
+      "char": "气",
+      "pinyin": "qì",
+      "pos": 59
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 60
+    },
+    {
+      "char": "鸟",
+      "pinyin": "niǎo",
+      "pos": 62
+    },
+    {
+      "char": "兽",
+      "pinyin": "shòu",
+      "pos": 63
+    },
+    {
+      "char": "孕",
+      "pinyin": "yùn",
+      "pos": 64
+    },
+    {
+      "char": "水",
+      "pinyin": "shuǐ",
+      "pos": 66
+    },
+    {
+      "char": "虫",
+      "pinyin": "chóng",
+      "pos": 67
+    },
+    {
+      "char": "成",
+      "pinyin": "chéng",
+      "pos": 68
+    },
+    {
+      "char": "兽",
+      "pinyin": "shòu",
+      "pos": 70
+    },
+    {
+      "char": "虞",
+      "pinyin": "yú",
+      "pos": 71
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 72
+    },
+    {
+      "char": "是",
+      "pinyin": "shì",
+      "pos": 73
+    },
+    {
+      "char": "乎",
+      "pinyin": "hū",
+      "pos": 74
+    },
+    {
+      "char": "禁",
+      "pinyin": "jìn",
+      "pos": 75
+    },
+    {
+      "char": "罝",
+      "pinyin": "jū",
+      "pos": 76
+    },
+    {
+      "char": "罗",
+      "pinyin": "luó",
+      "pos": 77
+    },
+    {
+      "char": "矠",
+      "pinyin": "zé",
+      "pos": 79
+    },
+    {
+      "char": "鱼",
+      "pinyin": "yú",
+      "pos": 80
+    },
+    {
+      "char": "鳖",
+      "pinyin": "biē",
+      "pos": 81
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 83
+    },
+    {
+      "char": "为",
+      "pinyin": "wéi",
+      "pos": 84
+    },
+    {
+      "char": "夏",
+      "pinyin": "xià",
+      "pos": 85
+    },
+    {
+      "char": "槁",
+      "pinyin": "gǎo",
+      "pos": 86
+    },
+    {
+      "char": "助",
+      "pinyin": "zhù",
+      "pos": 88
+    },
+    {
+      "char": "生",
+      "pinyin": "shēng",
+      "pos": 89
+    },
+    {
+      "char": "阜",
+      "pinyin": "fù",
+      "pos": 90
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 91
+    },
+    {
+      "char": "鸟",
+      "pinyin": "niǎo",
+      "pos": 93
+    },
+    {
+      "char": "兽",
+      "pinyin": "shòu",
+      "pos": 94
+    },
+    {
+      "char": "成",
+      "pinyin": "chéng",
+      "pos": 95
+    },
+    {
+      "char": "水",
+      "pinyin": "shuǐ",
+      "pos": 97
+    },
+    {
+      "char": "虫",
+      "pinyin": "chóng",
+      "pos": 98
+    },
+    {
+      "char": "孕",
+      "pinyin": "yùn",
+      "pos": 99
+    },
+    {
+      "char": "水",
+      "pinyin": "shuǐ",
+      "pos": 101
+    },
+    {
+      "char": "虞",
+      "pinyin": "yú",
+      "pos": 102
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 103
+    },
+    {
+      "char": "是",
+      "pinyin": "shì",
+      "pos": 104
+    },
+    {
+      "char": "乎",
+      "pinyin": "hū",
+      "pos": 105
+    },
+    {
+      "char": "禁",
+      "pinyin": "jìn",
+      "pos": 106
+    },
+    {
+      "char": "罜",
+      "pinyin": "zhǔ",
+      "pos": 107
+    },
+    {
+      "char": "设",
+      "pinyin": "shè",
+      "pos": 109
+    },
+    {
+      "char": "阱",
+      "pinyin": "jǐng",
+      "pos": 110
+    },
+    {
+      "char": "鄂",
+      "pinyin": "è",
+      "pos": 111
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 113
+    },
+    {
+      "char": "实",
+      "pinyin": "shí",
+      "pos": 114
+    },
+    {
+      "char": "庙",
+      "pinyin": "miào",
+      "pos": 115
+    },
+    {
+      "char": "庖",
+      "pinyin": "páo",
+      "pos": 116
+    },
+    {
+      "char": "畜",
+      "pinyin": "chù",
+      "pos": 118
+    },
+    {
+      "char": "功",
+      "pinyin": "gōng",
+      "pos": 119
+    },
+    {
+      "char": "用",
+      "pinyin": "yòng",
+      "pos": 120
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 121
+    },
+    {
+      "char": "且",
+      "pinyin": "qiě",
+      "pos": 123
+    },
+    {
+      "char": "夫",
+      "pinyin": "fú",
+      "pos": 124
+    },
+    {
+      "char": "山",
+      "pinyin": "shān",
+      "pos": 125
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 126
+    },
+    {
+      "char": "槎",
+      "pinyin": "chá",
+      "pos": 127
+    },
+    {
+      "char": "蘖",
+      "pinyin": "niè",
+      "pos": 128
+    },
+    {
+      "char": "泽",
+      "pinyin": "zé",
+      "pos": 130
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 131
+    },
+    {
+      "char": "伐",
+      "pinyin": "fá",
+      "pos": 132
+    },
+    {
+      "char": "夭",
+      "pinyin": "yāo",
+      "pos": 133
+    },
+    {
+      "char": "鱼",
+      "pinyin": "yú",
+      "pos": 135
+    },
+    {
+      "char": "禁",
+      "pinyin": "jìn",
+      "pos": 136
+    },
+    {
+      "char": "鲲",
+      "pinyin": "kūn",
+      "pos": 137
+    },
+    {
+      "char": "鲕",
+      "pinyin": "ér",
+      "pos": 138
+    },
+    {
+      "char": "兽",
+      "pinyin": "shòu",
+      "pos": 140
+    },
+    {
+      "char": "长",
+      "pinyin": "cháng",
+      "pos": 141
+    },
+    {
+      "char": "麑",
+      "pinyin": "ní",
+      "pos": 142
+    },
+    {
+      "char": "麋",
+      "pinyin": "mí",
+      "pos": 143
+    },
+    {
+      "char": "鸟",
+      "pinyin": "niǎo",
+      "pos": 145
+    },
+    {
+      "char": "翼",
+      "pinyin": "yì",
+      "pos": 146
+    },
+    {
+      "char": "鷇",
+      "pinyin": "kòu",
+      "pos": 147
+    },
+    {
+      "char": "卵",
+      "pinyin": "luǎn",
+      "pos": 148
+    },
+    {
+      "char": "虫",
+      "pinyin": "chóng",
+      "pos": 150
+    },
+    {
+      "char": "舍",
+      "pinyin": "shè",
+      "pos": 151
+    },
+    {
+      "char": "蚔",
+      "pinyin": "qí",
+      "pos": 152
+    },
+    {
+      "char": "蝝",
+      "pinyin": "yuán",
+      "pos": 153
+    },
+    {
+      "char": "蕃",
+      "pinyin": "fān",
+      "pos": 155
+    },
+    {
+      "char": "庶",
+      "pinyin": "shù",
+      "pos": 156
+    },
+    {
+      "char": "物",
+      "pinyin": "wù",
+      "pos": 157
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 158
+    },
+    {
+      "char": "古",
+      "pinyin": "gǔ",
+      "pos": 160
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 161
+    },
+    {
+      "char": "训",
+      "pinyin": "xùn",
+      "pos": 162
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 163
+    },
+    {
+      "char": "今",
+      "pinyin": "jīn",
+      "pos": 165
+    },
+    {
+      "char": "鱼",
+      "pinyin": "yú",
+      "pos": 166
+    },
+    {
+      "char": "方",
+      "pinyin": "fāng",
+      "pos": 167
+    },
+    {
+      "char": "别",
+      "pinyin": "bié",
+      "pos": 168
+    },
+    {
+      "char": "孕",
+      "pinyin": "yùn",
+      "pos": 169
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 171
+    },
+    {
+      "char": "教",
+      "pinyin": "jiào",
+      "pos": 172
+    },
+    {
+      "char": "鱼",
+      "pinyin": "yú",
+      "pos": 173
+    },
+    {
+      "char": "长",
+      "pinyin": "cháng",
+      "pos": 174
+    },
+    {
+      "char": "又",
+      "pinyin": "yòu",
+      "pos": 176
+    },
+    {
+      "char": "行",
+      "pinyin": "xíng",
+      "pos": 177
+    },
+    {
+      "char": "网",
+      "pinyin": "wǎng",
+      "pos": 178
+    },
+    {
+      "char": "罟",
+      "pinyin": "gǔ",
+      "pos": 179
+    },
+    {
+      "char": "贪",
+      "pinyin": "tān",
+      "pos": 181
+    },
+    {
+      "char": "无",
+      "pinyin": "wú",
+      "pos": 182
+    },
+    {
+      "char": "艺",
+      "pinyin": "yì",
+      "pos": 183
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 184
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 188
+    },
+    {
+      "char": "闻",
+      "pinyin": "wén",
+      "pos": 189
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 190
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 192
+    },
+    {
+      "char": "吾",
+      "pinyin": "wú",
+      "pos": 195
+    },
+    {
+      "char": "过",
+      "pinyin": "guò",
+      "pos": 196
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 197
+    },
+    {
+      "char": "里",
+      "pinyin": "lǐ",
+      "pos": 198
+    },
+    {
+      "char": "革",
+      "pinyin": "gé",
+      "pos": 199
+    },
+    {
+      "char": "匡",
+      "pinyin": "kuāng",
+      "pos": 200
+    },
+    {
+      "char": "我",
+      "pinyin": "wǒ",
+      "pos": 201
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 203
+    },
+    {
+      "char": "亦",
+      "pinyin": "yì",
+      "pos": 204
+    },
+    {
+      "char": "善",
+      "pinyin": "shàn",
+      "pos": 205
+    },
+    {
+      "char": "乎",
+      "pinyin": "hū",
+      "pos": 206
+    },
+    {
+      "char": "是",
+      "pinyin": "shì",
+      "pos": 208
+    },
+    {
+      "char": "良",
+      "pinyin": "liáng",
+      "pos": 209
+    },
+    {
+      "char": "罟",
+      "pinyin": "gǔ",
+      "pos": 210
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 211
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 213
+    },
+    {
+      "char": "我",
+      "pinyin": "wǒ",
+      "pos": 214
+    },
+    {
+      "char": "得",
+      "pinyin": "dé",
+      "pos": 215
+    },
+    {
+      "char": "法",
+      "pinyin": "fǎ",
+      "pos": 216
+    },
+    {
+      "char": "使",
+      "pinyin": "shǐ",
+      "pos": 218
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 219
+    },
+    {
+      "char": "司",
+      "pinyin": "sī",
+      "pos": 220
+    },
+    {
+      "char": "藏",
+      "pinyin": "cáng",
+      "pos": 221
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 222
+    },
+    {
+      "char": "使",
+      "pinyin": "shǐ",
+      "pos": 224
+    },
+    {
+      "char": "吾",
+      "pinyin": "wú",
+      "pos": 225
+    },
+    {
+      "char": "无",
+      "pinyin": "wú",
+      "pos": 226
+    },
+    {
+      "char": "忘",
+      "pinyin": "wàng",
+      "pos": 227
+    },
+    {
+      "char": "谂",
+      "pinyin": "shěn",
+      "pos": 228
+    },
+    {
+      "char": "师",
+      "pinyin": "shī",
+      "pos": 231
+    },
+    {
+      "char": "存",
+      "pinyin": "cún",
+      "pos": 232
+    },
+    {
+      "char": "侍",
+      "pinyin": "shì",
+      "pos": 233
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 235
+    },
+    {
+      "char": "藏",
+      "pinyin": "cáng",
+      "pos": 238
+    },
+    {
+      "char": "罟",
+      "pinyin": "gǔ",
+      "pos": 239
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 240
+    },
+    {
+      "char": "如",
+      "pinyin": "rú",
+      "pos": 241
+    },
+    {
+      "char": "置",
+      "pinyin": "zhì",
+      "pos": 242
+    },
+    {
+      "char": "里",
+      "pinyin": "lǐ",
+      "pos": 243
+    },
+    {
+      "char": "革",
+      "pinyin": "gé",
+      "pos": 244
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 245
+    },
+    {
+      "char": "侧",
+      "pinyin": "cè",
+      "pos": 246
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 247
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 248
+    },
+    {
+      "char": "忘",
+      "pinyin": "wàng",
+      "pos": 249
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 250
+    }
+  ],
+  "rhythmBreaks": [
+    8,
+    17,
+    19,
+    26,
+    30,
+    39,
+    43,
+    47,
+    53,
+    57,
+    62,
+    66,
+    70,
+    79,
+    83,
+    88,
+    93,
+    97,
+    101,
+    109,
+    113,
+    118,
+    123,
+    130,
+    135,
+    140,
+    145,
+    150,
+    155,
+    160,
+    165,
+    171,
+    176,
+    181,
+    186,
+    192,
+    194,
+    203,
+    208,
+    213,
+    218,
+    224,
+    230,
+    235,
+    237,
+    252
+  ],
+  "sections": [
+    {
+      "title": "第一段",
+      "original": "宣公夏滥于泗渊，里革断其罟而弃之，曰：“古者大寒降，土蛰发，水虞于是乎讲罛罶，取名鱼，登川禽，而尝之寝庙，行诸国，助宣气也。鸟兽孕，水虫成，兽虞于是乎禁罝罗，矠鱼鳖，以为夏槁，助生阜也。鸟兽成，水虫孕，水虞于是乎禁罜，设阱鄂，以实庙庖，畜功用也。且夫山不槎蘖，泽不伐夭，鱼禁鲲鲕，兽长麑麋，鸟翼鷇卵，虫舍蚔蝝，蕃庶物也，古之训也。今鱼方别孕，不教鱼长，又行网罟，贪无艺也。”公闻之，曰：“吾过而里革匡我，不亦善乎！是良罟也！为我得法。使有司藏之，使吾无忘谂。”师存侍，曰：“藏罟不如置里革于侧之不忘也。”",
+      "annotations": [
+        {
+          "word": "曰",
+          "meaning": "说",
+          "pinyin": null
+        },
+        {
+          "word": "公",
+          "meaning": "诸侯或尊称",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一段围绕“里革断罟匡君”展开，先交代人物和事件，再写出关键态度或结果。读的时候要抓住“宣公夏滥于泗渊，里革断其罟而弃之，曰：“古者大寒降，土蛰发，水虞于是”这样的核心句。",
+      "modernLink": "遇到人物对话时，可以先分清谁在说话、他想达到什么目的。"
+    }
+  ],
+  "fullTranslation": "本文大意是：围绕“里革断罟匡君”这一事件，作者写出人物在具体处境中的选择。有人劝谏，有人回答，有人反思，也有人借小事说明大道理。整篇要重点理解人物为什么这样说、这样做，以及这件事给后人留下的提醒。",
+  "extendedReading": {
+    "author": "左丘明是古代重要文章或典籍的代表作者之一。本文语言简练，善于把历史事件、人物态度和道理放在一起写。",
+    "background": "这类文章多出自春秋战国到唐宋明清的经典散文，常写君臣问答、外交应对、礼制观念或文人感怀。",
+    "funFacts": [
+      "古文中同一个字常有古今不同的意思，要放回句子里判断。",
+      "许多短文看似写一件小事，其实是在讲治国、做人或学习的方法。",
+      "读对话时，可以用不同语气朗读，帮助理解人物心理。"
+    ],
+    "relatedStory": "古代史书和散文很重视“言”。一句话说得合适，可能化解危机；一句话说错，也可能暴露问题。"
+  },
+  "thinkingQuestions": [
+    "本文中最关键的一句话或一个动作是什么？为什么？",
+    "文中人物的做法有没有值得你学习的地方？",
+    "如果你遇到类似的分歧，会怎样把自己的理由讲清楚？"
+  ],
+  "quiz": {
+    "choices": [
+      {
+        "id": 1,
+        "question": "本文题目是下列哪一项？",
+        "options": [
+          "里革断罟匡君",
+          "曹刿论战",
+          "小石潭记",
+          "醉翁亭记"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（里革断罟匡君）。题目和篇首信息都指向本文，先确认标题能帮助定位文章内容。"
+      },
+      {
+        "id": 2,
+        "question": "阅读本文时，最应该先抓住什么？",
+        "options": [
+          "人物、事件和关键言行",
+          "每个字都背出拼音",
+          "只看最后一句",
+          "跳过对话不读"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（人物、事件和关键言行）。古文阅读要先抓住谁在做什么，再理解词语细节。"
+      }
+    ],
+    "fillBlanks": [
+      {
+        "id": 100,
+        "stem": "宣公夏滥于泗渊，里革断其罟而弃之，曰：“古者大寒降，土蛰发，水虞于是乎讲罛罶，取名鱼，登川禽，而尝之寝庙，行诸国，助宣气也。",
+        "targetChar": "曰",
+        "targetIndex": 17,
+        "blank": "说",
+        "hint": ""
+      },
+      {
+        "id": 101,
+        "stem": "宣公夏滥于泗渊，里革断其罟而弃之，曰：“古者大寒降，土蛰发，水虞于是乎讲罛罶，取名鱼，登川禽，而尝之寝庙，行诸国，助宣气也。",
+        "targetChar": "公",
+        "targetIndex": 1,
+        "blank": "诸侯或尊称",
+        "hint": ""
+      },
+      {
+        "id": 102,
+        "stem": "使有司藏之，使吾无忘谂。",
+        "targetChar": "使",
+        "targetIndex": 0,
+        "blank": "派遣，让",
+        "hint": ""
+      }
+    ],
+    "shortAnswer": [
+      {
+        "id": 5,
+        "question": "用自己的话说说，本文主要写了什么。",
+        "sampleAnswer": "本文围绕“里革断罟匡君”展开，写人物在具体事件中的判断、表达和结果。"
+      }
+    ],
+    "challenge": [
+      {
+        "id": 6,
+        "question": "从文中挑一句你觉得有力量的话，说明理由。",
+        "sampleAnswer": "示例：可以选择文中最能表现人物态度的一句，说明它为什么能推动事情发展。"
+      }
+    ]
+  },
+  "keyVocab": [
+    {
+      "word": "曰",
+      "ancient": "说",
+      "modern": "说话",
+      "example": "宣公夏滥于泗渊，里革断其罟而弃之，曰：“古者大寒降，土蛰发，水虞于是乎讲罛罶，取名鱼，登川禽，而尝之寝庙，行诸国，助宣气也。",
+      "idiom": "美其名曰"
+    },
+    {
+      "word": "公",
+      "ancient": "诸侯或尊称",
+      "modern": "公共",
+      "example": "宣公夏滥于泗渊，里革断其罟而弃之，曰：“古者大寒降，土蛰发，水虞于是乎讲罛罶，取名鱼，登川禽，而尝之寝庙，行诸国，助宣气也。",
+      "idiom": "公而忘私"
+    },
+    {
+      "word": "使",
+      "ancient": "派遣，让",
+      "modern": "使用",
+      "example": "使有司藏之，使吾无忘谂。",
+      "idiom": "见风使舵"
+    },
+    {
+      "word": "师",
+      "ancient": "军队",
+      "modern": "老师",
+      "example": "”师存侍，曰：“藏罟不如置里革于侧之不忘也。",
+      "idiom": "出师不利"
+    },
+    {
+      "word": "宣",
+      "ancient": "文中的关键词",
+      "modern": "常用汉字",
+      "example": "宣公夏滥于泗渊，里革断其罟而弃之，曰：“古者大寒降，土蛰发，水虞于是乎讲罛罶，取名鱼，登川禽，而尝之寝庙，行诸国，助宣气也。",
+      "idiom": "—"
+    }
+  ]
+}

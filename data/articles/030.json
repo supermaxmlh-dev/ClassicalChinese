@@ -1,0 +1,911 @@
+{
+  "id": "030",
+  "sourceMarkdown": "content/samples/week07-030-右溪记.md",
+  "sourceRaw": "content/raw/030-右溪记.txt",
+  "title": "右溪记",
+  "source": "元结",
+  "author": "元结",
+  "dynasty": "唐代",
+  "difficulty": 2,
+  "week": 7,
+  "wordCount": 200,
+  "tags": [
+    "唐代",
+    "山水",
+    "游记",
+    "记叙"
+  ],
+  "relatedIdioms": [
+    "言而有信"
+  ],
+  "mainImage": "030-main.jpg",
+  "storyIntro": "这篇文章短小但有转折，常常从一次问答、一次劝谏或一件小事写起。人物说话不多，却能看出立场、胆识和判断力。阅读时先弄清谁遇到了难题，再看关键人物怎样用一句话或一个行动改变局面。",
+  "fullText": "道州城西百余步，有小溪。南流数十步，合营溪。水抵两岸，悉皆怪石，欹嵌盘曲，不可名状。清流触石，洄悬激注；佳木异竹，垂阴相荫。\n\n此溪若在山野，则宜逸民退士之所游处；在人间，则可为都邑之胜境，静者之林亭。而置州以来，无人赏爱；徘徊溪上，为之怅然。乃疏凿芜秽，俾为亭宇；植松与桂，兼之香草，以裨形胜。为溪在州右，遂命之曰右溪。刻铭石上，彰示来者。",
+  "fullTextPlain": "道州城西百余步，有小溪。南流数十步，合营溪。水抵两岸，悉皆怪石，欹嵌盘曲，不可名状。清流触石，洄悬激注；佳木异竹，垂阴相荫。\n\n此溪若在山野，则宜逸民退士之所游处；在人间，则可为都邑之胜境，静者之林亭。而置州以来，无人赏爱；徘徊溪上，为之怅然。乃疏凿芜秽，俾为亭宇；植松与桂，兼之香草，以裨形胜。为溪在州右，遂命之曰右溪。刻铭石上，彰示来者。",
+  "rubyAnnotations": [
+    {
+      "char": "道",
+      "pinyin": "dào",
+      "pos": 0
+    },
+    {
+      "char": "州",
+      "pinyin": "zhōu",
+      "pos": 1
+    },
+    {
+      "char": "城",
+      "pinyin": "chéng",
+      "pos": 2
+    },
+    {
+      "char": "西",
+      "pinyin": "xī",
+      "pos": 3
+    },
+    {
+      "char": "百",
+      "pinyin": "bǎi",
+      "pos": 4
+    },
+    {
+      "char": "余",
+      "pinyin": "yú",
+      "pos": 5
+    },
+    {
+      "char": "步",
+      "pinyin": "bù",
+      "pos": 6
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 8
+    },
+    {
+      "char": "小",
+      "pinyin": "xiǎo",
+      "pos": 9
+    },
+    {
+      "char": "溪",
+      "pinyin": "xī",
+      "pos": 10
+    },
+    {
+      "char": "南",
+      "pinyin": "nán",
+      "pos": 12
+    },
+    {
+      "char": "流",
+      "pinyin": "liú",
+      "pos": 13
+    },
+    {
+      "char": "数",
+      "pinyin": "shù",
+      "pos": 14
+    },
+    {
+      "char": "十",
+      "pinyin": "shí",
+      "pos": 15
+    },
+    {
+      "char": "步",
+      "pinyin": "bù",
+      "pos": 16
+    },
+    {
+      "char": "合",
+      "pinyin": "hé",
+      "pos": 18
+    },
+    {
+      "char": "营",
+      "pinyin": "yíng",
+      "pos": 19
+    },
+    {
+      "char": "溪",
+      "pinyin": "xī",
+      "pos": 20
+    },
+    {
+      "char": "水",
+      "pinyin": "shuǐ",
+      "pos": 22
+    },
+    {
+      "char": "抵",
+      "pinyin": "dǐ",
+      "pos": 23
+    },
+    {
+      "char": "两",
+      "pinyin": "liǎng",
+      "pos": 24
+    },
+    {
+      "char": "岸",
+      "pinyin": "àn",
+      "pos": 25
+    },
+    {
+      "char": "悉",
+      "pinyin": "xī",
+      "pos": 27
+    },
+    {
+      "char": "皆",
+      "pinyin": "jiē",
+      "pos": 28
+    },
+    {
+      "char": "怪",
+      "pinyin": "guài",
+      "pos": 29
+    },
+    {
+      "char": "石",
+      "pinyin": "shí",
+      "pos": 30
+    },
+    {
+      "char": "欹",
+      "pinyin": "qī",
+      "pos": 32
+    },
+    {
+      "char": "嵌",
+      "pinyin": "qiàn",
+      "pos": 33
+    },
+    {
+      "char": "盘",
+      "pinyin": "pán",
+      "pos": 34
+    },
+    {
+      "char": "曲",
+      "pinyin": "qǔ",
+      "pos": 35
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 37
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 38
+    },
+    {
+      "char": "名",
+      "pinyin": "míng",
+      "pos": 39
+    },
+    {
+      "char": "状",
+      "pinyin": "zhuàng",
+      "pos": 40
+    },
+    {
+      "char": "清",
+      "pinyin": "qīng",
+      "pos": 42
+    },
+    {
+      "char": "流",
+      "pinyin": "liú",
+      "pos": 43
+    },
+    {
+      "char": "触",
+      "pinyin": "chù",
+      "pos": 44
+    },
+    {
+      "char": "石",
+      "pinyin": "shí",
+      "pos": 45
+    },
+    {
+      "char": "洄",
+      "pinyin": "huí",
+      "pos": 47
+    },
+    {
+      "char": "悬",
+      "pinyin": "xuán",
+      "pos": 48
+    },
+    {
+      "char": "激",
+      "pinyin": "jī",
+      "pos": 49
+    },
+    {
+      "char": "注",
+      "pinyin": "zhù",
+      "pos": 50
+    },
+    {
+      "char": "佳",
+      "pinyin": "jiā",
+      "pos": 52
+    },
+    {
+      "char": "木",
+      "pinyin": "mù",
+      "pos": 53
+    },
+    {
+      "char": "异",
+      "pinyin": "yì",
+      "pos": 54
+    },
+    {
+      "char": "竹",
+      "pinyin": "zhú",
+      "pos": 55
+    },
+    {
+      "char": "垂",
+      "pinyin": "chuí",
+      "pos": 57
+    },
+    {
+      "char": "阴",
+      "pinyin": "yīn",
+      "pos": 58
+    },
+    {
+      "char": "相",
+      "pinyin": "xiāng",
+      "pos": 59
+    },
+    {
+      "char": "荫",
+      "pinyin": "yìn",
+      "pos": 60
+    },
+    {
+      "char": "此",
+      "pinyin": "cǐ",
+      "pos": 64
+    },
+    {
+      "char": "溪",
+      "pinyin": "xī",
+      "pos": 65
+    },
+    {
+      "char": "若",
+      "pinyin": "ruò",
+      "pos": 66
+    },
+    {
+      "char": "在",
+      "pinyin": "zài",
+      "pos": 67
+    },
+    {
+      "char": "山",
+      "pinyin": "shān",
+      "pos": 68
+    },
+    {
+      "char": "野",
+      "pinyin": "yě",
+      "pos": 69
+    },
+    {
+      "char": "则",
+      "pinyin": "zé",
+      "pos": 71
+    },
+    {
+      "char": "宜",
+      "pinyin": "yí",
+      "pos": 72
+    },
+    {
+      "char": "逸",
+      "pinyin": "yì",
+      "pos": 73
+    },
+    {
+      "char": "民",
+      "pinyin": "mín",
+      "pos": 74
+    },
+    {
+      "char": "退",
+      "pinyin": "tuì",
+      "pos": 75
+    },
+    {
+      "char": "士",
+      "pinyin": "shì",
+      "pos": 76
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 77
+    },
+    {
+      "char": "所",
+      "pinyin": "suǒ",
+      "pos": 78
+    },
+    {
+      "char": "游",
+      "pinyin": "yóu",
+      "pos": 79
+    },
+    {
+      "char": "处",
+      "pinyin": "chù",
+      "pos": 80
+    },
+    {
+      "char": "在",
+      "pinyin": "zài",
+      "pos": 82
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 83
+    },
+    {
+      "char": "间",
+      "pinyin": "jiān",
+      "pos": 84
+    },
+    {
+      "char": "则",
+      "pinyin": "zé",
+      "pos": 86
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 87
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 88
+    },
+    {
+      "char": "都",
+      "pinyin": "dōu",
+      "pos": 89
+    },
+    {
+      "char": "邑",
+      "pinyin": "yì",
+      "pos": 90
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 91
+    },
+    {
+      "char": "胜",
+      "pinyin": "shèng",
+      "pos": 92
+    },
+    {
+      "char": "境",
+      "pinyin": "jìng",
+      "pos": 93
+    },
+    {
+      "char": "静",
+      "pinyin": "jìng",
+      "pos": 95
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 96
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 97
+    },
+    {
+      "char": "林",
+      "pinyin": "lín",
+      "pos": 98
+    },
+    {
+      "char": "亭",
+      "pinyin": "tíng",
+      "pos": 99
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 101
+    },
+    {
+      "char": "置",
+      "pinyin": "zhì",
+      "pos": 102
+    },
+    {
+      "char": "州",
+      "pinyin": "zhōu",
+      "pos": 103
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 104
+    },
+    {
+      "char": "来",
+      "pinyin": "lái",
+      "pos": 105
+    },
+    {
+      "char": "无",
+      "pinyin": "wú",
+      "pos": 107
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 108
+    },
+    {
+      "char": "赏",
+      "pinyin": "shǎng",
+      "pos": 109
+    },
+    {
+      "char": "爱",
+      "pinyin": "ài",
+      "pos": 110
+    },
+    {
+      "char": "徘",
+      "pinyin": "pái",
+      "pos": 112
+    },
+    {
+      "char": "徊",
+      "pinyin": "huái",
+      "pos": 113
+    },
+    {
+      "char": "溪",
+      "pinyin": "xī",
+      "pos": 114
+    },
+    {
+      "char": "上",
+      "pinyin": "shàng",
+      "pos": 115
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 117
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 118
+    },
+    {
+      "char": "怅",
+      "pinyin": "chàng",
+      "pos": 119
+    },
+    {
+      "char": "然",
+      "pinyin": "rán",
+      "pos": 120
+    },
+    {
+      "char": "乃",
+      "pinyin": "nǎi",
+      "pos": 122
+    },
+    {
+      "char": "疏",
+      "pinyin": "shū",
+      "pos": 123
+    },
+    {
+      "char": "凿",
+      "pinyin": "záo",
+      "pos": 124
+    },
+    {
+      "char": "芜",
+      "pinyin": "wú",
+      "pos": 125
+    },
+    {
+      "char": "秽",
+      "pinyin": "huì",
+      "pos": 126
+    },
+    {
+      "char": "俾",
+      "pinyin": "bǐ",
+      "pos": 128
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 129
+    },
+    {
+      "char": "亭",
+      "pinyin": "tíng",
+      "pos": 130
+    },
+    {
+      "char": "宇",
+      "pinyin": "yǔ",
+      "pos": 131
+    },
+    {
+      "char": "植",
+      "pinyin": "zhí",
+      "pos": 133
+    },
+    {
+      "char": "松",
+      "pinyin": "sōng",
+      "pos": 134
+    },
+    {
+      "char": "与",
+      "pinyin": "yǔ",
+      "pos": 135
+    },
+    {
+      "char": "桂",
+      "pinyin": "guì",
+      "pos": 136
+    },
+    {
+      "char": "兼",
+      "pinyin": "jiān",
+      "pos": 138
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 139
+    },
+    {
+      "char": "香",
+      "pinyin": "xiāng",
+      "pos": 140
+    },
+    {
+      "char": "草",
+      "pinyin": "cǎo",
+      "pos": 141
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 143
+    },
+    {
+      "char": "裨",
+      "pinyin": "bì",
+      "pos": 144
+    },
+    {
+      "char": "形",
+      "pinyin": "xíng",
+      "pos": 145
+    },
+    {
+      "char": "胜",
+      "pinyin": "shèng",
+      "pos": 146
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 148
+    },
+    {
+      "char": "溪",
+      "pinyin": "xī",
+      "pos": 149
+    },
+    {
+      "char": "在",
+      "pinyin": "zài",
+      "pos": 150
+    },
+    {
+      "char": "州",
+      "pinyin": "zhōu",
+      "pos": 151
+    },
+    {
+      "char": "右",
+      "pinyin": "yòu",
+      "pos": 152
+    },
+    {
+      "char": "遂",
+      "pinyin": "suì",
+      "pos": 154
+    },
+    {
+      "char": "命",
+      "pinyin": "mìng",
+      "pos": 155
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 156
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 157
+    },
+    {
+      "char": "右",
+      "pinyin": "yòu",
+      "pos": 158
+    },
+    {
+      "char": "溪",
+      "pinyin": "xī",
+      "pos": 159
+    },
+    {
+      "char": "刻",
+      "pinyin": "kè",
+      "pos": 161
+    },
+    {
+      "char": "铭",
+      "pinyin": "míng",
+      "pos": 162
+    },
+    {
+      "char": "石",
+      "pinyin": "shí",
+      "pos": 163
+    },
+    {
+      "char": "上",
+      "pinyin": "shàng",
+      "pos": 164
+    },
+    {
+      "char": "彰",
+      "pinyin": "zhāng",
+      "pos": 166
+    },
+    {
+      "char": "示",
+      "pinyin": "shì",
+      "pos": 167
+    },
+    {
+      "char": "来",
+      "pinyin": "lái",
+      "pos": 168
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 169
+    }
+  ],
+  "rhythmBreaks": [
+    8,
+    12,
+    18,
+    22,
+    27,
+    32,
+    37,
+    42,
+    47,
+    52,
+    57,
+    71,
+    82,
+    86,
+    95,
+    101,
+    107,
+    112,
+    117,
+    122,
+    128,
+    133,
+    138,
+    143,
+    148,
+    154,
+    161,
+    166
+  ],
+  "sections": [
+    {
+      "title": "第一段",
+      "original": "道州城西百余步，有小溪。南流数十步，合营溪。水抵两岸，悉皆怪石，欹嵌盘曲，不可名状。清流触石，洄悬激注；佳木异竹，垂阴相荫。",
+      "annotations": [
+        {
+          "word": "曰",
+          "meaning": "说",
+          "pinyin": null
+        },
+        {
+          "word": "道",
+          "meaning": "文中的关键词",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一段围绕“右溪记”展开，先交代人物和事件，再写出关键态度或结果。读的时候要抓住“道州城西百余步，有小溪。南流数十步，合营溪。水抵两岸，悉皆怪石，欹嵌”这样的核心句。",
+      "modernLink": "遇到人物对话时，可以先分清谁在说话、他想达到什么目的。"
+    },
+    {
+      "title": "第二段",
+      "original": "此溪若在山野，则宜逸民退士之所游处；在人间，则可为都邑之胜境，静者之林亭。而置州以来，无人赏爱；徘徊溪上，为之怅然。乃疏凿芜秽，俾为亭宇；植松与桂，兼之香草，以裨形胜。为溪在州右，遂命之曰右溪。刻铭石上，彰示来者。",
+      "annotations": [
+        {
+          "word": "曰",
+          "meaning": "说",
+          "pinyin": null
+        },
+        {
+          "word": "道",
+          "meaning": "文中的关键词",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一段围绕“右溪记”展开，先交代人物和事件，再写出关键态度或结果。读的时候要抓住“此溪若在山野，则宜逸民退士之所游处；在人间，则可为都邑之胜境，静者之”这样的核心句。",
+      "modernLink": "遇到人物对话时，可以先分清谁在说话、他想达到什么目的。"
+    }
+  ],
+  "fullTranslation": "本文大意是：围绕“右溪记”这一事件，作者写出人物在具体处境中的选择。有人劝谏，有人回答，有人反思，也有人借小事说明大道理。整篇要重点理解人物为什么这样说、这样做，以及这件事给后人留下的提醒。",
+  "extendedReading": {
+    "author": "元结是古代重要文章或典籍的代表作者之一。本文语言简练，善于把历史事件、人物态度和道理放在一起写。",
+    "background": "这类文章多出自春秋战国到唐宋明清的经典散文，常写君臣问答、外交应对、礼制观念或文人感怀。",
+    "funFacts": [
+      "古文中同一个字常有古今不同的意思，要放回句子里判断。",
+      "许多短文看似写一件小事，其实是在讲治国、做人或学习的方法。",
+      "读对话时，可以用不同语气朗读，帮助理解人物心理。"
+    ],
+    "relatedStory": "古代史书和散文很重视“言”。一句话说得合适，可能化解危机；一句话说错，也可能暴露问题。"
+  },
+  "thinkingQuestions": [
+    "本文中最关键的一句话或一个动作是什么？为什么？",
+    "文中人物的做法有没有值得你学习的地方？",
+    "如果你遇到类似的分歧，会怎样把自己的理由讲清楚？"
+  ],
+  "quiz": {
+    "choices": [
+      {
+        "id": 1,
+        "question": "本文题目是下列哪一项？",
+        "options": [
+          "右溪记",
+          "曹刿论战",
+          "小石潭记",
+          "醉翁亭记"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（右溪记）。题目和篇首信息都指向本文，先确认标题能帮助定位文章内容。"
+      },
+      {
+        "id": 2,
+        "question": "阅读本文时，最应该先抓住什么？",
+        "options": [
+          "人物、事件和关键言行",
+          "每个字都背出拼音",
+          "只看最后一句",
+          "跳过对话不读"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（人物、事件和关键言行）。古文阅读要先抓住谁在做什么，再理解词语细节。"
+      }
+    ],
+    "fillBlanks": [
+      {
+        "id": 100,
+        "stem": "为溪在州右，遂命之曰右溪。",
+        "targetChar": "曰",
+        "targetIndex": 9,
+        "blank": "说",
+        "hint": ""
+      },
+      {
+        "id": 101,
+        "stem": "道州城西百余步，有小溪。",
+        "targetChar": "道",
+        "targetIndex": 0,
+        "blank": "文中的关键词",
+        "hint": ""
+      },
+      {
+        "id": 102,
+        "stem": "道州城西百余步，有小溪。",
+        "targetChar": "州",
+        "targetIndex": 1,
+        "blank": "文中的关键词",
+        "hint": ""
+      }
+    ],
+    "shortAnswer": [
+      {
+        "id": 5,
+        "question": "用自己的话说说，本文主要写了什么。",
+        "sampleAnswer": "本文围绕“右溪记”展开，写人物在具体事件中的判断、表达和结果。"
+      }
+    ],
+    "challenge": [
+      {
+        "id": 6,
+        "question": "从文中挑一句你觉得有力量的话，说明理由。",
+        "sampleAnswer": "示例：可以选择文中最能表现人物态度的一句，说明它为什么能推动事情发展。"
+      }
+    ]
+  },
+  "keyVocab": [
+    {
+      "word": "曰",
+      "ancient": "说",
+      "modern": "说话",
+      "example": "为溪在州右，遂命之曰右溪。",
+      "idiom": "美其名曰"
+    },
+    {
+      "word": "道",
+      "ancient": "文中的关键词",
+      "modern": "常用汉字",
+      "example": "道州城西百余步，有小溪。",
+      "idiom": "—"
+    },
+    {
+      "word": "州",
+      "ancient": "文中的关键词",
+      "modern": "常用汉字",
+      "example": "道州城西百余步，有小溪。",
+      "idiom": "—"
+    },
+    {
+      "word": "城",
+      "ancient": "文中的关键词",
+      "modern": "常用汉字",
+      "example": "道州城西百余步，有小溪。",
+      "idiom": "—"
+    },
+    {
+      "word": "西",
+      "ancient": "文中的关键词",
+      "modern": "常用汉字",
+      "example": "道州城西百余步，有小溪。",
+      "idiom": "—"
+    }
+  ]
+}
