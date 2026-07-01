@@ -1088,6 +1088,10 @@
         "targetChar": "或",
         "targetIndex": 2,
         "blank": "有时",
+        "answers": [
+          "有时",
+          "有时候"
+        ],
         "hint": ""
       },
       {
@@ -1096,6 +1100,10 @@
         "targetChar": "见",
         "targetIndex": 4,
         "blank": "同\"现\"，表现",
+        "answers": [
+          "同\"现\"，表现",
+          "显现"
+        ],
         "hint": ""
       },
       {
@@ -1104,6 +1112,10 @@
         "targetChar": "安",
         "targetIndex": 0,
         "blank": "怎么",
+        "answers": [
+          "怎么",
+          "怎能"
+        ],
         "hint": ""
       }
     ],

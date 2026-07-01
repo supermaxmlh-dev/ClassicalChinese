@@ -1215,6 +1215,10 @@
         "targetChar": "曰",
         "targetIndex": 4,
         "blank": "说",
+        "answers": [
+          "说",
+          "说道"
+        ],
         "hint": ""
       },
       {
@@ -1223,6 +1227,11 @@
         "targetChar": "君",
         "targetIndex": 26,
         "blank": "国君，或对人的尊称",
+        "answers": [
+          "国君，或对人的尊称",
+          "君主",
+          "尊称"
+        ],
         "hint": ""
       },
       {
@@ -1231,6 +1240,11 @@
         "targetChar": "公",
         "targetIndex": 2,
         "blank": "诸侯或尊称",
+        "answers": [
+          "诸侯或尊称",
+          "诸侯",
+          "尊称"
+        ],
         "hint": ""
       }
     ],

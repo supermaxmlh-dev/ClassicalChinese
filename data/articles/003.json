@@ -658,6 +658,10 @@
         "targetChar": "念",
         "targetIndex": 0,
         "blank": "想到",
+        "answers": [
+          "想到",
+          "考虑"
+        ],
         "hint": ""
       },
       {
@@ -666,6 +670,10 @@
         "targetChar": "寝",
         "targetIndex": 4,
         "blank": "睡觉",
+        "answers": [
+          "睡觉",
+          "就寝"
+        ],
         "hint": ""
       },
       {
@@ -674,6 +682,10 @@
         "targetChar": "盖",
         "targetIndex": 0,
         "blank": "原来是",
+        "answers": [
+          "原来是",
+          "大概是"
+        ],
         "hint": ""
       }
     ],

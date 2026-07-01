@@ -1020,6 +1020,10 @@
         "targetChar": "曰",
         "targetIndex": 2,
         "blank": "说",
+        "answers": [
+          "说",
+          "说道"
+        ],
         "hint": ""
       },
       {
@@ -1028,6 +1032,11 @@
         "targetChar": "君",
         "targetIndex": 6,
         "blank": "国君，或对人的尊称",
+        "answers": [
+          "国君，或对人的尊称",
+          "君主",
+          "尊称"
+        ],
         "hint": ""
       },
       {
@@ -1036,6 +1045,11 @@
         "targetChar": "臣",
         "targetIndex": 0,
         "blank": "臣子，也可作自称",
+        "answers": [
+          "臣子，也可作自称",
+          "臣子",
+          "自称"
+        ],
         "hint": ""
       }
     ],

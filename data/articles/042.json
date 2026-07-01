@@ -1555,6 +1555,10 @@
         "targetChar": "曰",
         "targetIndex": 6,
         "blank": "说",
+        "answers": [
+          "说",
+          "说道"
+        ],
         "hint": ""
       },
       {
@@ -1563,6 +1567,11 @@
         "targetChar": "君",
         "targetIndex": 8,
         "blank": "国君，或对人的尊称",
+        "answers": [
+          "国君，或对人的尊称",
+          "君主",
+          "尊称"
+        ],
         "hint": ""
       },
       {
@@ -1571,6 +1580,11 @@
         "targetChar": "知",
         "targetIndex": 9,
         "blank": "知道，明白",
+        "answers": [
+          "知道，明白",
+          "知道",
+          "明白"
+        ],
         "hint": ""
       }
     ],

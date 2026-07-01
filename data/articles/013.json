@@ -1901,6 +1901,10 @@
         "targetChar": "军",
         "targetIndex": 1,
         "blank": "驻军",
+        "answers": [
+          "驻军",
+          "驻扎"
+        ],
         "hint": ""
       },
       {
@@ -1909,6 +1913,10 @@
         "targetChar": "厌",
         "targetIndex": 1,
         "blank": "满足",
+        "answers": [
+          "满足",
+          "满足了"
+        ],
         "hint": ""
       },
       {
@@ -1917,6 +1925,10 @@
         "targetChar": "去",
         "targetIndex": 1,
         "blank": "离开",
+        "answers": [
+          "离开",
+          "离去"
+        ],
         "hint": ""
       }
     ],

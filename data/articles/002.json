@@ -568,6 +568,11 @@
         "targetChar": "歇",
         "targetIndex": 3,
         "blank": "消散",
+        "answers": [
+          "消散",
+          "散去",
+          "消失"
+        ],
         "hint": ""
       },
       {
@@ -576,6 +581,10 @@
         "targetChar": "颓",
         "targetIndex": 3,
         "blank": "坠落",
+        "answers": [
+          "坠落",
+          "落下"
+        ],
         "hint": ""
       },
       {
@@ -584,6 +593,10 @@
         "targetChar": "实",
         "targetIndex": 0,
         "blank": "确实",
+        "answers": [
+          "确实",
+          "实在"
+        ],
         "hint": ""
       }
     ],

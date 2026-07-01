@@ -2780,6 +2780,10 @@
         "targetChar": "军",
         "targetIndex": 13,
         "blank": "驻军，军队",
+        "answers": [
+          "驻军，军队",
+          "军队"
+        ],
         "hint": ""
       },
       {
@@ -2788,6 +2792,11 @@
         "targetChar": "归",
         "targetIndex": 8,
         "blank": "归还，回去",
+        "answers": [
+          "归还，回去",
+          "归还",
+          "回去"
+        ],
         "hint": ""
       },
       {
@@ -2796,6 +2805,11 @@
         "targetChar": "色",
         "targetIndex": 1,
         "blank": "美色，神色",
+        "answers": [
+          "美色，神色",
+          "美色",
+          "神色"
+        ],
         "hint": ""
       }
     ],

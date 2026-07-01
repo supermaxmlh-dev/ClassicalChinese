@@ -279,6 +279,14 @@ function parseChoices(quizBlock, answers) {
   }).filter((item) => item.question && item.options.length);
 }
 
+function parseFillAnswerList(answer, label) {
+  const parts = String(answer || "").split(/[\/／]/).map((part) => stripMarkdown(part).trim());
+  if (!parts.length || parts.some((part) => !part || part === "略")) {
+    throw new Error(`Fill blank answer for "${label}" must be non-empty and cannot be "略".`);
+  }
+  return [...new Set(parts)];
+}
+
 function parseFillBlanks(quizBlock, answers, fullTextPlain, title) {
   const fillBlock = sectionBetween(quizBlock, "### 二、填空题", "### 三、简答题");
   const answerText = Object.entries(answers)
@@ -288,7 +296,10 @@ function parseFillBlanks(quizBlock, answers, fullTextPlain, title) {
   const answerMap = {};
   answerText.split(/[；;]/).forEach((part) => {
     const match = part.match(/([^：:，,]+)[：:](.+)/);
-    if (match) answerMap[stripMarkdown(match[1]).trim()] = stripMarkdown(match[2]).trim();
+    if (match) {
+      const key = stripMarkdown(match[1]).trim();
+      answerMap[key] = parseFillAnswerList(match[2], key);
+    }
   });
   return fillBlock
     .split("\n")
@@ -312,8 +323,8 @@ function parseFillBlanks(quizBlock, answers, fullTextPlain, title) {
       if (!fullTextPlain.includes(stem.replace(/\s+/g, ""))) {
         throw new Error(`Fill blank stem "${stem}" in ${title} is not found in the original text.`);
       }
-      const answer = answerMap[targetChar] || answerMap[stem] || "";
-      if (!answer || answer === "略") {
+      const answerList = answerMap[targetChar] || answerMap[stem] || [];
+      if (!answerList.length) {
         throw new Error(`Fill blank "${stem}" is missing an answer for "${targetChar}".`);
       }
       return {
@@ -321,7 +332,8 @@ function parseFillBlanks(quizBlock, answers, fullTextPlain, title) {
         stem,
         targetChar,
         targetIndex,
-        blank: answer,
+        blank: answerList[0],
+        answers: answerList,
         hint: ""
       };
     });

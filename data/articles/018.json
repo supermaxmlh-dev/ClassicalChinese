@@ -1168,6 +1168,11 @@
         "targetChar": "禄",
         "targetIndex": 5,
         "blank": "俸禄，赏赐",
+        "answers": [
+          "俸禄，赏赐",
+          "俸禄",
+          "赏赐"
+        ],
         "hint": ""
       },
       {
@@ -1176,6 +1181,10 @@
         "targetChar": "贪",
         "targetIndex": 1,
         "blank": "贪取",
+        "answers": [
+          "贪取",
+          "贪求"
+        ],
         "hint": ""
       },
       {
@@ -1184,6 +1193,10 @@
         "targetChar": "志",
         "targetIndex": 1,
         "blank": "记住",
+        "answers": [
+          "记住",
+          "记下"
+        ],
         "hint": ""
       }
     ],

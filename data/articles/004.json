@@ -685,6 +685,10 @@
         "targetChar": "静",
         "targetIndex": 0,
         "blank": "宁静专一",
+        "answers": [
+          "宁静专一",
+          "安静专一"
+        ],
         "hint": ""
       },
       {
@@ -693,6 +697,10 @@
         "targetChar": "驰",
         "targetIndex": 3,
         "blank": "飞速流逝",
+        "answers": [
+          "飞速流逝",
+          "迅速流逝"
+        ],
         "hint": ""
       },
       {
@@ -701,6 +709,10 @@
         "targetChar": "去",
         "targetIndex": 3,
         "blank": "消失",
+        "answers": [
+          "消失",
+          "消逝"
+        ],
         "hint": ""
       }
     ],

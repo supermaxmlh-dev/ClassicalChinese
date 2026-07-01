@@ -110,8 +110,23 @@ availableIds.forEach((id) => {
     }
   });
   (article.quiz?.fillBlanks || []).forEach((fill, index) => {
-    if (!fill.blank || fill.blank === "略") {
-      errors.push(`${id}.json fillBlanks[${index}] has an empty or placeholder answer.`);
+    if (!Array.isArray(fill.answers) || !fill.answers.length) {
+      errors.push(`${id}.json fillBlanks[${index}] must have a non-empty answers array.`);
+    } else {
+      const seenAnswers = new Set();
+      fill.answers.forEach((answer, answerIndex) => {
+        const clean = String(answer || "").trim();
+        if (!clean || clean === "略") {
+          errors.push(`${id}.json fillBlanks[${index}].answers[${answerIndex}] is empty or placeholder.`);
+        }
+        if (seenAnswers.has(clean)) {
+          errors.push(`${id}.json fillBlanks[${index}].answers has duplicate answer "${clean}".`);
+        }
+        seenAnswers.add(clean);
+      });
+      if (fill.blank && fill.blank !== fill.answers[0]) {
+        errors.push(`${id}.json fillBlanks[${index}].blank must match answers[0].`);
+      }
     }
     if (!fill.stem || !fill.targetChar) {
       errors.push(`${id}.json fillBlanks[${index}] missing stem or targetChar.`);

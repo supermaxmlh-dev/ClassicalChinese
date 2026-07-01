@@ -2286,6 +2286,10 @@
         "targetChar": "芳",
         "targetIndex": 1,
         "blank": "花",
+        "answers": [
+          "花",
+          "香花"
+        ],
         "hint": ""
       },
       {
@@ -2294,6 +2298,10 @@
         "targetChar": "秀",
         "targetIndex": 2,
         "blank": "茂盛",
+        "answers": [
+          "茂盛",
+          "繁茂"
+        ],
         "hint": ""
       },
       {
@@ -2302,6 +2310,10 @@
         "targetChar": "去",
         "targetIndex": 2,
         "blank": "离开",
+        "answers": [
+          "离开",
+          "离去"
+        ],
         "hint": ""
       }
     ],

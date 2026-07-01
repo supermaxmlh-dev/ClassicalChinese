@@ -2356,6 +2356,10 @@
         "targetChar": "奔",
         "targetIndex": 3,
         "blank": "逃奔",
+        "answers": [
+          "逃奔",
+          "逃跑"
+        ],
         "hint": ""
       },
       {
@@ -2364,6 +2368,11 @@
         "targetChar": "舍",
         "targetIndex": 2,
         "blank": "放弃，放过",
+        "answers": [
+          "放弃，放过",
+          "放弃",
+          "放过"
+        ],
         "hint": ""
       },
       {
@@ -2372,6 +2381,10 @@
         "targetChar": "量力",
         "targetIndex": 0,
         "blank": "估量力量",
+        "answers": [
+          "估量力量",
+          "衡量能力"
+        ],
         "hint": ""
       }
     ],

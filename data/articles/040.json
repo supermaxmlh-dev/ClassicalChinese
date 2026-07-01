@@ -1142,6 +1142,10 @@
         "targetChar": "曰",
         "targetIndex": 17,
         "blank": "说",
+        "answers": [
+          "说",
+          "说道"
+        ],
         "hint": ""
       },
       {
@@ -1150,6 +1154,11 @@
         "targetChar": "公",
         "targetIndex": 1,
         "blank": "诸侯或尊称",
+        "answers": [
+          "诸侯或尊称",
+          "诸侯",
+          "尊称"
+        ],
         "hint": ""
       },
       {
@@ -1158,6 +1167,11 @@
         "targetChar": "使",
         "targetIndex": 0,
         "blank": "派遣，让",
+        "answers": [
+          "派遣，让",
+          "派遣",
+          "让"
+        ],
         "hint": ""
       }
     ],

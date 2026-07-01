@@ -777,6 +777,10 @@
         "targetChar": "逆旅",
         "targetIndex": 3,
         "blank": "旅店",
+        "answers": [
+          "旅店",
+          "旅舍"
+        ],
         "hint": ""
       },
       {
@@ -785,6 +789,11 @@
         "targetChar": "假",
         "targetIndex": 2,
         "blank": "借给，给予",
+        "answers": [
+          "借给，给予",
+          "借给",
+          "给予"
+        ],
         "hint": ""
       },
       {
@@ -793,6 +802,10 @@
         "targetChar": "已",
         "targetIndex": 3,
         "blank": "停止",
+        "answers": [
+          "停止",
+          "停下"
+        ],
         "hint": ""
       }
     ],

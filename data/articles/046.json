@@ -1522,6 +1522,10 @@
         "targetChar": "王",
         "targetIndex": 10,
         "blank": "天子或诸侯王",
+        "answers": [
+          "天子或诸侯王",
+          "君王"
+        ],
         "hint": ""
       },
       {
@@ -1530,6 +1534,11 @@
         "targetChar": "使",
         "targetIndex": 30,
         "blank": "派遣，让",
+        "answers": [
+          "派遣，让",
+          "派遣",
+          "让"
+        ],
         "hint": ""
       },
       {
@@ -1538,6 +1547,11 @@
         "targetChar": "利",
         "targetIndex": 16,
         "blank": "好处，有利",
+        "answers": [
+          "好处，有利",
+          "好处",
+          "有利"
+        ],
         "hint": ""
       }
     ],

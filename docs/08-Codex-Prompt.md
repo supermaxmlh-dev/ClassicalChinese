@@ -23,7 +23,7 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 项目名称：guanzhi-xuetang（观止学堂）
-用途：面向小学四年级学生的《古文观止》文言文学习平台
+用途：面向中小学生的《古文观止》文言文学习平台
 学习周期：52周，每周3-4篇，覆盖222篇古文，从易到难排列
 技术栈：纯静态 HTML + CSS + 原生 JavaScript（不使用任何框架）
 代码管理：GitHub
@@ -124,7 +124,7 @@ guanzhi-xuetang/
 - UI 正文：PingFang SC / Microsoft YaHei, sans-serif; font-size: 1rem; line-height: 1.8
 
 3.3 整体风格：古风水墨基调，米黄纸张感背景，暖色调，卷轴感布局。
-    面向小学生，界面要清晰简洁，字号偏大，交互区域充足。
+    面向中小学生，界面要清晰简洁，字号舒适，交互区域充足。
 
 3.4 响应式断点：
 - 桌面 ≥1024px：双栏，侧边注释
@@ -364,7 +364,7 @@ jobs:
 {
   "name": "guanzhi-xuetang",
   "version": "1.0.0",
-  "description": "观止学堂 - 小学生古文观止学习平台",
+  "description": "观止学堂 - 中小学生古文观止学习平台",
   "private": true,
   "scripts": {
     "start": "npx http-server -p 8080 -c-1",

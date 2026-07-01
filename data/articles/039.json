@@ -1714,6 +1714,10 @@
         "targetChar": "曰",
         "targetIndex": 5,
         "blank": "说",
+        "answers": [
+          "说",
+          "说道"
+        ],
         "hint": ""
       },
       {
@@ -1722,6 +1726,11 @@
         "targetChar": "观",
         "targetIndex": 0,
         "blank": "观看，察看",
+        "answers": [
+          "观看，察看",
+          "观看",
+          "察看"
+        ],
         "hint": ""
       },
       {
@@ -1730,6 +1739,11 @@
         "targetChar": "知",
         "targetIndex": 4,
         "blank": "知道，明白",
+        "answers": [
+          "知道，明白",
+          "知道",
+          "明白"
+        ],
         "hint": ""
       }
     ],

@@ -2161,6 +2161,11 @@
         "targetChar": "属",
         "targetIndex": 0,
         "blank": "嘱托",
+        "answers": [
+          "嘱托",
+          "嘱咐",
+          "托付"
+        ],
         "hint": ""
       },
       {
@@ -2169,6 +2174,10 @@
         "targetChar": "国",
         "targetIndex": 1,
         "blank": "国都",
+        "answers": [
+          "国都",
+          "都城"
+        ],
         "hint": ""
       },
       {
@@ -2177,6 +2186,10 @@
         "targetChar": "归",
         "targetIndex": 7,
         "blank": "归依",
+        "answers": [
+          "归依",
+          "归附"
+        ],
         "hint": ""
       }
     ],

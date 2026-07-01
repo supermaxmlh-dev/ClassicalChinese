@@ -706,6 +706,10 @@
         "targetChar": "卒",
         "targetIndex": 1,
         "blank": "最终",
+        "answers": [
+          "最终",
+          "终于"
+        ],
         "hint": ""
       },
       {
@@ -714,6 +718,10 @@
         "targetChar": "特",
         "targetIndex": 3,
         "blank": "只是",
+        "answers": [
+          "只是",
+          "只"
+        ],
         "hint": ""
       },
       {
@@ -722,6 +730,10 @@
         "targetChar": "至",
         "targetIndex": 6,
         "blank": "到来",
+        "answers": [
+          "到来",
+          "来到"
+        ],
         "hint": ""
       }
     ],

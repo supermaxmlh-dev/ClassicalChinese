@@ -906,6 +906,10 @@
         "targetChar": "曰",
         "targetIndex": 3,
         "blank": "说",
+        "answers": [
+          "说",
+          "说道"
+        ],
         "hint": ""
       },
       {
@@ -914,6 +918,11 @@
         "targetChar": "君",
         "targetIndex": 5,
         "blank": "国君，或对人的尊称",
+        "answers": [
+          "国君，或对人的尊称",
+          "君主",
+          "尊称"
+        ],
         "hint": ""
       },
       {
@@ -922,6 +931,11 @@
         "targetChar": "举",
         "targetIndex": 2,
         "blank": "举动，举行",
+        "answers": [
+          "举动，举行",
+          "举动",
+          "举行"
+        ],
         "hint": ""
       }
     ],

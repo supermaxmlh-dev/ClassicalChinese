@@ -2339,6 +2339,10 @@
         "targetChar": "曰",
         "targetIndex": 7,
         "blank": "说",
+        "answers": [
+          "说",
+          "说道"
+        ],
         "hint": ""
       },
       {
@@ -2347,6 +2351,11 @@
         "targetChar": "君",
         "targetIndex": 4,
         "blank": "国君，或对人的尊称",
+        "answers": [
+          "国君，或对人的尊称",
+          "君主",
+          "尊称"
+        ],
         "hint": ""
       },
       {
@@ -2355,6 +2364,10 @@
         "targetChar": "王",
         "targetIndex": 2,
         "blank": "天子或诸侯王",
+        "answers": [
+          "天子或诸侯王",
+          "君王"
+        ],
         "hint": ""
       }
     ],

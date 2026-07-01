@@ -633,6 +633,10 @@
         "targetChar": "名",
         "targetIndex": 8,
         "blank": "出名",
+        "answers": [
+          "出名",
+          "有名"
+        ],
         "hint": ""
       },
       {
@@ -641,6 +645,10 @@
         "targetChar": "灵",
         "targetIndex": 8,
         "blank": "显灵，有灵气",
+        "answers": [
+          "显灵，有灵气",
+          "有灵气"
+        ],
         "hint": ""
       },
       {
@@ -649,6 +657,10 @@
         "targetChar": "斯",
         "targetIndex": 0,
         "blank": "这",
+        "answers": [
+          "这",
+          "这个"
+        ],
         "hint": ""
       },
       {
@@ -657,6 +669,10 @@
         "targetChar": "鸿儒",
         "targetIndex": 3,
         "blank": "博学的大学者",
+        "answers": [
+          "博学的大学者",
+          "学问渊博的人"
+        ],
         "hint": ""
       }
     ],

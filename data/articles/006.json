@@ -1923,6 +1923,10 @@
         "targetChar": "修",
         "targetIndex": 2,
         "blank": "长，这里指身高",
+        "answers": [
+          "长，这里指身高",
+          "身材高"
+        ],
         "hint": ""
       },
       {
@@ -1931,6 +1935,10 @@
         "targetChar": "私",
         "targetIndex": 3,
         "blank": "偏爱",
+        "answers": [
+          "偏爱",
+          "偏心"
+        ],
         "hint": ""
       },
       {
@@ -1939,6 +1947,10 @@
         "targetChar": "蔽",
         "targetIndex": 2,
         "blank": "受蒙蔽",
+        "answers": [
+          "受蒙蔽",
+          "被蒙蔽"
+        ],
         "hint": ""
       }
     ],

@@ -1311,6 +1311,10 @@
         "targetChar": "乐",
         "targetIndex": 1,
         "blank": "以……为乐",
+        "answers": [
+          "以……为乐",
+          "感到快乐"
+        ],
         "hint": ""
       },
       {
@@ -1319,6 +1323,10 @@
         "targetChar": "去",
         "targetIndex": 4,
         "blank": "离开",
+        "answers": [
+          "离开",
+          "离去"
+        ],
         "hint": ""
       },
       {
@@ -1327,6 +1335,10 @@
         "targetChar": "居",
         "targetIndex": 3,
         "blank": "停留",
+        "answers": [
+          "停留",
+          "停下"
+        ],
         "hint": ""
       }
     ],

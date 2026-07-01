@@ -1259,6 +1259,10 @@
         "targetChar": "曰",
         "targetIndex": 1,
         "blank": "说",
+        "answers": [
+          "说",
+          "说道"
+        ],
         "hint": ""
       },
       {
@@ -1267,6 +1271,11 @@
         "targetChar": "信",
         "targetIndex": 7,
         "blank": "诚信，确实",
+        "answers": [
+          "诚信，确实",
+          "诚信",
+          "确实"
+        ],
         "hint": ""
       },
       {
@@ -1275,6 +1284,9 @@
         "targetChar": "自",
         "targetIndex": 0,
         "blank": "文中的关键词",
+        "answers": [
+          "文中的关键词"
+        ],
         "hint": ""
       }
     ],

@@ -1944,6 +1944,10 @@
         "targetChar": "曰",
         "targetIndex": 4,
         "blank": "说",
+        "answers": [
+          "说",
+          "说道"
+        ],
         "hint": ""
       },
       {
@@ -1952,6 +1956,10 @@
         "targetChar": "王",
         "targetIndex": 6,
         "blank": "天子或诸侯王",
+        "answers": [
+          "天子或诸侯王",
+          "君王"
+        ],
         "hint": ""
       },
       {
@@ -1960,6 +1968,11 @@
         "targetChar": "公",
         "targetIndex": 2,
         "blank": "诸侯或尊称",
+        "answers": [
+          "诸侯或尊称",
+          "诸侯",
+          "尊称"
+        ],
         "hint": ""
       }
     ],

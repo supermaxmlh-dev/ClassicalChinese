@@ -554,6 +554,10 @@
         "targetChar": "成室",
         "targetIndex": 4,
         "blank": "建成房屋",
+        "answers": [
+          "建成房屋",
+          "房屋建成"
+        ],
         "hint": ""
       },
       {
@@ -561,7 +565,12 @@
         "stem": "聚国族于斯",
         "targetChar": "斯",
         "targetIndex": 4,
-        "blank": "这里",
+        "blank": "这",
+        "answers": [
+          "这",
+          "这个里",
+          "此处"
+        ],
         "hint": ""
       },
       {
@@ -570,6 +579,10 @@
         "targetChar": "稽首",
         "targetIndex": 4,
         "blank": "叩头至地",
+        "answers": [
+          "叩头至地",
+          "叩头"
+        ],
         "hint": ""
       }
     ],

@@ -1124,6 +1124,11 @@
         "targetChar": "绝",
         "targetIndex": 4,
         "blank": "消失，停止",
+        "answers": [
+          "消失，停止",
+          "消失",
+          "停止"
+        ],
         "hint": ""
       },
       {
@@ -1132,6 +1137,10 @@
         "targetChar": "更",
         "targetIndex": 4,
         "blank": "还",
+        "answers": [
+          "还",
+          "又"
+        ],
         "hint": ""
       },
       {
@@ -1140,6 +1149,10 @@
         "targetChar": "客",
         "targetIndex": 5,
         "blank": "客居",
+        "answers": [
+          "客居",
+          "作客"
+        ],
         "hint": ""
       }
     ],

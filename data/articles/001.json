@@ -1324,6 +1324,10 @@
         "targetChar": "伐",
         "targetIndex": 2,
         "blank": "攻打",
+        "answers": [
+          "攻打",
+          "进攻"
+        ],
         "hint": ""
       },
       {
@@ -1332,6 +1336,10 @@
         "targetChar": "鄙",
         "targetIndex": 3,
         "blank": "目光短浅",
+        "answers": [
+          "目光短浅",
+          "浅陋"
+        ],
         "hint": ""
       },
       {
@@ -1340,6 +1348,10 @@
         "targetChar": "靡",
         "targetIndex": 3,
         "blank": "倒下",
+        "answers": [
+          "倒下",
+          "倒伏"
+        ],
         "hint": ""
       }
     ],

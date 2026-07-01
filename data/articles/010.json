@@ -2427,6 +2427,10 @@
         "targetChar": "易",
         "targetIndex": 9,
         "blank": "交换",
+        "answers": [
+          "交换",
+          "换"
+        ],
         "hint": ""
       },
       {
@@ -2435,6 +2439,10 @@
         "targetChar": "许",
         "targetIndex": 4,
         "blank": "答应",
+        "answers": [
+          "答应",
+          "同意"
+        ],
         "hint": ""
       },
       {
@@ -2443,6 +2451,10 @@
         "targetChar": "谢",
         "targetIndex": 3,
         "blank": "道歉",
+        "answers": [
+          "道歉",
+          "谢罪"
+        ],
         "hint": ""
       }
     ],

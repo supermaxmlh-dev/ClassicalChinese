@@ -938,6 +938,10 @@
         "targetChar": "箦",
         "targetIndex": 7,
         "blank": "竹席",
+        "answers": [
+          "竹席",
+          "席子"
+        ],
         "hint": ""
       },
       {
@@ -946,6 +950,10 @@
         "targetChar": "易",
         "targetIndex": 3,
         "blank": "更换",
+        "answers": [
+          "更换",
+          "换"
+        ],
         "hint": ""
       },
       {
@@ -954,6 +962,10 @@
         "targetChar": "姑息",
         "targetIndex": 7,
         "blank": "无原则迁就",
+        "answers": [
+          "无原则迁就",
+          "迁就"
+        ],
         "hint": ""
       }
     ],

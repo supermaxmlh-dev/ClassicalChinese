@@ -1086,6 +1086,10 @@
         "targetChar": "俱",
         "targetIndex": 2,
         "blank": "都",
+        "answers": [
+          "都",
+          "全"
+        ],
         "hint": ""
       },
       {
@@ -1094,6 +1098,10 @@
         "targetChar": "甚",
         "targetIndex": 2,
         "blank": "超过、比……还",
+        "answers": [
+          "超过、比……还",
+          "超过"
+        ],
         "hint": ""
       },
       {
@@ -1102,6 +1110,10 @@
         "targetChar": "绝",
         "targetIndex": 5,
         "blank": "停止",
+        "answers": [
+          "停止",
+          "停歇"
+        ],
         "hint": ""
       }
     ],

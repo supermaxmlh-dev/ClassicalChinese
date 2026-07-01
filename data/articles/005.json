@@ -868,6 +868,10 @@
         "targetChar": "濯",
         "targetIndex": 0,
         "blank": "洗涤",
+        "answers": [
+          "洗涤",
+          "洗"
+        ],
         "hint": ""
       },
       {
@@ -876,6 +880,10 @@
         "targetChar": "亵",
         "targetIndex": 6,
         "blank": "轻慢、不庄重",
+        "answers": [
+          "轻慢、不庄重",
+          "轻慢"
+        ],
         "hint": ""
       },
       {
@@ -884,6 +892,10 @@
         "targetChar": "鲜",
         "targetIndex": 2,
         "blank": "少",
+        "answers": [
+          "少",
+          "很少"
+        ],
         "hint": ""
       }
     ],

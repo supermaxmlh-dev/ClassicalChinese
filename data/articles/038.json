@@ -835,6 +835,9 @@
         "targetChar": "师",
         "targetIndex": 4,
         "blank": "军队",
+        "answers": [
+          "军队"
+        ],
         "hint": ""
       },
       {
@@ -843,6 +846,9 @@
         "targetChar": "婢",
         "targetIndex": 0,
         "blank": "文中的关键词",
+        "answers": [
+          "文中的关键词"
+        ],
         "hint": ""
       },
       {
@@ -851,6 +857,9 @@
         "targetChar": "魏",
         "targetIndex": 2,
         "blank": "文中的关键词",
+        "answers": [
+          "文中的关键词"
+        ],
         "hint": ""
       }
     ],

@@ -1212,6 +1212,10 @@
         "targetChar": "吊",
         "targetIndex": 5,
         "blank": "慰问丧事",
+        "answers": [
+          "慰问丧事",
+          "慰问"
+        ],
         "hint": ""
       },
       {
@@ -1220,6 +1224,10 @@
         "targetChar": "图",
         "targetIndex": 3,
         "blank": "谋划",
+        "answers": [
+          "谋划",
+          "打算"
+        ],
         "hint": ""
       },
       {
@@ -1228,6 +1236,9 @@
         "targetChar": "私",
         "targetIndex": 3,
         "blank": "私下谋利",
+        "answers": [
+          "私下谋利"
+        ],
         "hint": ""
       }
     ],

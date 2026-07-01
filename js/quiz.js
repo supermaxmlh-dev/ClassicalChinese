@@ -44,6 +44,29 @@
     `).join("");
   }
 
+  function normalizeFillAnswer(value) {
+    return String(value || "")
+      .replace(/\u3000/g, " ")
+      .replace(/[\uff01-\uff5e]/g, (char) => String.fromCharCode(char.charCodeAt(0) - 0xfee0))
+      .trim()
+      .replace(/[,.。]+$/g, "")
+      .trim()
+      .toLowerCase();
+  }
+
+  function getAcceptedAnswers(question) {
+    const answers = Array.isArray(question.answers) && question.answers.length
+      ? question.answers
+      : [question.blank || question.answer || ""];
+    return answers.map((answer) => String(answer || "").trim()).filter(Boolean);
+  }
+
+  function formatFillAnswerFeedback(answers) {
+    const primary = answers[0] || "";
+    const alternatives = answers.slice(1);
+    return `正确答案：${primary}${alternatives.length ? `（也可：${alternatives.join("、")}）` : ""}`;
+  }
+
   function renderShortAnswer(shortAnswer, offset, title = "简答题") {
     if (!shortAnswer?.length) return "";
     return `
@@ -106,14 +129,16 @@
       const input = G.qs("input", item);
       G.qs("button", item).addEventListener("click", () => {
         if (item.dataset.done === "true") return;
-        const ok = input.value.trim() === String(question.blank || question.answer || "").trim();
+        const answers = getAcceptedAnswers(question);
+        const normalizedInput = normalizeFillAnswer(input.value);
+        const ok = answers.some((answer) => normalizeFillAnswer(answer) === normalizedInput);
         item.dataset.done = "true";
         item.dataset.correct = String(ok);
         input.classList.add(ok ? "correct" : "wrong");
         input.disabled = true;
         const feedback = G.qs(".feedback", item);
         feedback.className = `feedback ${ok ? "success" : "error"}`;
-        feedback.textContent = ok ? "填对了！" : `正确答案：${question.blank || question.answer}`;
+        feedback.textContent = ok ? "填对了！" : formatFillAnswerFeedback(answers);
         updateScore(container, articleId);
       });
     });

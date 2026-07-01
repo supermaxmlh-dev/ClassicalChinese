@@ -837,6 +837,10 @@
         "targetChar": "曰",
         "targetIndex": 9,
         "blank": "说",
+        "answers": [
+          "说",
+          "说道"
+        ],
         "hint": ""
       },
       {
@@ -845,6 +849,9 @@
         "targetChar": "道",
         "targetIndex": 0,
         "blank": "文中的关键词",
+        "answers": [
+          "文中的关键词"
+        ],
         "hint": ""
       },
       {
@@ -853,6 +860,9 @@
         "targetChar": "州",
         "targetIndex": 1,
         "blank": "文中的关键词",
+        "answers": [
+          "文中的关键词"
+        ],
         "hint": ""
       }
     ],
