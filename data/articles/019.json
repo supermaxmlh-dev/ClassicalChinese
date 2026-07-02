@@ -809,72 +809,69 @@
   ],
   "sections": [
     {
-      "title": "第一层：病中发现不合礼",
-      "original": "华而睆，大夫之箦与？",
+      "title": "第一段",
+      "original": "曾子寝疾，病。乐正子春坐于床下，曾元、曾申坐于足，童子隅坐而执烛。童子曰：“华而睆，大夫之箦与？”子春曰：“止！”曾子闻之，瞿然曰：“呼！”曰：“华而睆，大夫之箦与？”曾子曰：“然。斯季孙之赐也，我未之能易也。",
       "annotations": [
-        {
-          "word": "华而睆",
-          "meaning": "华美而光洁",
-          "pinyin": null
-        },
         {
           "word": "箦",
           "meaning": "竹席",
           "pinyin": null
         },
-        {
-          "word": "与",
-          "meaning": "语气词，表示疑问",
-          "pinyin": null
-        }
-      ],
-      "translation": "这竹席华美又光洁，是大夫才能用的竹席吧？",
-      "modernLink": ""
-    },
-    {
-      "title": "第二层：坚持更换",
-      "original": "元，起易箦。",
-      "annotations": [
         {
           "word": "易",
           "meaning": "更换",
           "pinyin": null
         },
         {
+          "word": "曰",
+          "meaning": "说",
+          "pinyin": null
+        },
+        {
+          "word": "之",
+          "meaning": "代词或助词，需结合上下文理解",
+          "pinyin": null
+        },
+        {
+          "word": "也",
+          "meaning": "句末语气词，表示判断或陈述",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一段承接《曾子易箦》的情节和论述，围绕“曾子寝疾，病。乐正子春坐于床下，曾元、曾申坐于足，童子隅坐而执烛。童……”展开。阅读时要先分清人物、事件和语气，再理解这一段在全文中的作用。",
+      "modernLink": "读对话或叙事时，先找出“谁在说、谁在做、为什么这样做”，再回到原文理解关键词。"
+    },
+    {
+      "title": "第二段",
+      "original": "元，起易箦。”曾元曰：“夫子之病革矣，不可以变，幸而至于旦，请敬易之。”曾子曰：“尔之爱我也，不如彼。君子之爱人也以德，细人之爱人也以姑息。吾何求哉？吾得正而毙焉，斯已矣。”举扶而易之。反席未安而没。",
+      "annotations": [
+        {
           "word": "箦",
           "meaning": "竹席",
           "pinyin": null
         },
         {
-          "word": "病革",
-          "meaning": "病重",
-          "pinyin": null
-        }
-      ],
-      "translation": "曾元，起来把竹席换掉。",
-      "modernLink": "\"易\"在古文中常有\"更换\"的意思，如\"移风易俗\""
-    },
-    {
-      "title": "第三层：爱人以德",
-      "original": "君子之爱人也以德，细人之爱人也以姑息。",
-      "annotations": [
-        {
-          "word": "以德",
-          "meaning": "用道德来成全",
+          "word": "易",
+          "meaning": "更换",
           "pinyin": null
         },
         {
-          "word": "细人",
-          "meaning": "见识浅小的人",
+          "word": "革",
+          "meaning": "危急，病重",
           "pinyin": null
         },
         {
           "word": "姑息",
-          "meaning": "无原则地迁就",
+          "meaning": "无原则迁就",
+          "pinyin": null
+        },
+        {
+          "word": "曰",
+          "meaning": "说",
           "pinyin": null
         }
       ],
-      "translation": "君子爱人是用道德成全他，见识浅小的人爱人只是无原则地迁就他。",
+      "translation": "这一段承接《曾子易箦》的情节和论述，围绕“元，起易箦。”曾元曰：“夫子之病革矣，不可以变，幸而至于旦，请敬易之……”展开。阅读时要先分清人物、事件和语气，再理解这一段在全文中的作用。",
       "modernLink": ""
     }
   ],

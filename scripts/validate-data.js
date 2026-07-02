@@ -18,9 +18,52 @@ const GENERIC_EXPLANATION_FRAGMENTS = [
   "其他选项不符合本句含义",
   "请结合原文语境和注释判断"
 ];
+const BANNED_CHOICE_QUESTION_PATTERNS = [
+  /本文题目是下列哪一项/,
+  /阅读本文时，最应该先抓住什么/
+];
 
 function hanCount(value = "") {
   return (String(value).match(/[\u3400-\u9fff]/g) || []).length;
+}
+
+function compactText(value = "") {
+  return String(value || "").replace(/\s/g, "");
+}
+
+function validateSections(article, id) {
+  const full = compactText(article.fullTextPlain);
+  const sections = Array.isArray(article.sections) ? article.sections : [];
+  if (!full || !sections.length) return;
+
+  let covered = 0;
+  let lastEnd = -1;
+  sections.forEach((section, index) => {
+    const original = compactText(section.original);
+    if (!original) {
+      errors.push(`${id}.json sections[${index}] has empty original.`);
+      return;
+    }
+    const start = full.indexOf(original, lastEnd < 0 ? 0 : lastEnd);
+    if (start < 0) {
+      errors.push(`${id}.json sections[${index}] original is not found in order in fullTextPlain.`);
+      return;
+    }
+    if (start < lastEnd) {
+      errors.push(`${id}.json sections[${index}] overlaps a previous section.`);
+      return;
+    }
+    covered += original.length;
+    lastEnd = start + original.length;
+  });
+
+  const coverage = covered / full.length;
+  if (coverage < 0.9) {
+    errors.push(`${id}.json sections coverage is ${Math.round(coverage * 100)}%, expected >= 90%.`);
+  }
+  if (full.length > 200 && sections.length < 2) {
+    errors.push(`${id}.json sections must split long articles into at least 2 sections.`);
+  }
 }
 
 if (!Array.isArray(index.weeks) || index.weeks.length !== 52) {
@@ -64,6 +107,7 @@ availableIds.forEach((id) => {
   });
   if (article.id !== id) errors.push(`${id}.json has mismatched id ${article.id}`);
   if (!Array.isArray(article.sections) || article.sections.length === 0) errors.push(`${id}.json has no sections`);
+  validateSections(article, id);
   if (!article.fullTranslation) errors.push(`${id}.json has no fullTranslation`);
   if (!article.quiz?.choices?.length) errors.push(`${id}.json has no choice questions`);
   if (!article.keyVocab?.length) errors.push(`${id}.json has no keyVocab`);
@@ -96,6 +140,9 @@ availableIds.forEach((id) => {
     });
   }
   (article.quiz?.choices || []).forEach((choice, index) => {
+    if (BANNED_CHOICE_QUESTION_PATTERNS.some((pattern) => pattern.test(String(choice.question || "")))) {
+      errors.push(`${id}.json choices[${index}] is a boilerplate/water question: ${choice.question}`);
+    }
     if (!Array.isArray(choice.options) || choice.options.length < 2) {
       errors.push(`${id}.json choices[${index}] has too few options.`);
     }

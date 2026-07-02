@@ -1,0 +1,1087 @@
+{
+  "id": "077",
+  "sourceMarkdown": "content/samples/week20-077-谏院题名记.md",
+  "sourceRaw": "content/raw/077-谏院题名记.txt",
+  "title": "谏院题名记",
+  "source": "欧阳修",
+  "author": "欧阳修",
+  "dynasty": "宋代",
+  "difficulty": 3,
+  "week": 20,
+  "wordCount": 250,
+  "tags": [
+    "宋代",
+    "山水记游",
+    "欧阳修",
+    "进阶"
+  ],
+  "relatedIdioms": [
+    "犯颜直谏",
+    "使功不如使过"
+  ],
+  "mainImage": "077-main.jpg",
+  "storyIntro": "《谏院题名记》要按游踪和视线来读：先看作者从哪里写起，再看景物怎样一层层展开，最后抓住景中寄寓的心情。",
+  "fullText": "古者谏无官，自公卿大夫至於工商，无不得谏者。汉兴以来，始置官。<ruby>夫<rp>(</rp><rt>fú</rt><rp>)</rp></ruby>以天下之政，四海之众，得失利病，萃於一官使言之，其为任亦重矣。居是官者，当志其大，舍其细；先其急，后其缓；专利国家，而不为身谋。彼汲汲於名者，犹汲汲於利也。其间相去何远哉？天禧初，真宗诏置谏官六员，责其职事。庆历中，钱君始书其名於版，光恐久而漫灭，嘉祐八年，刻著於石。后之人将历指其名而议之曰：“某也忠，某也诈，某也直，某也曲。”呜呼！可不惧哉？",
+  "fullTextPlain": "古者谏无官，自公卿大夫至於工商，无不得谏者。汉兴以来，始置官。夫以天下之政，四海之众，得失利病，萃於一官使言之，其为任亦重矣。居是官者，当志其大，舍其细；先其急，后其缓；专利国家，而不为身谋。彼汲汲於名者，犹汲汲於利也。其间相去何远哉？天禧初，真宗诏置谏官六员，责其职事。庆历中，钱君始书其名於版，光恐久而漫灭，嘉祐八年，刻著於石。后之人将历指其名而议之曰：“某也忠，某也诈，某也直，某也曲。”呜呼！可不惧哉？",
+  "rubyAnnotations": [
+    {
+      "char": "古",
+      "pinyin": "gǔ",
+      "pos": 0
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 1
+    },
+    {
+      "char": "谏",
+      "pinyin": "jiàn",
+      "pos": 2
+    },
+    {
+      "char": "无",
+      "pinyin": "wú",
+      "pos": 3
+    },
+    {
+      "char": "官",
+      "pinyin": "guān",
+      "pos": 4
+    },
+    {
+      "char": "自",
+      "pinyin": "zì",
+      "pos": 6
+    },
+    {
+      "char": "公",
+      "pinyin": "gōng",
+      "pos": 7
+    },
+    {
+      "char": "卿",
+      "pinyin": "qīng",
+      "pos": 8
+    },
+    {
+      "char": "大",
+      "pinyin": "dài",
+      "pos": 9
+    },
+    {
+      "char": "夫",
+      "pinyin": "fu",
+      "pos": 10
+    },
+    {
+      "char": "至",
+      "pinyin": "zhì",
+      "pos": 11
+    },
+    {
+      "char": "於",
+      "pinyin": "wū",
+      "pos": 12
+    },
+    {
+      "char": "工",
+      "pinyin": "gōng",
+      "pos": 13
+    },
+    {
+      "char": "商",
+      "pinyin": "shāng",
+      "pos": 14
+    },
+    {
+      "char": "无",
+      "pinyin": "wú",
+      "pos": 16
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 17
+    },
+    {
+      "char": "得",
+      "pinyin": "dé",
+      "pos": 18
+    },
+    {
+      "char": "谏",
+      "pinyin": "jiàn",
+      "pos": 19
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 20
+    },
+    {
+      "char": "汉",
+      "pinyin": "hàn",
+      "pos": 22
+    },
+    {
+      "char": "兴",
+      "pinyin": "xīng",
+      "pos": 23
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 24
+    },
+    {
+      "char": "来",
+      "pinyin": "lái",
+      "pos": 25
+    },
+    {
+      "char": "始",
+      "pinyin": "shǐ",
+      "pos": 27
+    },
+    {
+      "char": "置",
+      "pinyin": "zhì",
+      "pos": 28
+    },
+    {
+      "char": "官",
+      "pinyin": "guān",
+      "pos": 29
+    },
+    {
+      "char": "夫",
+      "pinyin": "fú",
+      "pos": 31
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 32
+    },
+    {
+      "char": "天",
+      "pinyin": "tiān",
+      "pos": 33
+    },
+    {
+      "char": "下",
+      "pinyin": "xià",
+      "pos": 34
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 35
+    },
+    {
+      "char": "政",
+      "pinyin": "zhèng",
+      "pos": 36
+    },
+    {
+      "char": "四",
+      "pinyin": "sì",
+      "pos": 38
+    },
+    {
+      "char": "海",
+      "pinyin": "hǎi",
+      "pos": 39
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 40
+    },
+    {
+      "char": "众",
+      "pinyin": "zhòng",
+      "pos": 41
+    },
+    {
+      "char": "得",
+      "pinyin": "dé",
+      "pos": 43
+    },
+    {
+      "char": "失",
+      "pinyin": "shī",
+      "pos": 44
+    },
+    {
+      "char": "利",
+      "pinyin": "lì",
+      "pos": 45
+    },
+    {
+      "char": "病",
+      "pinyin": "bìng",
+      "pos": 46
+    },
+    {
+      "char": "萃",
+      "pinyin": "cuì",
+      "pos": 48
+    },
+    {
+      "char": "於",
+      "pinyin": "wū",
+      "pos": 49
+    },
+    {
+      "char": "一",
+      "pinyin": "yì",
+      "pos": 50
+    },
+    {
+      "char": "官",
+      "pinyin": "guān",
+      "pos": 51
+    },
+    {
+      "char": "使",
+      "pinyin": "shǐ",
+      "pos": 52
+    },
+    {
+      "char": "言",
+      "pinyin": "yán",
+      "pos": 53
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 54
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 56
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 57
+    },
+    {
+      "char": "任",
+      "pinyin": "rèn",
+      "pos": 58
+    },
+    {
+      "char": "亦",
+      "pinyin": "yì",
+      "pos": 59
+    },
+    {
+      "char": "重",
+      "pinyin": "zhòng",
+      "pos": 60
+    },
+    {
+      "char": "矣",
+      "pinyin": "yǐ",
+      "pos": 61
+    },
+    {
+      "char": "居",
+      "pinyin": "jū",
+      "pos": 63
+    },
+    {
+      "char": "是",
+      "pinyin": "shì",
+      "pos": 64
+    },
+    {
+      "char": "官",
+      "pinyin": "guān",
+      "pos": 65
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 66
+    },
+    {
+      "char": "当",
+      "pinyin": "dāng",
+      "pos": 68
+    },
+    {
+      "char": "志",
+      "pinyin": "zhì",
+      "pos": 69
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 70
+    },
+    {
+      "char": "大",
+      "pinyin": "dà",
+      "pos": 71
+    },
+    {
+      "char": "舍",
+      "pinyin": "shè",
+      "pos": 73
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 74
+    },
+    {
+      "char": "细",
+      "pinyin": "xì",
+      "pos": 75
+    },
+    {
+      "char": "先",
+      "pinyin": "xiān",
+      "pos": 77
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 78
+    },
+    {
+      "char": "急",
+      "pinyin": "jí",
+      "pos": 79
+    },
+    {
+      "char": "后",
+      "pinyin": "hòu",
+      "pos": 81
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 82
+    },
+    {
+      "char": "缓",
+      "pinyin": "huǎn",
+      "pos": 83
+    },
+    {
+      "char": "专",
+      "pinyin": "zhuān",
+      "pos": 85
+    },
+    {
+      "char": "利",
+      "pinyin": "lì",
+      "pos": 86
+    },
+    {
+      "char": "国",
+      "pinyin": "guó",
+      "pos": 87
+    },
+    {
+      "char": "家",
+      "pinyin": "jiā",
+      "pos": 88
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 90
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 91
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 92
+    },
+    {
+      "char": "身",
+      "pinyin": "shēn",
+      "pos": 93
+    },
+    {
+      "char": "谋",
+      "pinyin": "móu",
+      "pos": 94
+    },
+    {
+      "char": "彼",
+      "pinyin": "bǐ",
+      "pos": 96
+    },
+    {
+      "char": "汲",
+      "pinyin": "jí",
+      "pos": 97
+    },
+    {
+      "char": "汲",
+      "pinyin": "jí",
+      "pos": 98
+    },
+    {
+      "char": "於",
+      "pinyin": "wū",
+      "pos": 99
+    },
+    {
+      "char": "名",
+      "pinyin": "míng",
+      "pos": 100
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 101
+    },
+    {
+      "char": "犹",
+      "pinyin": "yóu",
+      "pos": 103
+    },
+    {
+      "char": "汲",
+      "pinyin": "jí",
+      "pos": 104
+    },
+    {
+      "char": "汲",
+      "pinyin": "jí",
+      "pos": 105
+    },
+    {
+      "char": "於",
+      "pinyin": "wū",
+      "pos": 106
+    },
+    {
+      "char": "利",
+      "pinyin": "lì",
+      "pos": 107
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 108
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 110
+    },
+    {
+      "char": "间",
+      "pinyin": "jiān",
+      "pos": 111
+    },
+    {
+      "char": "相",
+      "pinyin": "xiāng",
+      "pos": 112
+    },
+    {
+      "char": "去",
+      "pinyin": "qù",
+      "pos": 113
+    },
+    {
+      "char": "何",
+      "pinyin": "hé",
+      "pos": 114
+    },
+    {
+      "char": "远",
+      "pinyin": "yuǎn",
+      "pos": 115
+    },
+    {
+      "char": "哉",
+      "pinyin": "zāi",
+      "pos": 116
+    },
+    {
+      "char": "天",
+      "pinyin": "tiān",
+      "pos": 118
+    },
+    {
+      "char": "禧",
+      "pinyin": "xǐ",
+      "pos": 119
+    },
+    {
+      "char": "初",
+      "pinyin": "chū",
+      "pos": 120
+    },
+    {
+      "char": "真",
+      "pinyin": "zhēn",
+      "pos": 122
+    },
+    {
+      "char": "宗",
+      "pinyin": "zōng",
+      "pos": 123
+    },
+    {
+      "char": "诏",
+      "pinyin": "zhào",
+      "pos": 124
+    },
+    {
+      "char": "置",
+      "pinyin": "zhì",
+      "pos": 125
+    },
+    {
+      "char": "谏",
+      "pinyin": "jiàn",
+      "pos": 126
+    },
+    {
+      "char": "官",
+      "pinyin": "guān",
+      "pos": 127
+    },
+    {
+      "char": "六",
+      "pinyin": "liù",
+      "pos": 128
+    },
+    {
+      "char": "员",
+      "pinyin": "yuán",
+      "pos": 129
+    },
+    {
+      "char": "责",
+      "pinyin": "zé",
+      "pos": 131
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 132
+    },
+    {
+      "char": "职",
+      "pinyin": "zhí",
+      "pos": 133
+    },
+    {
+      "char": "事",
+      "pinyin": "shì",
+      "pos": 134
+    },
+    {
+      "char": "庆",
+      "pinyin": "qìng",
+      "pos": 136
+    },
+    {
+      "char": "历",
+      "pinyin": "lì",
+      "pos": 137
+    },
+    {
+      "char": "中",
+      "pinyin": "zhōng",
+      "pos": 138
+    },
+    {
+      "char": "钱",
+      "pinyin": "qián",
+      "pos": 140
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 141
+    },
+    {
+      "char": "始",
+      "pinyin": "shǐ",
+      "pos": 142
+    },
+    {
+      "char": "书",
+      "pinyin": "shū",
+      "pos": 143
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 144
+    },
+    {
+      "char": "名",
+      "pinyin": "míng",
+      "pos": 145
+    },
+    {
+      "char": "於",
+      "pinyin": "wū",
+      "pos": 146
+    },
+    {
+      "char": "版",
+      "pinyin": "bǎn",
+      "pos": 147
+    },
+    {
+      "char": "光",
+      "pinyin": "guāng",
+      "pos": 149
+    },
+    {
+      "char": "恐",
+      "pinyin": "kǒng",
+      "pos": 150
+    },
+    {
+      "char": "久",
+      "pinyin": "jiǔ",
+      "pos": 151
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 152
+    },
+    {
+      "char": "漫",
+      "pinyin": "màn",
+      "pos": 153
+    },
+    {
+      "char": "灭",
+      "pinyin": "miè",
+      "pos": 154
+    },
+    {
+      "char": "嘉",
+      "pinyin": "jiā",
+      "pos": 156
+    },
+    {
+      "char": "祐",
+      "pinyin": "yòu",
+      "pos": 157
+    },
+    {
+      "char": "八",
+      "pinyin": "bā",
+      "pos": 158
+    },
+    {
+      "char": "年",
+      "pinyin": "nián",
+      "pos": 159
+    },
+    {
+      "char": "刻",
+      "pinyin": "kè",
+      "pos": 161
+    },
+    {
+      "char": "著",
+      "pinyin": "zhù",
+      "pos": 162
+    },
+    {
+      "char": "於",
+      "pinyin": "wū",
+      "pos": 163
+    },
+    {
+      "char": "石",
+      "pinyin": "shí",
+      "pos": 164
+    },
+    {
+      "char": "后",
+      "pinyin": "hòu",
+      "pos": 166
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 167
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 168
+    },
+    {
+      "char": "将",
+      "pinyin": "jiāng",
+      "pos": 169
+    },
+    {
+      "char": "历",
+      "pinyin": "lì",
+      "pos": 170
+    },
+    {
+      "char": "指",
+      "pinyin": "zhǐ",
+      "pos": 171
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 172
+    },
+    {
+      "char": "名",
+      "pinyin": "míng",
+      "pos": 173
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 174
+    },
+    {
+      "char": "议",
+      "pinyin": "yì",
+      "pos": 175
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 176
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 177
+    },
+    {
+      "char": "某",
+      "pinyin": "mǒu",
+      "pos": 180
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 181
+    },
+    {
+      "char": "忠",
+      "pinyin": "zhōng",
+      "pos": 182
+    },
+    {
+      "char": "某",
+      "pinyin": "mǒu",
+      "pos": 184
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 185
+    },
+    {
+      "char": "诈",
+      "pinyin": "zhà",
+      "pos": 186
+    },
+    {
+      "char": "某",
+      "pinyin": "mǒu",
+      "pos": 188
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 189
+    },
+    {
+      "char": "直",
+      "pinyin": "zhí",
+      "pos": 190
+    },
+    {
+      "char": "某",
+      "pinyin": "mǒu",
+      "pos": 192
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 193
+    },
+    {
+      "char": "曲",
+      "pinyin": "qǔ",
+      "pos": 194
+    },
+    {
+      "char": "呜",
+      "pinyin": "wū",
+      "pos": 197
+    },
+    {
+      "char": "呼",
+      "pinyin": "hū",
+      "pos": 198
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 200
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 201
+    },
+    {
+      "char": "惧",
+      "pinyin": "jù",
+      "pos": 202
+    },
+    {
+      "char": "哉",
+      "pinyin": "zāi",
+      "pos": 203
+    }
+  ],
+  "rhythmBreaks": [
+    6,
+    16,
+    22,
+    27,
+    31,
+    38,
+    43,
+    48,
+    56,
+    63,
+    68,
+    73,
+    77,
+    81,
+    85,
+    90,
+    96,
+    103,
+    110,
+    118,
+    122,
+    131,
+    136,
+    140,
+    149,
+    156,
+    161,
+    166,
+    179,
+    184,
+    188,
+    192,
+    196,
+    200
+  ],
+  "sections": [
+    {
+      "title": "起笔点明游踪",
+      "original": "古者谏无官，自公卿大夫至於工商，无不得谏者。汉兴以来，始置官。夫以天下之政，四海之众，得失利病，萃於一官使言之，其为任亦重矣。居是官者，当志其大，舍其细；先其急，后其缓；专利国家，而不为身谋。彼汲汲於名者，犹汲汲於利也。其间相去何远哉？天禧初，真宗诏置谏官六员，责其职事。",
+      "annotations": [
+        {
+          "word": "谏",
+          "meaning": "规劝君主或长上改过",
+          "pinyin": null
+        },
+        {
+          "word": "使",
+          "meaning": "派遣，让",
+          "pinyin": null
+        },
+        {
+          "word": "病",
+          "meaning": "担忧，困苦，生病",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一层从“古者谏无官，自公卿大夫至於工商，无不得谏者。汉兴以来，始置官。夫以天……”写起，交代游踪、景物或感受的变化。可译为：作者在这里说明所见之景及其触发的心情，为后文抒怀作铺垫。",
+      "modernLink": "读游记时，可以把地点转换和心情变化标出来，景物描写就不会散。"
+    },
+    {
+      "title": "写景展开层次",
+      "original": "庆历中，钱君始书其名於版，光恐久而漫灭，嘉祐八年，刻著於石。后之人将历指其名而议之曰：“某也忠，某也诈，某也直，某也曲。”呜呼！可不惧哉？",
+      "annotations": [
+        {
+          "word": "名",
+          "meaning": "命名，名声",
+          "pinyin": null
+        },
+        {
+          "word": "书",
+          "meaning": "写，书信，书籍",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一层从“庆历中，钱君始书其名於版，光恐久而漫灭，嘉祐八年，刻著於石。后之人将……”写起，交代游踪、景物或感受的变化。可译为：作者在这里说明所见之景及其触发的心情，为后文抒怀作铺垫。",
+      "modernLink": "读游记时，可以把地点转换和心情变化标出来，景物描写就不会散。"
+    }
+  ],
+  "fullTranslation": "全文大意是：作者围绕“谏院题名记”展开记游，从开头“古者谏无官，自公卿大夫至於工商，无不得谏者。汉兴以来，始”写起，依次交代地点、景物层次和个人感受。文章不只是写景，也借景表达发现佳处、寄托心绪或回望人生的意味。",
+  "extendedReading": {
+    "author": "欧阳修是宋代文章传统中的重要作者或典籍来源。本文的阅读重点，是看语言怎样服务于人物、景物、议论或情感。",
+    "background": "第二阶段文章难度提高，常涉及春秋战国的外交辞令、唐宋古文的议论结构，以及明代小品和家传文字。阅读时要把时代、人物关系和文章体类放在一起看。",
+    "funFacts": [
+      "古文中的“之、以、而、其”等字，常常要根据前后句重新判断。",
+      "一篇文章可以先按段落读通，再回头整理关键词。",
+      "对话体文章适合分角色朗读，议论文适合标出判断句和理由句。"
+    ],
+    "relatedStory": "许多经典短文不是单纯记录事件，而是借一次对答、一次游览或一段追忆，写出判断力、审美和价值取向。"
+  },
+  "thinkingQuestions": [
+    "本文最关键的一处转折在哪里？为什么？",
+    "文中哪一个词最能帮助你理解人物态度或作者情感？",
+    "如果把本文分成几层意思，你会怎样命名？"
+  ],
+  "quiz": {
+    "choices": [
+      {
+        "id": 1,
+        "question": "文中“古者谏无官，自公卿大夫至於工商，无不得谏者。”里的“谏”最接近哪一项？",
+        "options": [
+          "规劝君主或长上改过",
+          "现代口语中的固定意思",
+          "与本句无关的地名",
+          "表示颜色或形状"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（规劝君主或长上改过）。题干引文中这个词承担具体语义，要结合所在句判断。"
+      },
+      {
+        "id": 2,
+        "question": "从开头“古者谏无官，自公卿大夫至於工商，无不得谏者。”看，本文首先抓住哪条线索？",
+        "options": [
+          "游踪与景物发现",
+          "军队操练过程",
+          "市场交易价格",
+          "科举考试名次"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（游踪与景物发现）。开头点出地点、游踪或所见，后文才顺势写景抒情。"
+      }
+    ],
+    "fillBlanks": [
+      {
+        "id": 100,
+        "stem": "古者谏无官，自公卿大夫至於工商，无不得谏者。",
+        "targetChar": "谏",
+        "targetIndex": 2,
+        "blank": "规劝君主或长上改过",
+        "answers": [
+          "规劝君主或长上改过",
+          "劝告"
+        ],
+        "hint": ""
+      },
+      {
+        "id": 101,
+        "stem": "夫以天下之政，四海之众，得失利病，萃於一官使言之，其为任亦重矣。",
+        "targetChar": "使",
+        "targetIndex": 21,
+        "blank": "派遣，让",
+        "answers": [
+          "派遣，让",
+          "使用"
+        ],
+        "hint": ""
+      },
+      {
+        "id": 102,
+        "stem": "夫以天下之政，四海之众，得失利病，萃於一官使言之，其为任亦重矣。",
+        "targetChar": "病",
+        "targetIndex": 15,
+        "blank": "担忧，困苦，生病",
+        "answers": [
+          "担忧，困苦，生病",
+          "疾病"
+        ],
+        "hint": ""
+      }
+    ],
+    "shortAnswer": [
+      {
+        "id": 4,
+        "question": "用自己的话概括本文的主要内容。",
+        "sampleAnswer": "本文围绕“谏院题名记”展开，写出事件、景物、议论或情感的层次，重点要抓住文中关键词与段落推进。"
+      }
+    ],
+    "challenge": [
+      {
+        "id": 5,
+        "question": "从文中挑一句最能体现文章主旨的话，说明理由。",
+        "sampleAnswer": "示例：可以选择最能表现人物判断、作者情感或文章观点的一句，并结合上下文说明它为什么重要。"
+      }
+    ]
+  },
+  "keyVocab": [
+    {
+      "word": "谏",
+      "ancient": "规劝君主或长上改过",
+      "modern": "劝告",
+      "example": "古者谏无官，自公卿大夫至於工商，无不得谏者。",
+      "idiom": "犯颜直谏"
+    },
+    {
+      "word": "使",
+      "ancient": "派遣，让",
+      "modern": "使用",
+      "example": "夫以天下之政，四海之众，得失利病，萃於一官使言之，其为任亦重矣。",
+      "idiom": "使功不如使过"
+    },
+    {
+      "word": "病",
+      "ancient": "担忧，困苦，生病",
+      "modern": "疾病",
+      "example": "夫以天下之政，四海之众，得失利病，萃於一官使言之，其为任亦重矣。",
+      "idiom": "病入膏肓"
+    },
+    {
+      "word": "间",
+      "ancient": "夹杂，参与，间或",
+      "modern": "中间",
+      "example": "其间相去何远哉？",
+      "idiom": "间不容发"
+    },
+    {
+      "word": "名",
+      "ancient": "命名，名声",
+      "modern": "名字",
+      "example": "彼汲汲於名者，犹汲汲於利也。",
+      "idiom": "名副其实"
+    },
+    {
+      "word": "书",
+      "ancient": "写，书信，书籍",
+      "modern": "书本",
+      "example": "庆历中，钱君始书其名於版，光恐久而漫灭，嘉祐八年，刻著於石。",
+      "idiom": "书不尽言"
+    }
+  ]
+}

@@ -622,10 +622,10 @@ function buildReviews() {
     },
     {
       id: 14,
-      question: "《楚归晋知䓨》中，知䓨面对楚王追问时的特点是？",
+      question: "《楚归晋知罃》中，知罃面对楚王追问时的特点是？",
       options: ["粗鲁争吵", "回答谨慎而有分寸", "一味求赏", "完全沉默"],
       answerIndex: 1,
-      explanation: "知䓨既不说怨，也不说德，始终把两国关系和臣子身份摆清楚。"
+      explanation: "知罃既不说怨，也不说德，始终把两国关系和臣子身份摆清楚。"
     },
     {
       id: 15,
@@ -698,13 +698,92 @@ function buildReviews() {
       explanation: "开篇说“止可看看七月半之人”，全文按五类人写出节日风俗。"
     }
   ];
+  const stage2ReviewQuestions = [
+    {
+      question: "《宫之奇谏假道》中，“唇亡齿寒”用来说明什么关系？",
+      options: ["虞、虢相互依存", "晋国只爱珠玉", "道路越借越宽", "车马彼此竞速"],
+      answerIndex: 0,
+      explanation: "宫之奇用辅车、唇齿作比，说明虞国和虢国一亡一危，不能只看眼前小利。"
+    },
+    {
+      question: "《郑伯克段于鄢》中，郑庄公对共叔段的态度主要表现为？",
+      options: ["纵其发展再一举解决", "立即主动让位", "完全不知情", "只讨论山水游赏"],
+      answerIndex: 0,
+      explanation: "庄公多次不制止段的扩张，等其行动暴露后再出兵，体现政治谋算。"
+    },
+    {
+      question: "《种树郭橐驼传》中，郭橐驼的种树方法强调什么？",
+      options: ["顺应树木本性", "频繁搬动根土", "每天严厉看守", "只追求枝叶整齐"],
+      answerIndex: 0,
+      explanation: "郭橐驼说要顺木之天，使其性得以发展，柳宗元借此讽刺扰民之政。"
+    },
+    {
+      question: "《冯谖客孟尝君》中，“狡兔三窟”相关情节体现冯谖怎样的眼光？",
+      options: ["为孟尝君预留多重退路", "只会索取鱼车", "劝孟尝君放弃宾客", "专门管理园林"],
+      answerIndex: 0,
+      explanation: "冯谖经营薛地、恢复声望并联结齐王，为孟尝君安排不止一条安全退路。"
+    },
+    {
+      question: "《触龙说赵太后》中，触龙成功劝说太后的关键策略是？",
+      options: ["先缓和情绪，再以爱子之道说理", "一开口就责骂太后", "完全回避长安君", "只谈自己的官位"],
+      answerIndex: 0,
+      explanation: "触龙先问饮食起居，使太后色少解，再转入父母为子计深远的道理。"
+    },
+    {
+      question: "《师说》中，“师者，所以传道受业解惑也”说明老师的职责是？",
+      options: ["传道、授业、解惑", "只排列座次", "只管理饮食", "只教授骑射"],
+      answerIndex: 0,
+      explanation: "韩愈开篇界定教师职责，后文批评耻学于师都围绕这个判断展开。"
+    },
+    {
+      question: "《游褒禅山记》中，王安石借游洞经历重点说明什么？",
+      options: ["志、力、物三者相配才能深入", "山洞里不能点火", "碑文一定都可靠", "游客越少越无趣"],
+      answerIndex: 0,
+      explanation: "作者从半途而返生发议论，认为有志、有力且借助外物，才能达到深处。"
+    },
+    {
+      question: "《前赤壁赋》中，苏轼最终用什么化解客人的悲哀？",
+      options: ["从变与不变看天地人生", "责令客人停止说话", "离开江边不再游玩", "改写历史年号"],
+      answerIndex: 0,
+      explanation: "苏轼指出从变化看万物无穷，从不变看物我皆无尽，以此转悲为旷达。"
+    },
+    {
+      question: "《谏太宗十思疏》中，“十思”的核心目的是？",
+      options: ["提醒君主居安思危、修德纳谏", "安排宫殿装饰", "记录十次宴会", "统计树木河流"],
+      answerIndex: 0,
+      explanation: "魏征以求木、欲流设喻，劝太宗在安定时保持警惕、节欲修德。"
+    },
+    {
+      question: "《归去来兮辞》中，陶渊明“归去来兮”的情感指向是？",
+      options: ["辞官归田、回归本心", "准备远征边塞", "追求朝廷显达", "参加商业贸易"],
+      answerIndex: 0,
+      explanation: "全文写归家、田园、亲友和自然之乐，核心是摆脱仕途束缚，回到本心。"
+    },
+    {
+      question: "《秋声赋》中，欧阳修借秋声主要引出什么感慨？",
+      options: ["万物盛衰与人生衰老", "春天花事繁盛", "战争阵法变化", "儿童读书方法"],
+      answerIndex: 0,
+      explanation: "秋声由自然声响转为肃杀之气，作者进一步联想到草木凋零和人生易老。"
+    },
+    {
+      question: "《送徐无党南归序》中，欧阳修谈“三不朽”时更看重什么根本？",
+      options: ["修身立德是长久之本", "辞藻越华丽越不朽", "著书数量越多越好", "远行一定能成名"],
+      answerIndex: 0,
+      explanation: "文章把修身、施事、见言并举，又反复提醒言不可恃，重心落在德行和自警。"
+    }
+  ];
+  const review26Questions = [
+    ...review13Questions.slice(0, 18),
+    ...stage2ReviewQuestions
+  ].map((question, index) => ({ ...question, id: index + 1 }));
   [13, 26, 39, 52].forEach((week) => {
+    const questions = week === 13 ? review13Questions : week === 26 ? review26Questions : baseQuestions;
     writeJSON(path.join(reviewsDir, `review-${week}.json`), {
       week,
       title: `第 ${week} 周阶段测评`,
-      description: week === 13 ? "覆盖第 1-12 周的第一阶段综合测评。" : "当前为示例题库，后续可扩展到20-30题。",
-      passScore: week === 13 ? 60 : 70,
-      questions: week === 13 ? review13Questions : baseQuestions
+      description: week === 13 ? "覆盖第 1-12 周的第一阶段综合测评。" : week === 26 ? "覆盖第 1-25 周的第二阶段综合测评。" : "当前为示例题库，后续可扩展到20-30题。",
+      passScore: week === 13 ? 60 : week === 26 ? 65 : 70,
+      questions
     });
   });
 }

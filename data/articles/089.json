@@ -1,0 +1,1999 @@
+{
+  "id": "089",
+  "sourceMarkdown": "content/samples/week24-089-归去来兮辞.md",
+  "sourceRaw": "content/raw/089-归去来兮辞.txt",
+  "title": "归去来兮辞",
+  "source": "陶渊明",
+  "author": "陶渊明",
+  "dynasty": "东晋",
+  "difficulty": 3,
+  "week": 24,
+  "wordCount": 400,
+  "tags": [
+    "东晋",
+    "山水记游",
+    "陶渊明",
+    "进阶"
+  ],
+  "relatedIdioms": [
+    "犯颜直谏",
+    "请君入瓮"
+  ],
+  "mainImage": "089-main.jpg",
+  "storyIntro": "《归去来兮辞》要按游踪和视线来读：先看作者从哪里写起，再看景物怎样一层层展开，最后抓住景中寄寓的心情。",
+  "fullText": "归去来兮，田园将芜，胡不归！既自以心为形役，奚惆怅而独悲！悟已往之不谏，知来者之可追。实迷途其未远，觉今是而昨非。舟摇摇以轻扬，风飘飘而吹衣。问征夫以前路，恨晨光之熹微。乃瞻衡宇，载欣载奔。僮仆欢迎，稚子候门。三径就荒，松菊犹存。携幼入室，有酒盈樽。引壶觞以自酌，眄庭柯以怡颜。倚南窗以寄傲，审容膝之易安。园日涉以成趣，门虽设而常关。策扶老以流憩，时矫首而遐观。云无心以出岫，鸟倦飞而知还。景翳翳以将入，抚孤松而盘桓。归去来兮，请息交以绝游。世与我而相遗，复驾言兮焉求！悦亲戚之情话，乐琴书以消忧。农人告余以春及，将有事於西畴。或命巾车，或棹孤舟。既窈窕以寻壑，亦崎岖而经丘。木欣欣以向荣，泉涓涓而始流。善万物之得时，感吾生之行休。已乎矣！寓形宇内复几时，曷不委心任去留？胡为遑遑欲何之？富贵非吾愿，帝乡不可期。怀良辰以孤往，或植杖而耘耔。登东皋以舒啸，临清流而赋诗。聊乘化以归尽，乐<ruby>夫<rp>(</rp><rt>fú</rt><rp>)</rp></ruby>天命复奚疑！",
+  "fullTextPlain": "归去来兮，田园将芜，胡不归！既自以心为形役，奚惆怅而独悲！悟已往之不谏，知来者之可追。实迷途其未远，觉今是而昨非。舟摇摇以轻扬，风飘飘而吹衣。问征夫以前路，恨晨光之熹微。乃瞻衡宇，载欣载奔。僮仆欢迎，稚子候门。三径就荒，松菊犹存。携幼入室，有酒盈樽。引壶觞以自酌，眄庭柯以怡颜。倚南窗以寄傲，审容膝之易安。园日涉以成趣，门虽设而常关。策扶老以流憩，时矫首而遐观。云无心以出岫，鸟倦飞而知还。景翳翳以将入，抚孤松而盘桓。归去来兮，请息交以绝游。世与我而相遗，复驾言兮焉求！悦亲戚之情话，乐琴书以消忧。农人告余以春及，将有事於西畴。或命巾车，或棹孤舟。既窈窕以寻壑，亦崎岖而经丘。木欣欣以向荣，泉涓涓而始流。善万物之得时，感吾生之行休。已乎矣！寓形宇内复几时，曷不委心任去留？胡为遑遑欲何之？富贵非吾愿，帝乡不可期。怀良辰以孤往，或植杖而耘耔。登东皋以舒啸，临清流而赋诗。聊乘化以归尽，乐夫天命复奚疑！",
+  "rubyAnnotations": [
+    {
+      "char": "归",
+      "pinyin": "guī",
+      "pos": 0
+    },
+    {
+      "char": "去",
+      "pinyin": "qù",
+      "pos": 1
+    },
+    {
+      "char": "来",
+      "pinyin": "lái",
+      "pos": 2
+    },
+    {
+      "char": "兮",
+      "pinyin": "xī",
+      "pos": 3
+    },
+    {
+      "char": "田",
+      "pinyin": "tián",
+      "pos": 5
+    },
+    {
+      "char": "园",
+      "pinyin": "yuán",
+      "pos": 6
+    },
+    {
+      "char": "将",
+      "pinyin": "jiāng",
+      "pos": 7
+    },
+    {
+      "char": "芜",
+      "pinyin": "wú",
+      "pos": 8
+    },
+    {
+      "char": "胡",
+      "pinyin": "hú",
+      "pos": 10
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 11
+    },
+    {
+      "char": "归",
+      "pinyin": "guī",
+      "pos": 12
+    },
+    {
+      "char": "既",
+      "pinyin": "jì",
+      "pos": 14
+    },
+    {
+      "char": "自",
+      "pinyin": "zì",
+      "pos": 15
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 16
+    },
+    {
+      "char": "心",
+      "pinyin": "xīn",
+      "pos": 17
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 18
+    },
+    {
+      "char": "形",
+      "pinyin": "xíng",
+      "pos": 19
+    },
+    {
+      "char": "役",
+      "pinyin": "yì",
+      "pos": 20
+    },
+    {
+      "char": "奚",
+      "pinyin": "xī",
+      "pos": 22
+    },
+    {
+      "char": "惆",
+      "pinyin": "chóu",
+      "pos": 23
+    },
+    {
+      "char": "怅",
+      "pinyin": "chàng",
+      "pos": 24
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 25
+    },
+    {
+      "char": "独",
+      "pinyin": "dú",
+      "pos": 26
+    },
+    {
+      "char": "悲",
+      "pinyin": "bēi",
+      "pos": 27
+    },
+    {
+      "char": "悟",
+      "pinyin": "wù",
+      "pos": 29
+    },
+    {
+      "char": "已",
+      "pinyin": "yǐ",
+      "pos": 30
+    },
+    {
+      "char": "往",
+      "pinyin": "wǎng",
+      "pos": 31
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 32
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 33
+    },
+    {
+      "char": "谏",
+      "pinyin": "jiàn",
+      "pos": 34
+    },
+    {
+      "char": "知",
+      "pinyin": "zhī",
+      "pos": 36
+    },
+    {
+      "char": "来",
+      "pinyin": "lái",
+      "pos": 37
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 38
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 39
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 40
+    },
+    {
+      "char": "追",
+      "pinyin": "zhuī",
+      "pos": 41
+    },
+    {
+      "char": "实",
+      "pinyin": "shí",
+      "pos": 43
+    },
+    {
+      "char": "迷",
+      "pinyin": "mí",
+      "pos": 44
+    },
+    {
+      "char": "途",
+      "pinyin": "tú",
+      "pos": 45
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 46
+    },
+    {
+      "char": "未",
+      "pinyin": "wèi",
+      "pos": 47
+    },
+    {
+      "char": "远",
+      "pinyin": "yuǎn",
+      "pos": 48
+    },
+    {
+      "char": "觉",
+      "pinyin": "jué",
+      "pos": 50
+    },
+    {
+      "char": "今",
+      "pinyin": "jīn",
+      "pos": 51
+    },
+    {
+      "char": "是",
+      "pinyin": "shì",
+      "pos": 52
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 53
+    },
+    {
+      "char": "昨",
+      "pinyin": "zuó",
+      "pos": 54
+    },
+    {
+      "char": "非",
+      "pinyin": "fēi",
+      "pos": 55
+    },
+    {
+      "char": "舟",
+      "pinyin": "zhōu",
+      "pos": 57
+    },
+    {
+      "char": "摇",
+      "pinyin": "yáo",
+      "pos": 58
+    },
+    {
+      "char": "摇",
+      "pinyin": "yáo",
+      "pos": 59
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 60
+    },
+    {
+      "char": "轻",
+      "pinyin": "qīng",
+      "pos": 61
+    },
+    {
+      "char": "扬",
+      "pinyin": "yáng",
+      "pos": 62
+    },
+    {
+      "char": "风",
+      "pinyin": "fēng",
+      "pos": 64
+    },
+    {
+      "char": "飘",
+      "pinyin": "piāo",
+      "pos": 65
+    },
+    {
+      "char": "飘",
+      "pinyin": "piāo",
+      "pos": 66
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 67
+    },
+    {
+      "char": "吹",
+      "pinyin": "chuī",
+      "pos": 68
+    },
+    {
+      "char": "衣",
+      "pinyin": "yī",
+      "pos": 69
+    },
+    {
+      "char": "问",
+      "pinyin": "wèn",
+      "pos": 71
+    },
+    {
+      "char": "征",
+      "pinyin": "zhēng",
+      "pos": 72
+    },
+    {
+      "char": "夫",
+      "pinyin": "fū",
+      "pos": 73
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 74
+    },
+    {
+      "char": "前",
+      "pinyin": "qián",
+      "pos": 75
+    },
+    {
+      "char": "路",
+      "pinyin": "lù",
+      "pos": 76
+    },
+    {
+      "char": "恨",
+      "pinyin": "hèn",
+      "pos": 78
+    },
+    {
+      "char": "晨",
+      "pinyin": "chén",
+      "pos": 79
+    },
+    {
+      "char": "光",
+      "pinyin": "guāng",
+      "pos": 80
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 81
+    },
+    {
+      "char": "熹",
+      "pinyin": "xī",
+      "pos": 82
+    },
+    {
+      "char": "微",
+      "pinyin": "wēi",
+      "pos": 83
+    },
+    {
+      "char": "乃",
+      "pinyin": "nǎi",
+      "pos": 85
+    },
+    {
+      "char": "瞻",
+      "pinyin": "zhān",
+      "pos": 86
+    },
+    {
+      "char": "衡",
+      "pinyin": "héng",
+      "pos": 87
+    },
+    {
+      "char": "宇",
+      "pinyin": "yǔ",
+      "pos": 88
+    },
+    {
+      "char": "载",
+      "pinyin": "zǎi",
+      "pos": 90
+    },
+    {
+      "char": "欣",
+      "pinyin": "xīn",
+      "pos": 91
+    },
+    {
+      "char": "载",
+      "pinyin": "zǎi",
+      "pos": 92
+    },
+    {
+      "char": "奔",
+      "pinyin": "bēn",
+      "pos": 93
+    },
+    {
+      "char": "僮",
+      "pinyin": "tóng",
+      "pos": 95
+    },
+    {
+      "char": "仆",
+      "pinyin": "pú",
+      "pos": 96
+    },
+    {
+      "char": "欢",
+      "pinyin": "huān",
+      "pos": 97
+    },
+    {
+      "char": "迎",
+      "pinyin": "yíng",
+      "pos": 98
+    },
+    {
+      "char": "稚",
+      "pinyin": "zhì",
+      "pos": 100
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 101
+    },
+    {
+      "char": "候",
+      "pinyin": "hòu",
+      "pos": 102
+    },
+    {
+      "char": "门",
+      "pinyin": "mén",
+      "pos": 103
+    },
+    {
+      "char": "三",
+      "pinyin": "sān",
+      "pos": 105
+    },
+    {
+      "char": "径",
+      "pinyin": "jìng",
+      "pos": 106
+    },
+    {
+      "char": "就",
+      "pinyin": "jiù",
+      "pos": 107
+    },
+    {
+      "char": "荒",
+      "pinyin": "huāng",
+      "pos": 108
+    },
+    {
+      "char": "松",
+      "pinyin": "sōng",
+      "pos": 110
+    },
+    {
+      "char": "菊",
+      "pinyin": "jú",
+      "pos": 111
+    },
+    {
+      "char": "犹",
+      "pinyin": "yóu",
+      "pos": 112
+    },
+    {
+      "char": "存",
+      "pinyin": "cún",
+      "pos": 113
+    },
+    {
+      "char": "携",
+      "pinyin": "xié",
+      "pos": 115
+    },
+    {
+      "char": "幼",
+      "pinyin": "yòu",
+      "pos": 116
+    },
+    {
+      "char": "入",
+      "pinyin": "rù",
+      "pos": 117
+    },
+    {
+      "char": "室",
+      "pinyin": "shì",
+      "pos": 118
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 120
+    },
+    {
+      "char": "酒",
+      "pinyin": "jiǔ",
+      "pos": 121
+    },
+    {
+      "char": "盈",
+      "pinyin": "yíng",
+      "pos": 122
+    },
+    {
+      "char": "樽",
+      "pinyin": "zūn",
+      "pos": 123
+    },
+    {
+      "char": "引",
+      "pinyin": "yǐn",
+      "pos": 125
+    },
+    {
+      "char": "壶",
+      "pinyin": "hú",
+      "pos": 126
+    },
+    {
+      "char": "觞",
+      "pinyin": "shāng",
+      "pos": 127
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 128
+    },
+    {
+      "char": "自",
+      "pinyin": "zì",
+      "pos": 129
+    },
+    {
+      "char": "酌",
+      "pinyin": "zhuó",
+      "pos": 130
+    },
+    {
+      "char": "眄",
+      "pinyin": "miǎn",
+      "pos": 132
+    },
+    {
+      "char": "庭",
+      "pinyin": "tíng",
+      "pos": 133
+    },
+    {
+      "char": "柯",
+      "pinyin": "kē",
+      "pos": 134
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 135
+    },
+    {
+      "char": "怡",
+      "pinyin": "yí",
+      "pos": 136
+    },
+    {
+      "char": "颜",
+      "pinyin": "yán",
+      "pos": 137
+    },
+    {
+      "char": "倚",
+      "pinyin": "yǐ",
+      "pos": 139
+    },
+    {
+      "char": "南",
+      "pinyin": "nán",
+      "pos": 140
+    },
+    {
+      "char": "窗",
+      "pinyin": "chuāng",
+      "pos": 141
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 142
+    },
+    {
+      "char": "寄",
+      "pinyin": "jì",
+      "pos": 143
+    },
+    {
+      "char": "傲",
+      "pinyin": "ào",
+      "pos": 144
+    },
+    {
+      "char": "审",
+      "pinyin": "shěn",
+      "pos": 146
+    },
+    {
+      "char": "容",
+      "pinyin": "róng",
+      "pos": 147
+    },
+    {
+      "char": "膝",
+      "pinyin": "xī",
+      "pos": 148
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 149
+    },
+    {
+      "char": "易",
+      "pinyin": "yì",
+      "pos": 150
+    },
+    {
+      "char": "安",
+      "pinyin": "ān",
+      "pos": 151
+    },
+    {
+      "char": "园",
+      "pinyin": "yuán",
+      "pos": 153
+    },
+    {
+      "char": "日",
+      "pinyin": "rì",
+      "pos": 154
+    },
+    {
+      "char": "涉",
+      "pinyin": "shè",
+      "pos": 155
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 156
+    },
+    {
+      "char": "成",
+      "pinyin": "chéng",
+      "pos": 157
+    },
+    {
+      "char": "趣",
+      "pinyin": "qù",
+      "pos": 158
+    },
+    {
+      "char": "门",
+      "pinyin": "mén",
+      "pos": 160
+    },
+    {
+      "char": "虽",
+      "pinyin": "suī",
+      "pos": 161
+    },
+    {
+      "char": "设",
+      "pinyin": "shè",
+      "pos": 162
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 163
+    },
+    {
+      "char": "常",
+      "pinyin": "cháng",
+      "pos": 164
+    },
+    {
+      "char": "关",
+      "pinyin": "guān",
+      "pos": 165
+    },
+    {
+      "char": "策",
+      "pinyin": "cè",
+      "pos": 167
+    },
+    {
+      "char": "扶",
+      "pinyin": "fú",
+      "pos": 168
+    },
+    {
+      "char": "老",
+      "pinyin": "lǎo",
+      "pos": 169
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 170
+    },
+    {
+      "char": "流",
+      "pinyin": "liú",
+      "pos": 171
+    },
+    {
+      "char": "憩",
+      "pinyin": "qì",
+      "pos": 172
+    },
+    {
+      "char": "时",
+      "pinyin": "shí",
+      "pos": 174
+    },
+    {
+      "char": "矫",
+      "pinyin": "jiǎo",
+      "pos": 175
+    },
+    {
+      "char": "首",
+      "pinyin": "shǒu",
+      "pos": 176
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 177
+    },
+    {
+      "char": "遐",
+      "pinyin": "xiá",
+      "pos": 178
+    },
+    {
+      "char": "观",
+      "pinyin": "guān",
+      "pos": 179
+    },
+    {
+      "char": "云",
+      "pinyin": "yún",
+      "pos": 181
+    },
+    {
+      "char": "无",
+      "pinyin": "wú",
+      "pos": 182
+    },
+    {
+      "char": "心",
+      "pinyin": "xīn",
+      "pos": 183
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 184
+    },
+    {
+      "char": "出",
+      "pinyin": "chū",
+      "pos": 185
+    },
+    {
+      "char": "岫",
+      "pinyin": "xiù",
+      "pos": 186
+    },
+    {
+      "char": "鸟",
+      "pinyin": "niǎo",
+      "pos": 188
+    },
+    {
+      "char": "倦",
+      "pinyin": "juàn",
+      "pos": 189
+    },
+    {
+      "char": "飞",
+      "pinyin": "fēi",
+      "pos": 190
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 191
+    },
+    {
+      "char": "知",
+      "pinyin": "zhī",
+      "pos": 192
+    },
+    {
+      "char": "还",
+      "pinyin": "hái",
+      "pos": 193
+    },
+    {
+      "char": "景",
+      "pinyin": "jǐng",
+      "pos": 195
+    },
+    {
+      "char": "翳",
+      "pinyin": "yì",
+      "pos": 196
+    },
+    {
+      "char": "翳",
+      "pinyin": "yì",
+      "pos": 197
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 198
+    },
+    {
+      "char": "将",
+      "pinyin": "jiāng",
+      "pos": 199
+    },
+    {
+      "char": "入",
+      "pinyin": "rù",
+      "pos": 200
+    },
+    {
+      "char": "抚",
+      "pinyin": "fǔ",
+      "pos": 202
+    },
+    {
+      "char": "孤",
+      "pinyin": "gū",
+      "pos": 203
+    },
+    {
+      "char": "松",
+      "pinyin": "sōng",
+      "pos": 204
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 205
+    },
+    {
+      "char": "盘",
+      "pinyin": "pán",
+      "pos": 206
+    },
+    {
+      "char": "桓",
+      "pinyin": "huán",
+      "pos": 207
+    },
+    {
+      "char": "归",
+      "pinyin": "guī",
+      "pos": 209
+    },
+    {
+      "char": "去",
+      "pinyin": "qù",
+      "pos": 210
+    },
+    {
+      "char": "来",
+      "pinyin": "lái",
+      "pos": 211
+    },
+    {
+      "char": "兮",
+      "pinyin": "xī",
+      "pos": 212
+    },
+    {
+      "char": "请",
+      "pinyin": "qǐng",
+      "pos": 214
+    },
+    {
+      "char": "息",
+      "pinyin": "xī",
+      "pos": 215
+    },
+    {
+      "char": "交",
+      "pinyin": "jiāo",
+      "pos": 216
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 217
+    },
+    {
+      "char": "绝",
+      "pinyin": "jué",
+      "pos": 218
+    },
+    {
+      "char": "游",
+      "pinyin": "yóu",
+      "pos": 219
+    },
+    {
+      "char": "世",
+      "pinyin": "shì",
+      "pos": 221
+    },
+    {
+      "char": "与",
+      "pinyin": "yǔ",
+      "pos": 222
+    },
+    {
+      "char": "我",
+      "pinyin": "wǒ",
+      "pos": 223
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 224
+    },
+    {
+      "char": "相",
+      "pinyin": "xiāng",
+      "pos": 225
+    },
+    {
+      "char": "遗",
+      "pinyin": "yí",
+      "pos": 226
+    },
+    {
+      "char": "复",
+      "pinyin": "fù",
+      "pos": 228
+    },
+    {
+      "char": "驾",
+      "pinyin": "jià",
+      "pos": 229
+    },
+    {
+      "char": "言",
+      "pinyin": "yán",
+      "pos": 230
+    },
+    {
+      "char": "兮",
+      "pinyin": "xī",
+      "pos": 231
+    },
+    {
+      "char": "焉",
+      "pinyin": "yān",
+      "pos": 232
+    },
+    {
+      "char": "求",
+      "pinyin": "qiú",
+      "pos": 233
+    },
+    {
+      "char": "悦",
+      "pinyin": "yuè",
+      "pos": 235
+    },
+    {
+      "char": "亲",
+      "pinyin": "qīn",
+      "pos": 236
+    },
+    {
+      "char": "戚",
+      "pinyin": "qi",
+      "pos": 237
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 238
+    },
+    {
+      "char": "情",
+      "pinyin": "qíng",
+      "pos": 239
+    },
+    {
+      "char": "话",
+      "pinyin": "huà",
+      "pos": 240
+    },
+    {
+      "char": "乐",
+      "pinyin": "lè",
+      "pos": 242
+    },
+    {
+      "char": "琴",
+      "pinyin": "qín",
+      "pos": 243
+    },
+    {
+      "char": "书",
+      "pinyin": "shū",
+      "pos": 244
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 245
+    },
+    {
+      "char": "消",
+      "pinyin": "xiāo",
+      "pos": 246
+    },
+    {
+      "char": "忧",
+      "pinyin": "yōu",
+      "pos": 247
+    },
+    {
+      "char": "农",
+      "pinyin": "nóng",
+      "pos": 249
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 250
+    },
+    {
+      "char": "告",
+      "pinyin": "gào",
+      "pos": 251
+    },
+    {
+      "char": "余",
+      "pinyin": "yú",
+      "pos": 252
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 253
+    },
+    {
+      "char": "春",
+      "pinyin": "chūn",
+      "pos": 254
+    },
+    {
+      "char": "及",
+      "pinyin": "jí",
+      "pos": 255
+    },
+    {
+      "char": "将",
+      "pinyin": "jiāng",
+      "pos": 257
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 258
+    },
+    {
+      "char": "事",
+      "pinyin": "shì",
+      "pos": 259
+    },
+    {
+      "char": "於",
+      "pinyin": "wū",
+      "pos": 260
+    },
+    {
+      "char": "西",
+      "pinyin": "xī",
+      "pos": 261
+    },
+    {
+      "char": "畴",
+      "pinyin": "chóu",
+      "pos": 262
+    },
+    {
+      "char": "或",
+      "pinyin": "huò",
+      "pos": 264
+    },
+    {
+      "char": "命",
+      "pinyin": "mìng",
+      "pos": 265
+    },
+    {
+      "char": "巾",
+      "pinyin": "jīn",
+      "pos": 266
+    },
+    {
+      "char": "车",
+      "pinyin": "chē",
+      "pos": 267
+    },
+    {
+      "char": "或",
+      "pinyin": "huò",
+      "pos": 269
+    },
+    {
+      "char": "棹",
+      "pinyin": "zhào",
+      "pos": 270
+    },
+    {
+      "char": "孤",
+      "pinyin": "gū",
+      "pos": 271
+    },
+    {
+      "char": "舟",
+      "pinyin": "zhōu",
+      "pos": 272
+    },
+    {
+      "char": "既",
+      "pinyin": "jì",
+      "pos": 274
+    },
+    {
+      "char": "窈",
+      "pinyin": "yǎo",
+      "pos": 275
+    },
+    {
+      "char": "窕",
+      "pinyin": "tiǎo",
+      "pos": 276
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 277
+    },
+    {
+      "char": "寻",
+      "pinyin": "xún",
+      "pos": 278
+    },
+    {
+      "char": "壑",
+      "pinyin": "hè",
+      "pos": 279
+    },
+    {
+      "char": "亦",
+      "pinyin": "yì",
+      "pos": 281
+    },
+    {
+      "char": "崎",
+      "pinyin": "qí",
+      "pos": 282
+    },
+    {
+      "char": "岖",
+      "pinyin": "qū",
+      "pos": 283
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 284
+    },
+    {
+      "char": "经",
+      "pinyin": "jīng",
+      "pos": 285
+    },
+    {
+      "char": "丘",
+      "pinyin": "qiū",
+      "pos": 286
+    },
+    {
+      "char": "木",
+      "pinyin": "mù",
+      "pos": 288
+    },
+    {
+      "char": "欣",
+      "pinyin": "xīn",
+      "pos": 289
+    },
+    {
+      "char": "欣",
+      "pinyin": "xīn",
+      "pos": 290
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 291
+    },
+    {
+      "char": "向",
+      "pinyin": "xiàng",
+      "pos": 292
+    },
+    {
+      "char": "荣",
+      "pinyin": "róng",
+      "pos": 293
+    },
+    {
+      "char": "泉",
+      "pinyin": "quán",
+      "pos": 295
+    },
+    {
+      "char": "涓",
+      "pinyin": "juān",
+      "pos": 296
+    },
+    {
+      "char": "涓",
+      "pinyin": "juān",
+      "pos": 297
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 298
+    },
+    {
+      "char": "始",
+      "pinyin": "shǐ",
+      "pos": 299
+    },
+    {
+      "char": "流",
+      "pinyin": "liú",
+      "pos": 300
+    },
+    {
+      "char": "善",
+      "pinyin": "shàn",
+      "pos": 302
+    },
+    {
+      "char": "万",
+      "pinyin": "wàn",
+      "pos": 303
+    },
+    {
+      "char": "物",
+      "pinyin": "wù",
+      "pos": 304
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 305
+    },
+    {
+      "char": "得",
+      "pinyin": "dé",
+      "pos": 306
+    },
+    {
+      "char": "时",
+      "pinyin": "shí",
+      "pos": 307
+    },
+    {
+      "char": "感",
+      "pinyin": "gǎn",
+      "pos": 309
+    },
+    {
+      "char": "吾",
+      "pinyin": "wú",
+      "pos": 310
+    },
+    {
+      "char": "生",
+      "pinyin": "shēng",
+      "pos": 311
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 312
+    },
+    {
+      "char": "行",
+      "pinyin": "xíng",
+      "pos": 313
+    },
+    {
+      "char": "休",
+      "pinyin": "xiū",
+      "pos": 314
+    },
+    {
+      "char": "已",
+      "pinyin": "yǐ",
+      "pos": 316
+    },
+    {
+      "char": "乎",
+      "pinyin": "hū",
+      "pos": 317
+    },
+    {
+      "char": "矣",
+      "pinyin": "yǐ",
+      "pos": 318
+    },
+    {
+      "char": "寓",
+      "pinyin": "yù",
+      "pos": 320
+    },
+    {
+      "char": "形",
+      "pinyin": "xíng",
+      "pos": 321
+    },
+    {
+      "char": "宇",
+      "pinyin": "yǔ",
+      "pos": 322
+    },
+    {
+      "char": "内",
+      "pinyin": "nèi",
+      "pos": 323
+    },
+    {
+      "char": "复",
+      "pinyin": "fù",
+      "pos": 324
+    },
+    {
+      "char": "几",
+      "pinyin": "jǐ",
+      "pos": 325
+    },
+    {
+      "char": "时",
+      "pinyin": "shí",
+      "pos": 326
+    },
+    {
+      "char": "曷",
+      "pinyin": "hé",
+      "pos": 328
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 329
+    },
+    {
+      "char": "委",
+      "pinyin": "wěi",
+      "pos": 330
+    },
+    {
+      "char": "心",
+      "pinyin": "xīn",
+      "pos": 331
+    },
+    {
+      "char": "任",
+      "pinyin": "rèn",
+      "pos": 332
+    },
+    {
+      "char": "去",
+      "pinyin": "qù",
+      "pos": 333
+    },
+    {
+      "char": "留",
+      "pinyin": "liú",
+      "pos": 334
+    },
+    {
+      "char": "胡",
+      "pinyin": "hú",
+      "pos": 336
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 337
+    },
+    {
+      "char": "遑",
+      "pinyin": "huáng",
+      "pos": 338
+    },
+    {
+      "char": "遑",
+      "pinyin": "huáng",
+      "pos": 339
+    },
+    {
+      "char": "欲",
+      "pinyin": "yù",
+      "pos": 340
+    },
+    {
+      "char": "何",
+      "pinyin": "hé",
+      "pos": 341
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 342
+    },
+    {
+      "char": "富",
+      "pinyin": "fù",
+      "pos": 344
+    },
+    {
+      "char": "贵",
+      "pinyin": "guì",
+      "pos": 345
+    },
+    {
+      "char": "非",
+      "pinyin": "fēi",
+      "pos": 346
+    },
+    {
+      "char": "吾",
+      "pinyin": "wú",
+      "pos": 347
+    },
+    {
+      "char": "愿",
+      "pinyin": "yuàn",
+      "pos": 348
+    },
+    {
+      "char": "帝",
+      "pinyin": "dì",
+      "pos": 350
+    },
+    {
+      "char": "乡",
+      "pinyin": "xiāng",
+      "pos": 351
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 352
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 353
+    },
+    {
+      "char": "期",
+      "pinyin": "qī",
+      "pos": 354
+    },
+    {
+      "char": "怀",
+      "pinyin": "huái",
+      "pos": 356
+    },
+    {
+      "char": "良",
+      "pinyin": "liáng",
+      "pos": 357
+    },
+    {
+      "char": "辰",
+      "pinyin": "chén",
+      "pos": 358
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 359
+    },
+    {
+      "char": "孤",
+      "pinyin": "gū",
+      "pos": 360
+    },
+    {
+      "char": "往",
+      "pinyin": "wǎng",
+      "pos": 361
+    },
+    {
+      "char": "或",
+      "pinyin": "huò",
+      "pos": 363
+    },
+    {
+      "char": "植",
+      "pinyin": "zhí",
+      "pos": 364
+    },
+    {
+      "char": "杖",
+      "pinyin": "zhàng",
+      "pos": 365
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 366
+    },
+    {
+      "char": "耘",
+      "pinyin": "yún",
+      "pos": 367
+    },
+    {
+      "char": "耔",
+      "pinyin": "zǐ",
+      "pos": 368
+    },
+    {
+      "char": "登",
+      "pinyin": "dēng",
+      "pos": 370
+    },
+    {
+      "char": "东",
+      "pinyin": "dōng",
+      "pos": 371
+    },
+    {
+      "char": "皋",
+      "pinyin": "gāo",
+      "pos": 372
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 373
+    },
+    {
+      "char": "舒",
+      "pinyin": "shū",
+      "pos": 374
+    },
+    {
+      "char": "啸",
+      "pinyin": "xiào",
+      "pos": 375
+    },
+    {
+      "char": "临",
+      "pinyin": "lín",
+      "pos": 377
+    },
+    {
+      "char": "清",
+      "pinyin": "qīng",
+      "pos": 378
+    },
+    {
+      "char": "流",
+      "pinyin": "liú",
+      "pos": 379
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 380
+    },
+    {
+      "char": "赋",
+      "pinyin": "fù",
+      "pos": 381
+    },
+    {
+      "char": "诗",
+      "pinyin": "shī",
+      "pos": 382
+    },
+    {
+      "char": "聊",
+      "pinyin": "liáo",
+      "pos": 384
+    },
+    {
+      "char": "乘",
+      "pinyin": "chéng",
+      "pos": 385
+    },
+    {
+      "char": "化",
+      "pinyin": "huà",
+      "pos": 386
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 387
+    },
+    {
+      "char": "归",
+      "pinyin": "guī",
+      "pos": 388
+    },
+    {
+      "char": "尽",
+      "pinyin": "jìn",
+      "pos": 389
+    },
+    {
+      "char": "乐",
+      "pinyin": "lè",
+      "pos": 391
+    },
+    {
+      "char": "夫",
+      "pinyin": "fú",
+      "pos": 392
+    },
+    {
+      "char": "天",
+      "pinyin": "tiān",
+      "pos": 393
+    },
+    {
+      "char": "命",
+      "pinyin": "mìng",
+      "pos": 394
+    },
+    {
+      "char": "复",
+      "pinyin": "fù",
+      "pos": 395
+    },
+    {
+      "char": "奚",
+      "pinyin": "xī",
+      "pos": 396
+    },
+    {
+      "char": "疑",
+      "pinyin": "yí",
+      "pos": 397
+    }
+  ],
+  "rhythmBreaks": [
+    5,
+    10,
+    14,
+    22,
+    29,
+    36,
+    43,
+    50,
+    57,
+    64,
+    71,
+    78,
+    85,
+    90,
+    95,
+    100,
+    105,
+    110,
+    115,
+    120,
+    125,
+    132,
+    139,
+    146,
+    153,
+    160,
+    167,
+    174,
+    181,
+    188,
+    195,
+    202,
+    209,
+    214,
+    221,
+    228,
+    235,
+    242,
+    249,
+    257,
+    264,
+    269,
+    274,
+    281,
+    288,
+    295,
+    302,
+    309,
+    316,
+    320,
+    328,
+    336,
+    344,
+    350,
+    356,
+    363,
+    370,
+    377,
+    384,
+    391
+  ],
+  "sections": [
+    {
+      "title": "起笔点明游踪",
+      "original": "归去来兮，田园将芜，胡不归！既自以心为形役，奚惆怅而独悲！悟已往之不谏，知来者之可追。实迷途其未远，觉今是而昨非。舟摇摇以轻扬，风飘飘而吹衣。问征夫以前路，恨晨光之熹微。乃瞻衡宇，载欣载奔。僮仆欢迎，稚子候门。三径就荒，松菊犹存。携幼入室，有酒盈樽。",
+      "annotations": [
+        {
+          "word": "谏",
+          "meaning": "规劝君主或长上改过",
+          "pinyin": null
+        },
+        {
+          "word": "归",
+          "meaning": "归还，回去，女子出嫁",
+          "pinyin": null
+        },
+        {
+          "word": "乃",
+          "meaning": "于是，才，竟然",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一层从“归去来兮，田园将芜，胡不归！既自以心为形役，奚惆怅而独悲！悟已往之不……”写起，交代游踪、景物或感受的变化。可译为：作者在这里说明所见之景及其触发的心情，为后文抒怀作铺垫。",
+      "modernLink": "读游记时，可以把地点转换和心情变化标出来，景物描写就不会散。"
+    },
+    {
+      "title": "写景展开层次",
+      "original": "引壶觞以自酌，眄庭柯以怡颜。倚南窗以寄傲，审容膝之易安。园日涉以成趣，门虽设而常关。策扶老以流憩，时矫首而遐观。云无心以出岫，鸟倦飞而知还。景翳翳以将入，抚孤松而盘桓。归去来兮，请息交以绝游。世与我而相遗，复驾言兮焉求！悦亲戚之情话，乐琴书以消忧。",
+      "annotations": [
+        {
+          "word": "请",
+          "meaning": "请求，请允许",
+          "pinyin": null
+        },
+        {
+          "word": "归",
+          "meaning": "归还，回去，女子出嫁",
+          "pinyin": null
+        },
+        {
+          "word": "观",
+          "meaning": "观看，景象",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一层从“引壶觞以自酌，眄庭柯以怡颜。倚南窗以寄傲，审容膝之易安。园日涉以成趣……”写起，交代游踪、景物或感受的变化。可译为：作者在这里说明所见之景及其触发的心情，为后文抒怀作铺垫。",
+      "modernLink": "读游记时，可以把地点转换和心情变化标出来，景物描写就不会散。"
+    },
+    {
+      "title": "景中见情",
+      "original": "农人告余以春及，将有事於西畴。或命巾车，或棹孤舟。既窈窕以寻壑，亦崎岖而经丘。木欣欣以向荣，泉涓涓而始流。善万物之得时，感吾生之行休。已乎矣！寓形宇内复几时，曷不委心任去留？胡为遑遑欲何之？富贵非吾愿，帝乡不可期。怀良辰以孤往，或植杖而耘耔。登东皋以舒啸，临清流而赋诗。",
+      "annotations": [
+        {
+          "word": "谏",
+          "meaning": "规劝君主或长上改过",
+          "pinyin": null
+        },
+        {
+          "word": "请",
+          "meaning": "请求，请允许",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一层从“农人告余以春及，将有事於西畴。或命巾车，或棹孤舟。既窈窕以寻壑，亦崎……”写起，交代游踪、景物或感受的变化。可译为：作者在这里说明所见之景及其触发的心情，为后文抒怀作铺垫。",
+      "modernLink": "读游记时，可以把地点转换和心情变化标出来，景物描写就不会散。"
+    },
+    {
+      "title": "收束题旨",
+      "original": "聊乘化以归尽，乐夫天命复奚疑！",
+      "annotations": [
+        {
+          "word": "归",
+          "meaning": "归还，回去，女子出嫁",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一层从“聊乘化以归尽，乐夫天命复奚疑！”写起，交代游踪、景物或感受的变化。可译为：作者在这里说明所见之景及其触发的心情，为后文抒怀作铺垫。",
+      "modernLink": "读游记时，可以把地点转换和心情变化标出来，景物描写就不会散。"
+    }
+  ],
+  "fullTranslation": "全文大意是：作者围绕“归去来兮辞”展开记游，从开头“归去来兮，田园将芜，胡不归！既自以心为形役，奚惆怅而独悲”写起，依次交代地点、景物层次和个人感受。文章不只是写景，也借景表达发现佳处、寄托心绪或回望人生的意味。",
+  "extendedReading": {
+    "author": "陶渊明是东晋文章传统中的重要作者或典籍来源。本文的阅读重点，是看语言怎样服务于人物、景物、议论或情感。",
+    "background": "第二阶段文章难度提高，常涉及春秋战国的外交辞令、唐宋古文的议论结构，以及明代小品和家传文字。阅读时要把时代、人物关系和文章体类放在一起看。",
+    "funFacts": [
+      "古文中的“之、以、而、其”等字，常常要根据前后句重新判断。",
+      "一篇文章可以先按段落读通，再回头整理关键词。",
+      "对话体文章适合分角色朗读，议论文适合标出判断句和理由句。"
+    ],
+    "relatedStory": "许多经典短文不是单纯记录事件，而是借一次对答、一次游览或一段追忆，写出判断力、审美和价值取向。"
+  },
+  "thinkingQuestions": [
+    "本文最关键的一处转折在哪里？为什么？",
+    "文中哪一个词最能帮助你理解人物态度或作者情感？",
+    "如果把本文分成几层意思，你会怎样命名？"
+  ],
+  "quiz": {
+    "choices": [
+      {
+        "id": 1,
+        "question": "文中“悟已往之不谏，知来者之可追。”里的“谏”最接近哪一项？",
+        "options": [
+          "规劝君主或长上改过",
+          "现代口语中的固定意思",
+          "与本句无关的地名",
+          "表示颜色或形状"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（规劝君主或长上改过）。题干引文中这个词承担具体语义，要结合所在句判断。"
+      },
+      {
+        "id": 2,
+        "question": "从开头“归去来兮，田园将芜，胡不归！”看，本文首先抓住哪条线索？",
+        "options": [
+          "游踪与景物发现",
+          "军队操练过程",
+          "市场交易价格",
+          "科举考试名次"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（游踪与景物发现）。开头点出地点、游踪或所见，后文才顺势写景抒情。"
+      }
+    ],
+    "fillBlanks": [
+      {
+        "id": 100,
+        "stem": "悟已往之不谏，知来者之可追。",
+        "targetChar": "谏",
+        "targetIndex": 5,
+        "blank": "规劝君主或长上改过",
+        "answers": [
+          "规劝君主或长上改过",
+          "劝告"
+        ],
+        "hint": ""
+      },
+      {
+        "id": 101,
+        "stem": "归去来兮，请息交以绝游。",
+        "targetChar": "请",
+        "targetIndex": 5,
+        "blank": "请求，请允许",
+        "answers": [
+          "请求，请允许",
+          "邀请"
+        ],
+        "hint": ""
+      },
+      {
+        "id": 102,
+        "stem": "归去来兮，田园将芜，胡不归！",
+        "targetChar": "归",
+        "targetIndex": 0,
+        "blank": "归还，回去，女子出嫁",
+        "answers": [
+          "归还，回去，女子出嫁",
+          "返回"
+        ],
+        "hint": ""
+      }
+    ],
+    "shortAnswer": [
+      {
+        "id": 4,
+        "question": "用自己的话概括本文的主要内容。",
+        "sampleAnswer": "本文围绕“归去来兮辞”展开，写出事件、景物、议论或情感的层次，重点要抓住文中关键词与段落推进。"
+      }
+    ],
+    "challenge": [
+      {
+        "id": 5,
+        "question": "从文中挑一句最能体现文章主旨的话，说明理由。",
+        "sampleAnswer": "示例：可以选择最能表现人物判断、作者情感或文章观点的一句，并结合上下文说明它为什么重要。"
+      }
+    ]
+  },
+  "keyVocab": [
+    {
+      "word": "谏",
+      "ancient": "规劝君主或长上改过",
+      "modern": "劝告",
+      "example": "悟已往之不谏，知来者之可追。",
+      "idiom": "犯颜直谏"
+    },
+    {
+      "word": "请",
+      "ancient": "请求，请允许",
+      "modern": "邀请",
+      "example": "归去来兮，请息交以绝游。",
+      "idiom": "请君入瓮"
+    },
+    {
+      "word": "归",
+      "ancient": "归还，回去，女子出嫁",
+      "modern": "返回",
+      "example": "归去来兮，田园将芜，胡不归！",
+      "idiom": "物归原主"
+    },
+    {
+      "word": "观",
+      "ancient": "观看，景象",
+      "modern": "观点",
+      "example": "策扶老以流憩，时矫首而遐观。",
+      "idiom": "走马观花"
+    },
+    {
+      "word": "书",
+      "ancient": "写，书信，书籍",
+      "modern": "书本",
+      "example": "悦亲戚之情话，乐琴书以消忧。",
+      "idiom": "书不尽言"
+    },
+    {
+      "word": "乃",
+      "ancient": "于是，才，竟然",
+      "modern": "是",
+      "example": "乃瞻衡宇，载欣载奔。",
+      "idiom": "乃文乃武"
+    }
+  ]
+}

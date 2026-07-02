@@ -1,0 +1,1194 @@
+{
+  "id": "082",
+  "sourceMarkdown": "content/samples/week22-082-获麟解.md",
+  "sourceRaw": "content/raw/082-获麟解.txt",
+  "title": "获麟解",
+  "source": "韩愈",
+  "author": "韩愈",
+  "dynasty": "唐代",
+  "difficulty": 3,
+  "week": 22,
+  "wordCount": 200,
+  "tags": [
+    "唐代",
+    "议论说理",
+    "韩愈",
+    "进阶"
+  ],
+  "relatedIdioms": [
+    "触类旁通",
+    "厚德载物"
+  ],
+  "mainImage": "082-main.jpg",
+  "storyIntro": "《获麟解》要先抓论点，再看作者怎样用事实、比喻或对比推进理由。读完后回到结尾，判断作者真正要劝勉或批评的对象。",
+  "fullText": "麟之为灵，昭昭也。咏于《诗》，书于《春秋》，杂出于传记、百家之书。虽妇人小子，皆知其为祥也。然麟之为物，不畜于家，不恒有于天下。其为形也不类，非若马、牛、犬、豕、豺、狼、麋、鹿然。然则虽有麟，不可知其为麟也。角者，吾知其为牛；鬛者，吾知其为马；犬、豕、豺、狠、麋、鹿，吾知其为犬、豕、豺、狼、麋、鹿。惟麟也，不可知。不可知，则其谓之不祥也亦宜。虽然，麟之出，必有圣人在乎位，麟为圣人出也。圣人者，必知麟，麟之果不为不祥也。又曰：麟之所以为麟者，以德不以形。若麟之出，不待圣人，则谓之不祥也亦宜。",
+  "fullTextPlain": "麟之为灵，昭昭也。咏于《诗》，书于《春秋》，杂出于传记、百家之书。虽妇人小子，皆知其为祥也。然麟之为物，不畜于家，不恒有于天下。其为形也不类，非若马、牛、犬、豕、豺、狼、麋、鹿然。然则虽有麟，不可知其为麟也。角者，吾知其为牛；鬛者，吾知其为马；犬、豕、豺、狠、麋、鹿，吾知其为犬、豕、豺、狼、麋、鹿。惟麟也，不可知。不可知，则其谓之不祥也亦宜。虽然，麟之出，必有圣人在乎位，麟为圣人出也。圣人者，必知麟，麟之果不为不祥也。又曰：麟之所以为麟者，以德不以形。若麟之出，不待圣人，则谓之不祥也亦宜。",
+  "rubyAnnotations": [
+    {
+      "char": "麟",
+      "pinyin": "lín",
+      "pos": 0
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 1
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 2
+    },
+    {
+      "char": "灵",
+      "pinyin": "líng",
+      "pos": 3
+    },
+    {
+      "char": "昭",
+      "pinyin": "zhāo",
+      "pos": 5
+    },
+    {
+      "char": "昭",
+      "pinyin": "zhāo",
+      "pos": 6
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 7
+    },
+    {
+      "char": "咏",
+      "pinyin": "yǒng",
+      "pos": 9
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 10
+    },
+    {
+      "char": "诗",
+      "pinyin": "shī",
+      "pos": 12
+    },
+    {
+      "char": "书",
+      "pinyin": "shū",
+      "pos": 15
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 16
+    },
+    {
+      "char": "春",
+      "pinyin": "chūn",
+      "pos": 18
+    },
+    {
+      "char": "秋",
+      "pinyin": "qiū",
+      "pos": 19
+    },
+    {
+      "char": "杂",
+      "pinyin": "zá",
+      "pos": 22
+    },
+    {
+      "char": "出",
+      "pinyin": "chū",
+      "pos": 23
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 24
+    },
+    {
+      "char": "传",
+      "pinyin": "zhuàn",
+      "pos": 25
+    },
+    {
+      "char": "记",
+      "pinyin": "jì",
+      "pos": 26
+    },
+    {
+      "char": "百",
+      "pinyin": "bǎi",
+      "pos": 28
+    },
+    {
+      "char": "家",
+      "pinyin": "jiā",
+      "pos": 29
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 30
+    },
+    {
+      "char": "书",
+      "pinyin": "shū",
+      "pos": 31
+    },
+    {
+      "char": "虽",
+      "pinyin": "suī",
+      "pos": 33
+    },
+    {
+      "char": "妇",
+      "pinyin": "fù",
+      "pos": 34
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 35
+    },
+    {
+      "char": "小",
+      "pinyin": "xiǎo",
+      "pos": 36
+    },
+    {
+      "char": "子",
+      "pinyin": "zi",
+      "pos": 37
+    },
+    {
+      "char": "皆",
+      "pinyin": "jiē",
+      "pos": 39
+    },
+    {
+      "char": "知",
+      "pinyin": "zhī",
+      "pos": 40
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 41
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 42
+    },
+    {
+      "char": "祥",
+      "pinyin": "xiáng",
+      "pos": 43
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 44
+    },
+    {
+      "char": "然",
+      "pinyin": "rán",
+      "pos": 46
+    },
+    {
+      "char": "麟",
+      "pinyin": "lín",
+      "pos": 47
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 48
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 49
+    },
+    {
+      "char": "物",
+      "pinyin": "wù",
+      "pos": 50
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 52
+    },
+    {
+      "char": "畜",
+      "pinyin": "chù",
+      "pos": 53
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 54
+    },
+    {
+      "char": "家",
+      "pinyin": "jiā",
+      "pos": 55
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 57
+    },
+    {
+      "char": "恒",
+      "pinyin": "héng",
+      "pos": 58
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 59
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 60
+    },
+    {
+      "char": "天",
+      "pinyin": "tiān",
+      "pos": 61
+    },
+    {
+      "char": "下",
+      "pinyin": "xià",
+      "pos": 62
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 64
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 65
+    },
+    {
+      "char": "形",
+      "pinyin": "xíng",
+      "pos": 66
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 67
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 68
+    },
+    {
+      "char": "类",
+      "pinyin": "lèi",
+      "pos": 69
+    },
+    {
+      "char": "非",
+      "pinyin": "fēi",
+      "pos": 71
+    },
+    {
+      "char": "若",
+      "pinyin": "ruò",
+      "pos": 72
+    },
+    {
+      "char": "马",
+      "pinyin": "mǎ",
+      "pos": 73
+    },
+    {
+      "char": "牛",
+      "pinyin": "niú",
+      "pos": 75
+    },
+    {
+      "char": "犬",
+      "pinyin": "quǎn",
+      "pos": 77
+    },
+    {
+      "char": "豕",
+      "pinyin": "shǐ",
+      "pos": 79
+    },
+    {
+      "char": "豺",
+      "pinyin": "chái",
+      "pos": 81
+    },
+    {
+      "char": "狼",
+      "pinyin": "láng",
+      "pos": 83
+    },
+    {
+      "char": "麋",
+      "pinyin": "mí",
+      "pos": 85
+    },
+    {
+      "char": "鹿",
+      "pinyin": "lù",
+      "pos": 87
+    },
+    {
+      "char": "然",
+      "pinyin": "rán",
+      "pos": 88
+    },
+    {
+      "char": "然",
+      "pinyin": "rán",
+      "pos": 90
+    },
+    {
+      "char": "则",
+      "pinyin": "zé",
+      "pos": 91
+    },
+    {
+      "char": "虽",
+      "pinyin": "suī",
+      "pos": 92
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 93
+    },
+    {
+      "char": "麟",
+      "pinyin": "lín",
+      "pos": 94
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 96
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 97
+    },
+    {
+      "char": "知",
+      "pinyin": "zhī",
+      "pos": 98
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 99
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 100
+    },
+    {
+      "char": "麟",
+      "pinyin": "lín",
+      "pos": 101
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 102
+    },
+    {
+      "char": "角",
+      "pinyin": "jiǎo",
+      "pos": 104
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 105
+    },
+    {
+      "char": "吾",
+      "pinyin": "wú",
+      "pos": 107
+    },
+    {
+      "char": "知",
+      "pinyin": "zhī",
+      "pos": 108
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 109
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 110
+    },
+    {
+      "char": "牛",
+      "pinyin": "niú",
+      "pos": 111
+    },
+    {
+      "char": "鬛",
+      "pinyin": "liè",
+      "pos": 113
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 114
+    },
+    {
+      "char": "吾",
+      "pinyin": "wú",
+      "pos": 116
+    },
+    {
+      "char": "知",
+      "pinyin": "zhī",
+      "pos": 117
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 118
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 119
+    },
+    {
+      "char": "马",
+      "pinyin": "mǎ",
+      "pos": 120
+    },
+    {
+      "char": "犬",
+      "pinyin": "quǎn",
+      "pos": 122
+    },
+    {
+      "char": "豕",
+      "pinyin": "shǐ",
+      "pos": 124
+    },
+    {
+      "char": "豺",
+      "pinyin": "chái",
+      "pos": 126
+    },
+    {
+      "char": "狠",
+      "pinyin": "hěn",
+      "pos": 128
+    },
+    {
+      "char": "麋",
+      "pinyin": "mí",
+      "pos": 130
+    },
+    {
+      "char": "鹿",
+      "pinyin": "lù",
+      "pos": 132
+    },
+    {
+      "char": "吾",
+      "pinyin": "wú",
+      "pos": 134
+    },
+    {
+      "char": "知",
+      "pinyin": "zhī",
+      "pos": 135
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 136
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 137
+    },
+    {
+      "char": "犬",
+      "pinyin": "quǎn",
+      "pos": 138
+    },
+    {
+      "char": "豕",
+      "pinyin": "shǐ",
+      "pos": 140
+    },
+    {
+      "char": "豺",
+      "pinyin": "chái",
+      "pos": 142
+    },
+    {
+      "char": "狼",
+      "pinyin": "láng",
+      "pos": 144
+    },
+    {
+      "char": "麋",
+      "pinyin": "mí",
+      "pos": 146
+    },
+    {
+      "char": "鹿",
+      "pinyin": "lù",
+      "pos": 148
+    },
+    {
+      "char": "惟",
+      "pinyin": "wéi",
+      "pos": 150
+    },
+    {
+      "char": "麟",
+      "pinyin": "lín",
+      "pos": 151
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 152
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 154
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 155
+    },
+    {
+      "char": "知",
+      "pinyin": "zhī",
+      "pos": 156
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 158
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 159
+    },
+    {
+      "char": "知",
+      "pinyin": "zhī",
+      "pos": 160
+    },
+    {
+      "char": "则",
+      "pinyin": "zé",
+      "pos": 162
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 163
+    },
+    {
+      "char": "谓",
+      "pinyin": "wèi",
+      "pos": 164
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 165
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 166
+    },
+    {
+      "char": "祥",
+      "pinyin": "xiáng",
+      "pos": 167
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 168
+    },
+    {
+      "char": "亦",
+      "pinyin": "yì",
+      "pos": 169
+    },
+    {
+      "char": "宜",
+      "pinyin": "yí",
+      "pos": 170
+    },
+    {
+      "char": "虽",
+      "pinyin": "suī",
+      "pos": 172
+    },
+    {
+      "char": "然",
+      "pinyin": "rán",
+      "pos": 173
+    },
+    {
+      "char": "麟",
+      "pinyin": "lín",
+      "pos": 175
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 176
+    },
+    {
+      "char": "出",
+      "pinyin": "chū",
+      "pos": 177
+    },
+    {
+      "char": "必",
+      "pinyin": "bì",
+      "pos": 179
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 180
+    },
+    {
+      "char": "圣",
+      "pinyin": "shèng",
+      "pos": 181
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 182
+    },
+    {
+      "char": "在",
+      "pinyin": "zài",
+      "pos": 183
+    },
+    {
+      "char": "乎",
+      "pinyin": "hū",
+      "pos": 184
+    },
+    {
+      "char": "位",
+      "pinyin": "wèi",
+      "pos": 185
+    },
+    {
+      "char": "麟",
+      "pinyin": "lín",
+      "pos": 187
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 188
+    },
+    {
+      "char": "圣",
+      "pinyin": "shèng",
+      "pos": 189
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 190
+    },
+    {
+      "char": "出",
+      "pinyin": "chū",
+      "pos": 191
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 192
+    },
+    {
+      "char": "圣",
+      "pinyin": "shèng",
+      "pos": 194
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 195
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 196
+    },
+    {
+      "char": "必",
+      "pinyin": "bì",
+      "pos": 198
+    },
+    {
+      "char": "知",
+      "pinyin": "zhī",
+      "pos": 199
+    },
+    {
+      "char": "麟",
+      "pinyin": "lín",
+      "pos": 200
+    },
+    {
+      "char": "麟",
+      "pinyin": "lín",
+      "pos": 202
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 203
+    },
+    {
+      "char": "果",
+      "pinyin": "guǒ",
+      "pos": 204
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 205
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 206
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 207
+    },
+    {
+      "char": "祥",
+      "pinyin": "xiáng",
+      "pos": 208
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 209
+    },
+    {
+      "char": "又",
+      "pinyin": "yòu",
+      "pos": 211
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 212
+    },
+    {
+      "char": "麟",
+      "pinyin": "lín",
+      "pos": 214
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 215
+    },
+    {
+      "char": "所",
+      "pinyin": "suǒ",
+      "pos": 216
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 217
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 218
+    },
+    {
+      "char": "麟",
+      "pinyin": "lín",
+      "pos": 219
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 220
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 222
+    },
+    {
+      "char": "德",
+      "pinyin": "dé",
+      "pos": 223
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 224
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 225
+    },
+    {
+      "char": "形",
+      "pinyin": "xíng",
+      "pos": 226
+    },
+    {
+      "char": "若",
+      "pinyin": "ruò",
+      "pos": 228
+    },
+    {
+      "char": "麟",
+      "pinyin": "lín",
+      "pos": 229
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 230
+    },
+    {
+      "char": "出",
+      "pinyin": "chū",
+      "pos": 231
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 233
+    },
+    {
+      "char": "待",
+      "pinyin": "dài",
+      "pos": 234
+    },
+    {
+      "char": "圣",
+      "pinyin": "shèng",
+      "pos": 235
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 236
+    },
+    {
+      "char": "则",
+      "pinyin": "zé",
+      "pos": 238
+    },
+    {
+      "char": "谓",
+      "pinyin": "wèi",
+      "pos": 239
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 240
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 241
+    },
+    {
+      "char": "祥",
+      "pinyin": "xiáng",
+      "pos": 242
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 243
+    },
+    {
+      "char": "亦",
+      "pinyin": "yì",
+      "pos": 244
+    },
+    {
+      "char": "宜",
+      "pinyin": "yí",
+      "pos": 245
+    }
+  ],
+  "rhythmBreaks": [
+    5,
+    9,
+    15,
+    22,
+    33,
+    39,
+    46,
+    52,
+    57,
+    64,
+    71,
+    90,
+    96,
+    104,
+    107,
+    113,
+    116,
+    122,
+    134,
+    150,
+    154,
+    158,
+    162,
+    172,
+    175,
+    179,
+    187,
+    194,
+    198,
+    202,
+    211,
+    214,
+    222,
+    228,
+    233,
+    238
+  ],
+  "sections": [
+    {
+      "title": "提出问题",
+      "original": "麟之为灵，昭昭也。咏于《诗》，书于《春秋》，杂出于传记、百家之书。虽妇人小子，皆知其为祥也。然麟之为物，不畜于家，不恒有于天下。其为形也不类，非若马、牛、犬、豕、豺、狼、麋、鹿然。然则虽有麟，不可知其为麟也。角者，吾知其为牛；鬛者，吾知其为马；犬、豕、豺、狠、麋、鹿，吾知其为犬、豕、豺、狼、麋、鹿。惟麟也，不可知。",
+      "annotations": [
+        {
+          "word": "类",
+          "meaning": "像，种类",
+          "pinyin": null
+        },
+        {
+          "word": "书",
+          "meaning": "写，书信，书籍",
+          "pinyin": null
+        },
+        {
+          "word": "之",
+          "meaning": "到，的，代词",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一层围绕“麟之为灵，昭昭也。咏于《诗》，书于《春秋》，杂出于传记、百家之书。虽……”推进论述。可译为：作者先摆出判断，再用原因、对比或例证说明，使读者明白这番议论的依据。",
+      "modernLink": "读议论文时，先找判断句，再追问作者拿什么来证明它。"
+    },
+    {
+      "title": "展开论证",
+      "original": "不可知，则其谓之不祥也亦宜。虽然，麟之出，必有圣人在乎位，麟为圣人出也。圣人者，必知麟，麟之果不为不祥也。又曰：麟之所以为麟者，以德不以形。若麟之出，不待圣人，则谓之不祥也亦宜。",
+      "annotations": [
+        {
+          "word": "德",
+          "meaning": "德行，恩德",
+          "pinyin": null
+        },
+        {
+          "word": "曰",
+          "meaning": "说，说道",
+          "pinyin": null
+        },
+        {
+          "word": "谓",
+          "meaning": "对……说，称为",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一层围绕“不可知，则其谓之不祥也亦宜。虽然，麟之出，必有圣人在乎位，麟为圣人出……”推进论述。可译为：作者先摆出判断，再用原因、对比或例证说明，使读者明白这番议论的依据。",
+      "modernLink": "读议论文时，先找判断句，再追问作者拿什么来证明它。"
+    }
+  ],
+  "fullTranslation": "全文大意是：作者借“获麟解”提出一个值得辨析的问题，先摆出事实或判断，再层层说明理由。阅读时要注意每一段怎样承接前文，最后归到修身、用世、为文或治国的主旨上。",
+  "extendedReading": {
+    "author": "韩愈是唐代文章传统中的重要作者或典籍来源。本文的阅读重点，是看语言怎样服务于人物、景物、议论或情感。",
+    "background": "第二阶段文章难度提高，常涉及春秋战国的外交辞令、唐宋古文的议论结构，以及明代小品和家传文字。阅读时要把时代、人物关系和文章体类放在一起看。",
+    "funFacts": [
+      "古文中的“之、以、而、其”等字，常常要根据前后句重新判断。",
+      "一篇文章可以先按段落读通，再回头整理关键词。",
+      "对话体文章适合分角色朗读，议论文适合标出判断句和理由句。"
+    ],
+    "relatedStory": "许多经典短文不是单纯记录事件，而是借一次对答、一次游览或一段追忆，写出判断力、审美和价值取向。"
+  },
+  "thinkingQuestions": [
+    "本文最关键的一处转折在哪里？为什么？",
+    "文中哪一个词最能帮助你理解人物态度或作者情感？",
+    "如果把本文分成几层意思，你会怎样命名？"
+  ],
+  "quiz": {
+    "choices": [
+      {
+        "id": 1,
+        "question": "文中“其为形也不类，非若马、牛、犬、豕、豺、狼、麋、鹿然。”里的“类”最接近哪一项？",
+        "options": [
+          "像，种类",
+          "现代口语中的固定意思",
+          "与本句无关的地名",
+          "表示颜色或形状"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（像，种类）。题干引文中这个词承担具体语义，要结合所在句判断。"
+      },
+      {
+        "id": 2,
+        "question": "从开头“麟之为灵，昭昭也。”看，作者起笔主要在做什么？",
+        "options": [
+          "提出判断或设置议论对象",
+          "描写战场冲锋",
+          "统计地方物产",
+          "铺写婚礼仪式"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（提出判断或设置议论对象）。文章先立起要讨论的问题，后文再展开理由。"
+      }
+    ],
+    "fillBlanks": [
+      {
+        "id": 100,
+        "stem": "其为形也不类，非若马、牛、犬、豕、豺、狼、麋、鹿然。",
+        "targetChar": "类",
+        "targetIndex": 5,
+        "blank": "像，种类",
+        "answers": [
+          "像，种类",
+          "类别"
+        ],
+        "hint": ""
+      },
+      {
+        "id": 101,
+        "stem": "又曰：麟之所以为麟者，以德不以形。",
+        "targetChar": "德",
+        "targetIndex": 12,
+        "blank": "德行，恩德",
+        "answers": [
+          "德行，恩德",
+          "品德"
+        ],
+        "hint": ""
+      },
+      {
+        "id": 102,
+        "stem": "咏于《诗》，书于《春秋》，杂出于传记、百家之书。",
+        "targetChar": "书",
+        "targetIndex": 6,
+        "blank": "写，书信，书籍",
+        "answers": [
+          "写，书信，书籍",
+          "书本"
+        ],
+        "hint": ""
+      }
+    ],
+    "shortAnswer": [
+      {
+        "id": 4,
+        "question": "用自己的话概括本文的主要内容。",
+        "sampleAnswer": "本文围绕“获麟解”展开，写出事件、景物、议论或情感的层次，重点要抓住文中关键词与段落推进。"
+      }
+    ],
+    "challenge": [
+      {
+        "id": 5,
+        "question": "从文中挑一句最能体现文章主旨的话，说明理由。",
+        "sampleAnswer": "示例：可以选择最能表现人物判断、作者情感或文章观点的一句，并结合上下文说明它为什么重要。"
+      }
+    ]
+  },
+  "keyVocab": [
+    {
+      "word": "类",
+      "ancient": "像，种类",
+      "modern": "类别",
+      "example": "其为形也不类，非若马、牛、犬、豕、豺、狼、麋、鹿然。",
+      "idiom": "触类旁通"
+    },
+    {
+      "word": "德",
+      "ancient": "德行，恩德",
+      "modern": "品德",
+      "example": "又曰：麟之所以为麟者，以德不以形。",
+      "idiom": "厚德载物"
+    },
+    {
+      "word": "书",
+      "ancient": "写，书信，书籍",
+      "modern": "书本",
+      "example": "咏于《诗》，书于《春秋》，杂出于传记、百家之书。",
+      "idiom": "书不尽言"
+    },
+    {
+      "word": "曰",
+      "ancient": "说，说道",
+      "modern": "说",
+      "example": "又曰：麟之所以为麟者，以德不以形。",
+      "idiom": "出言成章"
+    },
+    {
+      "word": "谓",
+      "ancient": "对……说，称为",
+      "modern": "认为",
+      "example": "不可知，则其谓之不祥也亦宜。",
+      "idiom": "谓词"
+    },
+    {
+      "word": "之",
+      "ancient": "到，的，代词",
+      "modern": "结构助词",
+      "example": "麟之为灵，昭昭也。",
+      "idiom": "持之以恒"
+    }
+  ]
+}

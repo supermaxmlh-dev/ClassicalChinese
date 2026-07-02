@@ -1,0 +1,1209 @@
+{
+  "id": "073",
+  "sourceMarkdown": "content/samples/week19-073-阴饴甥对秦伯.md",
+  "sourceRaw": "content/raw/073-阴饴甥对秦伯.txt",
+  "title": "阴饴甥对秦伯",
+  "source": "左传",
+  "author": "左传",
+  "dynasty": "春秋",
+  "difficulty": 3,
+  "week": 19,
+  "wordCount": 200,
+  "tags": [
+    "春秋",
+    "历史叙事",
+    "左传",
+    "进阶"
+  ],
+  "relatedIdioms": [
+    "物归原主",
+    "厚德载物"
+  ],
+  "mainImage": "073-main.jpg",
+  "storyIntro": "《阴饴甥对秦伯》要按事件推进来读：先理清谁遇到难题，再看谁发言、怎样立论，最后看这番话对局势有什么影响。",
+  "fullText": "十月，晋阴饴甥会秦伯，盟于王城。秦伯曰：“晋国和乎？”对曰：“不和。小人耻失其君而悼丧其亲，不惮征纟善以立圉也。曰：‘必报仇，宁事戎狄。’君子爱其君而知其罪，不惮征纟善以待秦命。曰：‘必报德，有死无二。’以此不和。”秦伯曰：“国谓君何？”对曰：“小人戚，谓之不免；君子恕，以为必归。小人曰：‘我毒秦，秦岂归君？’君子曰：‘我知罪矣，秦必归君。贰而执之，服而舍之，德莫厚焉，刑莫威焉。服者怀德，贰者畏刑，此一役也，秦可以霸。纳而不定，废而不立，以德为怨，秦不其然。’”秦伯曰：“是吾心也。”改馆晋侯，馈七牢焉。",
+  "fullTextPlain": "十月，晋阴饴甥会秦伯，盟于王城。秦伯曰：“晋国和乎？”对曰：“不和。小人耻失其君而悼丧其亲，不惮征纟善以立圉也。曰：‘必报仇，宁事戎狄。’君子爱其君而知其罪，不惮征纟善以待秦命。曰：‘必报德，有死无二。’以此不和。”秦伯曰：“国谓君何？”对曰：“小人戚，谓之不免；君子恕，以为必归。小人曰：‘我毒秦，秦岂归君？’君子曰：‘我知罪矣，秦必归君。贰而执之，服而舍之，德莫厚焉，刑莫威焉。服者怀德，贰者畏刑，此一役也，秦可以霸。纳而不定，废而不立，以德为怨，秦不其然。’”秦伯曰：“是吾心也。”改馆晋侯，馈七牢焉。",
+  "rubyAnnotations": [
+    {
+      "char": "十",
+      "pinyin": "shí",
+      "pos": 0
+    },
+    {
+      "char": "月",
+      "pinyin": "yuè",
+      "pos": 1
+    },
+    {
+      "char": "晋",
+      "pinyin": "jìn",
+      "pos": 3
+    },
+    {
+      "char": "阴",
+      "pinyin": "yīn",
+      "pos": 4
+    },
+    {
+      "char": "饴",
+      "pinyin": "yí",
+      "pos": 5
+    },
+    {
+      "char": "甥",
+      "pinyin": "shēng",
+      "pos": 6
+    },
+    {
+      "char": "会",
+      "pinyin": "huì",
+      "pos": 7
+    },
+    {
+      "char": "秦",
+      "pinyin": "qín",
+      "pos": 8
+    },
+    {
+      "char": "伯",
+      "pinyin": "bó",
+      "pos": 9
+    },
+    {
+      "char": "盟",
+      "pinyin": "méng",
+      "pos": 11
+    },
+    {
+      "char": "于",
+      "pinyin": "yú",
+      "pos": 12
+    },
+    {
+      "char": "王",
+      "pinyin": "wáng",
+      "pos": 13
+    },
+    {
+      "char": "城",
+      "pinyin": "chéng",
+      "pos": 14
+    },
+    {
+      "char": "秦",
+      "pinyin": "qín",
+      "pos": 16
+    },
+    {
+      "char": "伯",
+      "pinyin": "bó",
+      "pos": 17
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 18
+    },
+    {
+      "char": "晋",
+      "pinyin": "jìn",
+      "pos": 21
+    },
+    {
+      "char": "国",
+      "pinyin": "guó",
+      "pos": 22
+    },
+    {
+      "char": "和",
+      "pinyin": "hé",
+      "pos": 23
+    },
+    {
+      "char": "乎",
+      "pinyin": "hū",
+      "pos": 24
+    },
+    {
+      "char": "对",
+      "pinyin": "duì",
+      "pos": 27
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 28
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 31
+    },
+    {
+      "char": "和",
+      "pinyin": "hé",
+      "pos": 32
+    },
+    {
+      "char": "小",
+      "pinyin": "xiǎo",
+      "pos": 34
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 35
+    },
+    {
+      "char": "耻",
+      "pinyin": "chǐ",
+      "pos": 36
+    },
+    {
+      "char": "失",
+      "pinyin": "shī",
+      "pos": 37
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 38
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 39
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 40
+    },
+    {
+      "char": "悼",
+      "pinyin": "dào",
+      "pos": 41
+    },
+    {
+      "char": "丧",
+      "pinyin": "sàng",
+      "pos": 42
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 43
+    },
+    {
+      "char": "亲",
+      "pinyin": "qīn",
+      "pos": 44
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 46
+    },
+    {
+      "char": "惮",
+      "pinyin": "dàn",
+      "pos": 47
+    },
+    {
+      "char": "征",
+      "pinyin": "zhēng",
+      "pos": 48
+    },
+    {
+      "char": "纟",
+      "pinyin": "sī",
+      "pos": 49
+    },
+    {
+      "char": "善",
+      "pinyin": "shàn",
+      "pos": 50
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 51
+    },
+    {
+      "char": "立",
+      "pinyin": "lì",
+      "pos": 52
+    },
+    {
+      "char": "圉",
+      "pinyin": "yǔ",
+      "pos": 53
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 54
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 56
+    },
+    {
+      "char": "必",
+      "pinyin": "bì",
+      "pos": 59
+    },
+    {
+      "char": "报",
+      "pinyin": "bào",
+      "pos": 60
+    },
+    {
+      "char": "仇",
+      "pinyin": "chóu",
+      "pos": 61
+    },
+    {
+      "char": "宁",
+      "pinyin": "níng",
+      "pos": 63
+    },
+    {
+      "char": "事",
+      "pinyin": "shì",
+      "pos": 64
+    },
+    {
+      "char": "戎",
+      "pinyin": "róng",
+      "pos": 65
+    },
+    {
+      "char": "狄",
+      "pinyin": "dí",
+      "pos": 66
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 69
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 70
+    },
+    {
+      "char": "爱",
+      "pinyin": "ài",
+      "pos": 71
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 72
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 73
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 74
+    },
+    {
+      "char": "知",
+      "pinyin": "zhī",
+      "pos": 75
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 76
+    },
+    {
+      "char": "罪",
+      "pinyin": "zuì",
+      "pos": 77
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 79
+    },
+    {
+      "char": "惮",
+      "pinyin": "dàn",
+      "pos": 80
+    },
+    {
+      "char": "征",
+      "pinyin": "zhēng",
+      "pos": 81
+    },
+    {
+      "char": "纟",
+      "pinyin": "sī",
+      "pos": 82
+    },
+    {
+      "char": "善",
+      "pinyin": "shàn",
+      "pos": 83
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 84
+    },
+    {
+      "char": "待",
+      "pinyin": "dài",
+      "pos": 85
+    },
+    {
+      "char": "秦",
+      "pinyin": "qín",
+      "pos": 86
+    },
+    {
+      "char": "命",
+      "pinyin": "mìng",
+      "pos": 87
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 89
+    },
+    {
+      "char": "必",
+      "pinyin": "bì",
+      "pos": 92
+    },
+    {
+      "char": "报",
+      "pinyin": "bào",
+      "pos": 93
+    },
+    {
+      "char": "德",
+      "pinyin": "dé",
+      "pos": 94
+    },
+    {
+      "char": "有",
+      "pinyin": "yǒu",
+      "pos": 96
+    },
+    {
+      "char": "死",
+      "pinyin": "sǐ",
+      "pos": 97
+    },
+    {
+      "char": "无",
+      "pinyin": "wú",
+      "pos": 98
+    },
+    {
+      "char": "二",
+      "pinyin": "èr",
+      "pos": 99
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 102
+    },
+    {
+      "char": "此",
+      "pinyin": "cǐ",
+      "pos": 103
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 104
+    },
+    {
+      "char": "和",
+      "pinyin": "hé",
+      "pos": 105
+    },
+    {
+      "char": "秦",
+      "pinyin": "qín",
+      "pos": 108
+    },
+    {
+      "char": "伯",
+      "pinyin": "bó",
+      "pos": 109
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 110
+    },
+    {
+      "char": "国",
+      "pinyin": "guó",
+      "pos": 113
+    },
+    {
+      "char": "谓",
+      "pinyin": "wèi",
+      "pos": 114
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 115
+    },
+    {
+      "char": "何",
+      "pinyin": "hé",
+      "pos": 116
+    },
+    {
+      "char": "对",
+      "pinyin": "duì",
+      "pos": 119
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 120
+    },
+    {
+      "char": "小",
+      "pinyin": "xiǎo",
+      "pos": 123
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 124
+    },
+    {
+      "char": "戚",
+      "pinyin": "qī",
+      "pos": 125
+    },
+    {
+      "char": "谓",
+      "pinyin": "wèi",
+      "pos": 127
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 128
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 129
+    },
+    {
+      "char": "免",
+      "pinyin": "miǎn",
+      "pos": 130
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 132
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 133
+    },
+    {
+      "char": "恕",
+      "pinyin": "shù",
+      "pos": 134
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 136
+    },
+    {
+      "char": "为",
+      "pinyin": "wéi",
+      "pos": 137
+    },
+    {
+      "char": "必",
+      "pinyin": "bì",
+      "pos": 138
+    },
+    {
+      "char": "归",
+      "pinyin": "guī",
+      "pos": 139
+    },
+    {
+      "char": "小",
+      "pinyin": "xiǎo",
+      "pos": 141
+    },
+    {
+      "char": "人",
+      "pinyin": "rén",
+      "pos": 142
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 143
+    },
+    {
+      "char": "我",
+      "pinyin": "wǒ",
+      "pos": 146
+    },
+    {
+      "char": "毒",
+      "pinyin": "dú",
+      "pos": 147
+    },
+    {
+      "char": "秦",
+      "pinyin": "qín",
+      "pos": 148
+    },
+    {
+      "char": "秦",
+      "pinyin": "qín",
+      "pos": 150
+    },
+    {
+      "char": "岂",
+      "pinyin": "qǐ",
+      "pos": 151
+    },
+    {
+      "char": "归",
+      "pinyin": "guī",
+      "pos": 152
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 153
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 156
+    },
+    {
+      "char": "子",
+      "pinyin": "zǐ",
+      "pos": 157
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 158
+    },
+    {
+      "char": "我",
+      "pinyin": "wǒ",
+      "pos": 161
+    },
+    {
+      "char": "知",
+      "pinyin": "zhī",
+      "pos": 162
+    },
+    {
+      "char": "罪",
+      "pinyin": "zuì",
+      "pos": 163
+    },
+    {
+      "char": "矣",
+      "pinyin": "yǐ",
+      "pos": 164
+    },
+    {
+      "char": "秦",
+      "pinyin": "qín",
+      "pos": 166
+    },
+    {
+      "char": "必",
+      "pinyin": "bì",
+      "pos": 167
+    },
+    {
+      "char": "归",
+      "pinyin": "guī",
+      "pos": 168
+    },
+    {
+      "char": "君",
+      "pinyin": "jūn",
+      "pos": 169
+    },
+    {
+      "char": "贰",
+      "pinyin": "èr",
+      "pos": 171
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 172
+    },
+    {
+      "char": "执",
+      "pinyin": "zhí",
+      "pos": 173
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 174
+    },
+    {
+      "char": "服",
+      "pinyin": "fú",
+      "pos": 176
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 177
+    },
+    {
+      "char": "舍",
+      "pinyin": "shè",
+      "pos": 178
+    },
+    {
+      "char": "之",
+      "pinyin": "zhī",
+      "pos": 179
+    },
+    {
+      "char": "德",
+      "pinyin": "dé",
+      "pos": 181
+    },
+    {
+      "char": "莫",
+      "pinyin": "mò",
+      "pos": 182
+    },
+    {
+      "char": "厚",
+      "pinyin": "hòu",
+      "pos": 183
+    },
+    {
+      "char": "焉",
+      "pinyin": "yān",
+      "pos": 184
+    },
+    {
+      "char": "刑",
+      "pinyin": "xíng",
+      "pos": 186
+    },
+    {
+      "char": "莫",
+      "pinyin": "mò",
+      "pos": 187
+    },
+    {
+      "char": "威",
+      "pinyin": "wēi",
+      "pos": 188
+    },
+    {
+      "char": "焉",
+      "pinyin": "yān",
+      "pos": 189
+    },
+    {
+      "char": "服",
+      "pinyin": "fú",
+      "pos": 191
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 192
+    },
+    {
+      "char": "怀",
+      "pinyin": "huái",
+      "pos": 193
+    },
+    {
+      "char": "德",
+      "pinyin": "dé",
+      "pos": 194
+    },
+    {
+      "char": "贰",
+      "pinyin": "èr",
+      "pos": 196
+    },
+    {
+      "char": "者",
+      "pinyin": "zhě",
+      "pos": 197
+    },
+    {
+      "char": "畏",
+      "pinyin": "wèi",
+      "pos": 198
+    },
+    {
+      "char": "刑",
+      "pinyin": "xíng",
+      "pos": 199
+    },
+    {
+      "char": "此",
+      "pinyin": "cǐ",
+      "pos": 201
+    },
+    {
+      "char": "一",
+      "pinyin": "yí",
+      "pos": 202
+    },
+    {
+      "char": "役",
+      "pinyin": "yì",
+      "pos": 203
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 204
+    },
+    {
+      "char": "秦",
+      "pinyin": "qín",
+      "pos": 206
+    },
+    {
+      "char": "可",
+      "pinyin": "kě",
+      "pos": 207
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 208
+    },
+    {
+      "char": "霸",
+      "pinyin": "bà",
+      "pos": 209
+    },
+    {
+      "char": "纳",
+      "pinyin": "nà",
+      "pos": 211
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 212
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 213
+    },
+    {
+      "char": "定",
+      "pinyin": "dìng",
+      "pos": 214
+    },
+    {
+      "char": "废",
+      "pinyin": "fèi",
+      "pos": 216
+    },
+    {
+      "char": "而",
+      "pinyin": "ér",
+      "pos": 217
+    },
+    {
+      "char": "不",
+      "pinyin": "bú",
+      "pos": 218
+    },
+    {
+      "char": "立",
+      "pinyin": "lì",
+      "pos": 219
+    },
+    {
+      "char": "以",
+      "pinyin": "yǐ",
+      "pos": 221
+    },
+    {
+      "char": "德",
+      "pinyin": "dé",
+      "pos": 222
+    },
+    {
+      "char": "为",
+      "pinyin": "wèi",
+      "pos": 223
+    },
+    {
+      "char": "怨",
+      "pinyin": "yuàn",
+      "pos": 224
+    },
+    {
+      "char": "秦",
+      "pinyin": "qín",
+      "pos": 226
+    },
+    {
+      "char": "不",
+      "pinyin": "bù",
+      "pos": 227
+    },
+    {
+      "char": "其",
+      "pinyin": "qí",
+      "pos": 228
+    },
+    {
+      "char": "然",
+      "pinyin": "rán",
+      "pos": 229
+    },
+    {
+      "char": "秦",
+      "pinyin": "qín",
+      "pos": 233
+    },
+    {
+      "char": "伯",
+      "pinyin": "bó",
+      "pos": 234
+    },
+    {
+      "char": "曰",
+      "pinyin": "yuē",
+      "pos": 235
+    },
+    {
+      "char": "是",
+      "pinyin": "shì",
+      "pos": 238
+    },
+    {
+      "char": "吾",
+      "pinyin": "wú",
+      "pos": 239
+    },
+    {
+      "char": "心",
+      "pinyin": "xīn",
+      "pos": 240
+    },
+    {
+      "char": "也",
+      "pinyin": "yě",
+      "pos": 241
+    },
+    {
+      "char": "改",
+      "pinyin": "gǎi",
+      "pos": 244
+    },
+    {
+      "char": "馆",
+      "pinyin": "guǎn",
+      "pos": 245
+    },
+    {
+      "char": "晋",
+      "pinyin": "jìn",
+      "pos": 246
+    },
+    {
+      "char": "侯",
+      "pinyin": "hóu",
+      "pos": 247
+    },
+    {
+      "char": "馈",
+      "pinyin": "kuì",
+      "pos": 249
+    },
+    {
+      "char": "七",
+      "pinyin": "qī",
+      "pos": 250
+    },
+    {
+      "char": "牢",
+      "pinyin": "láo",
+      "pos": 251
+    },
+    {
+      "char": "焉",
+      "pinyin": "yān",
+      "pos": 252
+    }
+  ],
+  "rhythmBreaks": [
+    3,
+    11,
+    16,
+    20,
+    26,
+    30,
+    34,
+    46,
+    56,
+    58,
+    63,
+    68,
+    79,
+    89,
+    91,
+    96,
+    101,
+    107,
+    112,
+    118,
+    122,
+    127,
+    132,
+    136,
+    141,
+    145,
+    150,
+    155,
+    160,
+    166,
+    171,
+    176,
+    181,
+    186,
+    191,
+    196,
+    201,
+    206,
+    211,
+    216,
+    221,
+    226,
+    231,
+    237,
+    243,
+    249
+  ],
+  "sections": [
+    {
+      "title": "交代局势",
+      "original": "十月，晋阴饴甥会秦伯，盟于王城。秦伯曰：“晋国和乎？”对曰：“不和。小人耻失其君而悼丧其亲，不惮征纟善以立圉也。曰：‘必报仇，宁事戎狄。’君子爱其君而知其罪，不惮征纟善以待秦命。曰：‘必报德，有死无二。’以此不和。”秦伯曰：“国谓君何？”对曰：“小人戚，谓之不免；君子恕，以为必归。小人曰：‘我毒秦，秦岂归君？’",
+      "annotations": [
+        {
+          "word": "归",
+          "meaning": "归还，回去，女子出嫁",
+          "pinyin": null
+        },
+        {
+          "word": "德",
+          "meaning": "德行，恩德",
+          "pinyin": null
+        },
+        {
+          "word": "曰",
+          "meaning": "说，说道",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一层从“十月，晋阴饴甥会秦伯，盟于王城。秦伯曰：“晋国和乎？”对曰：“不和。……”进入事件。可译为：文中先交代人物处境，再写发言或行动，显示当事人对局势的判断。",
+      "modernLink": "读历史叙事时，先列出人物关系，再判断每句话服务于什么目的。"
+    },
+    {
+      "title": "人物应对",
+      "original": "君子曰：‘我知罪矣，秦必归君。贰而执之，服而舍之，德莫厚焉，刑莫威焉。服者怀德，贰者畏刑，此一役也，秦可以霸。纳而不定，废而不立，以德为怨，秦不其然。’”秦伯曰：“是吾心也。”改馆晋侯，馈七牢焉。",
+      "annotations": [
+        {
+          "word": "归",
+          "meaning": "归还，回去，女子出嫁",
+          "pinyin": null
+        },
+        {
+          "word": "德",
+          "meaning": "德行，恩德",
+          "pinyin": null
+        },
+        {
+          "word": "曰",
+          "meaning": "说，说道",
+          "pinyin": null
+        }
+      ],
+      "translation": "这一层从“君子曰：‘我知罪矣，秦必归君。贰而执之，服而舍之，德莫厚焉，刑莫威焉……”进入事件。可译为：文中先交代人物处境，再写发言或行动，显示当事人对局势的判断。",
+      "modernLink": "读历史叙事时，先列出人物关系，再判断每句话服务于什么目的。"
+    }
+  ],
+  "fullTranslation": "全文大意是：文章围绕“阴饴甥对秦伯”中的一次历史事件展开，先交代局势，再写人物的判断、进言或应对。重点在于理解说话者为什么这样说，以及这些话背后的礼义、利害和政治判断。",
+  "extendedReading": {
+    "author": "左传是春秋文章传统中的重要作者或典籍来源。本文的阅读重点，是看语言怎样服务于人物、景物、议论或情感。",
+    "background": "第二阶段文章难度提高，常涉及春秋战国的外交辞令、唐宋古文的议论结构，以及明代小品和家传文字。阅读时要把时代、人物关系和文章体类放在一起看。",
+    "funFacts": [
+      "古文中的“之、以、而、其”等字，常常要根据前后句重新判断。",
+      "一篇文章可以先按段落读通，再回头整理关键词。",
+      "对话体文章适合分角色朗读，议论文适合标出判断句和理由句。"
+    ],
+    "relatedStory": "许多经典短文不是单纯记录事件，而是借一次对答、一次游览或一段追忆，写出判断力、审美和价值取向。"
+  },
+  "thinkingQuestions": [
+    "本文最关键的一处转折在哪里？为什么？",
+    "文中哪一个词最能帮助你理解人物态度或作者情感？",
+    "如果把本文分成几层意思，你会怎样命名？"
+  ],
+  "quiz": {
+    "choices": [
+      {
+        "id": 1,
+        "question": "文中“君子恕，以为必归。”里的“归”最接近哪一项？",
+        "options": [
+          "归还，回去，女子出嫁",
+          "现代口语中的固定意思",
+          "与本句无关的地名",
+          "表示颜色或形状"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（归还，回去，女子出嫁）。题干引文中这个词承担具体语义，要结合所在句判断。"
+      },
+      {
+        "id": 2,
+        "question": "从开头“十月，晋阴饴甥会秦伯，盟于王城。”看，本文首先交代的是哪类内容？",
+        "options": [
+          "事件局势和人物处境",
+          "纯粹山水景色",
+          "诗歌格律规则",
+          "农具制作方法"
+        ],
+        "answerIndex": 0,
+        "explanation": "A（事件局势和人物处境）。开头先设定事件背景，后文的人物发言才有针对性。"
+      }
+    ],
+    "fillBlanks": [
+      {
+        "id": 100,
+        "stem": "君子恕，以为必归。",
+        "targetChar": "归",
+        "targetIndex": 7,
+        "blank": "归还，回去，女子出嫁",
+        "answers": [
+          "归还，回去，女子出嫁",
+          "返回"
+        ],
+        "hint": ""
+      },
+      {
+        "id": 101,
+        "stem": "曰：‘必报德，有死无二。’",
+        "targetChar": "德",
+        "targetIndex": 5,
+        "blank": "德行，恩德",
+        "answers": [
+          "德行，恩德",
+          "品德"
+        ],
+        "hint": ""
+      },
+      {
+        "id": 102,
+        "stem": "秦伯曰：“晋国和乎？”",
+        "targetChar": "曰",
+        "targetIndex": 2,
+        "blank": "说，说道",
+        "answers": [
+          "说，说道",
+          "说"
+        ],
+        "hint": ""
+      }
+    ],
+    "shortAnswer": [
+      {
+        "id": 4,
+        "question": "用自己的话概括本文的主要内容。",
+        "sampleAnswer": "本文围绕“阴饴甥对秦伯”展开，写出事件、景物、议论或情感的层次，重点要抓住文中关键词与段落推进。"
+      }
+    ],
+    "challenge": [
+      {
+        "id": 5,
+        "question": "从文中挑一句最能体现文章主旨的话，说明理由。",
+        "sampleAnswer": "示例：可以选择最能表现人物判断、作者情感或文章观点的一句，并结合上下文说明它为什么重要。"
+      }
+    ]
+  },
+  "keyVocab": [
+    {
+      "word": "归",
+      "ancient": "归还，回去，女子出嫁",
+      "modern": "返回",
+      "example": "君子恕，以为必归。",
+      "idiom": "物归原主"
+    },
+    {
+      "word": "德",
+      "ancient": "德行，恩德",
+      "modern": "品德",
+      "example": "曰：‘必报德，有死无二。’",
+      "idiom": "厚德载物"
+    },
+    {
+      "word": "曰",
+      "ancient": "说，说道",
+      "modern": "说",
+      "example": "秦伯曰：“晋国和乎？”",
+      "idiom": "出言成章"
+    },
+    {
+      "word": "谓",
+      "ancient": "对……说，称为",
+      "modern": "认为",
+      "example": "秦伯曰：“国谓君何？”",
+      "idiom": "谓词"
+    },
+    {
+      "word": "之",
+      "ancient": "到，的，代词",
+      "modern": "结构助词",
+      "example": "对曰：“小人戚，谓之不免；",
+      "idiom": "持之以恒"
+    },
+    {
+      "word": "以",
+      "ancient": "用，因为，把",
+      "modern": "认为",
+      "example": "小人耻失其君而悼丧其亲，不惮征纟善以立圉也。",
+      "idiom": "以德报怨"
+    }
+  ]
+}
