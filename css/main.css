@@ -417,6 +417,7 @@ h3 {
 
 .article-card-grid,
 .vocab-grid,
+.dict-grid,
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -534,8 +535,79 @@ h3 {
 }
 
 .vocab-card,
+.dict-card,
 .stat-card {
   padding: var(--space-4);
+}
+
+.dict-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  box-shadow: 0 10px 30px rgba(44, 24, 16, 0.06);
+}
+
+.dict-card-head {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-3);
+  align-items: center;
+  margin-bottom: var(--space-3);
+}
+
+.dict-char {
+  display: grid;
+  width: 4rem;
+  height: 4rem;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-text);
+  color: var(--primary);
+  font-family: var(--font-title);
+  font-size: 2.4rem;
+  line-height: 1;
+}
+
+.dict-pinyin {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.dict-pinyin span {
+  padding: 0.05rem 0.45rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.dict-card-head p {
+  margin: 0.2rem 0 0;
+  color: var(--text-light);
+  font-size: 0.86rem;
+}
+
+.dict-senses {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.dict-senses blockquote {
+  margin: var(--space-2) 0;
+  padding-left: var(--space-3);
+  border-left: 3px solid var(--line);
+  color: var(--text-secondary);
+  font-family: var(--font-classic);
+}
+
+.dict-senses a {
+  color: var(--primary);
+  font-weight: 700;
 }
 
 .vocab-card dl {

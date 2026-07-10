@@ -63,7 +63,7 @@
           <blockquote class="classic-quote">${G.escapeHTML(section.original || "")}</blockquote>
           <ul class="annotation-list">
             ${(section.annotations || []).map((ann) => `
-              <li><strong>${G.escapeHTML(ann.word)}</strong>：${G.escapeHTML(ann.meaning || "")}${ann.pinyin ? `（${G.escapeHTML(ann.pinyin)}）` : ""}</li>
+              <li><a href="dict.html?q=${encodeURIComponent(ann.word)}"><strong>${G.escapeHTML(ann.word)}</strong></a>：${G.escapeHTML(ann.meaning || "")}${ann.pinyin ? `（${G.escapeHTML(ann.pinyin)}）` : ""}</li>
             `).join("")}
           </ul>
           <div><strong>翻译：</strong>${G.escapeHTML(section.translation || "")}</div>
@@ -120,6 +120,7 @@
       ${target.dataset.pinyin ? `<div>拼音：${target.dataset.pinyin}</div>` : ""}
       <div>词义：${target.dataset.meaning || "暂无注释"}</div>
       ${target.dataset.modern ? `<div>今义：${target.dataset.modern}</div>` : ""}
+      <a class="tooltip-link" href="dict.html?q=${encodeURIComponent(target.dataset.word || "")}">查古文字典</a>
     `;
     document.body.append(tooltip);
     const left = Math.min(rect.left, window.innerWidth - tooltip.offsetWidth - 12);

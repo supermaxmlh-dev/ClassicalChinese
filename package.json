@@ -6,10 +6,11 @@
   "scripts": {
     "start": "python3 -m http.server 8080 --bind 127.0.0.1",
     "start:8081": "python3 -m http.server 8081 --bind 127.0.0.1",
-    "build": "npm run build:data && npm run validate",
+    "build": "npm run build:data && npm run build:dictionary && npm run validate",
     "build:site": "npm run build && node scripts/build-site.js",
     "build:data": "node scripts/build-data.js",
-    "validate": "node scripts/validate-data.js && node scripts/validate-curriculum.js"
+    "build:dictionary": "node scripts/build-dictionary.js",
+    "validate": "node scripts/validate-data.js && node scripts/validate-dictionary.js && node scripts/validate-curriculum.js"
   },
   "dependencies": {
     "pinyin-pro": "^3.28.1"

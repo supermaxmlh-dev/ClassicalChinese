@@ -304,3 +304,10 @@ ruby rt {
 .tooltip strong {
   color: var(--primary);
 }
+
+.tooltip-link {
+  display: inline-flex;
+  margin-top: var(--space-2);
+  color: var(--primary);
+  font-weight: 700;
+}
