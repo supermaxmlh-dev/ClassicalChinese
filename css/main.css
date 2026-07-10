@@ -417,11 +417,15 @@ h3 {
 
 .article-card-grid,
 .vocab-grid,
-.dict-grid,
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: var(--space-4);
+}
+
+.dict-grid {
+  columns: 3 280px;
+  column-gap: var(--space-4);
 }
 
 .week-article-card {
@@ -541,10 +545,14 @@ h3 {
 }
 
 .dict-card {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 var(--space-4);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--bg-card);
   box-shadow: 0 10px 30px rgba(44, 24, 16, 0.06);
+  break-inside: avoid;
 }
 
 .dict-card-head {

@@ -29,12 +29,85 @@ function splitPinyin(value = "") {
     .filter(Boolean);
 }
 
+function compactLength(value = "") {
+  return String(value || "").replace(/\s/g, "").length;
+}
+
+function isClauseBoundary(char) {
+  return "。！？；，、：:“”‘’\"'「」『』（）()《》\n\r".includes(char);
+}
+
+function trimBoundary(value = "") {
+  return String(value || "")
+    .replace(/^[。！？；，、：:“”‘’"'「」『』（）()《》\s]+/, "")
+    .replace(/[。！？；，、：:“”‘’"'「」『』（）()《》\s]+$/, "")
+    .trim();
+}
+
+function limitAroundNeedle(value, needle, maxLength = 24) {
+  const chars = [...value];
+  if (compactLength(value) <= maxLength) return trimBoundary(value);
+
+  const needleChars = [...needle].filter(Boolean);
+  let center = chars.findIndex((char) => needleChars.includes(char));
+  if (center < 0) center = Math.floor(chars.length / 2);
+
+  let start = center;
+  let end = center + 1;
+  let length = compactLength(chars.slice(start, end).join(""));
+
+  while (length < maxLength && (start > 0 || end < chars.length)) {
+    let changed = false;
+    if (end < chars.length) {
+      const next = chars[end];
+      const nextLength = /\s/.test(next) ? 0 : 1;
+      if (length + nextLength <= maxLength) {
+        end += 1;
+        length += nextLength;
+        changed = true;
+      }
+    }
+    if (length >= maxLength) break;
+    if (start > 0) {
+      const prev = chars[start - 1];
+      const prevLength = /\s/.test(prev) ? 0 : 1;
+      if (length + prevLength <= maxLength) {
+        start -= 1;
+        length += prevLength;
+        changed = true;
+      }
+    }
+    if (!changed) break;
+  }
+
+  return trimBoundary(chars.slice(start, end).join(""));
+}
+
+function shortExample(example, needle) {
+  const source = compact(example);
+  const focus = compact(needle);
+  if (!source) return "";
+  if (!focus) return limitAroundNeedle(source, "", 24);
+
+  const directIndex = source.indexOf(focus);
+  const charIndex = directIndex >= 0 ? directIndex : source.indexOf([...focus][0] || "");
+  if (charIndex < 0) return limitAroundNeedle(source, focus, 24);
+
+  let start = charIndex;
+  while (start > 0 && !isClauseBoundary(source[start - 1])) start -= 1;
+
+  let end = charIndex + 1;
+  while (end < source.length && !isClauseBoundary(source[end])) end += 1;
+  if (end < source.length && "。！？；，、：".includes(source[end])) end += 1;
+
+  return limitAroundNeedle(trimBoundary(source.slice(start, end)), focus, 24);
+}
+
 function ensureEntry(map, char) {
   if (!map.has(char)) {
     map.set(char, {
       char,
       pinyin: new Set(),
-      radical: "",
       variants: new Set(),
       frequency: 0,
       senses: new Map()
@@ -49,7 +122,7 @@ function addSense(entry, sense) {
   const normalized = {
     word: compact(sense.word || entry.char),
     def,
-    example: compact(sense.example),
+    example: shortExample(sense.example, sense.focus || sense.word || entry.char),
     articleId: sense.articleId,
     articleTitle: sense.articleTitle
   };
@@ -60,7 +133,27 @@ function addSense(entry, sense) {
 function addWordSense(map, word, sense) {
   [...String(word || "")].filter(isHan).forEach((char) => {
     const entry = ensureEntry(map, char);
-    addSense(entry, { ...sense, word });
+    addSense(entry, { ...sense, word, focus: char });
+  });
+}
+
+function representativeSenses(senses) {
+  const byDef = new Map();
+  senses.forEach((sense) => {
+    if (!byDef.has(sense.def)) byDef.set(sense.def, []);
+    byDef.get(sense.def).push(sense);
+  });
+
+  return [...byDef.values()].flatMap((group) => {
+    const kept = [];
+    const sources = new Set();
+    group.forEach((sense) => {
+      if (kept.length >= 2) return;
+      if (sources.has(sense.articleId)) return;
+      kept.push(sense);
+      sources.add(sense.articleId);
+    });
+    return kept.length ? kept : group.slice(0, 1);
   });
 }
 
@@ -133,9 +226,8 @@ const dictionaryEntries = [...entries.values()]
   .map((entry) => ({
     char: entry.char,
     pinyin: [...entry.pinyin].sort((a, b) => a.localeCompare(b, "zh-Hans-CN")),
-    radical: entry.radical,
-    senses: [...entry.senses.values()]
-      .sort((a, b) => `${a.articleId}-${a.word}`.localeCompare(`${b.articleId}-${b.word}`))
+    senses: representativeSenses([...entry.senses.values()]
+      .sort((a, b) => `${a.def}-${a.articleId}-${a.word}`.localeCompare(`${b.def}-${b.articleId}-${b.word}`)))
       .slice(0, 12),
     variants: [...entry.variants],
     frequency: entry.frequency

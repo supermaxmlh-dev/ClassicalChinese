@@ -33,6 +33,9 @@ if (!fs.existsSync(dictionaryPath)) {
           if (!PINYIN_PATTERN.test(py)) errors.push(`dictionary ${entry.char} has invalid pinyin ${py}.`);
         });
       }
+      if (Object.prototype.hasOwnProperty.call(entry, "radical")) {
+        errors.push(`dictionary ${entry.char} should not include empty radical field.`);
+      }
       if (!Array.isArray(entry.senses) || !entry.senses.length) {
         errors.push(`dictionary ${entry.char} must have senses.`);
       } else {
@@ -45,6 +48,9 @@ if (!fs.existsSync(dictionaryPath)) {
           }
           if (!String(sense.articleId || "").match(/^\d{3}$/)) {
             errors.push(`dictionary ${entry.char} senses[${senseIndex}] has invalid articleId.`);
+          }
+          if (String(sense.example || "").replace(/\s/g, "").length > 40) {
+            errors.push(`dictionary ${entry.char} senses[${senseIndex}] example is too long.`);
           }
         });
       }
