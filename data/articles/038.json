@@ -1,13 +1,15 @@
 {
   "id": "038",
-  "sourceMarkdown": "content/samples/week09-038-寒花葬志.md",
+  "sourceMarkdown": "content/samples/extend-038-寒花葬志.md",
   "sourceRaw": "content/raw/038-寒花葬志.txt",
   "title": "寒花葬志",
   "source": "归有光",
   "author": "归有光",
   "dynasty": "明代",
   "difficulty": 2,
-  "week": 9,
+  "week": null,
+  "collection": "拓展阅读",
+  "guanzhi": null,
   "wordCount": 150,
   "tags": [
     "明代",

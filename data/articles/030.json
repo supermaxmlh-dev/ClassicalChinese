@@ -1,13 +1,15 @@
 {
   "id": "030",
-  "sourceMarkdown": "content/samples/week07-030-右溪记.md",
+  "sourceMarkdown": "content/samples/extend-030-右溪记.md",
   "sourceRaw": "content/raw/030-右溪记.txt",
   "title": "右溪记",
   "source": "元结",
   "author": "元结",
   "dynasty": "唐代",
   "difficulty": 2,
-  "week": 7,
+  "week": null,
+  "collection": "拓展阅读",
+  "guanzhi": null,
   "wordCount": 200,
   "tags": [
     "唐代",

@@ -1,13 +1,15 @@
 {
   "id": "046",
-  "sourceMarkdown": "content/samples/week11-046-柳敬亭说书.md",
+  "sourceMarkdown": "content/samples/extend-046-柳敬亭说书.md",
   "sourceRaw": "content/raw/046-柳敬亭说书.txt",
   "title": "柳敬亭说书",
   "source": "张岱",
   "author": "张岱",
   "dynasty": "明代",
   "difficulty": 2,
-  "week": 11,
+  "week": null,
+  "collection": "拓展阅读",
+  "guanzhi": null,
   "wordCount": 300,
   "tags": [
     "明代",

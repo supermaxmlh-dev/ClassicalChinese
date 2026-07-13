@@ -1,13 +1,15 @@
 {
   "id": "042",
-  "sourceMarkdown": "content/samples/week10-042-有子之言似夫子.md",
+  "sourceMarkdown": "content/samples/week11-042-有子之言似夫子.md",
   "sourceRaw": "content/raw/042-有子之言似夫子.txt",
   "title": "有子之言似夫子",
   "source": "礼记",
   "author": "戴圣",
   "dynasty": "西汉",
   "difficulty": 2,
-  "week": 10,
+  "week": 11,
+  "collection": "古文观止",
+  "guanzhi": null,
   "wordCount": 200,
   "tags": [
     "礼记",

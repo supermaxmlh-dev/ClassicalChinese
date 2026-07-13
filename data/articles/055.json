@@ -1,13 +1,15 @@
 {
   "id": "055",
-  "sourceMarkdown": "content/samples/week15-055-郑伯克段于鄢.md",
+  "sourceMarkdown": "content/samples/week14-055-郑伯克段于鄢.md",
   "sourceRaw": "content/raw/055-郑伯克段于鄢.txt",
   "title": "郑伯克段于鄢",
   "source": "左传",
   "author": "左传",
   "dynasty": "春秋",
   "difficulty": 3,
-  "week": 15,
+  "week": 14,
+  "collection": "古文观止",
+  "guanzhi": null,
   "wordCount": 750,
   "tags": [
     "春秋",

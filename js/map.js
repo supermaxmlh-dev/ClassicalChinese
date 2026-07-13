@@ -68,6 +68,7 @@
   function renderArticleCard(article, progress) {
     const done = G.Progress.isArticleLearned(progress, article.id);
     const score = progress.quizScores?.[article.id];
+    const sourceLabel = article.guanzhi === "pending" ? "出处待核" : "选自《古文观止》";
     return `
       <a class="week-article-card" href="article.html?id=${article.id}">
         <div class="week-number">
@@ -81,6 +82,7 @@
           <span>${G.renderStars(article.difficulty)}</span>
           <span>${article.wordCount || article.word_count || 0} 字</span>
         </div>
+        <div class="article-tags"><span class="tag">${G.escapeHTML(sourceLabel)}</span></div>
         <p>${G.escapeHTML(article.storyIntro || "内容正在整理中。")}</p>
       </a>
     `;
@@ -99,6 +101,7 @@
           <span>${G.renderStars(article.difficulty)}</span>
           <span>${article.wordCount || 0} 字</span>
         </div>
+        <div class="article-tags"><span class="tag">${article.guanzhi === "pending" ? "出处待核" : "选自《古文观止》"}</span></div>
         <p>这篇文章的数据文件还未生成，补充 Markdown 后运行 <code>npm run build:data</code> 即可上线。</p>
       </article>
     `;

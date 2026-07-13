@@ -1,13 +1,15 @@
 {
   "id": "058",
-  "sourceMarkdown": "content/samples/week16-058-种树郭橐驼传.md",
+  "sourceMarkdown": "content/samples/week15-058-种树郭橐驼传.md",
   "sourceRaw": "content/raw/058-种树郭橐驼传.txt",
   "title": "种树郭橐驼传",
   "source": "柳宗元",
   "author": "柳宗元",
   "dynasty": "唐代",
   "difficulty": 2,
-  "week": 16,
+  "week": 15,
+  "collection": "古文观止",
+  "guanzhi": null,
   "wordCount": 500,
   "tags": [
     "唐代",

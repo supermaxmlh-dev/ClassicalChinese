@@ -7,7 +7,8 @@ source: "柳河东集"
 author: "柳宗元"
 dynasty: "唐"
 difficulty: 2
-week: 3
+week: null
+collection: "拓展阅读"
 word_count: 200
 tags: ["唐代", "山水", "游记", "永州八记"]
 related_idioms: ["凄神寒骨"]

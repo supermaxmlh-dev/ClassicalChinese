@@ -22,6 +22,8 @@ if (!fs.existsSync(curriculumPath)) {
   const articles = Array.isArray(curriculum.articles) ? curriculum.articles : [];
   const weeks = Array.isArray(curriculum.weeks) ? curriculum.weeks : [];
   const weekNumbers = new Set(weeks.map((week) => week.week));
+  const mainArticles = articles.filter((article) => (article.collection || "古文观止") !== "拓展阅读");
+  const extendedArticles = articles.filter((article) => article.collection === "拓展阅读");
   const ids = articles.map((article) => article.id);
   const duplicateIds = ids.filter((id, pos) => ids.indexOf(id) !== pos);
   const titles = new Map();
@@ -29,8 +31,8 @@ if (!fs.existsSync(curriculumPath)) {
   if (!Number.isInteger(curriculum.targetArticleCount) || curriculum.targetArticleCount < articles.length) {
     errors.push("curriculum.targetArticleCount must be greater than or equal to planned articles.");
   }
-  if (curriculum.plannedArticleCount !== undefined && curriculum.plannedArticleCount !== articles.length) {
-    errors.push("curriculum.plannedArticleCount does not match articles.length.");
+  if (curriculum.plannedArticleCount !== undefined && curriculum.plannedArticleCount !== mainArticles.length) {
+    errors.push("curriculum.plannedArticleCount does not match main curriculum articles length.");
   }
   if (weeks.length !== 52) {
     errors.push("curriculum.weeks must contain exactly 52 weeks.");
@@ -39,9 +41,20 @@ if (!fs.existsSync(curriculumPath)) {
     errors.push(`curriculum contains duplicate ids: ${[...new Set(duplicateIds)].join(", ")}`);
   }
   articles.forEach((article) => {
+    const collection = article.collection || "古文观止";
     if (!/^\d{3}$/.test(article.id || "")) errors.push(`${article.title || "unknown"} has invalid id ${article.id}.`);
     if (!article.title) errors.push(`${article.id} is missing title.`);
-    if (!weekNumbers.has(article.week)) errors.push(`${article.id} ${article.title} has invalid week ${article.week}.`);
+    if (!["古文观止", "拓展阅读"].includes(collection)) {
+      errors.push(`${article.id} ${article.title} has invalid collection ${collection}.`);
+    }
+    if (collection === "拓展阅读") {
+      if (article.week !== null) errors.push(`${article.id} ${article.title} extended reading must have null week.`);
+    } else if (!weekNumbers.has(article.week)) {
+      errors.push(`${article.id} ${article.title} has invalid week ${article.week}.`);
+    }
+    if (article.guanzhi !== undefined && article.guanzhi !== null && article.guanzhi !== "pending") {
+      errors.push(`${article.id} ${article.title} has invalid guanzhi ${article.guanzhi}.`);
+    }
     if (!Number.isInteger(article.difficulty) || article.difficulty < 1 || article.difficulty > 5) {
       errors.push(`${article.id} ${article.title} has invalid difficulty.`);
     }
@@ -61,14 +74,25 @@ if (!fs.existsSync(curriculumPath)) {
     }
   });
 
-  if (index && index.plannedArticleCount !== articles.length) {
-    errors.push("index.plannedArticleCount does not match curriculum.");
+  if (index) {
+    const mainScheduledIds = new Set((index.weeks || []).flatMap((week) => week.articleIds || []));
+    const extendedIds = new Set(index.extendedReading || []);
+    extendedArticles.forEach((article) => {
+      if (!extendedIds.has(article.id)) errors.push(`${article.id} ${article.title} missing from index.extendedReading.`);
+      if (mainScheduledIds.has(article.id)) errors.push(`${article.id} ${article.title} is both extended and main week.`);
+    });
+    if (index.plannedArticleCount !== mainScheduledIds.size) {
+      errors.push("index.plannedArticleCount does not match scheduled main articles.");
+    }
+    if ((index.extendedReading || []).length !== extendedArticles.length) {
+      errors.push("index.extendedReading length does not match curriculum extended reading.");
+    }
   }
   if (index && index.targetArticleCount !== curriculum.targetArticleCount) {
     errors.push("index.targetArticleCount does not match curriculum.");
   }
-  if (status && status.plannedArticleCount !== articles.length) {
-    errors.push("content-status plannedArticleCount does not match curriculum.");
+  if (status && index && status.plannedArticleCount !== index.plannedArticleCount) {
+    errors.push("content-status plannedArticleCount does not match index.");
   }
   if (status && status.targetArticleCount !== curriculum.targetArticleCount) {
     errors.push("content-status targetArticleCount does not match curriculum.");

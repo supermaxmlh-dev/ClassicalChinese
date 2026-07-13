@@ -7,7 +7,8 @@ source: "柳宗元"
 author: "柳宗元"
 dynasty: "唐代"
 difficulty: 2
-week: 14
+week: null
+collection: "拓展阅读"
 word_count: 250
 tags: ["唐代","山水记游","柳宗元","基础"]
 related_idioms: ["间不容发","触类旁通"]

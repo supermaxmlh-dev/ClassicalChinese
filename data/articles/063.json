@@ -1,13 +1,15 @@
 {
   "id": "063",
-  "sourceMarkdown": "content/samples/week17-063-触龙说赵太后.md",
+  "sourceMarkdown": "content/samples/week16-063-触龙说赵太后.md",
   "sourceRaw": "content/raw/063-触龙说赵太后.txt",
   "title": "触龙说赵太后",
   "source": "战国策",
   "author": "战国策",
   "dynasty": "战国",
   "difficulty": 2,
-  "week": 17,
+  "week": 16,
+  "collection": "古文观止",
+  "guanzhi": null,
   "wordCount": 500,
   "tags": [
     "战国",

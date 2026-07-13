@@ -1,13 +1,15 @@
 {
   "id": "062",
-  "sourceMarkdown": "content/samples/week17-062-冯谖客孟尝君.md",
+  "sourceMarkdown": "content/samples/week16-062-冯谖客孟尝君.md",
   "sourceRaw": "content/raw/062-冯谖客孟尝君.txt",
   "title": "冯谖客孟尝君",
   "source": "战国策",
   "author": "战国策",
   "dynasty": "战国",
   "difficulty": 2,
-  "week": 17,
+  "week": 16,
+  "collection": "古文观止",
+  "guanzhi": null,
   "wordCount": 700,
   "tags": [
     "战国",

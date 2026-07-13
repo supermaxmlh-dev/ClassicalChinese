@@ -7,7 +7,8 @@ source: "张岱"
 author: "张岱"
 dynasty: "明代"
 difficulty: 3
-week: 22
+week: null
+collection: "拓展阅读"
 word_count: 300
 tags: ["明代","山水记游","张岱","进阶"]
 related_idioms: ["物归原主","触类旁通"]

@@ -1,13 +1,15 @@
 {
   "id": "084",
-  "sourceMarkdown": "content/samples/week22-084-陶庵梦忆序.md",
+  "sourceMarkdown": "content/samples/extend-084-陶庵梦忆序.md",
   "sourceRaw": "content/raw/084-陶庵梦忆序.txt",
   "title": "陶庵梦忆序",
   "source": "张岱",
   "author": "张岱",
   "dynasty": "明代",
   "difficulty": 3,
-  "week": 22,
+  "week": null,
+  "collection": "拓展阅读",
+  "guanzhi": null,
   "wordCount": 300,
   "tags": [
     "明代",

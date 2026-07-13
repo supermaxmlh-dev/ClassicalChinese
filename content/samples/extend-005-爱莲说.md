@@ -7,7 +7,8 @@ source: "周敦颐集"
 author: "周敦颐"
 dynasty: "北宋"
 difficulty: 1
-week: 1
+week: null
+collection: "拓展阅读"
 word_count: 119
 tags: ["宋代", "说", "托物言志", "莲花"]
 related_idioms: ["出淤泥而不染"]

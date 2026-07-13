@@ -1,13 +1,15 @@
 {
   "id": "003",
-  "sourceMarkdown": "content/samples/week01-003-记承天寺夜游.md",
+  "sourceMarkdown": "content/samples/extend-003-记承天寺夜游.md",
   "sourceRaw": "content/raw/003-记承天寺夜游.txt",
   "title": "记承天寺夜游",
   "source": "东坡志林",
   "author": "苏轼",
   "dynasty": "北宋",
   "difficulty": 1,
-  "week": 1,
+  "week": null,
+  "collection": "拓展阅读",
+  "guanzhi": null,
   "wordCount": 85,
   "tags": [
     "宋代",

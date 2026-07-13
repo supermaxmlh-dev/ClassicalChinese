@@ -1,13 +1,15 @@
 {
   "id": "023",
-  "sourceMarkdown": "content/samples/week06-023-齐桓下拜受胙.md",
+  "sourceMarkdown": "content/samples/week05-023-齐桓下拜受胙.md",
   "sourceRaw": "content/raw/023-齐桓下拜受胙.txt",
   "title": "齐桓下拜受胙",
   "source": "左传",
   "author": "左丘明",
   "dynasty": "春秋",
   "difficulty": 2,
-  "week": 6,
+  "week": 5,
+  "collection": "古文观止",
+  "guanzhi": null,
   "wordCount": 150,
   "tags": [
     "春秋",

@@ -7,7 +7,8 @@ source: "归有光"
 author: "归有光"
 dynasty: "明代"
 difficulty: 2
-week: 16
+week: null
+collection: "拓展阅读"
 word_count: 500
 tags: ["明代","古文散文","归有光","基础"]
 related_idioms: ["使功不如使过","病入膏肓"]

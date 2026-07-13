@@ -1,7 +1,7 @@
 {
   "project": "guanzhi-xuetang",
   "targetArticleCount": 222,
-  "plannedArticleCount": 179,
+  "plannedArticleCount": 166,
   "articles": [
     {
       "id": "001",
@@ -10,7 +10,8 @@
       "week": 1,
       "difficulty": 1,
       "wordCount": 250,
-      "guanzhiNo": 8
+      "guanzhiNo": 8,
+      "collection": "古文观止"
     },
     {
       "id": "002",
@@ -19,43 +20,49 @@
       "week": 1,
       "difficulty": 1,
       "wordCount": 70,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止",
+      "guanzhi": "pending"
     },
     {
       "id": "003",
       "title": "记承天寺夜游",
       "source": "苏轼",
-      "week": 1,
+      "week": null,
       "difficulty": 1,
       "wordCount": 85,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "拓展阅读"
     },
     {
       "id": "004",
       "title": "诫子书",
       "source": "诸葛亮",
-      "week": 1,
+      "week": null,
       "difficulty": 1,
       "wordCount": 90,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "拓展阅读"
     },
     {
       "id": "005",
       "title": "爱莲说",
       "source": "周敦颐",
-      "week": 1,
+      "week": null,
       "difficulty": 1,
       "wordCount": 120,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "拓展阅读"
     },
     {
       "id": "006",
       "title": "邹忌讽齐王纳谏",
       "source": "战国策",
-      "week": 2,
+      "week": 1,
       "difficulty": 1,
       "wordCount": 350,
-      "guanzhiNo": 59
+      "guanzhiNo": 59,
+      "collection": "古文观止"
     },
     {
       "id": "007",
@@ -64,7 +71,8 @@
       "week": 2,
       "difficulty": 1,
       "wordCount": 80,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "008",
@@ -73,16 +81,18 @@
       "week": 2,
       "difficulty": 1,
       "wordCount": 150,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "009",
       "title": "湖心亭看雪",
       "source": "张岱",
-      "week": 2,
+      "week": null,
       "difficulty": 1,
       "wordCount": 150,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "拓展阅读"
     },
     {
       "id": "010",
@@ -91,34 +101,38 @@
       "week": 2,
       "difficulty": 1,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "011",
       "title": "小石潭记",
       "source": "柳宗元",
-      "week": 3,
+      "week": null,
       "difficulty": 2,
       "wordCount": 200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "拓展阅读"
     },
     {
       "id": "012",
       "title": "与朱元思书",
       "source": "吴均",
-      "week": 3,
+      "week": null,
       "difficulty": 2,
       "wordCount": 200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "拓展阅读"
     },
     {
       "id": "013",
       "title": "烛之武退秦师",
       "source": "左传",
-      "week": 3,
+      "week": 2,
       "difficulty": 2,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "014",
@@ -127,25 +141,28 @@
       "week": 3,
       "difficulty": 1,
       "wordCount": 90,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "015",
       "title": "岳阳楼记",
       "source": "范仲淹",
-      "week": 4,
+      "week": 3,
       "difficulty": 2,
       "wordCount": 400,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "016",
       "title": "醉翁亭记",
       "source": "欧阳修",
-      "week": 4,
+      "week": 3,
       "difficulty": 2,
       "wordCount": 400,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "017",
@@ -154,7 +171,8 @@
       "week": 4,
       "difficulty": 2,
       "wordCount": 120,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "018",
@@ -163,16 +181,18 @@
       "week": 4,
       "difficulty": 2,
       "wordCount": 250,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "019",
       "title": "曾子易箦",
       "source": "礼记",
-      "week": 5,
+      "week": 4,
       "difficulty": 2,
       "wordCount": 200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "020",
@@ -181,7 +201,8 @@
       "week": 5,
       "difficulty": 2,
       "wordCount": 150,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "021",
@@ -190,7 +211,8 @@
       "week": 5,
       "difficulty": 2,
       "wordCount": 120,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "022",
@@ -199,16 +221,18 @@
       "week": 5,
       "difficulty": 1,
       "wordCount": 100,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "023",
       "title": "齐桓下拜受胙",
       "source": "左传",
-      "week": 6,
+      "week": 5,
       "difficulty": 2,
       "wordCount": 150,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "024",
@@ -217,7 +241,8 @@
       "week": 6,
       "difficulty": 2,
       "wordCount": 150,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "025",
@@ -226,7 +251,8 @@
       "week": 6,
       "difficulty": 2,
       "wordCount": 250,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "026",
@@ -235,7 +261,8 @@
       "week": 6,
       "difficulty": 2,
       "wordCount": 200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "027",
@@ -244,7 +271,8 @@
       "week": 7,
       "difficulty": 2,
       "wordCount": 300,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "028",
@@ -253,7 +281,8 @@
       "week": 7,
       "difficulty": 2,
       "wordCount": 100,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "029",
@@ -262,16 +291,18 @@
       "week": 7,
       "difficulty": 2,
       "wordCount": 250,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "030",
       "title": "右溪记",
       "source": "元结",
-      "week": 7,
+      "week": null,
       "difficulty": 2,
       "wordCount": 200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "拓展阅读"
     },
     {
       "id": "031",
@@ -280,7 +311,8 @@
       "week": 8,
       "difficulty": 2,
       "wordCount": 200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "032",
@@ -289,7 +321,8 @@
       "week": 8,
       "difficulty": 2,
       "wordCount": 180,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "033",
@@ -298,7 +331,8 @@
       "week": 8,
       "difficulty": 2,
       "wordCount": 200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "034",
@@ -307,7 +341,8 @@
       "week": 8,
       "difficulty": 2,
       "wordCount": 200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "035",
@@ -316,7 +351,8 @@
       "week": 9,
       "difficulty": 2,
       "wordCount": 250,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "036",
@@ -325,7 +361,8 @@
       "week": 9,
       "difficulty": 2,
       "wordCount": 300,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "037",
@@ -334,16 +371,18 @@
       "week": 9,
       "difficulty": 2,
       "wordCount": 150,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "038",
       "title": "寒花葬志",
       "source": "归有光",
-      "week": 9,
+      "week": null,
       "difficulty": 2,
       "wordCount": 150,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "拓展阅读"
     },
     {
       "id": "039",
@@ -352,7 +391,8 @@
       "week": 10,
       "difficulty": 2,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "040",
@@ -361,7 +401,8 @@
       "week": 10,
       "difficulty": 2,
       "wordCount": 250,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "041",
@@ -370,16 +411,18 @@
       "week": 10,
       "difficulty": 2,
       "wordCount": 200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "042",
       "title": "有子之言似夫子",
       "source": "礼记",
-      "week": 10,
+      "week": 11,
       "difficulty": 2,
       "wordCount": 200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "043",
@@ -388,7 +431,8 @@
       "week": 11,
       "difficulty": 2,
       "wordCount": 200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "044",
@@ -397,7 +441,8 @@
       "week": 11,
       "difficulty": 2,
       "wordCount": 200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "045",
@@ -406,16 +451,18 @@
       "week": 11,
       "difficulty": 2,
       "wordCount": 200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "046",
       "title": "柳敬亭说书",
       "source": "张岱",
-      "week": 11,
+      "week": null,
       "difficulty": 2,
       "wordCount": 300,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "拓展阅读"
     },
     {
       "id": "047",
@@ -424,7 +471,8 @@
       "week": 12,
       "difficulty": 2,
       "wordCount": 300,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "048",
@@ -433,7 +481,8 @@
       "week": 12,
       "difficulty": 2,
       "wordCount": 150,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "049",
@@ -442,16 +491,18 @@
       "week": 12,
       "difficulty": 2,
       "wordCount": 250,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "050",
       "title": "西湖七月半",
       "source": "张岱",
-      "week": 12,
+      "week": null,
       "difficulty": 2,
       "wordCount": 400,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "拓展阅读"
     },
     {
       "id": "051",
@@ -460,7 +511,8 @@
       "week": 14,
       "difficulty": 2,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "052",
@@ -469,16 +521,18 @@
       "week": 14,
       "difficulty": 2,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "053",
       "title": "袁家渴记",
       "source": "柳宗元",
-      "week": 14,
+      "week": null,
       "difficulty": 2,
       "wordCount": 250,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "拓展阅读"
     },
     {
       "id": "054",
@@ -487,16 +541,18 @@
       "week": 14,
       "difficulty": 2,
       "wordCount": 300,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "055",
       "title": "郑伯克段于鄢",
       "source": "左传",
-      "week": 15,
+      "week": 14,
       "difficulty": 3,
       "wordCount": 750,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "056",
@@ -505,7 +561,8 @@
       "week": 15,
       "difficulty": 2,
       "wordCount": 400,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "057",
@@ -514,16 +571,18 @@
       "week": 15,
       "difficulty": 2,
       "wordCount": 300,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "058",
       "title": "种树郭橐驼传",
       "source": "柳宗元",
-      "week": 16,
+      "week": 15,
       "difficulty": 2,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "059",
@@ -532,7 +591,8 @@
       "week": 16,
       "difficulty": 2,
       "wordCount": 400,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "060",
@@ -541,34 +601,38 @@
       "week": 16,
       "difficulty": 2,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "061",
       "title": "项脊轩志",
       "source": "归有光",
-      "week": 16,
+      "week": null,
       "difficulty": 2,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "拓展阅读"
     },
     {
       "id": "062",
       "title": "冯谖客孟尝君",
       "source": "战国策",
-      "week": 17,
+      "week": 16,
       "difficulty": 2,
       "wordCount": 700,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "063",
       "title": "触龙说赵太后",
       "source": "战国策",
-      "week": 17,
+      "week": 16,
       "difficulty": 2,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "064",
@@ -577,7 +641,8 @@
       "week": 17,
       "difficulty": 2,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "065",
@@ -586,16 +651,18 @@
       "week": 17,
       "difficulty": 2,
       "wordCount": 400,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "066",
       "title": "师说",
       "source": "韩愈",
-      "week": 18,
+      "week": 17,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "067",
@@ -604,7 +671,8 @@
       "week": 18,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "068",
@@ -613,7 +681,8 @@
       "week": 18,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "069",
@@ -622,16 +691,18 @@
       "week": 18,
       "difficulty": 3,
       "wordCount": 250,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "070",
       "title": "前赤壁赋",
       "source": "苏轼",
-      "week": 19,
+      "week": 18,
       "difficulty": 3,
       "wordCount": 550,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "071",
@@ -640,7 +711,8 @@
       "week": 19,
       "difficulty": 3,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "072",
@@ -649,7 +721,9 @@
       "week": 19,
       "difficulty": 3,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止",
+      "guanzhi": "pending"
     },
     {
       "id": "073",
@@ -658,7 +732,8 @@
       "week": 19,
       "difficulty": 3,
       "wordCount": 200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "074",
@@ -667,7 +742,8 @@
       "week": 20,
       "difficulty": 3,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "075",
@@ -676,7 +752,8 @@
       "week": 20,
       "difficulty": 3,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "076",
@@ -685,7 +762,8 @@
       "week": 20,
       "difficulty": 3,
       "wordCount": 250,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "077",
@@ -694,7 +772,8 @@
       "week": 20,
       "difficulty": 3,
       "wordCount": 250,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "078",
@@ -703,7 +782,8 @@
       "week": 21,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "079",
@@ -712,7 +792,8 @@
       "week": 21,
       "difficulty": 3,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "080",
@@ -721,7 +802,8 @@
       "week": 21,
       "difficulty": 3,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "081",
@@ -730,7 +812,8 @@
       "week": 22,
       "difficulty": 3,
       "wordCount": 300,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "082",
@@ -739,7 +822,8 @@
       "week": 22,
       "difficulty": 3,
       "wordCount": 200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "083",
@@ -748,16 +832,18 @@
       "week": 22,
       "difficulty": 3,
       "wordCount": 300,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "084",
       "title": "陶庵梦忆序",
       "source": "张岱",
-      "week": 22,
+      "week": null,
       "difficulty": 3,
       "wordCount": 300,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "拓展阅读"
     },
     {
       "id": "085",
@@ -766,7 +852,8 @@
       "week": 22,
       "difficulty": 3,
       "wordCount": 300,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "086",
@@ -775,7 +862,8 @@
       "week": 23,
       "difficulty": 3,
       "wordCount": 300,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "087",
@@ -784,7 +872,8 @@
       "week": 23,
       "difficulty": 3,
       "wordCount": 300,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "088",
@@ -793,7 +882,8 @@
       "week": 23,
       "difficulty": 3,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "089",
@@ -802,7 +892,8 @@
       "week": 24,
       "difficulty": 3,
       "wordCount": 400,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "090",
@@ -811,7 +902,8 @@
       "week": 24,
       "difficulty": 3,
       "wordCount": 450,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "091",
@@ -820,16 +912,18 @@
       "week": 24,
       "difficulty": 3,
       "wordCount": 400,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "092",
       "title": "吴许越成",
       "source": "左传",
-      "week": 25,
+      "week": 24,
       "difficulty": 3,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "093",
@@ -838,7 +932,8 @@
       "week": 25,
       "difficulty": 3,
       "wordCount": 250,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "094",
@@ -847,7 +942,8 @@
       "week": 25,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "095",
@@ -856,7 +952,8 @@
       "week": 25,
       "difficulty": 3,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "096",
@@ -865,7 +962,8 @@
       "week": 27,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "097",
@@ -874,7 +972,8 @@
       "week": 27,
       "difficulty": 3,
       "wordCount": 400,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "098",
@@ -883,7 +982,8 @@
       "week": 27,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "099",
@@ -892,7 +992,8 @@
       "week": 27,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "100",
@@ -901,7 +1002,8 @@
       "week": 28,
       "difficulty": 3,
       "wordCount": 600,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "101",
@@ -910,7 +1012,8 @@
       "week": 28,
       "difficulty": 3,
       "wordCount": 450,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "102",
@@ -919,7 +1022,8 @@
       "week": 28,
       "difficulty": 3,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "103",
@@ -928,7 +1032,8 @@
       "week": 28,
       "difficulty": 3,
       "wordCount": 300,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "104",
@@ -937,7 +1042,8 @@
       "week": 28,
       "difficulty": 3,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "105",
@@ -946,7 +1052,8 @@
       "week": 29,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "106",
@@ -955,7 +1062,8 @@
       "week": 29,
       "difficulty": 3,
       "wordCount": 250,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "107",
@@ -964,7 +1072,8 @@
       "week": 29,
       "difficulty": 3,
       "wordCount": 300,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "108",
@@ -973,7 +1082,8 @@
       "week": 29,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "109",
@@ -982,7 +1092,8 @@
       "week": 30,
       "difficulty": 3,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "110",
@@ -991,7 +1102,8 @@
       "week": 30,
       "difficulty": 3,
       "wordCount": 400,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "111",
@@ -1000,7 +1112,8 @@
       "week": 30,
       "difficulty": 3,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "112",
@@ -1009,7 +1122,8 @@
       "week": 30,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "113",
@@ -1018,7 +1132,8 @@
       "week": 30,
       "difficulty": 3,
       "wordCount": 300,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "114",
@@ -1027,7 +1142,8 @@
       "week": 31,
       "difficulty": 3,
       "wordCount": 600,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "115",
@@ -1036,7 +1152,8 @@
       "week": 31,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "116",
@@ -1045,7 +1162,8 @@
       "week": 31,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "117",
@@ -1054,7 +1172,8 @@
       "week": 31,
       "difficulty": 3,
       "wordCount": 400,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "118",
@@ -1063,7 +1182,8 @@
       "week": 32,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "119",
@@ -1072,7 +1192,8 @@
       "week": 32,
       "difficulty": 3,
       "wordCount": 800,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "120",
@@ -1081,7 +1202,8 @@
       "week": 32,
       "difficulty": 3,
       "wordCount": 700,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "121",
@@ -1090,7 +1212,8 @@
       "week": 32,
       "difficulty": 3,
       "wordCount": 400,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "122",
@@ -1099,7 +1222,8 @@
       "week": 33,
       "difficulty": 3,
       "wordCount": 350,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "123",
@@ -1108,7 +1232,8 @@
       "week": 33,
       "difficulty": 3,
       "wordCount": 700,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "124",
@@ -1117,7 +1242,8 @@
       "week": 33,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "125",
@@ -1126,7 +1252,8 @@
       "week": 33,
       "difficulty": 3,
       "wordCount": 800,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "126",
@@ -1135,7 +1262,8 @@
       "week": 34,
       "difficulty": 3,
       "wordCount": 700,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "127",
@@ -1144,7 +1272,8 @@
       "week": 34,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "128",
@@ -1153,7 +1282,8 @@
       "week": 34,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "129",
@@ -1162,7 +1292,8 @@
       "week": 34,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "130",
@@ -1171,7 +1302,8 @@
       "week": 35,
       "difficulty": 3,
       "wordCount": 600,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "131",
@@ -1180,7 +1312,8 @@
       "week": 35,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "132",
@@ -1189,7 +1322,8 @@
       "week": 35,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "133",
@@ -1198,7 +1332,8 @@
       "week": 35,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "134",
@@ -1207,7 +1342,8 @@
       "week": 35,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "135",
@@ -1216,7 +1352,8 @@
       "week": 36,
       "difficulty": 3,
       "wordCount": 1200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "136",
@@ -1225,7 +1362,8 @@
       "week": 36,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "137",
@@ -1234,7 +1372,8 @@
       "week": 36,
       "difficulty": 3,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "138",
@@ -1243,7 +1382,8 @@
       "week": 37,
       "difficulty": 3,
       "wordCount": 600,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "139",
@@ -1252,7 +1392,8 @@
       "week": 37,
       "difficulty": 4,
       "wordCount": 400,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "140",
@@ -1261,7 +1402,8 @@
       "week": 37,
       "difficulty": 4,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "141",
@@ -1270,7 +1412,8 @@
       "week": 37,
       "difficulty": 4,
       "wordCount": 650,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "142",
@@ -1279,7 +1422,8 @@
       "week": 38,
       "difficulty": 4,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "143",
@@ -1288,7 +1432,8 @@
       "week": 38,
       "difficulty": 4,
       "wordCount": 400,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "144",
@@ -1297,7 +1442,8 @@
       "week": 38,
       "difficulty": 4,
       "wordCount": 450,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "145",
@@ -1306,7 +1452,8 @@
       "week": 40,
       "difficulty": 4,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "146",
@@ -1315,7 +1462,8 @@
       "week": 40,
       "difficulty": 4,
       "wordCount": 200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "147",
@@ -1324,7 +1472,8 @@
       "week": 40,
       "difficulty": 4,
       "wordCount": 800,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "148",
@@ -1333,7 +1482,8 @@
       "week": 40,
       "difficulty": 4,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "149",
@@ -1342,7 +1492,8 @@
       "week": 41,
       "difficulty": 4,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "150",
@@ -1351,7 +1502,8 @@
       "week": 41,
       "difficulty": 4,
       "wordCount": 600,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "151",
@@ -1360,7 +1512,8 @@
       "week": 41,
       "difficulty": 4,
       "wordCount": 1200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "152",
@@ -1369,7 +1522,8 @@
       "week": 42,
       "difficulty": 4,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "153",
@@ -1378,7 +1532,8 @@
       "week": 42,
       "difficulty": 4,
       "wordCount": 1500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "154",
@@ -1387,7 +1542,8 @@
       "week": 42,
       "difficulty": 4,
       "wordCount": 700,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "155",
@@ -1396,7 +1552,8 @@
       "week": 43,
       "difficulty": 4,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "156",
@@ -1405,7 +1562,8 @@
       "week": 43,
       "difficulty": 4,
       "wordCount": 800,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "157",
@@ -1414,7 +1572,8 @@
       "week": 43,
       "difficulty": 4,
       "wordCount": 700,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "158",
@@ -1423,7 +1582,8 @@
       "week": 44,
       "difficulty": 4,
       "wordCount": 1000,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "159",
@@ -1432,7 +1592,8 @@
       "week": 44,
       "difficulty": 4,
       "wordCount": 800,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "160",
@@ -1441,7 +1602,8 @@
       "week": 44,
       "difficulty": 4,
       "wordCount": 600,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "161",
@@ -1450,7 +1612,8 @@
       "week": 45,
       "difficulty": 4,
       "wordCount": 800,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "162",
@@ -1459,7 +1622,8 @@
       "week": 45,
       "difficulty": 4,
       "wordCount": 800,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "163",
@@ -1468,7 +1632,8 @@
       "week": 45,
       "difficulty": 4,
       "wordCount": 800,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "164",
@@ -1477,7 +1642,8 @@
       "week": 46,
       "difficulty": 4,
       "wordCount": 900,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "165",
@@ -1486,7 +1652,8 @@
       "week": 46,
       "difficulty": 4,
       "wordCount": 1200,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "166",
@@ -1495,7 +1662,8 @@
       "week": 46,
       "difficulty": 4,
       "wordCount": 600,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "167",
@@ -1504,7 +1672,8 @@
       "week": 47,
       "difficulty": 4,
       "wordCount": 800,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "168",
@@ -1513,7 +1682,8 @@
       "week": 47,
       "difficulty": 4,
       "wordCount": 700,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "169",
@@ -1522,7 +1692,8 @@
       "week": 47,
       "difficulty": 4,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "170",
@@ -1531,7 +1702,8 @@
       "week": 48,
       "difficulty": 4,
       "wordCount": 1000,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "171",
@@ -1540,7 +1712,8 @@
       "week": 48,
       "difficulty": 4,
       "wordCount": 1000,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "172",
@@ -1549,7 +1722,8 @@
       "week": 48,
       "difficulty": 4,
       "wordCount": 500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "173",
@@ -1558,7 +1732,8 @@
       "week": 49,
       "difficulty": 5,
       "wordCount": 800,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "174",
@@ -1567,7 +1742,8 @@
       "week": 49,
       "difficulty": 5,
       "wordCount": 1500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "175",
@@ -1576,7 +1752,8 @@
       "week": 50,
       "difficulty": 5,
       "wordCount": 2500,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "176",
@@ -1585,7 +1762,8 @@
       "week": 50,
       "difficulty": 5,
       "wordCount": 600,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "177",
@@ -1594,7 +1772,8 @@
       "week": 51,
       "difficulty": 5,
       "wordCount": 800,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "178",
@@ -1603,7 +1782,8 @@
       "week": 51,
       "difficulty": 5,
       "wordCount": 600,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     },
     {
       "id": "179",
@@ -1612,7 +1792,8 @@
       "week": 51,
       "difficulty": 4,
       "wordCount": 400,
-      "guanzhiNo": null
+      "guanzhiNo": null,
+      "collection": "古文观止"
     }
   ],
   "weeks": [

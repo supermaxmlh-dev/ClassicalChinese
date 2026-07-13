@@ -1,13 +1,15 @@
 {
   "id": "061",
-  "sourceMarkdown": "content/samples/week16-061-项脊轩志.md",
+  "sourceMarkdown": "content/samples/extend-061-项脊轩志.md",
   "sourceRaw": "content/raw/061-项脊轩志.txt",
   "title": "项脊轩志",
   "source": "归有光",
   "author": "归有光",
   "dynasty": "明代",
   "difficulty": 2,
-  "week": 16,
+  "week": null,
+  "collection": "拓展阅读",
+  "guanzhi": null,
   "wordCount": 500,
   "tags": [
     "明代",

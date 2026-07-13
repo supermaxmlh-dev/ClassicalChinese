@@ -2,20 +2,27 @@
   "project": "guanzhi-xuetang",
   "title": "观止学堂",
   "targetArticleCount": 222,
-  "plannedArticleCount": 179,
+  "plannedArticleCount": 82,
   "availableArticleIds": [
-    "001",
-    "002",
     "003",
     "004",
     "005",
+    "009",
+    "011",
+    "012",
+    "030",
+    "038",
+    "046",
+    "050",
+    "053",
+    "061",
+    "084",
+    "001",
+    "002",
     "006",
     "007",
     "008",
-    "009",
     "010",
-    "011",
-    "012",
     "013",
     "014",
     "015",
@@ -33,7 +40,6 @@
     "027",
     "028",
     "029",
-    "030",
     "031",
     "032",
     "033",
@@ -41,7 +47,6 @@
     "035",
     "036",
     "037",
-    "038",
     "039",
     "040",
     "041",
@@ -49,14 +54,11 @@
     "043",
     "044",
     "045",
-    "046",
     "047",
     "048",
     "049",
-    "050",
     "051",
     "052",
-    "053",
     "054",
     "055",
     "056",
@@ -64,7 +66,6 @@
     "058",
     "059",
     "060",
-    "061",
     "062",
     "063",
     "064",
@@ -87,7 +88,6 @@
     "081",
     "082",
     "083",
-    "084",
     "085",
     "086",
     "087",
@@ -100,6 +100,108 @@
     "094",
     "095"
   ],
+  "extendedReading": [
+    "003",
+    "004",
+    "005",
+    "009",
+    "011",
+    "012",
+    "030",
+    "038",
+    "046",
+    "050",
+    "053",
+    "061",
+    "084"
+  ],
+  "currentMainArticleIds": [
+    "001",
+    "002",
+    "006",
+    "007",
+    "008",
+    "010",
+    "013",
+    "014",
+    "015",
+    "016",
+    "017",
+    "018",
+    "019",
+    "020",
+    "021",
+    "022",
+    "023",
+    "024",
+    "025",
+    "026",
+    "027",
+    "028",
+    "029",
+    "031",
+    "032",
+    "033",
+    "034",
+    "035",
+    "036",
+    "037",
+    "039",
+    "040",
+    "041",
+    "042",
+    "043",
+    "044",
+    "045",
+    "047",
+    "048",
+    "049",
+    "051",
+    "052",
+    "054",
+    "055",
+    "056",
+    "057",
+    "058",
+    "059",
+    "060",
+    "062",
+    "063",
+    "064",
+    "065",
+    "066",
+    "067",
+    "068",
+    "069",
+    "070",
+    "071",
+    "072",
+    "073",
+    "074",
+    "075",
+    "076",
+    "077",
+    "078",
+    "079",
+    "080",
+    "081",
+    "082",
+    "083",
+    "085",
+    "086",
+    "087",
+    "088",
+    "089",
+    "090",
+    "091",
+    "092",
+    "093",
+    "094",
+    "095"
+  ],
+  "curriculumArticleCount": 179,
+  "mainCurriculumArticleCount": 166,
+  "extendedReadingCount": 13,
   "stages": [
     {
       "id": 1,
@@ -146,9 +248,7 @@
       "articleIds": [
         "001",
         "002",
-        "003",
-        "004",
-        "005"
+        "006"
       ]
     },
     {
@@ -164,11 +264,10 @@
       "badge": "",
       "stageId": 1,
       "articleIds": [
-        "006",
         "007",
         "008",
-        "009",
-        "010"
+        "010",
+        "013"
       ]
     },
     {
@@ -184,10 +283,9 @@
       "badge": "",
       "stageId": 1,
       "articleIds": [
-        "011",
-        "012",
-        "013",
-        "014"
+        "014",
+        "015",
+        "016"
       ]
     },
     {
@@ -203,10 +301,9 @@
       "badge": "",
       "stageId": 1,
       "articleIds": [
-        "015",
-        "016",
         "017",
-        "018"
+        "018",
+        "019"
       ]
     },
     {
@@ -222,10 +319,10 @@
       "badge": "",
       "stageId": 1,
       "articleIds": [
-        "019",
         "020",
         "021",
-        "022"
+        "022",
+        "023"
       ]
     },
     {
@@ -241,7 +338,6 @@
       "badge": "",
       "stageId": 1,
       "articleIds": [
-        "023",
         "024",
         "025",
         "026"
@@ -262,8 +358,7 @@
       "articleIds": [
         "027",
         "028",
-        "029",
-        "030"
+        "029"
       ]
     },
     {
@@ -300,8 +395,7 @@
       "articleIds": [
         "035",
         "036",
-        "037",
-        "038"
+        "037"
       ]
     },
     {
@@ -319,8 +413,7 @@
       "articleIds": [
         "039",
         "040",
-        "041",
-        "042"
+        "041"
       ]
     },
     {
@@ -336,10 +429,10 @@
       "badge": "",
       "stageId": 1,
       "articleIds": [
+        "042",
         "043",
         "044",
-        "045",
-        "046"
+        "045"
       ]
     },
     {
@@ -357,8 +450,7 @@
       "articleIds": [
         "047",
         "048",
-        "049",
-        "050"
+        "049"
       ]
     },
     {
@@ -390,8 +482,8 @@
       "articleIds": [
         "051",
         "052",
-        "053",
-        "054"
+        "054",
+        "055"
       ]
     },
     {
@@ -407,9 +499,9 @@
       "badge": "",
       "stageId": 2,
       "articleIds": [
-        "055",
         "056",
-        "057"
+        "057",
+        "058"
       ]
     },
     {
@@ -425,10 +517,10 @@
       "badge": "",
       "stageId": 2,
       "articleIds": [
-        "058",
         "059",
         "060",
-        "061"
+        "062",
+        "063"
       ]
     },
     {
@@ -444,10 +536,9 @@
       "badge": "",
       "stageId": 2,
       "articleIds": [
-        "062",
-        "063",
         "064",
-        "065"
+        "065",
+        "066"
       ]
     },
     {
@@ -463,10 +554,10 @@
       "badge": "",
       "stageId": 2,
       "articleIds": [
-        "066",
         "067",
         "068",
-        "069"
+        "069",
+        "070"
       ]
     },
     {
@@ -482,7 +573,6 @@
       "badge": "",
       "stageId": 2,
       "articleIds": [
-        "070",
         "071",
         "072",
         "073"
@@ -541,7 +631,6 @@
         "081",
         "082",
         "083",
-        "084",
         "085"
       ]
     },
@@ -578,7 +667,8 @@
       "articleIds": [
         "089",
         "090",
-        "091"
+        "091",
+        "092"
       ]
     },
     {
@@ -594,7 +684,6 @@
       "badge": "",
       "stageId": 2,
       "articleIds": [
-        "092",
         "093",
         "094",
         "095"
@@ -626,12 +715,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 3,
-      "articleIds": [
-        "096",
-        "097",
-        "098",
-        "099"
-      ]
+      "articleIds": []
     },
     {
       "week": 28,
@@ -645,13 +729,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 3,
-      "articleIds": [
-        "100",
-        "101",
-        "102",
-        "103",
-        "104"
-      ]
+      "articleIds": []
     },
     {
       "week": 29,
@@ -665,12 +743,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 3,
-      "articleIds": [
-        "105",
-        "106",
-        "107",
-        "108"
-      ]
+      "articleIds": []
     },
     {
       "week": 30,
@@ -684,13 +757,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 3,
-      "articleIds": [
-        "109",
-        "110",
-        "111",
-        "112",
-        "113"
-      ]
+      "articleIds": []
     },
     {
       "week": 31,
@@ -704,12 +771,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 3,
-      "articleIds": [
-        "114",
-        "115",
-        "116",
-        "117"
-      ]
+      "articleIds": []
     },
     {
       "week": 32,
@@ -723,12 +785,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 3,
-      "articleIds": [
-        "118",
-        "119",
-        "120",
-        "121"
-      ]
+      "articleIds": []
     },
     {
       "week": 33,
@@ -742,12 +799,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 3,
-      "articleIds": [
-        "122",
-        "123",
-        "124",
-        "125"
-      ]
+      "articleIds": []
     },
     {
       "week": 34,
@@ -761,12 +813,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 3,
-      "articleIds": [
-        "126",
-        "127",
-        "128",
-        "129"
-      ]
+      "articleIds": []
     },
     {
       "week": 35,
@@ -780,13 +827,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 3,
-      "articleIds": [
-        "130",
-        "131",
-        "132",
-        "133",
-        "134"
-      ]
+      "articleIds": []
     },
     {
       "week": 36,
@@ -800,11 +841,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 3,
-      "articleIds": [
-        "135",
-        "136",
-        "137"
-      ]
+      "articleIds": []
     },
     {
       "week": 37,
@@ -818,12 +855,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 3,
-      "articleIds": [
-        "138",
-        "139",
-        "140",
-        "141"
-      ]
+      "articleIds": []
     },
     {
       "week": 38,
@@ -837,11 +869,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 3,
-      "articleIds": [
-        "142",
-        "143",
-        "144"
-      ]
+      "articleIds": []
     },
     {
       "week": 39,
@@ -869,12 +897,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 4,
-      "articleIds": [
-        "145",
-        "146",
-        "147",
-        "148"
-      ]
+      "articleIds": []
     },
     {
       "week": 41,
@@ -888,11 +911,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 4,
-      "articleIds": [
-        "149",
-        "150",
-        "151"
-      ]
+      "articleIds": []
     },
     {
       "week": 42,
@@ -906,11 +925,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 4,
-      "articleIds": [
-        "152",
-        "153",
-        "154"
-      ]
+      "articleIds": []
     },
     {
       "week": 43,
@@ -924,11 +939,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 4,
-      "articleIds": [
-        "155",
-        "156",
-        "157"
-      ]
+      "articleIds": []
     },
     {
       "week": 44,
@@ -942,11 +953,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 4,
-      "articleIds": [
-        "158",
-        "159",
-        "160"
-      ]
+      "articleIds": []
     },
     {
       "week": 45,
@@ -960,11 +967,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 4,
-      "articleIds": [
-        "161",
-        "162",
-        "163"
-      ]
+      "articleIds": []
     },
     {
       "week": 46,
@@ -978,11 +981,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 4,
-      "articleIds": [
-        "164",
-        "165",
-        "166"
-      ]
+      "articleIds": []
     },
     {
       "week": 47,
@@ -996,11 +995,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 4,
-      "articleIds": [
-        "167",
-        "168",
-        "169"
-      ]
+      "articleIds": []
     },
     {
       "week": 48,
@@ -1014,11 +1009,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 4,
-      "articleIds": [
-        "170",
-        "171",
-        "172"
-      ]
+      "articleIds": []
     },
     {
       "week": 49,
@@ -1032,10 +1023,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 4,
-      "articleIds": [
-        "173",
-        "174"
-      ]
+      "articleIds": []
     },
     {
       "week": 50,
@@ -1049,10 +1037,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 4,
-      "articleIds": [
-        "175",
-        "176"
-      ]
+      "articleIds": []
     },
     {
       "week": 51,
@@ -1066,11 +1051,7 @@
       "reviewStandard": "",
       "badge": "",
       "stageId": 4,
-      "articleIds": [
-        "177",
-        "178",
-        "179"
-      ]
+      "articleIds": []
     },
     {
       "week": 52,
@@ -1096,6 +1077,7 @@
       "difficulty": 1,
       "wordCount": 250,
       "guanzhiNo": 8,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1106,46 +1088,52 @@
       "difficulty": 1,
       "wordCount": 70,
       "guanzhiNo": null,
+      "collection": "古文观止",
+      "guanzhi": "pending",
       "available": true
     },
     {
       "id": "003",
       "title": "记承天寺夜游",
       "source": "苏轼",
-      "week": 1,
+      "week": null,
       "difficulty": 1,
       "wordCount": 85,
       "guanzhiNo": null,
+      "collection": "拓展阅读",
       "available": true
     },
     {
       "id": "004",
       "title": "诫子书",
       "source": "诸葛亮",
-      "week": 1,
+      "week": null,
       "difficulty": 1,
       "wordCount": 90,
       "guanzhiNo": null,
+      "collection": "拓展阅读",
       "available": true
     },
     {
       "id": "005",
       "title": "爱莲说",
       "source": "周敦颐",
-      "week": 1,
+      "week": null,
       "difficulty": 1,
       "wordCount": 120,
       "guanzhiNo": null,
+      "collection": "拓展阅读",
       "available": true
     },
     {
       "id": "006",
       "title": "邹忌讽齐王纳谏",
       "source": "战国策",
-      "week": 2,
+      "week": 1,
       "difficulty": 1,
       "wordCount": 350,
       "guanzhiNo": 59,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1156,6 +1144,7 @@
       "difficulty": 1,
       "wordCount": 80,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1166,16 +1155,18 @@
       "difficulty": 1,
       "wordCount": 150,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "009",
       "title": "湖心亭看雪",
       "source": "张岱",
-      "week": 2,
+      "week": null,
       "difficulty": 1,
       "wordCount": 150,
       "guanzhiNo": null,
+      "collection": "拓展阅读",
       "available": true
     },
     {
@@ -1186,36 +1177,40 @@
       "difficulty": 1,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "011",
       "title": "小石潭记",
       "source": "柳宗元",
-      "week": 3,
+      "week": null,
       "difficulty": 2,
       "wordCount": 200,
       "guanzhiNo": null,
+      "collection": "拓展阅读",
       "available": true
     },
     {
       "id": "012",
       "title": "与朱元思书",
       "source": "吴均",
-      "week": 3,
+      "week": null,
       "difficulty": 2,
       "wordCount": 200,
       "guanzhiNo": null,
+      "collection": "拓展阅读",
       "available": true
     },
     {
       "id": "013",
       "title": "烛之武退秦师",
       "source": "左传",
-      "week": 3,
+      "week": 2,
       "difficulty": 2,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1226,26 +1221,29 @@
       "difficulty": 1,
       "wordCount": 90,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "015",
       "title": "岳阳楼记",
       "source": "范仲淹",
-      "week": 4,
+      "week": 3,
       "difficulty": 2,
       "wordCount": 400,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "016",
       "title": "醉翁亭记",
       "source": "欧阳修",
-      "week": 4,
+      "week": 3,
       "difficulty": 2,
       "wordCount": 400,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1256,6 +1254,7 @@
       "difficulty": 2,
       "wordCount": 120,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1266,16 +1265,18 @@
       "difficulty": 2,
       "wordCount": 250,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "019",
       "title": "曾子易箦",
       "source": "礼记",
-      "week": 5,
+      "week": 4,
       "difficulty": 2,
       "wordCount": 200,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1286,6 +1287,7 @@
       "difficulty": 2,
       "wordCount": 150,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1296,6 +1298,7 @@
       "difficulty": 2,
       "wordCount": 120,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1306,16 +1309,18 @@
       "difficulty": 1,
       "wordCount": 100,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "023",
       "title": "齐桓下拜受胙",
       "source": "左传",
-      "week": 6,
+      "week": 5,
       "difficulty": 2,
       "wordCount": 150,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1326,6 +1331,7 @@
       "difficulty": 2,
       "wordCount": 150,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1336,6 +1342,7 @@
       "difficulty": 2,
       "wordCount": 250,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1346,6 +1353,7 @@
       "difficulty": 2,
       "wordCount": 200,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1356,6 +1364,7 @@
       "difficulty": 2,
       "wordCount": 300,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1366,6 +1375,7 @@
       "difficulty": 2,
       "wordCount": 100,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1376,16 +1386,18 @@
       "difficulty": 2,
       "wordCount": 250,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "030",
       "title": "右溪记",
       "source": "元结",
-      "week": 7,
+      "week": null,
       "difficulty": 2,
       "wordCount": 200,
       "guanzhiNo": null,
+      "collection": "拓展阅读",
       "available": true
     },
     {
@@ -1396,6 +1408,7 @@
       "difficulty": 2,
       "wordCount": 200,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1406,6 +1419,7 @@
       "difficulty": 2,
       "wordCount": 180,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1416,6 +1430,7 @@
       "difficulty": 2,
       "wordCount": 200,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1426,6 +1441,7 @@
       "difficulty": 2,
       "wordCount": 200,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1436,6 +1452,7 @@
       "difficulty": 2,
       "wordCount": 250,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1446,6 +1463,7 @@
       "difficulty": 2,
       "wordCount": 300,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1456,16 +1474,18 @@
       "difficulty": 2,
       "wordCount": 150,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "038",
       "title": "寒花葬志",
       "source": "归有光",
-      "week": 9,
+      "week": null,
       "difficulty": 2,
       "wordCount": 150,
       "guanzhiNo": null,
+      "collection": "拓展阅读",
       "available": true
     },
     {
@@ -1476,6 +1496,7 @@
       "difficulty": 2,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1486,6 +1507,7 @@
       "difficulty": 2,
       "wordCount": 250,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1496,16 +1518,18 @@
       "difficulty": 2,
       "wordCount": 200,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "042",
       "title": "有子之言似夫子",
       "source": "礼记",
-      "week": 10,
+      "week": 11,
       "difficulty": 2,
       "wordCount": 200,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1516,6 +1540,7 @@
       "difficulty": 2,
       "wordCount": 200,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1526,6 +1551,7 @@
       "difficulty": 2,
       "wordCount": 200,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1536,16 +1562,18 @@
       "difficulty": 2,
       "wordCount": 200,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "046",
       "title": "柳敬亭说书",
       "source": "张岱",
-      "week": 11,
+      "week": null,
       "difficulty": 2,
       "wordCount": 300,
       "guanzhiNo": null,
+      "collection": "拓展阅读",
       "available": true
     },
     {
@@ -1556,6 +1584,7 @@
       "difficulty": 2,
       "wordCount": 300,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1566,6 +1595,7 @@
       "difficulty": 2,
       "wordCount": 150,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1576,16 +1606,18 @@
       "difficulty": 2,
       "wordCount": 250,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "050",
       "title": "西湖七月半",
       "source": "张岱",
-      "week": 12,
+      "week": null,
       "difficulty": 2,
       "wordCount": 400,
       "guanzhiNo": null,
+      "collection": "拓展阅读",
       "available": true
     },
     {
@@ -1596,6 +1628,7 @@
       "difficulty": 2,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1606,16 +1639,18 @@
       "difficulty": 2,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "053",
       "title": "袁家渴记",
       "source": "柳宗元",
-      "week": 14,
+      "week": null,
       "difficulty": 2,
       "wordCount": 250,
       "guanzhiNo": null,
+      "collection": "拓展阅读",
       "available": true
     },
     {
@@ -1626,16 +1661,18 @@
       "difficulty": 2,
       "wordCount": 300,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "055",
       "title": "郑伯克段于鄢",
       "source": "左传",
-      "week": 15,
+      "week": 14,
       "difficulty": 3,
       "wordCount": 750,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1646,6 +1683,7 @@
       "difficulty": 2,
       "wordCount": 400,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1656,16 +1694,18 @@
       "difficulty": 2,
       "wordCount": 300,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "058",
       "title": "种树郭橐驼传",
       "source": "柳宗元",
-      "week": 16,
+      "week": 15,
       "difficulty": 2,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1676,6 +1716,7 @@
       "difficulty": 2,
       "wordCount": 400,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1686,36 +1727,40 @@
       "difficulty": 2,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "061",
       "title": "项脊轩志",
       "source": "归有光",
-      "week": 16,
+      "week": null,
       "difficulty": 2,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "拓展阅读",
       "available": true
     },
     {
       "id": "062",
       "title": "冯谖客孟尝君",
       "source": "战国策",
-      "week": 17,
+      "week": 16,
       "difficulty": 2,
       "wordCount": 700,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "063",
       "title": "触龙说赵太后",
       "source": "战国策",
-      "week": 17,
+      "week": 16,
       "difficulty": 2,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1726,6 +1771,7 @@
       "difficulty": 2,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1736,16 +1782,18 @@
       "difficulty": 2,
       "wordCount": 400,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "066",
       "title": "师说",
       "source": "韩愈",
-      "week": 18,
+      "week": 17,
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1756,6 +1804,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1766,6 +1815,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1776,16 +1826,18 @@
       "difficulty": 3,
       "wordCount": 250,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "070",
       "title": "前赤壁赋",
       "source": "苏轼",
-      "week": 19,
+      "week": 18,
       "difficulty": 3,
       "wordCount": 550,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1796,6 +1848,7 @@
       "difficulty": 3,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1806,6 +1859,8 @@
       "difficulty": 3,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
+      "guanzhi": "pending",
       "available": true
     },
     {
@@ -1816,6 +1871,7 @@
       "difficulty": 3,
       "wordCount": 200,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1826,6 +1882,7 @@
       "difficulty": 3,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1836,6 +1893,7 @@
       "difficulty": 3,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1846,6 +1904,7 @@
       "difficulty": 3,
       "wordCount": 250,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1856,6 +1915,7 @@
       "difficulty": 3,
       "wordCount": 250,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1866,6 +1926,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1876,6 +1937,7 @@
       "difficulty": 3,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1886,6 +1948,7 @@
       "difficulty": 3,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1896,6 +1959,7 @@
       "difficulty": 3,
       "wordCount": 300,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1906,6 +1970,7 @@
       "difficulty": 3,
       "wordCount": 200,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1916,16 +1981,18 @@
       "difficulty": 3,
       "wordCount": 300,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "084",
       "title": "陶庵梦忆序",
       "source": "张岱",
-      "week": 22,
+      "week": null,
       "difficulty": 3,
       "wordCount": 300,
       "guanzhiNo": null,
+      "collection": "拓展阅读",
       "available": true
     },
     {
@@ -1936,6 +2003,7 @@
       "difficulty": 3,
       "wordCount": 300,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1946,6 +2014,7 @@
       "difficulty": 3,
       "wordCount": 300,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1956,6 +2025,7 @@
       "difficulty": 3,
       "wordCount": 300,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1966,6 +2036,7 @@
       "difficulty": 3,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1976,6 +2047,7 @@
       "difficulty": 3,
       "wordCount": 400,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1986,6 +2058,7 @@
       "difficulty": 3,
       "wordCount": 450,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -1996,16 +2069,18 @@
       "difficulty": 3,
       "wordCount": 400,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
       "id": "092",
       "title": "吴许越成",
       "source": "左传",
-      "week": 25,
+      "week": 24,
       "difficulty": 3,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -2016,6 +2091,7 @@
       "difficulty": 3,
       "wordCount": 250,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -2026,6 +2102,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -2036,6 +2113,7 @@
       "difficulty": 3,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": true
     },
     {
@@ -2046,6 +2124,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2056,6 +2135,7 @@
       "difficulty": 3,
       "wordCount": 400,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2066,6 +2146,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2076,6 +2157,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2086,6 +2168,7 @@
       "difficulty": 3,
       "wordCount": 600,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2096,6 +2179,7 @@
       "difficulty": 3,
       "wordCount": 450,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2106,6 +2190,7 @@
       "difficulty": 3,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2116,6 +2201,7 @@
       "difficulty": 3,
       "wordCount": 300,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2126,6 +2212,7 @@
       "difficulty": 3,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2136,6 +2223,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2146,6 +2234,7 @@
       "difficulty": 3,
       "wordCount": 250,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2156,6 +2245,7 @@
       "difficulty": 3,
       "wordCount": 300,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2166,6 +2256,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2176,6 +2267,7 @@
       "difficulty": 3,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2186,6 +2278,7 @@
       "difficulty": 3,
       "wordCount": 400,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2196,6 +2289,7 @@
       "difficulty": 3,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2206,6 +2300,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2216,6 +2311,7 @@
       "difficulty": 3,
       "wordCount": 300,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2226,6 +2322,7 @@
       "difficulty": 3,
       "wordCount": 600,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2236,6 +2333,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2246,6 +2344,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2256,6 +2355,7 @@
       "difficulty": 3,
       "wordCount": 400,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2266,6 +2366,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2276,6 +2377,7 @@
       "difficulty": 3,
       "wordCount": 800,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2286,6 +2388,7 @@
       "difficulty": 3,
       "wordCount": 700,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2296,6 +2399,7 @@
       "difficulty": 3,
       "wordCount": 400,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2306,6 +2410,7 @@
       "difficulty": 3,
       "wordCount": 350,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2316,6 +2421,7 @@
       "difficulty": 3,
       "wordCount": 700,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2326,6 +2432,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2336,6 +2443,7 @@
       "difficulty": 3,
       "wordCount": 800,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2346,6 +2454,7 @@
       "difficulty": 3,
       "wordCount": 700,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2356,6 +2465,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2366,6 +2476,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2376,6 +2487,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2386,6 +2498,7 @@
       "difficulty": 3,
       "wordCount": 600,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2396,6 +2509,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2406,6 +2520,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2416,6 +2531,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2426,6 +2542,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2436,6 +2553,7 @@
       "difficulty": 3,
       "wordCount": 1200,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2446,6 +2564,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2456,6 +2575,7 @@
       "difficulty": 3,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2466,6 +2586,7 @@
       "difficulty": 3,
       "wordCount": 600,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2476,6 +2597,7 @@
       "difficulty": 4,
       "wordCount": 400,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2486,6 +2608,7 @@
       "difficulty": 4,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2496,6 +2619,7 @@
       "difficulty": 4,
       "wordCount": 650,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2506,6 +2630,7 @@
       "difficulty": 4,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2516,6 +2641,7 @@
       "difficulty": 4,
       "wordCount": 400,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2526,6 +2652,7 @@
       "difficulty": 4,
       "wordCount": 450,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2536,6 +2663,7 @@
       "difficulty": 4,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2546,6 +2674,7 @@
       "difficulty": 4,
       "wordCount": 200,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2556,6 +2685,7 @@
       "difficulty": 4,
       "wordCount": 800,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2566,6 +2696,7 @@
       "difficulty": 4,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2576,6 +2707,7 @@
       "difficulty": 4,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2586,6 +2718,7 @@
       "difficulty": 4,
       "wordCount": 600,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2596,6 +2729,7 @@
       "difficulty": 4,
       "wordCount": 1200,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2606,6 +2740,7 @@
       "difficulty": 4,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2616,6 +2751,7 @@
       "difficulty": 4,
       "wordCount": 1500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2626,6 +2762,7 @@
       "difficulty": 4,
       "wordCount": 700,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2636,6 +2773,7 @@
       "difficulty": 4,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2646,6 +2784,7 @@
       "difficulty": 4,
       "wordCount": 800,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2656,6 +2795,7 @@
       "difficulty": 4,
       "wordCount": 700,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2666,6 +2806,7 @@
       "difficulty": 4,
       "wordCount": 1000,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2676,6 +2817,7 @@
       "difficulty": 4,
       "wordCount": 800,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2686,6 +2828,7 @@
       "difficulty": 4,
       "wordCount": 600,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2696,6 +2839,7 @@
       "difficulty": 4,
       "wordCount": 800,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2706,6 +2850,7 @@
       "difficulty": 4,
       "wordCount": 800,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2716,6 +2861,7 @@
       "difficulty": 4,
       "wordCount": 800,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2726,6 +2872,7 @@
       "difficulty": 4,
       "wordCount": 900,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2736,6 +2883,7 @@
       "difficulty": 4,
       "wordCount": 1200,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2746,6 +2894,7 @@
       "difficulty": 4,
       "wordCount": 600,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2756,6 +2905,7 @@
       "difficulty": 4,
       "wordCount": 800,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2766,6 +2916,7 @@
       "difficulty": 4,
       "wordCount": 700,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2776,6 +2927,7 @@
       "difficulty": 4,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2786,6 +2938,7 @@
       "difficulty": 4,
       "wordCount": 1000,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2796,6 +2949,7 @@
       "difficulty": 4,
       "wordCount": 1000,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2806,6 +2960,7 @@
       "difficulty": 4,
       "wordCount": 500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2816,6 +2971,7 @@
       "difficulty": 5,
       "wordCount": 800,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2826,6 +2982,7 @@
       "difficulty": 5,
       "wordCount": 1500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2836,6 +2993,7 @@
       "difficulty": 5,
       "wordCount": 2500,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2846,6 +3004,7 @@
       "difficulty": 5,
       "wordCount": 600,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2856,6 +3015,7 @@
       "difficulty": 5,
       "wordCount": 800,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2866,6 +3026,7 @@
       "difficulty": 5,
       "wordCount": 600,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     },
     {
@@ -2876,6 +3037,7 @@
       "difficulty": 4,
       "wordCount": 400,
       "guanzhiNo": null,
+      "collection": "古文观止",
       "available": false
     }
   ]

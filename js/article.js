@@ -110,6 +110,16 @@
     `;
   }
 
+  function collectionLabel(article) {
+    if (article.collection === "拓展阅读") return "拓展阅读 · 课内名篇（非《古文观止》）";
+    if (article.guanzhi === "pending") return "出处待核";
+    return "选自《古文观止》";
+  }
+
+  function isExtendedArticle(article) {
+    return article.collection === "拓展阅读" || article.week === null;
+  }
+
   function showTooltip(target) {
     G.qsa(".tooltip").forEach((item) => item.remove());
     const rect = target.getBoundingClientRect();
@@ -169,8 +179,11 @@
     });
   }
 
-  function getPrevNext(indexData, id) {
-    const ids = indexData.weeks.flatMap((week) => week.articleIds);
+  function getPrevNext(indexData, article) {
+    const ids = isExtendedArticle(article)
+      ? (indexData.extendedReading || [])
+      : indexData.weeks.flatMap((week) => week.articleIds);
+    const id = article.id;
     const index = ids.indexOf(id);
     return {
       prev: index > 0 ? ids[index - 1] : null,
@@ -189,13 +202,16 @@
       ]);
       const progress = G.Progress.getProgress();
       const done = G.Progress.isArticleLearned(progress, article.id);
-      const nav = getPrevNext(indexData, article.id);
+      const nav = getPrevNext(indexData, article);
+      const extended = isExtendedArticle(article);
+      const backHref = extended ? "extend.html" : `week.html?week=${article.week}`;
+      const backText = extended ? "返回拓展阅读" : `返回第 ${article.week} 周`;
       G.setDocumentTitle(article.title);
 
       root.innerHTML = `
         <section class="article-header">
           <div class="article-title">
-            <a class="btn" href="week.html?week=${article.week}">返回第 ${article.week} 周</a>
+            <a class="btn" href="${backHref}">${backText}</a>
             <p class="eyebrow">${G.escapeHTML(article.source || "")}</p>
             <h1>${G.escapeHTML(article.title)}</h1>
             <div class="card-meta">
@@ -204,7 +220,10 @@
               <span>${article.wordCount} 字</span>
               <span>${G.renderStars(article.difficulty)}</span>
             </div>
-            <div class="article-tags">${(article.tags || []).map((tag) => `<span class="tag">${G.escapeHTML(tag)}</span>`).join("")}</div>
+            <div class="article-tags">
+              <span class="tag">${G.escapeHTML(collectionLabel(article))}</span>
+              ${(article.tags || []).map((tag) => `<span class="tag">${G.escapeHTML(tag)}</span>`).join("")}
+            </div>
           </div>
           <figure class="article-visual">
             <img src="${G.asset(`images/articles/${article.mainImage}`)}" alt="${G.escapeHTML(article.title)}意境图" loading="lazy" onerror="this.hidden=true">

@@ -1,7 +1,7 @@
 {
   "name": "guanzhi-xuetang",
   "version": "1.0.0",
-  "description": "观止学堂 - 中小学生古文观止学习平台",
+  "description": "观止学堂 - 中小学经典文言文学习平台",
   "private": true,
   "scripts": {
     "start": "python3 -m http.server 8080 --bind 127.0.0.1",

@@ -1,13 +1,15 @@
 {
   "id": "009",
-  "sourceMarkdown": "content/samples/week02-009-湖心亭看雪.md",
+  "sourceMarkdown": "content/samples/extend-009-湖心亭看雪.md",
   "sourceRaw": "content/raw/009-湖心亭看雪.txt",
   "title": "湖心亭看雪",
   "source": "陶庵梦忆",
   "author": "张岱",
   "dynasty": "明末清初",
   "difficulty": 1,
-  "week": 2,
+  "week": null,
+  "collection": "拓展阅读",
+  "guanzhi": null,
   "wordCount": 159,
   "tags": [
     "明代",

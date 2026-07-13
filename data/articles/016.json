@@ -1,13 +1,15 @@
 {
   "id": "016",
-  "sourceMarkdown": "content/samples/week04-016-醉翁亭记.md",
+  "sourceMarkdown": "content/samples/week03-016-醉翁亭记.md",
   "sourceRaw": "content/raw/016-醉翁亭记.txt",
   "title": "醉翁亭记",
   "source": "欧阳文忠公集",
   "author": "欧阳修",
   "dynasty": "北宋",
   "difficulty": 2,
-  "week": 4,
+  "week": 3,
+  "collection": "古文观止",
+  "guanzhi": null,
   "wordCount": 402,
   "tags": [
     "宋代",

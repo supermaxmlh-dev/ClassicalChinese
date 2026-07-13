@@ -1,13 +1,15 @@
 {
   "id": "005",
-  "sourceMarkdown": "content/samples/week01-005-爱莲说.md",
+  "sourceMarkdown": "content/samples/extend-005-爱莲说.md",
   "sourceRaw": "content/raw/005-爱莲说.txt",
   "title": "爱莲说",
   "source": "周敦颐集",
   "author": "周敦颐",
   "dynasty": "北宋",
   "difficulty": 1,
-  "week": 1,
+  "week": null,
+  "collection": "拓展阅读",
+  "guanzhi": null,
   "wordCount": 119,
   "tags": [
     "宋代",

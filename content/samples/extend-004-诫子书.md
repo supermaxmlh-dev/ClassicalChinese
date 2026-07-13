@@ -7,7 +7,8 @@ source: "诸葛亮集"
 author: "诸葛亮"
 dynasty: "三国·蜀汉"
 difficulty: 1
-week: 1
+week: null
+collection: "拓展阅读"
 word_count: 86
 tags: ["三国", "家训", "教育", "诸葛亮"]
 related_idioms: ["淡泊明志", "宁静致远"]

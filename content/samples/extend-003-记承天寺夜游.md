@@ -7,7 +7,8 @@ source: "东坡志林"
 author: "苏轼"
 dynasty: "北宋"
 difficulty: 1
-week: 1
+week: null
+collection: "拓展阅读"
 word_count: 85
 tags: ["宋代", "写景", "抒情", "苏轼"]
 related_idioms: ["月明星稀"]

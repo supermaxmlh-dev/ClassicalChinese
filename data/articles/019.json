@@ -1,13 +1,15 @@
 {
   "id": "019",
-  "sourceMarkdown": "content/samples/week05-019-曾子易箦.md",
+  "sourceMarkdown": "content/samples/week04-019-曾子易箦.md",
   "sourceRaw": "content/raw/019-曾子易箦.txt",
   "title": "曾子易箦",
   "source": "礼记",
   "author": "戴圣编",
   "dynasty": "西汉",
   "difficulty": 2,
-  "week": 5,
+  "week": 4,
+  "collection": "古文观止",
+  "guanzhi": null,
   "wordCount": 200,
   "tags": [
     "礼记",

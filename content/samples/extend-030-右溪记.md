@@ -7,7 +7,8 @@ source: "元结"
 author: "元结"
 dynasty: "唐代"
 difficulty: 2
-week: 7
+week: null
+collection: "拓展阅读"
 word_count: 200
 tags: ["唐代", "山水", "游记", "记叙"]
 related_idioms: ["言而有信"]

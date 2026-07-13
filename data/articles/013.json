@@ -1,13 +1,15 @@
 {
   "id": "013",
-  "sourceMarkdown": "content/samples/week03-013-烛之武退秦师.md",
+  "sourceMarkdown": "content/samples/week02-013-烛之武退秦师.md",
   "sourceRaw": "content/raw/013-烛之武退秦师.txt",
   "title": "烛之武退秦师",
   "source": "左传·僖公三十年",
   "author": "左丘明",
   "dynasty": "春秋",
   "difficulty": 2,
-  "week": 3,
+  "week": 2,
+  "collection": "古文观止",
+  "guanzhi": null,
   "wordCount": 350,
   "tags": [
     "春秋",

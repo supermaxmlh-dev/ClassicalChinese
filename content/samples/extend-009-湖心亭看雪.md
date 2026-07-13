@@ -7,7 +7,8 @@ source: "陶庵梦忆"
 author: "张岱"
 dynasty: "明末清初"
 difficulty: 1
-week: 2
+week: null
+collection: "拓展阅读"
 word_count: 159
 tags: ["明代", "写景", "小品文", "西湖"]
 related_idioms: ["天地一白"]

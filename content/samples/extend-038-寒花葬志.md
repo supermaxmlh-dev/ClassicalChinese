@@ -7,7 +7,8 @@ source: "归有光"
 author: "归有光"
 dynasty: "明代"
 difficulty: 2
-week: 9
+week: null
+collection: "拓展阅读"
 word_count: 150
 tags: ["明代", "散文", "追忆", "人物"]
 related_idioms: ["言而有信"]

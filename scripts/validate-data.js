@@ -100,11 +100,16 @@ availableIds.forEach((id) => {
     return;
   }
   const article = readJSON(file);
-  ["id", "title", "author", "week", "fullTextPlain", "sections", "quiz", "keyVocab"].forEach((key) => {
+  ["id", "title", "author", "fullTextPlain", "sections", "quiz", "keyVocab"].forEach((key) => {
     if (article[key] === undefined || article[key] === null) {
       errors.push(`${id}.json missing ${key}`);
     }
   });
+  if (article.collection === "拓展阅读") {
+    if (article.week !== null) errors.push(`${id}.json extended reading must have null week.`);
+  } else if (article.week === undefined || article.week === null) {
+    errors.push(`${id}.json missing week`);
+  }
   if (article.id !== id) errors.push(`${id}.json has mismatched id ${article.id}`);
   if (!Array.isArray(article.sections) || article.sections.length === 0) errors.push(`${id}.json has no sections`);
   validateSections(article, id);

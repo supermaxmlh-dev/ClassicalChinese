@@ -1,13 +1,15 @@
 {
   "id": "066",
-  "sourceMarkdown": "content/samples/week18-066-师说.md",
+  "sourceMarkdown": "content/samples/week17-066-师说.md",
   "sourceRaw": "content/raw/066-师说.txt",
   "title": "师说",
   "source": "韩愈",
   "author": "韩愈",
   "dynasty": "唐代",
   "difficulty": 3,
-  "week": 18,
+  "week": 17,
+  "collection": "古文观止",
+  "guanzhi": null,
   "wordCount": 500,
   "tags": [
     "唐代",

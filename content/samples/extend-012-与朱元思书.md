@@ -7,7 +7,8 @@ source: "吴均集"
 author: "吴均"
 dynasty: "南朝·梁"
 difficulty: 2
-week: 3
+week: null
+collection: "拓展阅读"
 word_count: 144
 tags: ["南朝", "写景", "书信", "骈文"]
 related_idioms: ["鸢飞戾天"]

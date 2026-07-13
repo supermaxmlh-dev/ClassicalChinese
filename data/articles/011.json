@@ -1,13 +1,15 @@
 {
   "id": "011",
-  "sourceMarkdown": "content/samples/week03-011-小石潭记.md",
+  "sourceMarkdown": "content/samples/extend-011-小石潭记.md",
   "sourceRaw": "content/raw/011-小石潭记.txt",
   "title": "小石潭记",
   "source": "柳河东集",
   "author": "柳宗元",
   "dynasty": "唐",
   "difficulty": 2,
-  "week": 3,
+  "week": null,
+  "collection": "拓展阅读",
+  "guanzhi": null,
   "wordCount": 200,
   "tags": [
     "唐代",

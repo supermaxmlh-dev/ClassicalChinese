@@ -1,13 +1,15 @@
 {
   "id": "050",
-  "sourceMarkdown": "content/samples/week12-050-西湖七月半.md",
+  "sourceMarkdown": "content/samples/extend-050-西湖七月半.md",
   "sourceRaw": "content/raw/050-西湖七月半.txt",
   "title": "西湖七月半",
   "source": "张岱",
   "author": "张岱",
   "dynasty": "明代",
   "difficulty": 2,
-  "week": 12,
+  "week": null,
+  "collection": "拓展阅读",
+  "guanzhi": null,
   "wordCount": 400,
   "tags": [
     "明代",

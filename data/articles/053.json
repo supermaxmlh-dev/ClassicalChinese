@@ -1,13 +1,15 @@
 {
   "id": "053",
-  "sourceMarkdown": "content/samples/week14-053-袁家渴记.md",
+  "sourceMarkdown": "content/samples/extend-053-袁家渴记.md",
   "sourceRaw": "content/raw/053-袁家渴记.txt",
   "title": "袁家渴记",
   "source": "柳宗元",
   "author": "柳宗元",
   "dynasty": "唐代",
   "difficulty": 2,
-  "week": 14,
+  "week": null,
+  "collection": "拓展阅读",
+  "guanzhi": null,
   "wordCount": 250,
   "tags": [
     "唐代",

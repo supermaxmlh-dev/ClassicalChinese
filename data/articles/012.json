@@ -1,13 +1,15 @@
 {
   "id": "012",
-  "sourceMarkdown": "content/samples/week03-012-与朱元思书.md",
+  "sourceMarkdown": "content/samples/extend-012-与朱元思书.md",
   "sourceRaw": "content/raw/012-与朱元思书.txt",
   "title": "与朱元思书",
   "source": "吴均集",
   "author": "吴均",
   "dynasty": "南朝·梁",
   "difficulty": 2,
-  "week": 3,
+  "week": null,
+  "collection": "拓展阅读",
+  "guanzhi": null,
   "wordCount": 144,
   "tags": [
     "南朝",

@@ -1,13 +1,15 @@
 {
   "id": "006",
-  "sourceMarkdown": "content/samples/week02-006-邹忌讽齐王纳谏.md",
+  "sourceMarkdown": "content/samples/week01-006-邹忌讽齐王纳谏.md",
   "sourceRaw": "content/raw/006-邹忌讽齐王纳谏.txt",
   "title": "邹忌讽齐王纳谏",
   "source": "战国策",
   "author": "刘向编",
   "dynasty": "西汉",
   "difficulty": 1,
-  "week": 2,
+  "week": 1,
+  "collection": "古文观止",
+  "guanzhi": null,
   "wordCount": 350,
   "tags": [
     "战国",

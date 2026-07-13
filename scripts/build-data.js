@@ -147,7 +147,9 @@ function parseFrontmatter(markdown) {
     if (index < 0) return meta;
     const key = line.slice(0, index).trim();
     const raw = line.slice(index + 1).trim();
-    if (/^\[.*\]$/.test(raw)) {
+    if (raw === "null") {
+      meta[key] = null;
+    } else if (/^\[.*\]$/.test(raw)) {
       meta[key] = JSON.parse(raw);
     } else if (/^\d+$/.test(raw)) {
       meta[key] = Number(raw);
@@ -399,6 +401,8 @@ function parseArticle(filePath) {
     dynasty: meta.dynasty,
     difficulty: meta.difficulty,
     week: meta.week,
+    collection: meta.collection || "古文观止",
+    guanzhi: meta.guanzhi || null,
     wordCount: meta.word_count,
     tags: meta.tags || [],
     relatedIdioms: meta.related_idioms || [],
@@ -430,17 +434,24 @@ function buildIndex(availableArticles) {
   }
   const curriculum = JSON.parse(fs.readFileSync(curriculumPath, "utf8"));
   const availableById = new Map(availableArticles.map((article) => [article.id, article]));
+  const mainScheduledIds = new Set(curriculum.articles
+    .filter((article) => article.collection !== "拓展阅读" && article.week && availableById.has(article.id))
+    .map((article) => article.id));
+  const extendedReading = curriculum.articles
+    .filter((article) => article.collection === "拓展阅读")
+    .map((article) => article.id);
   const weeks = curriculum.weeks.map((week) => ({
     ...week,
     stageId: stageForWeek(week.week),
     articleIds: curriculum.articles
-      .filter((article) => article.week === week.week)
+      .filter((article) => article.week === week.week && mainScheduledIds.has(article.id))
       .map((article) => article.id)
   }));
   const plannedArticles = curriculum.articles.map((article) => ({
     ...article,
     available: availableById.has(article.id)
   }));
+  const mainArticleIds = weeks.flatMap((week) => week.articleIds);
 
   const stages = [
     { id: 1, name: "第一阶段：启蒙期", startWeek: 1, endWeek: 13, goal: "建立文言文阅读兴趣，掌握50+常见实词" },
@@ -453,8 +464,13 @@ function buildIndex(availableArticles) {
     project: "guanzhi-xuetang",
     title: "观止学堂",
     targetArticleCount: curriculum.targetArticleCount,
-    plannedArticleCount: plannedArticles.length,
+    plannedArticleCount: mainArticleIds.length,
     availableArticleIds: availableArticles.map((article) => article.id),
+    extendedReading,
+    currentMainArticleIds: mainArticleIds,
+    curriculumArticleCount: plannedArticles.length,
+    mainCurriculumArticleCount: plannedArticles.filter((article) => article.collection !== "拓展阅读").length,
+    extendedReadingCount: extendedReading.length,
     stages,
     weeks,
     articles: plannedArticles
@@ -464,6 +480,8 @@ function buildIndex(availableArticles) {
 function buildContentStatus(indexData, availableArticles) {
   const availableById = new Map(availableArticles.map((article) => [article.id, article]));
   const plannedIds = new Set(indexData.articles.map((article) => article.id));
+  const mainIds = new Set(indexData.currentMainArticleIds || []);
+  const extendedIds = new Set(indexData.extendedReading || []);
   const duplicateIds = availableArticles
     .map((article) => article.id)
     .filter((id, index, ids) => ids.indexOf(id) !== index);
@@ -473,6 +491,8 @@ function buildContentStatus(indexData, availableArticles) {
       id: planned.id,
       title: planned.title,
       week: planned.week,
+      collection: planned.collection || "古文观止",
+      guanzhi: planned.guanzhi || null,
       difficulty: planned.difficulty,
       wordCount: planned.wordCount,
       planned: true,
@@ -501,6 +521,9 @@ function buildContentStatus(indexData, availableArticles) {
     targetArticleCount: indexData.targetArticleCount,
     plannedArticleCount: indexData.plannedArticleCount,
     availableArticleCount: availableArticles.length,
+    mainAvailableCount: [...mainIds].filter((id) => availableById.has(id)).length,
+    extendedReadingCount: extendedIds.size,
+    extendedAvailableCount: [...extendedIds].filter((id) => availableById.has(id)).length,
     missingPlannedCount: rows.filter((row) => row.status === "missing").length,
     unplannedArticleCount: unplanned.length,
     targetUnplannedCount: Math.max(0, indexData.targetArticleCount - indexData.plannedArticleCount),

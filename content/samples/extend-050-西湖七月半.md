@@ -7,7 +7,8 @@ source: "张岱"
 author: "张岱"
 dynasty: "明代"
 difficulty: 2
-week: 12
+week: null
+collection: "拓展阅读"
 word_count: 400
 tags: ["明代", "小品", "人物", "风俗"]
 related_idioms: ["言而有信"]

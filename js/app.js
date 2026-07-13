@@ -5,11 +5,18 @@
     const page = document.body.dataset.page;
     G.qsa(".site-nav a").forEach((link) => {
       const href = link.getAttribute("href") || "";
+      const pageTarget = {
+        home: "index",
+        week: "index",
+        review: "index",
+        dict: "dict",
+        vocab: "vocab",
+        extend: "extend",
+        progress: "progress",
+        about: "about"
+      }[page];
       const active =
-        (page === "home" && href.includes("index")) ||
-        (page === "vocab" && href.includes("vocab")) ||
-        (page === "progress" && href.includes("progress")) ||
-        (page === "about" && href.includes("about"));
+        pageTarget && href.includes(pageTarget);
       if (active) link.classList.add("active");
     });
   }
@@ -70,7 +77,7 @@
         <section class="stats-grid">
           <div class="stat-card">
             <h2>${stats.completed}/${stats.total}</h2>
-            <p>已学文章（全书目标 ${stats.targetTotal} 篇）</p>
+            <p>主线已学文章（全书目标 ${stats.targetTotal} 篇）</p>
             <div class="mini-track"><span style="width:${stats.percent}%"></span></div>
           </div>
           <div class="stat-card">

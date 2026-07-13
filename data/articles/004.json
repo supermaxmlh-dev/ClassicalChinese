@@ -1,13 +1,15 @@
 {
   "id": "004",
-  "sourceMarkdown": "content/samples/week01-004-诫子书.md",
+  "sourceMarkdown": "content/samples/extend-004-诫子书.md",
   "sourceRaw": "content/raw/004-诫子书.txt",
   "title": "诫子书",
   "source": "诸葛亮集",
   "author": "诸葛亮",
   "dynasty": "三国·蜀汉",
   "difficulty": 1,
-  "week": 1,
+  "week": null,
+  "collection": "拓展阅读",
+  "guanzhi": null,
   "wordCount": 86,
   "tags": [
     "三国",

@@ -1,13 +1,15 @@
 {
   "id": "092",
-  "sourceMarkdown": "content/samples/week25-092-吴许越成.md",
+  "sourceMarkdown": "content/samples/week24-092-吴许越成.md",
   "sourceRaw": "content/raw/092-吴许越成.txt",
   "title": "吴许越成",
   "source": "左传",
   "author": "左传",
   "dynasty": "春秋",
   "difficulty": 3,
-  "week": 25,
+  "week": 24,
+  "collection": "古文观止",
+  "guanzhi": null,
   "wordCount": 350,
   "tags": [
     "春秋",
