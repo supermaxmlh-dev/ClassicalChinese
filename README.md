@@ -44,7 +44,7 @@ npm run build
 
 ## 反馈后端
 
-Phase 2 新增 Azure Static Web Apps Functions：`POST /api/feedback` 提交反馈，`GET /api/feedback` 读取公开反馈列表。学习功能仍本地优先；`/api` 不可用时，反馈页会提示暂不可用，不影响阅读、判分、进度和字典。
+Phase 2 新增 Azure Static Web Apps Functions：`POST /api/feedback` 提交反馈，`GET /api/feedback` 读取公开反馈列表，`DELETE /api/feedback` 用删除密码或站长口令软删除反馈。学习功能仍本地优先；`/api` 不可用时，反馈页会提示暂不可用，不影响阅读、判分、进度和字典。
 
 生产环境可选配置：
 
@@ -52,6 +52,7 @@ Phase 2 新增 Azure Static Web Apps Functions：`POST /api/feedback` 提交反�
 - `FEEDBACK_WEBHOOK_URL`：可转发到邮件/自动化服务的 webhook。
 - `FEEDBACK_WEBHOOK_TOKEN`：webhook bearer token，可选。
 - `FEEDBACK_HASH_SALT`：IP 哈希盐值，可选。
+- `FEEDBACK_ADMIN_TOKEN`：站长删除/审核口令，可选。
 
 本地后端自测：
 

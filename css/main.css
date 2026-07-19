@@ -500,6 +500,11 @@ h3 {
   background: var(--accent-soft);
 }
 
+.notice.compact {
+  padding: var(--space-3);
+  margin-bottom: 0;
+}
+
 .search-row {
   display: flex;
   gap: var(--space-3);
@@ -575,8 +580,32 @@ textarea.form-input {
   background: var(--bg-soft);
 }
 
+.feedback-item.reply {
+  margin-top: var(--space-3);
+  background: var(--bg-card);
+}
+
 .feedback-item p {
   margin-bottom: 0;
+}
+
+.feedback-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+}
+
+.feedback-actions .btn {
+  min-height: 2.2rem;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.9rem;
+}
+
+.feedback-replies {
+  margin-top: var(--space-3);
+  padding-left: var(--space-4);
+  border-left: 2px solid var(--line);
 }
 
 .tab-row {

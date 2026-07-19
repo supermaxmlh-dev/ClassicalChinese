@@ -6,9 +6,13 @@ const crypto = require("crypto");
 const MAX_CONTENT_LENGTH = 1200;
 const MAX_CONTACT_LENGTH = 120;
 const MAX_PAGE_LENGTH = 200;
+const MAX_SECRET_LENGTH = 120;
+const MAX_PARENT_ID_LENGTH = 80;
 const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
 const RATE_LIMIT_MAX = 5;
 const VALID_TYPES = new Set(["original", "pinyin", "annotation", "quiz", "ui", "privacy", "other"]);
+const VALID_STATUSES = new Set(["visible", "needs_review", "deleted"]);
+const HASH_ITERATIONS = 120000;
 const rateBuckets = new Map();
 
 function json(status, body) {
@@ -58,6 +62,10 @@ function tooManyRequests(ipHash) {
   return bucket.count > RATE_LIMIT_MAX;
 }
 
+function resetRateLimit() {
+  rateBuckets.clear();
+}
+
 function hasSensitivePersonalData(text) {
   const value = String(text || "");
   return [
@@ -69,6 +77,56 @@ function hasSensitivePersonalData(text) {
   ].some((pattern) => pattern.test(value));
 }
 
+function loadModerationKeywords() {
+  const filePath = path.resolve(__dirname, "../../data/moderation-keywords.json");
+  try {
+    const payload = JSON.parse(fs.readFileSync(filePath, "utf8"));
+    return Array.isArray(payload) ? payload : payload.keywords || [];
+  } catch (error) {
+    return [];
+  }
+}
+
+function moderationFlagsFor(text) {
+  const value = String(text || "").toLowerCase();
+  return loadModerationKeywords()
+    .map((keyword) => String(keyword || "").trim())
+    .filter(Boolean)
+    .filter((keyword) => value.includes(keyword.toLowerCase()))
+    .slice(0, 8);
+}
+
+function makeSecretHash(secret) {
+  const value = trimText(secret, MAX_SECRET_LENGTH);
+  if (!value) return {};
+  const salt = crypto.randomBytes(16).toString("hex");
+  const hash = crypto.pbkdf2Sync(value, salt, HASH_ITERATIONS, 32, "sha256").toString("hex");
+  return {
+    deleteSecretSalt: salt,
+    deleteSecretHash: hash
+  };
+}
+
+function verifySecret(secret, item) {
+  if (!item?.deleteSecretHash || !item?.deleteSecretSalt) return false;
+  const value = trimText(secret, MAX_SECRET_LENGTH);
+  if (!value) return false;
+  const hash = crypto.pbkdf2Sync(value, item.deleteSecretSalt, HASH_ITERATIONS, 32, "sha256").toString("hex");
+  return crypto.timingSafeEqual(Buffer.from(hash, "hex"), Buffer.from(item.deleteSecretHash, "hex"));
+}
+
+function verifyAdminToken(token) {
+  const expected = process.env.FEEDBACK_ADMIN_TOKEN;
+  if (!expected || !token) return false;
+  const actual = Buffer.from(String(token));
+  const target = Buffer.from(String(expected));
+  return actual.length === target.length && crypto.timingSafeEqual(actual, target);
+}
+
+function isValidFeedbackId(value) {
+  return /^[0-9]{10,}-[a-f0-9]{8}$/i.test(String(value || ""));
+}
+
 function normalizeFeedback(body, headers) {
   const data = parseBody(body);
   const ipHash = hashIp(getClientIp(headers));
@@ -76,6 +134,8 @@ function normalizeFeedback(body, headers) {
   const contact = trimText(data.contact, MAX_CONTACT_LENGTH);
   const page = trimText(data.page, MAX_PAGE_LENGTH);
   const articleId = trimText(data.articleId, 3);
+  const parentId = trimText(data.parentId, MAX_PARENT_ID_LENGTH);
+  const deleteSecret = trimText(data.deleteSecret, MAX_SECRET_LENGTH);
   const type = trimText(data.type || "other", 24);
 
   if (data.website) {
@@ -90,11 +150,17 @@ function normalizeFeedback(body, headers) {
   if (articleId && !/^\d{3}$/.test(articleId)) {
     return { error: "文章编号格式不正确。" };
   }
+  if (parentId && !isValidFeedbackId(parentId)) {
+    return { error: "回复对象格式不正确。" };
+  }
   if (content.length < 5) {
     return { error: "反馈内容至少需要 5 个字。" };
   }
   if (String(data.content || "").length > MAX_CONTENT_LENGTH) {
     return { error: `反馈内容不能超过 ${MAX_CONTENT_LENGTH} 个字符。` };
+  }
+  if (deleteSecret && deleteSecret.length < 4) {
+    return { error: "删除密码至少需要 4 个字符；也可以不填。" };
   }
   if (contact && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contact)) {
     return { error: "联系方式只支持可选邮箱；也可以不填。" };
@@ -106,6 +172,7 @@ function normalizeFeedback(body, headers) {
     return { error: "请先确认隐私提示。" };
   }
 
+  const moderationFlags = moderationFlagsFor(content);
   const now = new Date().toISOString();
   const rowKey = `${Date.now()}-${crypto.randomBytes(4).toString("hex")}`;
   return {
@@ -114,14 +181,18 @@ function normalizeFeedback(body, headers) {
       PartitionKey: "feedback",
       RowKey: rowKey,
       createdAt: now,
+      updatedAt: now,
       type,
       page,
       articleId,
+      parentId,
       content,
       contact,
       ipHash,
       userAgent: trimText(headers["user-agent"] || headers["User-Agent"], 240),
-      status: "new"
+      moderationFlags: JSON.stringify(moderationFlags),
+      status: moderationFlags.length ? "needs_review" : "visible",
+      ...makeSecretHash(deleteSecret)
     }
   };
 }
@@ -130,16 +201,39 @@ function publicItem(item) {
   return {
     id: item.id || item.RowKey,
     createdAt: item.createdAt || item.Timestamp,
+    updatedAt: item.updatedAt || "",
     type: item.type || "other",
     page: item.page || "",
     articleId: item.articleId || "",
-    content: item.content || "",
-    status: item.status || "new"
+    parentId: item.parentId || "",
+    content: item.status === "deleted" ? "该留言已删除。" : item.content || "",
+    status: item.status || "visible"
   };
 }
 
 function feedbackFilePath() {
   return process.env.FEEDBACK_FILE_PATH || path.join(os.tmpdir(), "guanzhi-feedback.jsonl");
+}
+
+function readRawFileItems() {
+  const filePath = feedbackFilePath();
+  if (!fs.existsSync(filePath)) return [];
+  const map = new Map();
+  fs.readFileSync(filePath, "utf8").split("\n").filter(Boolean).forEach((line) => {
+    try {
+      const entry = JSON.parse(line);
+      const id = entry.id || entry.RowKey;
+      if (!id) return;
+      if (entry.event === "update") {
+        map.set(id, { ...(map.get(id) || { id, RowKey: id, PartitionKey: "feedback" }), ...entry.patch });
+        return;
+      }
+      map.set(id, entry);
+    } catch (error) {
+      // Ignore malformed local development rows.
+    }
+  });
+  return [...map.values()];
 }
 
 async function saveToFile(item) {
@@ -149,21 +243,30 @@ async function saveToFile(item) {
   return { ok: true, storage: "file" };
 }
 
-async function readFromFile(limit) {
+async function patchFileItem(id, patch) {
   const filePath = feedbackFilePath();
-  if (!fs.existsSync(filePath)) return [];
-  const lines = fs.readFileSync(filePath, "utf8").split("\n").filter(Boolean);
-  return lines
-    .slice(-limit)
-    .map((line) => {
-      try {
-        return publicItem(JSON.parse(line));
-      } catch (error) {
-        return null;
-      }
-    })
-    .filter(Boolean)
-    .reverse();
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.appendFileSync(filePath, `${JSON.stringify({ event: "update", id, patch })}\n`, "utf8");
+  return { ok: true, storage: "file" };
+}
+
+async function readFromFile(limit, includeHidden = false) {
+  return readRawFileItems()
+    .filter((item) => includeHidden || item.status === "visible")
+    .map(publicItem)
+    .sort((a, b) => String(b.createdAt).localeCompare(String(a.createdAt)))
+    .slice(0, limit);
+}
+
+async function getFromFile(id) {
+  return readRawFileItems().find((item) => (item.id || item.RowKey) === id) || null;
+}
+
+function splitTableUrl() {
+  const tableUrl = process.env.FEEDBACK_TABLE_SAS_URL;
+  if (!tableUrl) return null;
+  const [base, query = ""] = tableUrl.split("?");
+  return { base, query };
 }
 
 function withTableQuery(baseUrl, query = "") {
@@ -171,29 +274,45 @@ function withTableQuery(baseUrl, query = "") {
   return query ? `${baseUrl}${joiner}${query}` : baseUrl;
 }
 
-async function saveToTable(item) {
-  const tableUrl = process.env.FEEDBACK_TABLE_SAS_URL;
-  if (!tableUrl) return { ok: false, skipped: true };
-  const entity = {
+function tableEntityUrl(id) {
+  const table = splitTableUrl();
+  if (!table) return null;
+  const escapedId = String(id).replace(/'/g, "''");
+  const entityPath = `${table.base}(PartitionKey='feedback',RowKey='${escapedId}')`;
+  return table.query ? `${entityPath}?${table.query}` : entityPath;
+}
+
+function toTableEntity(item) {
+  return {
     PartitionKey: item.PartitionKey,
     RowKey: item.RowKey,
     createdAt: item.createdAt,
+    updatedAt: item.updatedAt,
     type: item.type,
     page: item.page,
     articleId: item.articleId,
+    parentId: item.parentId,
     content: item.content,
     contact: item.contact,
     ipHash: item.ipHash,
     userAgent: item.userAgent,
-    status: item.status
+    moderationFlags: item.moderationFlags,
+    status: item.status,
+    deleteSecretSalt: item.deleteSecretSalt || "",
+    deleteSecretHash: item.deleteSecretHash || ""
   };
+}
+
+async function saveToTable(item) {
+  const tableUrl = process.env.FEEDBACK_TABLE_SAS_URL;
+  if (!tableUrl) return { ok: false, skipped: true };
   const response = await fetch(tableUrl, {
     method: "POST",
     headers: {
       Accept: "application/json;odata=nometadata",
       "Content-Type": "application/json"
     },
-    body: JSON.stringify(entity)
+    body: JSON.stringify(toTableEntity(item))
   });
   if (!response.ok) {
     throw new Error(`Azure Table write failed: ${response.status}`);
@@ -201,10 +320,12 @@ async function saveToTable(item) {
   return { ok: true, storage: "azure-table" };
 }
 
-async function readFromTable(limit) {
+async function readFromTable(limit, includeHidden = false) {
   const tableUrl = process.env.FEEDBACK_TABLE_SAS_URL;
   if (!tableUrl) return null;
-  const response = await fetch(withTableQuery(tableUrl, `$top=${limit}`), {
+  const statusFilter = includeHidden ? "" : "status eq 'visible'";
+  const query = [`$top=${limit * 3}`, statusFilter ? `$filter=${encodeURIComponent(statusFilter)}` : ""].filter(Boolean).join("&");
+  const response = await fetch(withTableQuery(tableUrl, query), {
     headers: { Accept: "application/json;odata=nometadata" }
   });
   if (!response.ok) {
@@ -217,7 +338,38 @@ async function readFromTable(limit) {
     .slice(0, limit);
 }
 
-async function sendWebhook(item) {
+async function getFromTable(id) {
+  const url = tableEntityUrl(id);
+  if (!url) return null;
+  const response = await fetch(url, {
+    headers: { Accept: "application/json;odata=nometadata" }
+  });
+  if (response.status === 404) return null;
+  if (!response.ok) {
+    throw new Error(`Azure Table read entity failed: ${response.status}`);
+  }
+  return response.json();
+}
+
+async function patchTableItem(id, patch) {
+  const url = tableEntityUrl(id);
+  if (!url) return { ok: false, skipped: true };
+  const response = await fetch(url, {
+    method: "MERGE",
+    headers: {
+      Accept: "application/json;odata=nometadata",
+      "Content-Type": "application/json",
+      "If-Match": "*"
+    },
+    body: JSON.stringify(patch)
+  });
+  if (!response.ok) {
+    throw new Error(`Azure Table update failed: ${response.status}`);
+  }
+  return { ok: true, storage: "azure-table" };
+}
+
+async function sendWebhook(item, action = "created") {
   const webhookUrl = process.env.FEEDBACK_WEBHOOK_URL;
   if (!webhookUrl) return { ok: false, skipped: true };
   const headers = {
@@ -230,7 +382,8 @@ async function sendWebhook(item) {
     method: "POST",
     headers,
     body: JSON.stringify({
-      subject: "观止学堂新反馈",
+      subject: action === "created" ? "观止学堂新反馈" : "观止学堂反馈更新",
+      action,
       feedback: publicItem(item),
       contact: item.contact || ""
     })
@@ -245,7 +398,7 @@ async function saveFeedback(item) {
   const results = [];
   const errors = [];
   const hasConfiguredStore = Boolean(process.env.FEEDBACK_TABLE_SAS_URL || process.env.FEEDBACK_WEBHOOK_URL);
-  for (const writer of [saveToTable, sendWebhook]) {
+  for (const writer of [saveToTable, (entry) => sendWebhook(entry, "created")]) {
     try {
       const result = await writer(item);
       if (result.ok) results.push(result.storage);
@@ -269,42 +422,150 @@ async function saveFeedback(item) {
   return results;
 }
 
-async function listFeedback(limit = 20) {
+async function getFeedbackById(id) {
   try {
-    const tableItems = await readFromTable(limit);
+    const tableItem = await getFromTable(id);
+    if (tableItem) return tableItem;
+  } catch (error) {
+    if (process.env.NODE_ENV === "test") throw error;
+  }
+  return getFromFile(id);
+}
+
+async function patchFeedback(id, patch) {
+  const results = [];
+  const errors = [];
+  const hasConfiguredStore = Boolean(process.env.FEEDBACK_TABLE_SAS_URL);
+  const normalizedPatch = {
+    ...patch,
+    updatedAt: new Date().toISOString()
+  };
+  try {
+    const result = await patchTableItem(id, normalizedPatch);
+    if (result.ok) results.push(result.storage);
+  } catch (error) {
+    errors.push(error.message);
+  }
+  if ((!results.length && !hasConfiguredStore) || process.env.FEEDBACK_FILE_STORE === "always") {
+    try {
+      const result = await patchFileItem(id, normalizedPatch);
+      if (result.ok) results.push(result.storage);
+    } catch (error) {
+      errors.push(error.message);
+    }
+  }
+  if (!results.length) {
+    throw new Error(errors.join("; ") || "No feedback storage configured.");
+  }
+  return { storage: results, patch: normalizedPatch };
+}
+
+async function listFeedback(limit = 20, includeHidden = false) {
+  try {
+    const tableItems = await readFromTable(limit, includeHidden);
     if (tableItems) return tableItems;
   } catch (error) {
     if (process.env.NODE_ENV === "test") throw error;
   }
-  return readFromFile(limit);
+  return readFromFile(limit, includeHidden);
 }
 
-async function handleFeedbackRequest({ method, headers, body }) {
-  const normalizedMethod = String(method || "GET").toUpperCase();
-  if (normalizedMethod === "GET") {
-    const items = await listFeedback(20);
-    return json(200, { ok: true, items });
-  }
-  if (normalizedMethod !== "POST") {
-    return json(405, { ok: false, message: "Method not allowed." });
-  }
+async function handleGet() {
+  const items = await listFeedback(50, false);
+  return json(200, { ok: true, items });
+}
 
+async function handlePost(headers, body) {
   const normalized = normalizeFeedback(body, headers || {});
   if (normalized.error) {
     return json(normalized.status || 400, { ok: false, message: normalized.error });
   }
-
   try {
     const storage = await saveFeedback(normalized.item);
-    return json(201, { ok: true, id: normalized.item.id, storage, item: publicItem(normalized.item) });
+    const review = normalized.item.status === "needs_review";
+    return json(201, {
+      ok: true,
+      id: normalized.item.id,
+      status: normalized.item.status,
+      message: review ? "已收到，待人工查看后展示。" : "已收到反馈。",
+      storage,
+      item: publicItem(normalized.item)
+    });
   } catch (error) {
     return json(503, { ok: false, message: "反馈暂时无法保存，请稍后再试。" });
   }
+}
+
+async function handleDelete(body) {
+  const data = parseBody(body);
+  const id = trimText(data.id, MAX_PARENT_ID_LENGTH);
+  if (!isValidFeedbackId(id)) {
+    return json(400, { ok: false, message: "评论编号格式不正确。" });
+  }
+  const item = await getFeedbackById(id);
+  if (!item) {
+    return json(404, { ok: false, message: "没有找到这条评论。" });
+  }
+  if (item.status === "deleted") {
+    return json(200, { ok: true, message: "这条评论已经删除。" });
+  }
+  const authorized = verifyAdminToken(data.adminToken) || verifySecret(data.deleteSecret, item);
+  if (!authorized) {
+    return json(403, { ok: false, message: "删除密码或站长口令不正确。" });
+  }
+  try {
+    const { storage, patch } = await patchFeedback(id, {
+      status: "deleted",
+      deletedAt: new Date().toISOString()
+    });
+    await sendWebhook({ ...item, ...patch }, "deleted").catch(() => null);
+    return json(200, { ok: true, message: "已删除。", storage });
+  } catch (error) {
+    return json(503, { ok: false, message: "评论暂时无法删除，请稍后再试。" });
+  }
+}
+
+async function handlePatch(body) {
+  const data = parseBody(body);
+  if (!verifyAdminToken(data.adminToken)) {
+    return json(403, { ok: false, message: "站长口令不正确。" });
+  }
+  const id = trimText(data.id, MAX_PARENT_ID_LENGTH);
+  const status = trimText(data.status, 24);
+  if (!isValidFeedbackId(id)) {
+    return json(400, { ok: false, message: "评论编号格式不正确。" });
+  }
+  if (!VALID_STATUSES.has(status)) {
+    return json(400, { ok: false, message: "状态不正确。" });
+  }
+  const item = await getFeedbackById(id);
+  if (!item) {
+    return json(404, { ok: false, message: "没有找到这条评论。" });
+  }
+  try {
+    const { storage } = await patchFeedback(id, { status });
+    return json(200, { ok: true, message: "已更新。", storage });
+  } catch (error) {
+    return json(503, { ok: false, message: "评论暂时无法更新，请稍后再试。" });
+  }
+}
+
+async function handleFeedbackRequest({ method, headers, body }) {
+  const normalizedMethod = String(method || "GET").toUpperCase();
+  if (normalizedMethod === "GET") return handleGet();
+  if (normalizedMethod === "POST") return handlePost(headers, body);
+  if (normalizedMethod === "DELETE") return handleDelete(body);
+  if (normalizedMethod === "PATCH") return handlePatch(body);
+  return json(405, { ok: false, message: "Method not allowed." });
 }
 
 module.exports = {
   handleFeedbackRequest,
   normalizeFeedback,
   publicItem,
-  listFeedback
+  listFeedback,
+  getFeedbackById,
+  resetRateLimit,
+  verifySecret,
+  moderationFlagsFor
 };
