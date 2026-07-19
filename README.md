@@ -13,7 +13,7 @@ npm start
 
 打开 `http://localhost:8080` 访问首页。
 
-学习进度依赖浏览器 Cookie 持久化。请通过 `npm start` 启动的本地 HTTP 服务或线上 Azure 地址访问，不要用 `file://` 直接打开 HTML 文件，否则多数浏览器不会稳定保存 Cookie。
+`npm start` 会同时启动静态页面和本地 `/api/feedback`，用于本地验证反馈留言功能。学习进度依赖浏览器 Cookie 持久化。请通过 `npm start` 启动的本地 HTTP 服务或线上 Azure 地址访问，不要用 `file://` 直接打开 HTML 文件，否则多数浏览器不会稳定保存 Cookie。
 
 ## 当前内容
 

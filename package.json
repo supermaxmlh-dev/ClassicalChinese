@@ -4,7 +4,8 @@
   "description": "观止学堂 - 中小学经典文言文学习平台",
   "private": true,
   "scripts": {
-    "start": "python3 -m http.server 8080 --bind 127.0.0.1",
+    "start": "node scripts/dev-server.js",
+    "start:static": "python3 -m http.server 8080 --bind 127.0.0.1",
     "start:8081": "python3 -m http.server 8081 --bind 127.0.0.1",
     "build": "npm run build:data && npm run build:dictionary && npm run validate",
     "build:site": "npm run build && node scripts/build-site.js",
