@@ -517,6 +517,68 @@ h3 {
   color: var(--text-primary);
 }
 
+textarea.form-input {
+  min-height: 10rem;
+  resize: vertical;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+
+.feedback-form {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.feedback-form label {
+  display: grid;
+  gap: var(--space-2);
+  color: var(--text-secondary);
+  font-weight: 700;
+}
+
+.feedback-form input[aria-hidden="true"] {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.checkbox-row {
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  font-weight: 500;
+}
+
+.form-message,
+.muted {
+  color: var(--text-secondary);
+}
+
+.feedback-board {
+  margin-top: var(--space-4);
+}
+
+.feedback-list {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.feedback-item {
+  padding: var(--space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-soft);
+}
+
+.feedback-item p {
+  margin-bottom: 0;
+}
+
 .tab-row {
   display: flex;
   flex-wrap: wrap;

@@ -1,0 +1,9 @@
+{
+  "name": "guanzhi-xuetang-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Azure Functions API for Guanzhi Xuetang",
+  "engines": {
+    "node": ">=20"
+  }
+}

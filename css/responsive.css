@@ -59,7 +59,8 @@
   .week-grid,
   .article-card-grid,
   .vocab-grid,
-  .stats-grid {
+  .stats-grid,
+  .form-grid {
     grid-template-columns: 1fr;
   }
 

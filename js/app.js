@@ -13,6 +13,7 @@
         vocab: "vocab",
         extend: "extend",
         progress: "progress",
+        feedback: "feedback",
         about: "about"
       }[page];
       const active =

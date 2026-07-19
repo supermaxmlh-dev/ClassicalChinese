@@ -3,6 +3,7 @@
     "rewrite": "/index.html"
   },
   "routes": [
+    { "route": "/api/*", "allowedRoles": ["anonymous"] },
     { "route": "/pages/*", "allowedRoles": ["anonymous"] },
     { "route": "/data/*", "allowedRoles": ["anonymous"] },
     { "route": "/images/*", "allowedRoles": ["anonymous"] },
