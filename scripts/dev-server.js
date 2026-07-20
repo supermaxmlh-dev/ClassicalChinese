@@ -63,6 +63,7 @@ async function handleApi(req, res) {
     const result = await handleFeedbackRequest({
       method: req.method,
       headers: req.headers,
+      url: req.url,
       body: await readBody(req)
     });
     send(res, result.status, result.headers, JSON.stringify(result.body));

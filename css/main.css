@@ -608,6 +608,34 @@ textarea.form-input {
   border-left: 2px solid var(--line);
 }
 
+.admin-login {
+  max-width: 34rem;
+}
+
+.admin-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.admin-toolbar p {
+  margin: 0;
+}
+
+.admin-list {
+  margin-top: var(--space-4);
+}
+
+.admin-feedback-item {
+  background: var(--bg-card);
+}
+
+.admin-feedback-item .article-tags {
+  margin-top: var(--space-3);
+}
+
 .tab-row {
   display: flex;
   flex-wrap: wrap;

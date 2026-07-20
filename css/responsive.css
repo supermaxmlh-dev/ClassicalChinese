@@ -79,6 +79,11 @@
     grid-template-columns: 1fr;
   }
 
+  .admin-toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
   .article-bottom-nav .next {
     justify-self: stretch;
   }

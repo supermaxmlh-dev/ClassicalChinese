@@ -44,11 +44,12 @@ npm run build
 
 ## 反馈后端
 
-Phase 2 新增 Azure Static Web Apps Functions：`POST /api/feedback` 提交反馈，`GET /api/feedback` 读取公开反馈列表，`DELETE /api/feedback` 用删除密码或站长口令软删除反馈。学习功能仍本地优先；`/api` 不可用时，反馈页会提示暂不可用，不影响阅读、判分、进度和字典。
+Phase 2 新增 Azure Static Web Apps Functions：`POST /api/feedback` 提交反馈，`GET /api/feedback` 按公开板开关读取已审核反馈，`DELETE /api/feedback` 用删除密码或站长口令软删除反馈，`PATCH /api/feedback` 供站长审核状态。学习功能仍本地优先；`/api` 不可用时，反馈页会提示暂不可用，不影响阅读、判分、进度和字典。
 
 生产环境可选配置：
 
 - `FEEDBACK_TABLE_SAS_URL`：Azure Table 的表级 SAS URL，用于持久化留言。
+- `FEEDBACK_PUBLIC_BOARD`：公开留言板开关，默认不公开；设为 `on` 后只展示站长审核为 `visible` 的留言。
 - `FEEDBACK_WEBHOOK_URL`：可转发到邮件/自动化服务的 webhook。
 - `FEEDBACK_WEBHOOK_TOKEN`：webhook bearer token，可选。
 - `FEEDBACK_HASH_SALT`：IP 哈希盐值，可选。

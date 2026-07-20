@@ -80,7 +80,7 @@
 
   function renderList(items, codeMaps) {
     const visible = items.filter((item) => item.status === "visible");
-    if (!visible.length) return `<p class="muted">暂无公开反馈。</p>`;
+    if (!visible.length) return "";
     const byParent = groupFeedback(visible);
     const roots = byParent.get("") || [];
     return `
@@ -91,6 +91,7 @@
   }
 
   function renderForm(root, recentItems = [], serviceOnline = true, codeMaps) {
+    const visibleList = renderList(recentItems, codeMaps);
     root.innerHTML = `
       ${serviceOnline ? "" : `
         <section class="notice">
@@ -120,7 +121,7 @@
           </label>
           <label>
             <span>反馈内容</span>
-            <textarea id="feedback-content" class="form-input" name="content" rows="7" maxlength="1200" placeholder="请写清楚看到的问题、原句或建议。" ${serviceOnline ? "" : "disabled"}></textarea>
+            <textarea id="feedback-content" class="form-input" name="content" rows="7" maxlength="1200" placeholder="请写清楚看到的问题、原句或建议；不要填写真实姓名、学校、住址等个人信息。" ${serviceOnline ? "" : "disabled"}></textarea>
           </label>
           <div class="form-grid">
             <label>
@@ -134,7 +135,7 @@
           </div>
           <label class="checkbox-row">
             <input id="feedback-consent" type="checkbox" ${serviceOnline ? "" : "disabled"}>
-            <span>我知道联系方式和删除密码可不填，且不会提交真实姓名、住址、身份证号等个人敏感信息。</span>
+            <span>我已由监护人知情同意后提交；我知道联系方式和删除密码可不填，且不会提交真实姓名、学校、住址、身份证号等个人敏感信息。</span>
           </label>
           <div class="button-row">
             <button id="feedback-submit" class="btn primary" type="submit" ${serviceOnline ? "" : "disabled"}>提交反馈</button>
@@ -143,12 +144,15 @@
           </div>
         </form>
       </section>
-      <section class="content-card feedback-board">
+      <section class="notice">
+        面向未成年人，留言默认先由站长审核；联系方式可不填，内容仅用于改进课程。
+      </section>
+      ${visibleList ? `<section class="content-card feedback-board">
         <h2>最近反馈</h2>
         <div id="feedback-list">
-          ${renderList(recentItems, codeMaps)}
+          ${visibleList}
         </div>
-      </section>
+      </section>` : ""}
     `;
   }
 
@@ -161,7 +165,8 @@
 
   async function refreshList(root, codeMaps) {
     const recent = await fetchRecent().catch(() => []);
-    G.qs("#feedback-list", root).innerHTML = renderList(recent, codeMaps);
+    const list = G.qs("#feedback-list", root);
+    if (list) list.innerHTML = renderList(recent, codeMaps);
   }
 
   function setReplyTarget(root, id) {
@@ -181,7 +186,7 @@
   }
 
   async function deleteFeedback(root, id, codeMaps) {
-    const secret = window.prompt("请输入删除密码；站长可输入站长口令。");
+    const secret = window.prompt("请输入提交时设置的删除密码。");
     if (!secret) return;
     const message = G.qs("#feedback-message", root);
     message.textContent = "正在删除...";
@@ -189,7 +194,7 @@
       const response = await fetch(apiPath(), {
         method: "DELETE",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ id, deleteSecret: secret, adminToken: secret })
+        body: JSON.stringify({ id, deleteSecret: secret })
       });
       const result = await response.json().catch(() => ({}));
       if (!response.ok || !result.ok) {
@@ -204,6 +209,7 @@
 
   function bindList(root, codeMaps) {
     const list = G.qs("#feedback-list", root);
+    if (!list) return;
     list.addEventListener("click", (event) => {
       const replyButton = event.target.closest(".reply-feedback");
       if (replyButton) {
@@ -255,7 +261,7 @@
         if (!response.ok || !result.ok) {
           throw new Error(result.message || "提交失败，请稍后再试。");
         }
-        message.textContent = `${result.message || "已收到反馈。"} 评论编号：${result.id}`;
+        message.textContent = `${result.message || "感谢反馈，将在审核后显示。"} 评论编号：${result.id}`;
         form.reset();
         setReplyTarget(root, "");
         G.qs("#feedback-page-field", root).value = currentPageValue(codeMaps);

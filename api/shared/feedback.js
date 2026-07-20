@@ -10,10 +10,13 @@ const MAX_SECRET_LENGTH = 120;
 const MAX_PARENT_ID_LENGTH = 80;
 const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
 const RATE_LIMIT_MAX = 5;
+const ADMIN_RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
+const ADMIN_RATE_LIMIT_MAX = 10;
 const VALID_TYPES = new Set(["original", "pinyin", "annotation", "quiz", "ui", "privacy", "other"]);
 const VALID_STATUSES = new Set(["visible", "needs_review", "deleted"]);
 const HASH_ITERATIONS = 120000;
 const rateBuckets = new Map();
+const adminRateBuckets = new Map();
 
 function json(status, body) {
   return {
@@ -64,6 +67,54 @@ function tooManyRequests(ipHash) {
 
 function resetRateLimit() {
   rateBuckets.clear();
+  adminRateBuckets.clear();
+}
+
+function publicBoardEnabled() {
+  return process.env.FEEDBACK_PUBLIC_BOARD === "on";
+}
+
+function adminTokenFrom(headers = {}, body) {
+  const parsed = body === undefined ? {} : parseBody(body);
+  return headers["x-admin-token"] || headers["X-Admin-Token"] || parsed.adminToken || "";
+}
+
+function adminTooManyRequests(ipHash) {
+  const now = Date.now();
+  const bucket = adminRateBuckets.get(ipHash) || { count: 0, resetAt: now + ADMIN_RATE_LIMIT_WINDOW_MS };
+  if (now > bucket.resetAt) {
+    bucket.count = 0;
+    bucket.resetAt = now + ADMIN_RATE_LIMIT_WINDOW_MS;
+  }
+  bucket.count += 1;
+  adminRateBuckets.set(ipHash, bucket);
+  return bucket.count > ADMIN_RATE_LIMIT_MAX;
+}
+
+function verifyAdminRequest(headers = {}, body) {
+  const ipHash = hashIp(getClientIp(headers));
+  if (adminTooManyRequests(ipHash)) {
+    return { ok: false, response: json(429, { ok: false, message: "请求过于频繁，请稍后再试。" }) };
+  }
+  if (!verifyAdminToken(adminTokenFrom(headers, body))) {
+    return { ok: false, response: json(401, { ok: false, message: "无权访问。" }) };
+  }
+  return { ok: true };
+}
+
+function verifyOptionalAdminRequest(headers = {}, body) {
+  if (!adminTokenFrom(headers, body)) return { ok: false, absent: true };
+  return verifyAdminRequest(headers, body);
+}
+
+function isAdminQuery(query = {}, url = "") {
+  if (query.admin === "1" || query.admin === 1 || query.admin === true) return true;
+  try {
+    const parsed = new URL(url || "/", "http://localhost");
+    return parsed.searchParams.get("admin") === "1";
+  } catch (error) {
+    return false;
+  }
 }
 
 function hasSensitivePersonalData(text) {
@@ -191,7 +242,7 @@ function normalizeFeedback(body, headers) {
       ipHash,
       userAgent: trimText(headers["user-agent"] || headers["User-Agent"], 240),
       moderationFlags: JSON.stringify(moderationFlags),
-      status: moderationFlags.length ? "needs_review" : "visible",
+      status: "needs_review",
       ...makeSecretHash(deleteSecret)
     }
   };
@@ -208,6 +259,21 @@ function publicItem(item) {
     parentId: item.parentId || "",
     content: item.status === "deleted" ? "该留言已删除。" : item.content || "",
     status: item.status || "visible"
+  };
+}
+
+function adminItem(item) {
+  let moderationFlags = [];
+  try {
+    moderationFlags = JSON.parse(item.moderationFlags || "[]");
+  } catch (error) {
+    moderationFlags = [];
+  }
+  return {
+    ...publicItem(item),
+    status: item.status || "visible",
+    moderationFlags: Array.isArray(moderationFlags) ? moderationFlags : [],
+    hasContact: Boolean(item.contact)
   };
 }
 
@@ -253,7 +319,7 @@ async function patchFileItem(id, patch) {
 async function readFromFile(limit, includeHidden = false) {
   return readRawFileItems()
     .filter((item) => includeHidden || item.status === "visible")
-    .map(publicItem)
+    .map(includeHidden ? adminItem : publicItem)
     .sort((a, b) => String(b.createdAt).localeCompare(String(a.createdAt)))
     .slice(0, limit);
 }
@@ -333,7 +399,7 @@ async function readFromTable(limit, includeHidden = false) {
   }
   const payload = await response.json();
   return (payload.value || [])
-    .map(publicItem)
+    .map(includeHidden ? adminItem : publicItem)
     .sort((a, b) => String(b.createdAt).localeCompare(String(a.createdAt)))
     .slice(0, limit);
 }
@@ -461,6 +527,7 @@ async function patchFeedback(id, patch) {
 }
 
 async function listFeedback(limit = 20, includeHidden = false) {
+  if (!includeHidden && !publicBoardEnabled()) return [];
   try {
     const tableItems = await readFromTable(limit, includeHidden);
     if (tableItems) return tableItems;
@@ -470,7 +537,13 @@ async function listFeedback(limit = 20, includeHidden = false) {
   return readFromFile(limit, includeHidden);
 }
 
-async function handleGet() {
+async function handleGet(headers = {}, query = {}, url = "") {
+  if (isAdminQuery(query, url)) {
+    const admin = verifyAdminRequest(headers);
+    if (!admin.ok) return admin.response;
+    const items = await listFeedback(100, true);
+    return json(200, { ok: true, mode: "admin", publicBoard: publicBoardEnabled(), items });
+  }
   const items = await listFeedback(50, false);
   return json(200, { ok: true, items });
 }
@@ -482,12 +555,11 @@ async function handlePost(headers, body) {
   }
   try {
     const storage = await saveFeedback(normalized.item);
-    const review = normalized.item.status === "needs_review";
     return json(201, {
       ok: true,
       id: normalized.item.id,
       status: normalized.item.status,
-      message: review ? "已收到，待人工查看后展示。" : "已收到反馈。",
+      message: "已收到，将在审核后显示。",
       storage,
       item: publicItem(normalized.item)
     });
@@ -496,7 +568,7 @@ async function handlePost(headers, body) {
   }
 }
 
-async function handleDelete(body) {
+async function handleDelete(headers, body) {
   const data = parseBody(body);
   const id = trimText(data.id, MAX_PARENT_ID_LENGTH);
   if (!isValidFeedbackId(id)) {
@@ -509,7 +581,9 @@ async function handleDelete(body) {
   if (item.status === "deleted") {
     return json(200, { ok: true, message: "这条评论已经删除。" });
   }
-  const authorized = verifyAdminToken(data.adminToken) || verifySecret(data.deleteSecret, item);
+  const admin = verifyOptionalAdminRequest(headers, body);
+  if (!admin.absent && !admin.ok) return admin.response;
+  const authorized = admin.ok || verifySecret(data.deleteSecret, item);
   if (!authorized) {
     return json(403, { ok: false, message: "删除密码或站长口令不正确。" });
   }
@@ -525,11 +599,10 @@ async function handleDelete(body) {
   }
 }
 
-async function handlePatch(body) {
+async function handlePatch(headers, body) {
   const data = parseBody(body);
-  if (!verifyAdminToken(data.adminToken)) {
-    return json(403, { ok: false, message: "站长口令不正确。" });
-  }
+  const admin = verifyAdminRequest(headers, body);
+  if (!admin.ok) return admin.response;
   const id = trimText(data.id, MAX_PARENT_ID_LENGTH);
   const status = trimText(data.status, 24);
   if (!isValidFeedbackId(id)) {
@@ -550,12 +623,12 @@ async function handlePatch(body) {
   }
 }
 
-async function handleFeedbackRequest({ method, headers, body }) {
+async function handleFeedbackRequest({ method, headers, query, url, body }) {
   const normalizedMethod = String(method || "GET").toUpperCase();
-  if (normalizedMethod === "GET") return handleGet();
+  if (normalizedMethod === "GET") return handleGet(headers || {}, query || {}, url || "");
   if (normalizedMethod === "POST") return handlePost(headers, body);
-  if (normalizedMethod === "DELETE") return handleDelete(body);
-  if (normalizedMethod === "PATCH") return handlePatch(body);
+  if (normalizedMethod === "DELETE") return handleDelete(headers || {}, body);
+  if (normalizedMethod === "PATCH") return handlePatch(headers || {}, body);
   return json(405, { ok: false, message: "Method not allowed." });
 }
 

@@ -4,6 +4,8 @@ module.exports = async function feedback(context, req) {
   const result = await handleFeedbackRequest({
     method: req.method,
     headers: req.headers || {},
+    query: req.query || {},
+    url: req.url || "",
     body: req.body
   });
 
