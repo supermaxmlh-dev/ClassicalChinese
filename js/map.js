@@ -69,10 +69,11 @@
     const done = G.Progress.isArticleLearned(progress, article.id);
     const score = progress.quizScores?.[article.id];
     const sourceLabel = article.guanzhi === "pending" ? "出处待核" : "选自《古文观止》";
+    const displayCode = article.displayCode || article.id;
     return `
       <a class="week-article-card" href="article.html?id=${article.id}">
         <div class="week-number">
-          <span>${G.escapeHTML(article.id)}</span>
+          <span>${G.escapeHTML(displayCode)}</span>
           <span class="status-pill ${done ? "completed" : ""}">${done ? (Number.isFinite(Number(score)) ? `已练习 ${score}%` : "已完成") : "开始学习"}</span>
         </div>
         <h2>${G.escapeHTML(article.title)}</h2>
@@ -89,10 +90,11 @@
   }
 
   function renderPlannedCard(article) {
+    const displayCode = article.displayCode || article.id;
     return `
       <article class="week-article-card">
         <div class="week-number">
-          <span>${G.escapeHTML(article.id)}</span>
+          <span>${G.escapeHTML(displayCode)}</span>
           <span class="status-pill locked">待补充</span>
         </div>
         <h2>${G.escapeHTML(article.title)}</h2>

@@ -10,9 +10,34 @@
     other: "其他"
   };
 
-  function currentPageValue() {
+  function buildCodeMaps(indexData = {}) {
+    const byId = new Map();
+    const byCode = new Map();
+    (indexData.articles || []).forEach((article) => {
+      if (!article.id) return;
+      const displayCode = article.displayCode || article.id;
+      byId.set(article.id, displayCode);
+      byCode.set(String(article.id).toLowerCase(), article.id);
+      byCode.set(String(displayCode).toLowerCase(), article.id);
+      if (article.catalogCode) byCode.set(String(article.catalogCode).toLowerCase(), article.id);
+    });
+    return { byId, byCode };
+  }
+
+  function articleDisplayCode(articleId, codeMaps) {
+    return codeMaps?.byId?.get(articleId) || articleId;
+  }
+
+  function normalizeArticleCode(value, codeMaps) {
+    const raw = String(value || "").trim();
+    if (!raw) return "";
+    const compact = raw.replace(/\s+/g, "").toLowerCase();
+    return codeMaps?.byCode?.get(compact) || raw.padStart(3, "0");
+  }
+
+  function currentPageValue(codeMaps) {
     const articleId = G.getParam("article", "") || G.getParam("id", "");
-    return articleId ? `article:${articleId}` : window.location.pathname.replace(/^\//, "");
+    return articleId ? `article:${articleDisplayCode(articleId, codeMaps)}` : window.location.pathname.replace(/^\//, "");
   }
 
   function apiPath() {
@@ -29,13 +54,13 @@
     return byParent;
   }
 
-  function renderItem(item, byParent, depth = 0) {
+  function renderItem(item, byParent, codeMaps, depth = 0) {
     const replies = byParent.get(item.id) || [];
     return `
       <article class="feedback-item ${depth ? "reply" : ""}" data-feedback-id="${G.escapeHTML(item.id)}">
         <div class="card-meta">
           <span>${G.escapeHTML(TYPE_LABELS[item.type] || TYPE_LABELS.other)}</span>
-          ${item.articleId ? `<span>文章 ${G.escapeHTML(item.articleId)}</span>` : ""}
+          ${item.articleId ? `<span>文章 ${G.escapeHTML(articleDisplayCode(item.articleId, codeMaps))}</span>` : ""}
           <span>${G.escapeHTML((item.createdAt || "").slice(0, 10))}</span>
           <span>编号 ${G.escapeHTML(item.id)}</span>
         </div>
@@ -46,26 +71,26 @@
         </div>
         ${replies.length ? `
           <div class="feedback-replies">
-            ${replies.map((reply) => renderItem(reply, byParent, depth + 1)).join("")}
+            ${replies.map((reply) => renderItem(reply, byParent, codeMaps, depth + 1)).join("")}
           </div>
         ` : ""}
       </article>
     `;
   }
 
-  function renderList(items) {
+  function renderList(items, codeMaps) {
     const visible = items.filter((item) => item.status === "visible");
     if (!visible.length) return `<p class="muted">暂无公开反馈。</p>`;
     const byParent = groupFeedback(visible);
     const roots = byParent.get("") || [];
     return `
       <div class="feedback-list">
-        ${roots.map((item) => renderItem(item, byParent)).join("")}
+        ${roots.map((item) => renderItem(item, byParent, codeMaps)).join("")}
       </div>
     `;
   }
 
-  function renderForm(root, recentItems = [], serviceOnline = true) {
+  function renderForm(root, recentItems = [], serviceOnline = true, codeMaps) {
     root.innerHTML = `
       ${serviceOnline ? "" : `
         <section class="notice">
@@ -85,13 +110,13 @@
               </select>
             </label>
             <label>
-              <span>文章编号</span>
-              <input id="feedback-article" class="form-input" name="articleId" inputmode="numeric" maxlength="3" placeholder="如 070，可不填" ${serviceOnline ? "" : "disabled"}>
+              <span>文章编码</span>
+              <input id="feedback-article" class="form-input" name="articleId" maxlength="12" placeholder="如 观止-070 或 拓展-001，可不填" ${serviceOnline ? "" : "disabled"}>
             </label>
           </div>
           <label>
             <span>所在页面</span>
-            <input id="feedback-page-field" class="form-input" name="page" maxlength="200" value="${G.escapeHTML(currentPageValue())}" ${serviceOnline ? "" : "disabled"}>
+            <input id="feedback-page-field" class="form-input" name="page" maxlength="200" value="${G.escapeHTML(currentPageValue(codeMaps))}" ${serviceOnline ? "" : "disabled"}>
           </label>
           <label>
             <span>反馈内容</span>
@@ -121,7 +146,7 @@
       <section class="content-card feedback-board">
         <h2>最近反馈</h2>
         <div id="feedback-list">
-          ${renderList(recentItems)}
+          ${renderList(recentItems, codeMaps)}
         </div>
       </section>
     `;
@@ -134,9 +159,9 @@
     return Array.isArray(payload.items) ? payload.items : [];
   }
 
-  async function refreshList(root) {
+  async function refreshList(root, codeMaps) {
     const recent = await fetchRecent().catch(() => []);
-    G.qs("#feedback-list", root).innerHTML = renderList(recent);
+    G.qs("#feedback-list", root).innerHTML = renderList(recent, codeMaps);
   }
 
   function setReplyTarget(root, id) {
@@ -155,7 +180,7 @@
     G.qs("#feedback-content", root).focus();
   }
 
-  async function deleteFeedback(root, id) {
+  async function deleteFeedback(root, id, codeMaps) {
     const secret = window.prompt("请输入删除密码；站长可输入站长口令。");
     if (!secret) return;
     const message = G.qs("#feedback-message", root);
@@ -171,13 +196,13 @@
         throw new Error(result.message || "删除失败，请稍后再试。");
       }
       message.textContent = "已删除。";
-      await refreshList(root);
+      await refreshList(root, codeMaps);
     } catch (error) {
       message.textContent = error.message || "删除失败。";
     }
   }
 
-  function bindList(root) {
+  function bindList(root, codeMaps) {
     const list = G.qs("#feedback-list", root);
     list.addEventListener("click", (event) => {
       const replyButton = event.target.closest(".reply-feedback");
@@ -187,12 +212,12 @@
       }
       const deleteButton = event.target.closest(".delete-feedback");
       if (deleteButton) {
-        deleteFeedback(root, deleteButton.dataset.feedbackId);
+        deleteFeedback(root, deleteButton.dataset.feedbackId, codeMaps);
       }
     });
   }
 
-  function bindForm(root) {
+  function bindForm(root, codeMaps) {
     const form = G.qs("#feedback-form", root);
     const message = G.qs("#feedback-message", root);
     const submit = G.qs("#feedback-submit", root);
@@ -211,7 +236,7 @@
       const payload = {
         type: G.qs("#feedback-type", root).value,
         parentId: G.qs("#feedback-parent-id", root).value,
-        articleId: G.qs("#feedback-article", root).value.trim(),
+        articleId: normalizeArticleCode(G.qs("#feedback-article", root).value, codeMaps),
         page: G.qs("#feedback-page-field", root).value.trim(),
         content: G.qs("#feedback-content", root).value.trim(),
         contact: G.qs("#feedback-contact", root).value.trim(),
@@ -233,8 +258,8 @@
         message.textContent = `${result.message || "已收到反馈。"} 评论编号：${result.id}`;
         form.reset();
         setReplyTarget(root, "");
-        G.qs("#feedback-page-field", root).value = currentPageValue();
-        await refreshList(root);
+        G.qs("#feedback-page-field", root).value = currentPageValue(codeMaps);
+        await refreshList(root, codeMaps);
       } catch (error) {
         message.textContent = error.message || "反馈服务暂不可用。";
       } finally {
@@ -247,17 +272,18 @@
     const root = G.qs("#feedback-page");
     if (!root) return;
     G.setDocumentTitle("反馈留言");
+    const codeMaps = buildCodeMaps(await G.fetchJSON("data/index.json").catch(() => ({})));
     if (!navigator.onLine) {
-      renderForm(root, [], false);
+      renderForm(root, [], false, codeMaps);
       return;
     }
     try {
       const recent = await fetchRecent();
-      renderForm(root, recent, true);
-      bindForm(root);
-      bindList(root);
+      renderForm(root, recent, true, codeMaps);
+      bindForm(root, codeMaps);
+      bindList(root, codeMaps);
     } catch (error) {
-      renderForm(root, [], false);
+      renderForm(root, [], false, codeMaps);
     }
   }
 

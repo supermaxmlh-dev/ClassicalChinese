@@ -26,6 +26,29 @@ function padId(value) {
   return String(value).padStart(3, "0");
 }
 
+function buildArticleCodeMap(articles) {
+  const counters = {
+    main: 0,
+    extended: 0
+  };
+  const codeById = new Map();
+
+  articles.forEach((article) => {
+    const isExtended = article.collection === "拓展阅读";
+    const group = isExtended ? "extended" : "guanzhi";
+    const number = isExtended ? (counters.extended += 1) : (counters.main += 1);
+    const padded = padId(number);
+    codeById.set(article.id, {
+      codeGroup: group,
+      codeNumber: number,
+      catalogCode: `${isExtended ? "E" : "G"}${padded}`,
+      displayCode: `${isExtended ? "拓展" : "观止"}-${padded}`
+    });
+  });
+
+  return codeById;
+}
+
 function stripMarkdown(value = "") {
   return value
     .replace(/<ruby>(.*?)<rp>\(<\/rp><rt>.*?<\/rt><rp>\)<\/rp><\/ruby>/g, "$1")
@@ -433,6 +456,10 @@ function buildIndex(availableArticles) {
     throw new Error("Missing data/curriculum.json. Run node scripts/sync-curriculum.js first.");
   }
   const curriculum = JSON.parse(fs.readFileSync(curriculumPath, "utf8"));
+  const codeById = buildArticleCodeMap(curriculum.articles);
+  availableArticles.forEach((article) => {
+    Object.assign(article, codeById.get(article.id) || {});
+  });
   const availableById = new Map(availableArticles.map((article) => [article.id, article]));
   const mainScheduledIds = new Set(curriculum.articles
     .filter((article) => article.collection !== "拓展阅读" && article.week && availableById.has(article.id))
@@ -449,6 +476,7 @@ function buildIndex(availableArticles) {
   }));
   const plannedArticles = curriculum.articles.map((article) => ({
     ...article,
+    ...(codeById.get(article.id) || {}),
     available: availableById.has(article.id)
   }));
   const mainArticleIds = weeks.flatMap((week) => week.articleIds);
@@ -489,6 +517,10 @@ function buildContentStatus(indexData, availableArticles) {
     const article = availableById.get(planned.id);
     return {
       id: planned.id,
+      catalogCode: planned.catalogCode,
+      displayCode: planned.displayCode,
+      codeGroup: planned.codeGroup,
+      codeNumber: planned.codeNumber,
       title: planned.title,
       week: planned.week,
       collection: planned.collection || "古文观止",
@@ -506,6 +538,10 @@ function buildContentStatus(indexData, availableArticles) {
     .filter((article) => !plannedIds.has(article.id))
     .map((article) => ({
       id: article.id,
+      catalogCode: article.catalogCode,
+      displayCode: article.displayCode,
+      codeGroup: article.codeGroup,
+      codeNumber: article.codeNumber,
       title: article.title,
       week: article.week,
       difficulty: article.difficulty,
@@ -816,11 +852,11 @@ const articles = fs.readdirSync(samplesDir)
   .sort()
   .map((file) => parseArticle(path.join(samplesDir, file)));
 
+const indexData = buildIndex(articles);
+
 articles.forEach((article) => {
   writeJSON(path.join(articlesDir, `${article.id}.json`), article);
 });
-
-const indexData = buildIndex(articles);
 
 writeJSON(path.join(dataDir, "index.json"), indexData);
 writeJSON(path.join(dataDir, "content-status.json"), buildContentStatus(indexData, articles));

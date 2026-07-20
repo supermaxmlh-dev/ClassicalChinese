@@ -215,6 +215,7 @@
             <p class="eyebrow">${G.escapeHTML(article.source || "")}</p>
             <h1>${G.escapeHTML(article.title)}</h1>
             <div class="card-meta">
+              <span>${G.escapeHTML(article.displayCode || article.id)}</span>
               <span>${G.escapeHTML(article.author)}</span>
               <span>${G.escapeHTML(article.dynasty)}</span>
               <span>${article.wordCount} 字</span>

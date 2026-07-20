@@ -77,9 +77,24 @@ if (!fs.existsSync(curriculumPath)) {
   if (index) {
     const mainScheduledIds = new Set((index.weeks || []).flatMap((week) => week.articleIds || []));
     const extendedIds = new Set(index.extendedReading || []);
+    const displayCodes = new Set();
     extendedArticles.forEach((article) => {
       if (!extendedIds.has(article.id)) errors.push(`${article.id} ${article.title} missing from index.extendedReading.`);
       if (mainScheduledIds.has(article.id)) errors.push(`${article.id} ${article.title} is both extended and main week.`);
+    });
+    (index.articles || []).forEach((article) => {
+      if (!article.catalogCode || !article.displayCode) {
+        errors.push(`${article.id} ${article.title} missing catalogCode/displayCode.`);
+        return;
+      }
+      if (displayCodes.has(article.displayCode)) errors.push(`Duplicate displayCode in index: ${article.displayCode}.`);
+      displayCodes.add(article.displayCode);
+      if (article.collection === "拓展阅读" && !/^拓展-\d{3}$/.test(article.displayCode)) {
+        errors.push(`${article.id} ${article.title} extended reading displayCode must use 拓展-###.`);
+      }
+      if ((article.collection || "古文观止") !== "拓展阅读" && !/^观止-\d{3}$/.test(article.displayCode)) {
+        errors.push(`${article.id} ${article.title} main reading displayCode must use 观止-###.`);
+      }
     });
     if (index.plannedArticleCount !== mainScheduledIds.size) {
       errors.push("index.plannedArticleCount does not match scheduled main articles.");

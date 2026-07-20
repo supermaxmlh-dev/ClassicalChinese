@@ -2,6 +2,7 @@
   const Guanzhi = window.Guanzhi || {};
   const isPage = window.location.pathname.includes("/pages/");
   const basePath = isPage ? "../" : "";
+  const dataVersion = "20260720-codes";
 
   const qs = (selector, root = document) => root.querySelector(selector);
   const qsa = (selector, root = document) => [...root.querySelectorAll(selector)];
@@ -24,7 +25,9 @@
   }
 
   async function fetchJSON(path) {
-    const response = await fetch(asset(path), { cache: "no-cache" });
+    const url = asset(path);
+    const separator = url.includes("?") ? "&" : "?";
+    const response = await fetch(`${url}${separator}v=${dataVersion}`, { cache: "no-cache" });
     if (!response.ok) {
       throw new Error(`无法加载 ${path}: ${response.status}`);
     }

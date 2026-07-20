@@ -92,6 +92,7 @@ const uniqueAvailableIds = new Set(availableIds);
 if (uniqueAvailableIds.size !== availableIds.length) {
   errors.push("index.availableArticleIds contains duplicates.");
 }
+const displayCodes = new Set();
 
 availableIds.forEach((id) => {
   const file = path.join(dataDir, "articles", `${id}.json`);
@@ -111,6 +112,18 @@ availableIds.forEach((id) => {
     errors.push(`${id}.json missing week`);
   }
   if (article.id !== id) errors.push(`${id}.json has mismatched id ${article.id}`);
+  if (!article.catalogCode || !article.displayCode) {
+    errors.push(`${id}.json missing catalogCode/displayCode.`);
+  } else {
+    if (displayCodes.has(article.displayCode)) errors.push(`Duplicate displayCode: ${article.displayCode}.`);
+    displayCodes.add(article.displayCode);
+    if (article.collection === "拓展阅读" && !/^拓展-\d{3}$/.test(article.displayCode)) {
+      errors.push(`${id}.json extended reading displayCode must use 拓展-###.`);
+    }
+    if (article.collection !== "拓展阅读" && !/^观止-\d{3}$/.test(article.displayCode)) {
+      errors.push(`${id}.json main reading displayCode must use 观止-###.`);
+    }
+  }
   if (!Array.isArray(article.sections) || article.sections.length === 0) errors.push(`${id}.json has no sections`);
   validateSections(article, id);
   if (!article.fullTranslation) errors.push(`${id}.json has no fullTranslation`);
