@@ -11,87 +11,87 @@
       "senses": [
         {
           "word": "之",
-          "def": "代词或助词，需结合上下文理解",
-          "example": "肉食者谋之",
+          "def": "“与之乘”指与曹刿同乘；“鼓之”补足音节、不译；“驰之、望之”指追赶、观察齐军",
+          "example": "公与之乘",
           "articleId": "001",
           "articleTitle": "曹刿论战"
         },
         {
           "word": "之",
-          "def": "代词或助词，需结合上下文理解",
-          "example": "齐国之美丽者也",
-          "articleId": "006",
-          "articleTitle": "邹忌讽齐王纳谏"
-        },
-        {
-          "word": "虎豹之秦",
-          "def": "像虎豹一样凶狠的秦国",
-          "example": "士以故归之",
-          "articleId": "014",
-          "articleTitle": "读孟尝君传"
+          "def": "“佚之狐、烛之武”中的“之”是姓名用字；“从之、许之”指听从建议、答应此事；“臣之壮也”用于主谓之间；“寡人之过”相当于“的”",
+          "example": "佚之狐言于郑伯曰",
+          "articleId": "013",
+          "articleTitle": "烛之武退秦师"
         },
         {
           "word": "之",
-          "def": "到，的，代词",
-          "example": "谓之不免",
-          "articleId": "073",
-          "articleTitle": "阴饴甥对秦伯"
+          "def": "“出之、鬻之、剖之”都指柑橘；“问之”指询问卖柑者",
+          "example": "出之烨然",
+          "articleId": "039",
+          "articleTitle": "卖柑者言"
         },
         {
           "word": "之",
-          "def": "到，的，代词",
-          "example": "麟之为灵",
-          "articleId": "082",
-          "articleTitle": "获麟解"
-        },
-        {
-          "word": "归之",
-          "def": "归附他",
-          "example": "士以故归之",
-          "articleId": "014",
-          "articleTitle": "读孟尝君传"
-        },
-        {
-          "word": "何陋之有",
-          "def": "有什么简陋的呢？出自《论语》",
-          "example": "何陋之有",
-          "articleId": "007",
-          "articleTitle": "陋室铭"
-        },
-        {
-          "word": "策之",
-          "def": "用马鞭驱赶它。策，马鞭，这里作动词",
-          "example": "策之不以其道",
-          "articleId": "008",
-          "articleTitle": "杂说四（马说）"
+          "def": "“击之”指攻打秦军；“夫人之力、因人之力”相当于“的”；“敝之”指损害秦国；“去之”指离开郑国",
+          "example": "子犯请击之",
+          "articleId": "013",
+          "articleTitle": "烛之武退秦师"
         },
         {
           "word": "之",
-          "def": "的",
-          "example": "山川之美",
-          "articleId": "002",
-          "articleTitle": "答谢中书书"
+          "def": "“去之”指离开许国；“周之子孙、大岳之胤”的“之”相当于“的”",
+          "example": "乃亟去之",
+          "articleId": "021",
+          "articleTitle": "郑庄公戒饬守臣"
         },
         {
-          "word": "马之千里者",
-          "def": "能日行千里的马",
-          "example": "马之千里者",
-          "articleId": "008",
-          "articleTitle": "杂说四（马说）"
+          "word": "之",
+          "def": "“古仁人之心、二者之为、天下之忧乐”中的“之”相当于“的”；“庙堂之高、江湖之远”是定语后置标志",
+          "example": "予尝求古仁人之心",
+          "articleId": "015",
+          "articleTitle": "岳阳楼记"
         },
         {
-          "word": "临之",
-          "def": "面对着它",
-          "example": "策之不以其道",
-          "articleId": "008",
-          "articleTitle": "杂说四（马说）"
+          "word": "之",
+          "def": "“君之所知”用于主谓之间；“何厌之有”是宾语前置标志；“取之”指取得土地；“图之”指考虑这件事",
+          "example": "君之所知也",
+          "articleId": "013",
+          "articleTitle": "烛之武退秦师"
         },
         {
-          "word": "齐之强",
-          "def": "齐国的强大力量",
-          "example": "擅齐之强",
-          "articleId": "014",
-          "articleTitle": "读孟尝君传"
+          "word": "之",
+          "def": "“售之、取之”指柑橘；“世之为欺者、干城之具、孙吴之略”的“之”相当于“的”；“未之思”是宾语前置，指没有思考这件事",
+          "example": "吾售之",
+          "articleId": "039",
+          "articleTitle": "卖柑者言"
+        },
+        {
+          "word": "之",
+          "def": "“大夫之箦、季孙之赐”的“之”相当于“的”；“闻之”指听见童子的话；“未之能易”是宾语前置，指未能换掉这张席子",
+          "example": "大夫之箦与",
+          "articleId": "019",
+          "articleTitle": "曾子易箦"
+        },
+        {
+          "word": "之",
+          "def": "“寡人之使吾子处此”用于主谓之间，不译；“许国之为”指为了许国",
+          "example": "寡人之使吾子处此",
+          "articleId": "021",
+          "articleTitle": "郑庄公戒饬守臣"
+        },
+        {
+          "word": "之",
+          "def": "“山之僧、醉翁之意、山水之乐”的“之”相当于“的”；“名之”指给亭子命名；“得之心、寓之酒”的“之”相当于“于”",
+          "example": "山之僧智仙也",
+          "articleId": "016",
+          "articleTitle": "醉翁亭记"
+        },
+        {
+          "word": "之",
+          "def": "“山林川泽之实、器用之资、皂隶之事、官司之守”的“之”相当于“的”；“观之”指观看陈列的鱼",
+          "example": "川泽之实",
+          "articleId": "043",
+          "articleTitle": "臧僖伯谏观鱼"
         }
       ],
       "variants": [],
@@ -253,14 +253,77 @@
       "senses": [
         {
           "word": "其",
-          "def": "代词或语气词，需结合上下文理解",
+          "def": "“其口角、其行情”指柳敬亭的口才和身价；“同其婉娈”指有王月生同样的柔美风韵",
+          "example": "然其口角波俏",
+          "articleId": "046",
+          "articleTitle": "柳敬亭说书"
+        },
+        {
+          "word": "其",
+          "def": "“其敢、其况”表反问，可译为“岂敢、何况”；“糊其口”指让郑庄公的弟弟在外谋生",
+          "example": "其敢以许自为功乎",
+          "articleId": "021",
+          "articleTitle": "郑庄公戒饬守臣"
+        },
+        {
+          "word": "其",
+          "def": "“其苗裔”指舜的后代；“其政”指秦朝的政令统治",
+          "example": "羽岂其苗裔邪",
+          "articleId": "037",
+          "articleTitle": "项羽本纪赞"
+        },
+        {
+          "word": "其",
+          "def": "“其言”指卖柑者的话；“岂其愤世疾邪者耶”中的“其”指卖柑者，可译为“难道他是……”",
+          "example": "又何往而不金玉其外",
+          "articleId": "039",
+          "articleTitle": "卖柑者言"
+        },
+        {
+          "word": "其",
+          "def": "代词，他们，指众宾客（其间＝众宾客中间）",
+          "example": "颓然乎其间者",
+          "articleId": "016",
+          "articleTitle": "醉翁亭记"
+        },
+        {
+          "word": "其",
+          "def": "代词，他的，指国君的（亡其国＝使自己的国家灭亡）",
+          "example": "足以亡其国",
+          "articleId": "025",
+          "articleTitle": "鲁共公择言"
+        },
+        {
+          "word": "其",
+          "def": "代词，他的，指柳敬亭（其描写刻画＝他的描写刻画）",
+          "example": "其描写刻画",
+          "articleId": "046",
+          "articleTitle": "柳敬亭说书"
+        },
+        {
+          "word": "其",
+          "def": "代词，他的，指柳敬亭（听其说＝听他说）",
+          "example": "余听其说景阳冈武松打虎白文",
+          "articleId": "046",
+          "articleTitle": "柳敬亭说书"
+        },
+        {
+          "word": "其",
+          "def": "代词，许国自己的（伏其罪＝承认许国自己的罪过）",
+          "example": "许既伏其罪矣",
+          "articleId": "021",
+          "articleTitle": "郑庄公戒饬守臣"
+        },
+        {
+          "word": "其",
+          "def": "代词，那条溪流的（其岸势、其源＝溪流的岸势、源头）",
           "example": "其岸势犬牙差互",
           "articleId": "011",
           "articleTitle": "小石潭记"
         },
         {
           "word": "其",
-          "def": "代词或语气词，需结合上下文理解",
+          "def": "代词，郑国的（以其无礼于晋＝因为郑国曾对晋国无礼）",
           "example": "以其无礼于晋",
           "articleId": "013",
           "articleTitle": "烛之武退秦师"
@@ -269,27 +332,6 @@
           "word": "尽其材",
           "def": "充分发挥它的才能。材，通\"才\"",
           "example": "策之不以其道",
-          "articleId": "008",
-          "articleTitle": "杂说四（马说）"
-        },
-        {
-          "word": "出其门",
-          "def": "出现在他的门下",
-          "example": "夫鸡鸣狗盗之出其门",
-          "articleId": "014",
-          "articleTitle": "读孟尝君传"
-        },
-        {
-          "word": "通其意",
-          "def": "懂得它的意思",
-          "example": "策之不以其道",
-          "articleId": "008",
-          "articleTitle": "杂说四（马说）"
-        },
-        {
-          "word": "其",
-          "def": "难道，表示反问；也可理解为\"恐怕\"",
-          "example": "其真无马邪",
           "articleId": "008",
           "articleTitle": "杂说四（马说）"
         }

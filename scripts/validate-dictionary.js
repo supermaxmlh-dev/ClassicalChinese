@@ -5,6 +5,7 @@ const root = path.resolve(__dirname, "..");
 const dictionaryPath = path.join(root, "data", "dictionary.json");
 const errors = [];
 const PINYIN_PATTERN = /^[a-züāáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜńňǹḿ]+$/i;
+const VAGUE_DEFINITION_PATTERN = /需.*上下文|结合.*上下文|联系.*上下文|视.*上下文|根据.*语境|结合.*语境|联系.*语境|视.*语境|依.*语境/;
 
 function isHan(char) {
   return /^[\u3400-\u9fff]$/.test(char);
@@ -42,6 +43,9 @@ if (!fs.existsSync(dictionaryPath)) {
         entry.senses.forEach((sense, senseIndex) => {
           if (!String(sense.def || "").trim()) {
             errors.push(`dictionary ${entry.char} senses[${senseIndex}] has empty def.`);
+          }
+          if (VAGUE_DEFINITION_PATTERN.test(String(sense.def || ""))) {
+            errors.push(`dictionary ${entry.char} senses[${senseIndex}] has a vague context-dependent definition.`);
           }
           if (!String(sense.word || "").trim()) {
             errors.push(`dictionary ${entry.char} senses[${senseIndex}] has empty word.`);

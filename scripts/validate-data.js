@@ -22,6 +22,7 @@ const BANNED_CHOICE_QUESTION_PATTERNS = [
   /本文题目是下列哪一项/,
   /阅读本文时，最应该先抓住什么/
 ];
+const VAGUE_DEFINITION_PATTERN = /需.*上下文|结合.*上下文|联系.*上下文|视.*上下文|根据.*语境|结合.*语境|联系.*语境|视.*语境|依.*语境/;
 
 function hanCount(value = "") {
   return (String(value).match(/[\u3400-\u9fff]/g) || []).length;
@@ -125,6 +126,13 @@ availableIds.forEach((id) => {
     }
   }
   if (!Array.isArray(article.sections) || article.sections.length === 0) errors.push(`${id}.json has no sections`);
+  (article.sections || []).forEach((section, sectionIndex) => {
+    (section.annotations || []).forEach((annotation, annotationIndex) => {
+      if (VAGUE_DEFINITION_PATTERN.test(String(annotation.meaning || ""))) {
+        errors.push(`${id}.json sections[${sectionIndex}].annotations[${annotationIndex}] has a vague context-dependent meaning.`);
+      }
+    });
+  });
   validateSections(article, id);
   if (!article.fullTranslation) errors.push(`${id}.json has no fullTranslation`);
   if (!article.quiz?.choices?.length) errors.push(`${id}.json has no choice questions`);
