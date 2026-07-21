@@ -12,11 +12,13 @@ const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
 const RATE_LIMIT_MAX = 5;
 const ADMIN_RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
 const ADMIN_RATE_LIMIT_MAX = 10;
+const ADMIN_ACTION_RATE_LIMIT_MAX = 300;
 const VALID_TYPES = new Set(["original", "pinyin", "annotation", "quiz", "ui", "privacy", "other"]);
 const VALID_STATUSES = new Set(["visible", "needs_review", "deleted"]);
 const HASH_ITERATIONS = 120000;
 const rateBuckets = new Map();
-const adminRateBuckets = new Map();
+const adminFailureBuckets = new Map();
+const adminActionBuckets = new Map();
 
 function json(status, body) {
   return {
@@ -67,7 +69,8 @@ function tooManyRequests(ipHash) {
 
 function resetRateLimit() {
   rateBuckets.clear();
-  adminRateBuckets.clear();
+  adminFailureBuckets.clear();
+  adminActionBuckets.clear();
 }
 
 function publicBoardEnabled() {
@@ -79,25 +82,29 @@ function adminTokenFrom(headers = {}, body) {
   return headers["x-admin-token"] || headers["X-Admin-Token"] || parsed.adminToken || "";
 }
 
-function adminTooManyRequests(ipHash) {
+function incrementRateBucket(buckets, ipHash, limit) {
   const now = Date.now();
-  const bucket = adminRateBuckets.get(ipHash) || { count: 0, resetAt: now + ADMIN_RATE_LIMIT_WINDOW_MS };
+  const bucket = buckets.get(ipHash) || { count: 0, resetAt: now + ADMIN_RATE_LIMIT_WINDOW_MS };
   if (now > bucket.resetAt) {
     bucket.count = 0;
     bucket.resetAt = now + ADMIN_RATE_LIMIT_WINDOW_MS;
   }
   bucket.count += 1;
-  adminRateBuckets.set(ipHash, bucket);
-  return bucket.count > ADMIN_RATE_LIMIT_MAX;
+  buckets.set(ipHash, bucket);
+  return bucket.count > limit;
 }
 
 function verifyAdminRequest(headers = {}, body) {
   const ipHash = hashIp(getClientIp(headers));
-  if (adminTooManyRequests(ipHash)) {
-    return { ok: false, response: json(429, { ok: false, message: "请求过于频繁，请稍后再试。" }) };
-  }
   if (!verifyAdminToken(adminTokenFrom(headers, body))) {
+    if (incrementRateBucket(adminFailureBuckets, ipHash, ADMIN_RATE_LIMIT_MAX)) {
+      return { ok: false, response: json(429, { ok: false, message: "口令错误次数过多，请稍后再试。" }) };
+    }
     return { ok: false, response: json(401, { ok: false, message: "无权访问。" }) };
+  }
+  adminFailureBuckets.delete(ipHash);
+  if (incrementRateBucket(adminActionBuckets, ipHash, ADMIN_ACTION_RATE_LIMIT_MAX)) {
+    return { ok: false, response: json(429, { ok: false, message: "管理操作过于频繁，请稍后再试。" }) };
   }
   return { ok: true };
 }

@@ -52,11 +52,29 @@ async function main() {
   const getDefaultOff = await request("GET");
   assert(getDefaultOff.status === 200 && getDefaultOff.body.items.length === 0, "Public board should be off by default.");
 
-  const badAdmin = await request("GET", null, "127.0.0.2", {
-    query: { admin: "1" },
-    headers: { "X-Admin-Token": "wrong-token" }
-  });
-  assert(badAdmin.status === 401, "Wrong admin token should be rejected.");
+  for (let attempt = 1; attempt <= 11; attempt += 1) {
+    const badAdmin = await request("GET", null, "127.0.0.20", {
+      query: { admin: "1" },
+      headers: { "X-Admin-Token": "wrong-token" }
+    });
+    if (attempt <= 10) {
+      assert(badAdmin.status === 401, `Wrong admin attempt ${attempt} should return 401.`);
+    } else {
+      assert(badAdmin.status === 429, "The 11th wrong admin attempt should be rate limited.");
+      assert(badAdmin.body.message.includes("口令错误次数过多"), "Admin failure limit should have a specific message.");
+    }
+  }
+
+  for (let action = 0; action < 20; action += 1) {
+    const status = action % 2 === 0 ? "visible" : "needs_review";
+    const adminAction = await request("PATCH", {
+      id: post.body.id,
+      status
+    }, "127.0.0.30", {
+      headers: { "X-Admin-Token": "admin-secret-for-test" }
+    });
+    assert(adminAction.status === 200 && adminAction.body.ok, `Correct admin action ${action + 1} should succeed.`);
+  }
 
   const adminQueue = await request("GET", null, "127.0.0.3", {
     query: { admin: "1" },
@@ -143,7 +161,7 @@ async function main() {
   assert(!afterDelete.body.items.some((item) => item.id === reply.body.id), "Admin-deleted reply must not be public.");
 
   fs.rmSync(filePath, { force: true });
-  console.log("Feedback API OK: default private board, review-first flow, admin moderation, user delete, admin delete, and privacy checks passed.");
+  console.log("Feedback API OK: 20 correct admin actions passed; 11th wrong token was rate limited; review, delete, and privacy checks passed.");
 }
 
 main().catch((error) => {

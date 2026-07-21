@@ -15,6 +15,7 @@
     deleted: "已删除"
   };
   let adminToken = "";
+  let queuePayload = null;
 
   function apiPath() {
     return "/api/feedback";
@@ -73,7 +74,8 @@
     `;
   }
 
-  function renderQueue(root, payload) {
+  function renderQueue(root, payload, flashMessage = "") {
+    queuePayload = payload;
     const items = Array.isArray(payload.items) ? payload.items : [];
     const pending = items.filter((item) => item.status !== "deleted");
     root.innerHTML = `
@@ -88,7 +90,7 @@
         <div class="button-row">
           <button id="admin-refresh" class="btn" type="button">刷新</button>
           <button id="admin-logout" class="btn" type="button">退出</button>
-          <span id="admin-message" class="form-message"></span>
+          <span id="admin-message" class="form-message">${G.escapeHTML(flashMessage)}</span>
         </div>
       </section>
       <section id="admin-list" class="feedback-list admin-list">
@@ -128,8 +130,11 @@
     });
     const payload = await response.json().catch(() => ({}));
     if (!response.ok || !payload.ok) throw new Error(payload.message || "更新失败。");
-    if (message) message.textContent = payload.message || "已更新。";
-    await loadQueue(root);
+    if (queuePayload) {
+      const item = queuePayload.items.find((entry) => entry.id === id);
+      if (item) item.status = status;
+      renderQueue(root, queuePayload, payload.message || "已更新。");
+    }
   }
 
   async function deleteItem(root, id) {
@@ -142,14 +147,17 @@
     });
     const payload = await response.json().catch(() => ({}));
     if (!response.ok || !payload.ok) throw new Error(payload.message || "删除失败。");
-    if (message) message.textContent = payload.message || "已删除。";
-    await loadQueue(root);
+    if (queuePayload) {
+      queuePayload.items = queuePayload.items.filter((entry) => entry.id !== id);
+      renderQueue(root, queuePayload, payload.message || "已删除。");
+    }
   }
 
   function bindAdminActions(root) {
     G.qs("#admin-refresh", root).addEventListener("click", () => loadQueue(root));
     G.qs("#admin-logout", root).addEventListener("click", () => {
       adminToken = "";
+      queuePayload = null;
       renderLogin(root);
     });
     G.qs("#admin-list", root).addEventListener("click", async (event) => {
