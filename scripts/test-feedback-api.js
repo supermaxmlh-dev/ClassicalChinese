@@ -35,7 +35,7 @@ async function main() {
     articleId: "070",
     page: "pages/article.html?id=070",
     content: "这里测试反馈入口是否可以保存并读取。",
-    contact: "",
+    contact: "owner@example.com",
     deleteSecret: "user-delete-secret",
     privacyConsent: true,
     website: ""
@@ -81,7 +81,8 @@ async function main() {
     headers: { "X-Admin-Token": "admin-secret-for-test" }
   });
   assert(adminQueue.status === 200 && adminQueue.body.items.some((item) => item.id === post.body.id), "Admin queue should include needs_review feedback.");
-  assert(!adminQueue.body.items[0].contact && !adminQueue.body.items[0].ipHash && !adminQueue.body.items[0].deleteSecretHash, "Admin GET leaked private fields.");
+  assert(adminQueue.body.items.find((item) => item.id === post.body.id)?.contact === "owner@example.com", "Authenticated admin should receive the stored contact.");
+  assert(!adminQueue.body.items[0].ipHash && !adminQueue.body.items[0].deleteSecretHash, "Admin GET leaked security fields.");
 
   const approve = await request("PATCH", {
     id: post.body.id,
@@ -160,8 +161,73 @@ async function main() {
   assert(!afterDelete.body.items.some((item) => item.id === post.body.id), "Deleted feedback must not be public.");
   assert(!afterDelete.body.items.some((item) => item.id === reply.body.id), "Admin-deleted reply must not be public.");
 
+  process.env.ADMIN_RATE_LIMIT_MAX = "3";
+  resetRateLimit();
+  for (let attempt = 1; attempt <= 4; attempt += 1) {
+    const result = await request("GET", null, "127.0.1.1", {
+      query: { admin: "1" },
+      headers: { "X-Admin-Token": "wrong-token" }
+    });
+    assert(result.status === (attempt <= 3 ? 401 : 429), `ADMIN_RATE_LIMIT_MAX=3 failed at attempt ${attempt}.`);
+  }
+
+  process.env.ADMIN_OPS_RATE_LIMIT_MAX = "2";
+  resetRateLimit();
+  for (let action = 1; action <= 3; action += 1) {
+    const result = await request("GET", null, "127.0.1.2", {
+      query: { admin: "1" },
+      headers: { "X-Admin-Token": "admin-secret-for-test" }
+    });
+    assert(result.status === (action <= 2 ? 200 : 429), `ADMIN_OPS_RATE_LIMIT_MAX=2 failed at action ${action}.`);
+  }
+
+  process.env.FEEDBACK_RATE_LIMIT_MAX = "2";
+  resetRateLimit();
+  for (let submission = 1; submission <= 3; submission += 1) {
+    const result = await request("POST", {
+      type: "other",
+      page: "pages/feedback.html",
+      content: `自定义提交限流测试第${submission}条`,
+      privacyConsent: true,
+      website: ""
+    }, "127.0.1.3");
+    assert(result.status === (submission <= 2 ? 201 : 429), `FEEDBACK_RATE_LIMIT_MAX=2 failed at submission ${submission}.`);
+  }
+
+  process.env.ADMIN_RATE_LIMIT_MAX = "abc";
+  process.env.ADMIN_RATE_LIMIT_WINDOW_MS = "0";
+  process.env.ADMIN_OPS_RATE_LIMIT_MAX = "-1";
+  process.env.FEEDBACK_RATE_LIMIT_MAX = "0";
+  process.env.FEEDBACK_RATE_LIMIT_WINDOW_MS = "abc";
+  resetRateLimit();
+  for (let attempt = 1; attempt <= 11; attempt += 1) {
+    const result = await request("GET", null, "127.0.1.4", {
+      query: { admin: "1" },
+      headers: { "X-Admin-Token": "wrong-token" }
+    });
+    assert(result.status === (attempt <= 10 ? 401 : 429), `Invalid admin env fallback failed at attempt ${attempt}.`);
+  }
+  for (let submission = 1; submission <= 6; submission += 1) {
+    const result = await request("POST", {
+      type: "other",
+      page: "pages/feedback.html",
+      content: `非法环境变量回落测试第${submission}条`,
+      privacyConsent: true,
+      website: ""
+    }, "127.0.1.5");
+    assert(result.status === (submission <= 5 ? 201 : 429), `Invalid feedback env fallback failed at submission ${submission}.`);
+  }
+
+  [
+    "ADMIN_RATE_LIMIT_MAX",
+    "ADMIN_RATE_LIMIT_WINDOW_MS",
+    "ADMIN_OPS_RATE_LIMIT_MAX",
+    "FEEDBACK_RATE_LIMIT_MAX",
+    "FEEDBACK_RATE_LIMIT_WINDOW_MS"
+  ].forEach((name) => delete process.env[name]);
+
   fs.rmSync(filePath, { force: true });
-  console.log("Feedback API OK: 20 correct admin actions passed; 11th wrong token was rate limited; review, delete, and privacy checks passed.");
+  console.log("Feedback API OK: admin and feedback rate limits honor defaults, custom values, and invalid-value fallbacks.");
 }
 
 main().catch((error) => {

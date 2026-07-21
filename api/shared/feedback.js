@@ -8,13 +8,22 @@ const MAX_CONTACT_LENGTH = 120;
 const MAX_PAGE_LENGTH = 200;
 const MAX_SECRET_LENGTH = 120;
 const MAX_PARENT_ID_LENGTH = 80;
-const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
-const RATE_LIMIT_MAX = 5;
-const ADMIN_RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
-const ADMIN_RATE_LIMIT_MAX = 10;
-const ADMIN_ACTION_RATE_LIMIT_MAX = 300;
+const DEFAULT_FEEDBACK_RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
+const DEFAULT_FEEDBACK_RATE_LIMIT_MAX = 5;
+const DEFAULT_ADMIN_RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
+const DEFAULT_ADMIN_RATE_LIMIT_MAX = 10;
+const DEFAULT_ADMIN_OPS_RATE_LIMIT_MAX = 300;
 const VALID_TYPES = new Set(["original", "pinyin", "annotation", "quiz", "ui", "privacy", "other"]);
 const VALID_STATUSES = new Set(["visible", "needs_review", "deleted"]);
+const TYPE_LABELS = {
+  original: "原文错误",
+  pinyin: "拼音",
+  annotation: "注释",
+  quiz: "练习题",
+  ui: "界面",
+  privacy: "隐私",
+  other: "其他"
+};
 const HASH_ITERATIONS = 120000;
 const rateBuckets = new Map();
 const adminFailureBuckets = new Map();
@@ -45,6 +54,15 @@ function trimText(value, maxLength) {
   return String(value || "").replace(/\s+/g, " ").trim().slice(0, maxLength);
 }
 
+function escapeHtml(value = "") {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
 function getClientIp(headers) {
   const forwarded = headers["x-forwarded-for"] || headers["X-Forwarded-For"] || "";
   return String(forwarded).split(",")[0].trim() || headers["x-client-ip"] || "unknown";
@@ -55,16 +73,32 @@ function hashIp(ip) {
   return crypto.createHash("sha256").update(`${salt}:${ip}`).digest("hex").slice(0, 16);
 }
 
+function positiveEnvNumber(name, fallback) {
+  const value = Number(process.env[name]);
+  return Number.isFinite(value) && value > 0 ? value : fallback;
+}
+
+function rateLimitConfig() {
+  return {
+    feedbackMax: positiveEnvNumber("FEEDBACK_RATE_LIMIT_MAX", DEFAULT_FEEDBACK_RATE_LIMIT_MAX),
+    feedbackWindowMs: positiveEnvNumber("FEEDBACK_RATE_LIMIT_WINDOW_MS", DEFAULT_FEEDBACK_RATE_LIMIT_WINDOW_MS),
+    adminFailureMax: positiveEnvNumber("ADMIN_RATE_LIMIT_MAX", DEFAULT_ADMIN_RATE_LIMIT_MAX),
+    adminWindowMs: positiveEnvNumber("ADMIN_RATE_LIMIT_WINDOW_MS", DEFAULT_ADMIN_RATE_LIMIT_WINDOW_MS),
+    adminOpsMax: positiveEnvNumber("ADMIN_OPS_RATE_LIMIT_MAX", DEFAULT_ADMIN_OPS_RATE_LIMIT_MAX)
+  };
+}
+
 function tooManyRequests(ipHash) {
+  const config = rateLimitConfig();
   const now = Date.now();
-  const bucket = rateBuckets.get(ipHash) || { count: 0, resetAt: now + RATE_LIMIT_WINDOW_MS };
+  const bucket = rateBuckets.get(ipHash) || { count: 0, resetAt: now + config.feedbackWindowMs };
   if (now > bucket.resetAt) {
     bucket.count = 0;
-    bucket.resetAt = now + RATE_LIMIT_WINDOW_MS;
+    bucket.resetAt = now + config.feedbackWindowMs;
   }
   bucket.count += 1;
   rateBuckets.set(ipHash, bucket);
-  return bucket.count > RATE_LIMIT_MAX;
+  return bucket.count > config.feedbackMax;
 }
 
 function resetRateLimit() {
@@ -82,12 +116,12 @@ function adminTokenFrom(headers = {}, body) {
   return headers["x-admin-token"] || headers["X-Admin-Token"] || parsed.adminToken || "";
 }
 
-function incrementRateBucket(buckets, ipHash, limit) {
+function incrementRateBucket(buckets, ipHash, limit, windowMs) {
   const now = Date.now();
-  const bucket = buckets.get(ipHash) || { count: 0, resetAt: now + ADMIN_RATE_LIMIT_WINDOW_MS };
+  const bucket = buckets.get(ipHash) || { count: 0, resetAt: now + windowMs };
   if (now > bucket.resetAt) {
     bucket.count = 0;
-    bucket.resetAt = now + ADMIN_RATE_LIMIT_WINDOW_MS;
+    bucket.resetAt = now + windowMs;
   }
   bucket.count += 1;
   buckets.set(ipHash, bucket);
@@ -96,14 +130,15 @@ function incrementRateBucket(buckets, ipHash, limit) {
 
 function verifyAdminRequest(headers = {}, body) {
   const ipHash = hashIp(getClientIp(headers));
+  const config = rateLimitConfig();
   if (!verifyAdminToken(adminTokenFrom(headers, body))) {
-    if (incrementRateBucket(adminFailureBuckets, ipHash, ADMIN_RATE_LIMIT_MAX)) {
+    if (incrementRateBucket(adminFailureBuckets, ipHash, config.adminFailureMax, config.adminWindowMs)) {
       return { ok: false, response: json(429, { ok: false, message: "口令错误次数过多，请稍后再试。" }) };
     }
     return { ok: false, response: json(401, { ok: false, message: "无权访问。" }) };
   }
   adminFailureBuckets.delete(ipHash);
-  if (incrementRateBucket(adminActionBuckets, ipHash, ADMIN_ACTION_RATE_LIMIT_MAX)) {
+  if (incrementRateBucket(adminActionBuckets, ipHash, config.adminOpsMax, config.adminWindowMs)) {
     return { ok: false, response: json(429, { ok: false, message: "管理操作过于频繁，请稍后再试。" }) };
   }
   return { ok: true };
@@ -280,7 +315,8 @@ function adminItem(item) {
     ...publicItem(item),
     status: item.status || "visible",
     moderationFlags: Array.isArray(moderationFlags) ? moderationFlags : [],
-    hasContact: Boolean(item.contact)
+    hasContact: Boolean(item.contact),
+    contact: item.contact || ""
   };
 }
 
@@ -442,9 +478,73 @@ async function patchTableItem(id, patch) {
   return { ok: true, storage: "azure-table" };
 }
 
-async function sendWebhook(item, action = "created") {
+function webhookFormat() {
+  return String(process.env.FEEDBACK_WEBHOOK_FORMAT || "generic").trim().toLowerCase();
+}
+
+function emailRecipients() {
+  return String(process.env.FEEDBACK_EMAIL_TO || "")
+    .split(",")
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function adminPageUrl(headers = {}) {
+  const origin = headers.origin || headers.Origin || "";
+  if (/^https?:\/\//i.test(origin)) {
+    try {
+      return new URL("/pages/admin.html", origin).toString();
+    } catch (error) {
+      // Fall through to the forwarded host.
+    }
+  }
+  const host = headers["x-forwarded-host"] || headers.host || process.env.WEBSITE_HOSTNAME || "";
+  if (!host) return "/pages/admin.html";
+  const protocol = headers["x-forwarded-proto"] || "https";
+  return `${protocol}://${host}/pages/admin.html`;
+}
+
+function buildEmailPayload(item, headers = {}) {
+  const typeLabel = TYPE_LABELS[item.type] || TYPE_LABELS.other;
+  const prefix = String(process.env.FEEDBACK_EMAIL_SUBJECT_PREFIX || "[观止学堂]").trim();
+  const from = process.env.FEEDBACK_EMAIL_FROM || "观止学堂 <onboarding@resend.dev>";
+  const related = [item.articleId ? `文章 ${item.articleId}` : "", item.page || ""].filter(Boolean).join(" · ") || "未指定";
+  const summary = [...String(item.content || "")].slice(0, 200).join("");
+  const adminUrl = adminPageUrl(headers);
+  return {
+    from,
+    to: emailRecipients(),
+    subject: `${prefix} 新反馈：${typeLabel}`.trim(),
+    html: [
+      `<h1>新反馈：${escapeHtml(typeLabel)}</h1>`,
+      `<p><strong>相关页面或篇目：</strong>${escapeHtml(related)}</p>`,
+      `<p><strong>内容摘要：</strong>${escapeHtml(summary)}</p>`,
+      `<p><strong>提交时间：</strong>${escapeHtml(item.createdAt || "")}</p>`,
+      `<p>详情与联系方式请到<a href="${escapeHtml(adminUrl)}">站长后台</a>查看。</p>`
+    ].join("")
+  };
+}
+
+function warnWebhook(message) {
+  console.warn(`[feedback webhook] ${message}`);
+}
+
+async function sendWebhook(item, action = "created", requestHeaders = {}) {
+  const format = webhookFormat();
   const webhookUrl = process.env.FEEDBACK_WEBHOOK_URL;
-  if (!webhookUrl) return { ok: false, skipped: true };
+  if (format === "email") {
+    if (action !== "created") return { ok: false, skipped: true };
+    const missing = [];
+    if (!webhookUrl) missing.push("FEEDBACK_WEBHOOK_URL");
+    if (!process.env.FEEDBACK_WEBHOOK_TOKEN) missing.push("FEEDBACK_WEBHOOK_TOKEN");
+    if (!emailRecipients().length) missing.push("FEEDBACK_EMAIL_TO");
+    if (missing.length) {
+      warnWebhook(`email format skipped; missing ${missing.join(", ")}.`);
+      return { ok: false, skipped: true, warning: "missing-email-config" };
+    }
+  } else if (!webhookUrl) {
+    return { ok: false, skipped: true };
+  }
   const headers = {
     "Content-Type": "application/json"
   };
@@ -454,7 +554,7 @@ async function sendWebhook(item, action = "created") {
   const response = await fetch(webhookUrl, {
     method: "POST",
     headers,
-    body: JSON.stringify({
+    body: JSON.stringify(format === "email" ? buildEmailPayload(item, requestHeaders) : {
       subject: action === "created" ? "观止学堂新反馈" : "观止学堂反馈更新",
       action,
       feedback: publicItem(item),
@@ -467,32 +567,36 @@ async function sendWebhook(item, action = "created") {
   return { ok: true, storage: "webhook" };
 }
 
-async function saveFeedback(item) {
-  const results = [];
-  const errors = [];
-  const hasConfiguredStore = Boolean(process.env.FEEDBACK_TABLE_SAS_URL || process.env.FEEDBACK_WEBHOOK_URL);
-  for (const writer of [saveToTable, (entry) => sendWebhook(entry, "created")]) {
-    try {
-      const result = await writer(item);
-      if (result.ok) results.push(result.storage);
-    } catch (error) {
-      errors.push(error.message);
-    }
+async function saveFeedback(item, requestHeaders = {}) {
+  const storage = [];
+  const storageErrors = [];
+  const hasTableStore = Boolean(process.env.FEEDBACK_TABLE_SAS_URL);
+  try {
+    const result = await saveToTable(item);
+    if (result.ok) storage.push(result.storage);
+  } catch (error) {
+    storageErrors.push(error.message);
   }
 
-  if ((!results.length && !hasConfiguredStore) || process.env.FEEDBACK_FILE_STORE === "always") {
+  if (!hasTableStore || process.env.FEEDBACK_FILE_STORE === "always") {
     try {
       const result = await saveToFile(item);
-      if (result.ok) results.push(result.storage);
+      if (result.ok) storage.push(result.storage);
     } catch (error) {
-      errors.push(error.message);
+      storageErrors.push(error.message);
     }
   }
 
-  if (!results.length) {
-    throw new Error(errors.join("; ") || "No feedback storage configured.");
+  if (!storage.length) {
+    throw new Error(storageErrors.join("; ") || "No feedback storage configured.");
   }
-  return results;
+
+  try {
+    await sendWebhook(item, "created", requestHeaders);
+  } catch (error) {
+    warnWebhook(`notification failed: ${error.message}`);
+  }
+  return storage;
 }
 
 async function getFeedbackById(id) {
@@ -561,7 +665,7 @@ async function handlePost(headers, body) {
     return json(normalized.status || 400, { ok: false, message: normalized.error });
   }
   try {
-    const storage = await saveFeedback(normalized.item);
+    const storage = await saveFeedback(normalized.item, headers || {});
     return json(201, {
       ok: true,
       id: normalized.item.id,
@@ -599,7 +703,7 @@ async function handleDelete(headers, body) {
       status: "deleted",
       deletedAt: new Date().toISOString()
     });
-    await sendWebhook({ ...item, ...patch }, "deleted").catch(() => null);
+    await sendWebhook({ ...item, ...patch }, "deleted", headers || {}).catch((error) => warnWebhook(`notification failed: ${error.message}`));
     return json(200, { ok: true, message: "已删除。", storage });
   } catch (error) {
     return json(503, { ok: false, message: "评论暂时无法删除，请稍后再试。" });

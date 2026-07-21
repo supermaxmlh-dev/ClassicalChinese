@@ -60,7 +60,7 @@
           ${item.articleId ? `<span>文章 ${G.escapeHTML(item.articleId)}</span>` : ""}
           <span>${G.escapeHTML((item.createdAt || "").slice(0, 19).replace("T", " "))}</span>
           <span>编号 ${G.escapeHTML(item.id)}</span>
-          ${item.hasContact ? "<span>有联系方式</span>" : ""}
+          ${item.contact ? `<span>联系方式：${G.escapeHTML(item.contact)}</span>` : ""}
         </div>
         ${item.page ? `<p class="muted">页面：${G.escapeHTML(item.page)}</p>` : ""}
         <p>${G.escapeHTML(item.content || "")}</p>

@@ -11,7 +11,7 @@
     "build:site": "npm run build && node scripts/build-site.js",
     "build:data": "node scripts/build-data.js",
     "build:dictionary": "node scripts/build-dictionary.js",
-    "test:feedback": "node scripts/test-feedback-api.js",
+    "test:feedback": "node scripts/test-feedback-api.js && node scripts/test-feedback-webhook.js",
     "validate": "node scripts/validate-data.js && node scripts/validate-dictionary.js && node scripts/validate-curriculum.js"
   },
   "dependencies": {

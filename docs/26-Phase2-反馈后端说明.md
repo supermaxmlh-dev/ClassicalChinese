@@ -30,10 +30,21 @@
 
 - `FEEDBACK_TABLE_SAS_URL`：Azure Table 表级 SAS URL，持久化留言板。
 - `FEEDBACK_PUBLIC_BOARD`：公开留言板开关，默认关闭；设为 `on` 时仍只展示站长审核通过的留言。
-- `FEEDBACK_WEBHOOK_URL`：转发到邮件或自动化服务。
-- `FEEDBACK_WEBHOOK_TOKEN`：webhook Bearer Token，可选。
+- `FEEDBACK_WEBHOOK_FORMAT`：通知格式，默认 `generic`；`email` 使用 Resend 邮件格式。
+- `FEEDBACK_WEBHOOK_URL`：通用通知地址；Resend 为 `https://api.resend.com/emails`。
+- `FEEDBACK_WEBHOOK_TOKEN`：通用 Bearer Token；邮件模式下为 Resend API Key。
+- `FEEDBACK_EMAIL_TO`：邮件模式必填的站长收件邮箱，多个地址用英文逗号分隔。
+- `FEEDBACK_EMAIL_FROM`：邮件发件人，默认 `观止学堂 <onboarding@resend.dev>`。
+- `FEEDBACK_EMAIL_SUBJECT_PREFIX`：邮件主题前缀，默认 `[观止学堂]`。
 - `FEEDBACK_HASH_SALT`：IP 哈希盐值，可选。
 - `FEEDBACK_ADMIN_TOKEN`：站长删除/审核口令。只放 Azure Functions 环境变量，不写进仓库。
+- `FEEDBACK_RATE_LIMIT_MAX`：普通反馈提交上限，默认每个窗口 `5` 次。
+- `FEEDBACK_RATE_LIMIT_WINDOW_MS`：普通反馈限流窗口，默认 `600000` 毫秒。
+- `ADMIN_RATE_LIMIT_MAX`：站长口令失败上限，默认每个窗口 `10` 次。
+- `ADMIN_RATE_LIMIT_WINDOW_MS`：站长管理限流窗口，默认 `600000` 毫秒。
+- `ADMIN_OPS_RATE_LIMIT_MAX`：正确口令的管理操作宽松上限，默认每个窗口 `300` 次。
+
+限流变量只接受正数；非法值自动使用默认值。
 
 不在仓库中保存任何密钥、连接串或邮件服务 token。
 
