@@ -25,9 +25,12 @@ const BANNED_CHOICE_QUESTION_PATTERNS = [
 const VAGUE_DEFINITION_PATTERN = /需.*上下文|结合.*上下文|联系.*上下文|视.*上下文|根据.*语境|结合.*语境|联系.*语境|视.*语境|依.*语境/;
 const SECTION_TRANSLATION_REPAIRED_IDS = new Set([
   "001", "002", "006", "010", "013",
-  "015", "016", "017", "018", "019", "020", "021"
+  "015", "016", "017", "018", "019", "020", "021",
+  "023", "024", "025", "026", "027", "028", "029"
 ]);
-const FULL_TRANSLATION_REPAIRED_IDS = new Set([]);
+const FULL_TRANSLATION_REPAIRED_IDS = new Set([
+  "023", "024", "025", "026", "027", "028", "029"
+]);
 const TRANSLATION_PLACEHOLDER_PATTERNS = [
   /本文大意是/,
   /这一段承接/,
