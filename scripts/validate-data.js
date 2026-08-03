@@ -23,7 +23,11 @@ const BANNED_CHOICE_QUESTION_PATTERNS = [
   /阅读本文时，最应该先抓住什么/
 ];
 const VAGUE_DEFINITION_PATTERN = /需.*上下文|结合.*上下文|联系.*上下文|视.*上下文|根据.*语境|结合.*语境|联系.*语境|视.*语境|依.*语境/;
-const TRANSLATION_REPAIRED_IDS = new Set(["001", "002", "006", "010", "013"]);
+const SECTION_TRANSLATION_REPAIRED_IDS = new Set([
+  "001", "002", "006", "010", "013",
+  "015", "016", "017", "018", "019", "020", "021"
+]);
+const FULL_TRANSLATION_REPAIRED_IDS = new Set([]);
 const TRANSLATION_PLACEHOLDER_PATTERNS = [
   /本文大意是/,
   /这一段承接/,
@@ -61,18 +65,20 @@ function copiedHanFragment(original = "", translation = "", length = 12) {
 }
 
 function validateTranslations(article, id) {
-  if (!TRANSLATION_REPAIRED_IDS.has(id)) return;
-  const fullTranslation = String(article.fullTranslation || "").trim();
-  if (hasTranslationPlaceholder(fullTranslation)) {
-    errors.push(`${id}.json fullTranslation contains placeholder prose.`);
+  if (FULL_TRANSLATION_REPAIRED_IDS.has(id)) {
+    const fullTranslation = String(article.fullTranslation || "").trim();
+    if (hasTranslationPlaceholder(fullTranslation)) {
+      errors.push(`${id}.json fullTranslation contains placeholder prose.`);
+    }
+    if (hanCount(fullTranslation) < hanCount(article.fullTextPlain) * 0.4) {
+      errors.push(`${id}.json fullTranslation is shorter than 40% of the original Han-character count.`);
+    }
+    const fullCopy = copiedHanFragment(article.fullTextPlain, fullTranslation);
+    if (fullCopy) {
+      errors.push(`${id}.json fullTranslation copies at least 12 consecutive Han characters: ${fullCopy}`);
+    }
   }
-  if (hanCount(fullTranslation) < hanCount(article.fullTextPlain) * 0.4) {
-    errors.push(`${id}.json fullTranslation is shorter than 40% of the original Han-character count.`);
-  }
-  const fullCopy = copiedHanFragment(article.fullTextPlain, fullTranslation);
-  if (fullCopy) {
-    errors.push(`${id}.json fullTranslation copies at least 12 consecutive Han characters: ${fullCopy}`);
-  }
+  if (!SECTION_TRANSLATION_REPAIRED_IDS.has(id)) return;
   (article.sections || []).forEach((section, sectionIndex) => {
     const translation = String(section.translation || "").trim();
     if (!translation) {
