@@ -23,6 +23,15 @@ const BANNED_CHOICE_QUESTION_PATTERNS = [
   /阅读本文时，最应该先抓住什么/
 ];
 const VAGUE_DEFINITION_PATTERN = /需.*上下文|结合.*上下文|联系.*上下文|视.*上下文|根据.*语境|结合.*语境|联系.*语境|视.*语境|依.*语境/;
+const TRANSLATION_REPAIRED_IDS = new Set(["001", "002", "006", "010", "013"]);
+const TRANSLATION_PLACEHOLDER_PATTERNS = [
+  /本文大意是/,
+  /这一段承接/,
+  /在全文中的作用/,
+  /阅读时要.*分清/,
+  /围绕.*展开/,
+  /^(?:这一层|这一段|本段).*(?:围绕|大意)/
+];
 
 function hanCount(value = "") {
   return (String(value).match(/[\u3400-\u9fff]/g) || []).length;
@@ -30,6 +39,54 @@ function hanCount(value = "") {
 
 function compactText(value = "") {
   return String(value || "").replace(/\s/g, "");
+}
+
+function hanText(value = "") {
+  return (String(value).match(/[\u3400-\u9fff]/g) || []).join("");
+}
+
+function hasTranslationPlaceholder(value = "") {
+  return TRANSLATION_PLACEHOLDER_PATTERNS.some((pattern) => pattern.test(String(value || "")));
+}
+
+function copiedHanFragment(original = "", translation = "", length = 12) {
+  const source = hanText(original);
+  const target = hanText(translation);
+  if (source.length < length || target.length < length) return "";
+  for (let index = 0; index <= source.length - length; index += 1) {
+    const fragment = source.slice(index, index + length);
+    if (target.includes(fragment)) return fragment;
+  }
+  return "";
+}
+
+function validateTranslations(article, id) {
+  if (!TRANSLATION_REPAIRED_IDS.has(id)) return;
+  const fullTranslation = String(article.fullTranslation || "").trim();
+  if (hasTranslationPlaceholder(fullTranslation)) {
+    errors.push(`${id}.json fullTranslation contains placeholder prose.`);
+  }
+  if (hanCount(fullTranslation) < hanCount(article.fullTextPlain) * 0.4) {
+    errors.push(`${id}.json fullTranslation is shorter than 40% of the original Han-character count.`);
+  }
+  const fullCopy = copiedHanFragment(article.fullTextPlain, fullTranslation);
+  if (fullCopy) {
+    errors.push(`${id}.json fullTranslation copies at least 12 consecutive Han characters: ${fullCopy}`);
+  }
+  (article.sections || []).forEach((section, sectionIndex) => {
+    const translation = String(section.translation || "").trim();
+    if (!translation) {
+      errors.push(`${id}.json sections[${sectionIndex}] has empty translation.`);
+      return;
+    }
+    if (hasTranslationPlaceholder(translation)) {
+      errors.push(`${id}.json sections[${sectionIndex}] translation contains placeholder prose.`);
+    }
+    const copied = copiedHanFragment(section.original, translation);
+    if (copied) {
+      errors.push(`${id}.json sections[${sectionIndex}] translation copies at least 12 consecutive Han characters: ${copied}`);
+    }
+  });
 }
 
 function validateSections(article, id) {
@@ -134,6 +191,7 @@ availableIds.forEach((id) => {
     });
   });
   validateSections(article, id);
+  validateTranslations(article, id);
   if (!article.fullTranslation) errors.push(`${id}.json has no fullTranslation`);
   if (!article.quiz?.choices?.length) errors.push(`${id}.json has no choice questions`);
   if (!article.keyVocab?.length) errors.push(`${id}.json has no keyVocab`);
