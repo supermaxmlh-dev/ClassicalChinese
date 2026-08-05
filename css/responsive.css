@@ -74,6 +74,10 @@
     line-height: 2.2;
   }
 
+  .article-facts {
+    grid-template-columns: 1fr;
+  }
+
   .article-bottom-nav,
   .fill-row {
     grid-template-columns: 1fr;

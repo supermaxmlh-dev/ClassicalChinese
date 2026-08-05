@@ -116,6 +116,14 @@
     return "选自《古文观止》";
   }
 
+  function articleSequenceLabel(article) {
+    const number = Number(article.codeNumber);
+    const sequence = Number.isInteger(number) && number > 0 ? `第 ${number} 篇` : article.displayCode || article.id;
+    if (article.collection === "拓展阅读") return `拓展阅读${sequence}（非《古文观止》）`;
+    if (article.guanzhi === "pending") return `本站主线${sequence}（《古文观止》归属待核）`;
+    return `本站《古文观止》主线${sequence}`;
+  }
+
   function isExtendedArticle(article) {
     return article.collection === "拓展阅读" || article.week === null;
   }
@@ -214,10 +222,19 @@
             <a class="btn" href="${backHref}">${backText}</a>
             <p class="eyebrow">${G.escapeHTML(article.source || "")}</p>
             <h1>${G.escapeHTML(article.title)}</h1>
+            <dl class="article-facts" aria-label="篇目信息">
+              <div>
+                <dt>篇次</dt>
+                <dd>${G.escapeHTML(articleSequenceLabel(article))}</dd>
+              </div>
+              <div>
+                <dt>朝代</dt>
+                <dd>${G.escapeHTML(article.dynasty || "待考")}</dd>
+              </div>
+            </dl>
             <div class="card-meta">
               <span>${G.escapeHTML(article.displayCode || article.id)}</span>
               <span>${G.escapeHTML(article.author)}</span>
-              <span>${G.escapeHTML(article.dynasty)}</span>
               <span>${article.wordCount} 字</span>
               <span>${G.renderStars(article.difficulty)}</span>
             </div>
