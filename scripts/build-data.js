@@ -457,8 +457,16 @@ function buildIndex(availableArticles) {
   }
   const curriculum = JSON.parse(fs.readFileSync(curriculumPath, "utf8"));
   const codeById = buildArticleCodeMap(curriculum.articles);
+  const curriculumById = new Map(curriculum.articles.map((article) => [article.id, article]));
   availableArticles.forEach((article) => {
-    Object.assign(article, codeById.get(article.id) || {});
+    const planned = curriculumById.get(article.id) || {};
+    Object.assign(article, {
+      collection: planned.collection || article.collection,
+      guanzhi: planned.guanzhi ?? article.guanzhi ?? null,
+      guanzhiNo: planned.guanzhiNo ?? null,
+      guanzhiVolume: planned.guanzhiVolume ?? null,
+      ...(codeById.get(article.id) || {})
+    });
   });
   const availableById = new Map(availableArticles.map((article) => [article.id, article]));
   const mainScheduledIds = new Set(curriculum.articles
@@ -525,6 +533,8 @@ function buildContentStatus(indexData, availableArticles) {
       week: planned.week,
       collection: planned.collection || "古文观止",
       guanzhi: planned.guanzhi || null,
+      guanzhiNo: planned.guanzhiNo ?? null,
+      guanzhiVolume: planned.guanzhiVolume ?? null,
       difficulty: planned.difficulty,
       wordCount: planned.wordCount,
       planned: true,

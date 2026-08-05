@@ -9,7 +9,7 @@
   "difficulty": 3,
   "week": 25,
   "collection": "古文观止",
-  "guanzhi": null,
+  "guanzhi": "not-in",
   "wordCount": 350,
   "tags": [
     "宋代",
@@ -2901,6 +2901,8 @@
       "idiom": "礼贤下士"
     }
   ],
+  "guanzhiNo": null,
+  "guanzhiVolume": null,
   "codeGroup": "guanzhi",
   "codeNumber": 82,
   "catalogCode": "G082",

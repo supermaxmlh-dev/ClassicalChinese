@@ -27,6 +27,11 @@ if (!fs.existsSync(curriculumPath)) {
   const ids = articles.map((article) => article.id);
   const duplicateIds = ids.filter((id, pos) => ids.indexOf(id) !== pos);
   const titles = new Map();
+  const guanzhiNumbers = new Map();
+
+  if (curriculum.guanzhiCatalog?.total !== 222 || !curriculum.guanzhiCatalog?.source) {
+    errors.push("curriculum.guanzhiCatalog must identify the 222-article source catalog.");
+  }
 
   if (!Number.isInteger(curriculum.targetArticleCount) || curriculum.targetArticleCount < articles.length) {
     errors.push("curriculum.targetArticleCount must be greater than or equal to planned articles.");
@@ -52,8 +57,37 @@ if (!fs.existsSync(curriculumPath)) {
     } else if (!weekNumbers.has(article.week)) {
       errors.push(`${article.id} ${article.title} has invalid week ${article.week}.`);
     }
-    if (article.guanzhi !== undefined && article.guanzhi !== null && article.guanzhi !== "pending") {
+    if (article.guanzhi !== undefined && article.guanzhi !== null && !["pending", "not-in"].includes(article.guanzhi)) {
       errors.push(`${article.id} ${article.title} has invalid guanzhi ${article.guanzhi}.`);
+    }
+    if (article.guanzhiNo !== null && article.guanzhiNo !== undefined) {
+      if (!Number.isInteger(article.guanzhiNo) || article.guanzhiNo < 1 || article.guanzhiNo > 222) {
+        errors.push(`${article.id} ${article.title} has invalid guanzhiNo ${article.guanzhiNo}.`);
+      } else if (guanzhiNumbers.has(article.guanzhiNo)) {
+        errors.push(`${article.id} ${article.title} duplicates original Guwen Guanzhi number ${article.guanzhiNo} used by ${guanzhiNumbers.get(article.guanzhiNo)}.`);
+      } else {
+        guanzhiNumbers.set(article.guanzhiNo, article.id);
+      }
+      if (!Number.isInteger(article.guanzhiVolume) || article.guanzhiVolume < 1 || article.guanzhiVolume > 12) {
+        errors.push(`${article.id} ${article.title} has invalid guanzhiVolume ${article.guanzhiVolume}.`);
+      }
+      const expectedVolume = article.guanzhiNo <= 18 ? 1
+        : article.guanzhiNo <= 34 ? 2
+          : article.guanzhiNo <= 56 ? 3
+            : article.guanzhiNo <= 73 ? 4
+              : article.guanzhiNo <= 88 ? 5
+                : article.guanzhiNo <= 104 ? 6
+                  : article.guanzhiNo <= 123 ? 7
+                    : article.guanzhiNo <= 142 ? 8
+                      : article.guanzhiNo <= 164 ? 9
+                        : article.guanzhiNo <= 183 ? 10
+                          : article.guanzhiNo <= 204 ? 11 : 12;
+      if (article.guanzhiVolume !== expectedVolume) {
+        errors.push(`${article.id} ${article.title} original number ${article.guanzhiNo} does not belong to volume ${article.guanzhiVolume}.`);
+      }
+      if (collection === "拓展阅读" || ["pending", "not-in"].includes(article.guanzhi)) {
+        errors.push(`${article.id} ${article.title} must not have an original Guwen Guanzhi number.`);
+      }
     }
     if (!Number.isInteger(article.difficulty) || article.difficulty < 1 || article.difficulty > 5) {
       errors.push(`${article.id} ${article.title} has invalid difficulty.`);
@@ -94,6 +128,9 @@ if (!fs.existsSync(curriculumPath)) {
       }
       if ((article.collection || "古文观止") !== "拓展阅读" && !/^观止-\d{3}$/.test(article.displayCode)) {
         errors.push(`${article.id} ${article.title} main reading displayCode must use 观止-###.`);
+      }
+      if (article.available && article.collection !== "拓展阅读" && !["pending", "not-in"].includes(article.guanzhi) && !Number.isInteger(article.guanzhiNo)) {
+        errors.push(`${article.id} ${article.title} is available but missing its original Guwen Guanzhi number.`);
       }
     });
     if (index.plannedArticleCount !== mainScheduledIds.size) {

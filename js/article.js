@@ -111,17 +111,23 @@
   }
 
   function collectionLabel(article) {
-    if (article.collection === "拓展阅读") return "拓展阅读 · 课内名篇（非《古文观止》）";
+    if (article.collection === "拓展阅读" || article.guanzhi === "not-in") return "非《古文观止》原书篇目";
     if (article.guanzhi === "pending") return "出处待核";
     return "选自《古文观止》";
   }
 
+  function chineseVolume(number) {
+    return ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "十一", "十二"][number - 1] || number;
+  }
+
   function articleSequenceLabel(article) {
-    const number = Number(article.codeNumber);
-    const sequence = Number.isInteger(number) && number > 0 ? `第 ${number} 篇` : article.displayCode || article.id;
-    if (article.collection === "拓展阅读") return `拓展阅读${sequence}（非《古文观止》）`;
-    if (article.guanzhi === "pending") return `本站主线${sequence}（《古文观止》归属待核）`;
-    return `本站《古文观止》主线${sequence}`;
+    if (article.collection === "拓展阅读" || article.guanzhi === "not-in") return "非《古文观止》原书篇目";
+    if (article.guanzhi === "pending") return "《古文观止》原书篇次待核";
+    const number = Number(article.guanzhiNo);
+    if (!Number.isInteger(number) || number < 1) return "原书篇次待补";
+    const volume = Number(article.guanzhiVolume);
+    const volumeLabel = Number.isInteger(volume) ? ` · 卷${chineseVolume(volume)}` : "";
+    return `《古文观止》原书第 ${number} 篇${volumeLabel}`;
   }
 
   function isExtendedArticle(article) {
@@ -224,7 +230,7 @@
             <h1>${G.escapeHTML(article.title)}</h1>
             <dl class="article-facts" aria-label="篇目信息">
               <div>
-                <dt>篇次</dt>
+                <dt>原书篇次</dt>
                 <dd>${G.escapeHTML(articleSequenceLabel(article))}</dd>
               </div>
               <div>

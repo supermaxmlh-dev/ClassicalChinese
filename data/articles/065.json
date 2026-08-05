@@ -9,7 +9,7 @@
   "difficulty": 2,
   "week": 17,
   "collection": "古文观止",
-  "guanzhi": null,
+  "guanzhi": "not-in",
   "wordCount": 400,
   "tags": [
     "明代",
@@ -3284,6 +3284,8 @@
       "idiom": "举一反三"
     }
   ],
+  "guanzhiNo": null,
+  "guanzhiVolume": null,
   "codeGroup": "guanzhi",
   "codeNumber": 53,
   "catalogCode": "G053",
